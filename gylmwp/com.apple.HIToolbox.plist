@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleCurrencySymbol</key>
+	<dict>
+		<key>smRoman</key>
+		<string>£</string>
+	</dict>
+	<key>AppleCurrentKeyboardLayoutInputSourceID</key>
+	<string>org.unknown.keylayout.Gylmwp</string>
+	<key>AppleDefaultAsciiInputSource</key>
+	<dict>
+		<key>InputSourceKind</key>
+		<string>Keyboard Layout</string>
+		<key>KeyboardLayout ID</key>
+		<integer>5591</integer>
+		<key>KeyboardLayout Name</key>
+		<string>Gylmwp</string>
+	</dict>
+	<key>AppleDictationAutoEnable</key>
+	<integer>0</integer>
+	<key>AppleEnabledInputSources</key>
+	<array>
+		<dict>
+			<key>Bundle ID</key>
+			<string>com.apple.PressAndHold</string>
+			<key>InputSourceKind</key>
+			<string>Non Keyboard Input Method</string>
+		</dict>
+		<dict>
+			<key>InputSourceKind</key>
+			<string>Keyboard Layout</string>
+			<key>KeyboardLayout ID</key>
+			<integer>5591</integer>
+			<key>KeyboardLayout Name</key>
+			<string>Gylmwp</string>
+		</dict>
+		<dict>
+			<key>Bundle ID</key>
+			<string>com.apple.CharacterPaletteIM</string>
+			<key>InputSourceKind</key>
+			<string>Non Keyboard Input Method</string>
+		</dict>
+		<dict>
+			<key>Bundle ID</key>
+			<string>com.apple.KeyboardViewer</string>
+			<key>InputSourceKind</key>
+			<string>Non Keyboard Input Method</string>
+		</dict>
+		<dict>
+			<key>InputSourceKind</key>
+			<string>Keyboard Layout</string>
+			<key>KeyboardLayout ID</key>
+			<integer>0</integer>
+			<key>KeyboardLayout Name</key>
+			<string>U.S.</string>
+		</dict>
+	</array>
+	<key>AppleGlobalTextInputProperties</key>
+	<dict>
+		<key>TextInputGlobalPropertyPerContextInput</key>
+		<false/>
+	</dict>
+	<key>AppleInputSourceHistory</key>
+	<array>
+		<dict>
+			<key>InputSourceKind</key>
+			<string>Keyboard Layout</string>
+			<key>KeyboardLayout ID</key>
+			<integer>5591</integer>
+			<key>KeyboardLayout Name</key>
+			<string>Gylmwp</string>
+		</dict>
+		<dict>
+	</array>
+	<key>AppleSelectedInputSources</key>
+	<array>
+		<dict>
+			<key>InputSourceKind</key>
+			<string>Keyboard Layout</string>
+			<key>KeyboardLayout ID</key>
+			<integer>5591</integer>
+			<key>KeyboardLayout Name</key>
+			<string>Gylmwp</string>
+		</dict>
+	</array>
+	<key>AppleTimeAfterNoonStr</key>
+	<dict>
+		<key>smRoman</key>
+		<string> pm</string>
+	</dict>
+	<key>AppleTimeBeforeNoonStr</key>
+	<dict>
+		<key>smRoman</key>
+		<string> am</string>
+	</dict>
+	<key>AppleTimeFormat</key>
+	<dict>
+		<key>smRoman</key>
+		<integer>224</integer>
+	</dict>
+</dict>
+</plist>
