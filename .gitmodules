@@ -4,3 +4,6 @@
 [submodule "emacs.d"]
 	path = emacs.d
 	url = git://github.com/syl20bnr/spacemacs.git
+[submodule "spacemacs.d"]
+	path = spacemacs.d
+	url = git://github.com/quarterto/.spacemacs.d.git
