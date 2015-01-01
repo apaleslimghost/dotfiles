@@ -10,12 +10,17 @@ xargs brew tap < Tapfile
 xargs brew install < Brewfile
 xargs brew cask install < Caskfile
 
+brew cask alfred link
+
 # install npm stuff
 xargs npm install -g < Npmfile
 
 # link directories, run submodule-specific installation
 for d in $(ls -d -- */); do
-    ln -s "$(pwd)/$d" "~/.$d"
+    if [ ! -f "$d"nolink ]; then
+        ln -s "$(pwd)/$d" "~/.$d"
+    fi
+
     if [ -f "$d"install.sh ]; then
         ./"$d"install.sh
     fi
