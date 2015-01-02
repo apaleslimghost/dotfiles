@@ -5,13 +5,7 @@ set -x -e
 # install Homebrew
 brew info || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install brew stuff
-for t in $(<Tapfile); do
-    brew tap $t
-done
-xargs brew install < Brewfile
-xargs brew cask install < Caskfile
-
+./brew.sh 
 echo "Press enter when you've set up Alfred's preferences"
 open -b com.runningwithcrayons.Alfred-Preferences
 read
