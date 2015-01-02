@@ -4,7 +4,7 @@ set -x -e
 # link directories, run submodule-specific installation
 for d in $(ls -d -- */); do
     if [ ! -f "$d"nolink ]; then
-        ln -sf "$(pwd)/${d%/}" ~/".${d%/}"
+        ln -snf "$(pwd)/${d%/}" ~/".${d%/}"
     fi
 
     if [ -f "$d"install.sh ]; then
