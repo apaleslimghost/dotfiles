@@ -56,7 +56,6 @@ mpfr2
 mpg123
 mtr
 nmap
-node
 p11-kit
 phantomjs
 php55
@@ -89,3 +88,4 @@ tree
 wget
 zlib
 zsh
+node

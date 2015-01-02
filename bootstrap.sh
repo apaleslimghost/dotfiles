@@ -14,6 +14,7 @@ brew cask alfred link
 brew linkapps
 
 # install npm stuff
+npm install -g npm@latest
 xargs npm install -g < Npmfile
 
 ./install.sh

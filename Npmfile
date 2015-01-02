@@ -4,7 +4,6 @@ beefy
 blofeld
 bower
 browser-sync
-browserify
 chromeos-apk
 cobb
 coffee-script
@@ -18,7 +17,6 @@ esfuzz
 fixmyjs
 fsevents
 fuck-you
-Fuente
 grasp
 gretchen
 grunt-cli
@@ -30,7 +28,6 @@ highland
 iced-coffee-script
 jscpd
 jshint
-kessel
 less
 livereloadx
 LiveScript
@@ -40,8 +37,6 @@ n
 nesh
 node-inspector
 node-static
-npm
-npmd
 otra-vez
 param-trie
 phonegap
@@ -55,7 +50,6 @@ sparkly
 stylus
 sweet.js
 tern
-testem
 testling
 tin
 tiny-lr
