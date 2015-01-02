@@ -1,3 +1,14 @@
 <?xml version="1.0"?>
 <root>
+  <item>
+    <name>Command → Command/Escape</name>
+    <appendix>Press Command for Escape, hold it for Command</appendix>
+    <identifier>private.commandescape</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::COMMAND_L,
+      KeyCode::COMMAND_L,
+      KeyCode::ESCAPE
+    </autogen>
+  </item>
 </root>
