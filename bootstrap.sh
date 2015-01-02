@@ -6,7 +6,9 @@ set -x -e
 brew info || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install brew stuff
-xargs brew tap < Tapfile
+for t in $(<Tapfile); do
+    brew tap $t
+done
 xargs brew install < Brewfile
 xargs brew cask install < Caskfile
 
