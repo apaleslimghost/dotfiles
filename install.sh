@@ -8,7 +8,7 @@ for d in $(ls -d -- */); do
 
     if [ -f "$d"install.sh ]; then
         pushd "$d"
-        ./"$d"install.sh
+        ./install.sh
         popd
     fi
 done
