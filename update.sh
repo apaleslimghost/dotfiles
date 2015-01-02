@@ -2,7 +2,7 @@
 
 set -e -x
 
-brew ls > Brewfile
+fgrep -x -f <(brew ls | xargs brew deps --union | uniq) -v <(brew ls) # gets only top-level installs
 brew tap > Tapfile
 brew cask ls > Caskfile
 

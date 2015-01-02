@@ -6,9 +6,7 @@ apr-util
 bazaar
 brew-cask
 cabal-install
-cask
 cgdb
-cloog-ppl015
 coreutils
 ctags
 d-bus
@@ -16,16 +14,13 @@ editorconfig
 emacs-mac
 faac
 faad2
-feh
 ffmpeg
 flac
-fontforge
 fswatch
 gawk
 gcc
 gdbm
 gdk-pixbuf
-giblib
 git-flow
 giter8
 glfw3
@@ -36,8 +31,6 @@ gnutls
 go
 gsl114
 gti
-gtk-chtheme
-gtk-engines
 heroku-toolbelt
 hr
 htop-osx
@@ -50,8 +43,6 @@ lcov
 leiningen
 libgcrypt
 libmpc08
-librsvg
-libsvg-cairo
 libusb-compat
 libvorbis
 lighttpd
@@ -59,7 +50,6 @@ links
 little-cms
 lua
 macvim
-meld
 mercurial
 mobile-shell
 mpfr2
@@ -75,8 +65,6 @@ pngquant
 portaudio
 potrace
 pt
-py2cairo
-pygtksourceview
 python3
 rbenv-gemset
 rebar
@@ -94,7 +82,6 @@ sloccount
 sox
 spark
 stow
-svg2png
 tag
 the_silver_searcher
 tmux
