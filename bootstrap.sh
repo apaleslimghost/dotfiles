@@ -10,6 +10,8 @@ xargs brew tap < Tapfile
 xargs brew install < Brewfile
 xargs brew cask install < Caskfile
 
+open -W -b com.runningwithcrayons.Alfred-Preferences
+
 brew cask alfred link
 brew linkapps
 
