@@ -12,7 +12,9 @@ done
 xargs brew install < Brewfile
 xargs brew cask install < Caskfile
 
-open -W -b com.runningwithcrayons.Alfred-Preferences
+echo "Press enter when you've set up Alfred's preferences"
+open -b com.runningwithcrayons.Alfred-Preferences
+read
 
 brew cask alfred link
 brew linkapps
