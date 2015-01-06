@@ -89,3 +89,4 @@ wget
 zlib
 zsh
 node
+composer
