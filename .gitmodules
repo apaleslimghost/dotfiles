@@ -1,3 +1,6 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = git://github.com/quarterto/prezto.git
+[submodule "atom"]
+	path = atom
+	url = git://github.com/quarterto/.atom.git
