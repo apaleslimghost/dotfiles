@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <root>
   <devicevendordef>
+    <vendorname>GENERIC</vendorname>
+    <vendorid>0x04d9</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>WASD_V2</productname>
+    <productid>0x0269</productid>
+  </deviceproductdef>
+
+  <devicevendordef>
     <vendorname>UNIQUEK</vendorname>
     <vendorid>0x2341</vendorid>
   </devicevendordef>
@@ -20,6 +30,15 @@
       KeyCode::COMMAND_L,
       KeyCode::ESCAPE
     </autogen>
+  </item>
+  <item>
+    <name>Backtick ←→ Backslash</name>
+    <appendix>Swap backtick and backtick on the WASD v2</appendix>
+    <identifier>private.backtickslash</identifier>
+
+    <device_only>DeviceVendor::GENERIC, DeviceProduce::WASD_V2</device_only>
+    <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR KeyCode::BACKQUOTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE KeyCode::DANISH_DOLLAR</autogen>
   </item>
 
   <item>
