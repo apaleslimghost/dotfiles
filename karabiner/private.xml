@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
 <root>
+  <devicevendordef>
+    <vendorname>UNIQUEK</vendorname>
+    <vendorid>0x2341</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>TERMINUS_MINI</productname>
+    <productid>0x8036</productid>
+  </deviceproductdef>
+
   <item>
     <name>Command → Command/Escape</name>
     <appendix>Press Command for Escape, hold it for Command</appendix>
@@ -9,6 +19,161 @@
       KeyCode::COMMAND_L,
       KeyCode::COMMAND_L,
       KeyCode::ESCAPE
+    </autogen>
+  </item>
+
+  <item>
+    <name>Ungylmwp</name>
+    <appendix>Inverse map of gylmwp for Terminus</appendix>
+    <identifier>private.gylmwp</identifier>
+    <device_only>DeviceVendor::UNIQUEK, DeviceProduct::TERMINUS_MINI</device_only>
+    <autogen>__KeyToKey__ KeyCode::G, KeyCode::Q</autogen>
+    <autogen>__KeyToKey__ KeyCode::Y, KeyCode::W</autogen>
+    <autogen>__KeyToKey__ KeyCode::L, KeyCode::E</autogen>
+    <autogen>__KeyToKey__ KeyCode::M, KeyCode::R</autogen>
+    <autogen>__KeyToKey__ KeyCode::W, KeyCode::T</autogen>
+    <autogen>__KeyToKey__ KeyCode::P, KeyCode::Y</autogen>
+    <autogen>__KeyToKey__ KeyCode::F, KeyCode::U</autogen>
+    <autogen>__KeyToKey__ KeyCode::U, KeyCode::I</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, KeyCode::O</autogen>
+    <autogen>__KeyToKey__ KeyCode::Q, KeyCode::B</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::P</autogen>
+    <autogen>__KeyToKey__ KeyCode::R, KeyCode::A</autogen>
+    <autogen>__KeyToKey__ KeyCode::N, KeyCode::D</autogen>
+    <autogen>__KeyToKey__ KeyCode::T, KeyCode::F</autogen>
+    <autogen>__KeyToKey__ KeyCode::D, KeyCode::G</autogen>
+    <autogen>__KeyToKey__ KeyCode::A, KeyCode::J</autogen>
+    <autogen>__KeyToKey__ KeyCode::E, KeyCode::K</autogen>
+    <autogen>__KeyToKey__ KeyCode::I, KeyCode::L</autogen>
+    <autogen>__KeyToKey__ KeyCode::O, KeyCode::SEMICOLON</autogen>
+    <autogen>__KeyToKey__ KeyCode::J, KeyCode::N</autogen>
+    <autogen>__KeyToKey__ KeyCode::K, KeyCode::M</autogen>
+
+    <autogen>
+      __KeyToKey__
+      KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::BACKSLASH, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::BACKSLASH, <!-- map # to \ -->
+      KeyCode::BACKQUOTE
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::BACKQUOTE, <!-- map \ to ` -->
+      KeyCode::DANISH_DOLLAR,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F18,
+      KeyCode::RETURN, ModifierFlag::COMMAND_L
+    </autogen>
+
+    <autogen> __KeyToKey__ KeyCode::F13, ConsumerKeyCode::MUSIC_PLAY </autogen> 
+    <autogen> __KeyToKey__ KeyCode::F14, ConsumerKeyCode::VOLUME_MUTE </autogen> 
+    <autogen> __KeyToKey__ KeyCode::F15, ConsumerKeyCode::VOLUME_DOWN </autogen> 
+    <autogen> __KeyToKey__ KeyCode::F16, ConsumerKeyCode::VOLUME_UP </autogen> 
+
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_1, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_1,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_1,
+      KeyCode::KEY_1, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_2, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_2,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_2,
+      KeyCode::KEY_2, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_3, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::BACKSLASH,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_3,
+      KeyCode::KEY_3, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_4, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_4,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_4,
+      KeyCode::KEY_4, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_5, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_5,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_5,
+      KeyCode::KEY_5, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_6, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_6,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_6,
+      KeyCode::KEY_6, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_7, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_7,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_7,
+      KeyCode::KEY_7, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_8, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_8,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_8,
+      KeyCode::KEY_8, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_9, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_9,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_9,
+      KeyCode::KEY_9, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_0, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_0,
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::KEY_0,
+      KeyCode::KEY_0, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
     </autogen>
   </item>
 </root>
