@@ -36,9 +36,9 @@
     <appendix>Swap backtick and backtick on the WASD v2</appendix>
     <identifier>private.backtickslash</identifier>
 
-    <device_only>DeviceVendor::GENERIC, DeviceProduce::WASD_V2</device_only>
-    <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR KeyCode::BACKQUOTE</autogen>
-    <autogen>__KeyToKey__ KeyCode::BACKQUOTE KeyCode::DANISH_DOLLAR</autogen>
+    <device_only>DeviceVendor::GENERIC, DeviceProduct::WASD_V2</device_only>
+    <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, KeyCode::BACKQUOTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::DANISH_DOLLAR</autogen>
   </item>
 
   <item>
