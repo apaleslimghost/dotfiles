@@ -85,8 +85,14 @@
     </autogen>
     <autogen>
       __KeyToKey__
-      KeyCode::F18,
-      KeyCode::RETURN, ModifierFlag::COMMAND_L
+      KeyCode::F17,
+      KeyCode::SPACE, ModifierFlag::COMMAND_L
+    </autogen>
+
+    <autogen>
+      __KeyToKey__
+      KeyCode::QUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+      KeyCode::KEY_2
     </autogen>
 
     <autogen> __KeyToKey__ KeyCode::F13, ConsumerKeyCode::MUSIC_PLAY </autogen> 
@@ -107,7 +113,7 @@
     <autogen>
       __KeyToKey__
       KeyCode::KEY_2, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
-      KeyCode::KEY_2,
+      KeyCode::QUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT
     </autogen>
     <autogen>
       __KeyToKey__
@@ -117,7 +123,7 @@
     <autogen>
       __KeyToKey__
       KeyCode::KEY_3, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
-      KeyCode::BACKSLASH,
+      KeyCode::KEY_3,
     </autogen>
     <autogen>
       __KeyToKey__
