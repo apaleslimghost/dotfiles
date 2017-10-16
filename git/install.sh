@@ -12,7 +12,7 @@ fi
 
 key_name="$USER.`hostname`"
 
-open 'https://github.com/settings/tokens/new?scopes=write:public_key&description=dotfiles+key,+delete+immediately'
+open 'https://github.com/settings/tokens/new?scopes=write:public_key&description=dotfiles+public+key'
 echo -n "Github OAuth token to add public key (leave blank to skip): "
 read -s github_token
 
