@@ -1,0 +1,5 @@
+[user]
+    email = matt@153.io
+    name = Matt Brennan
+[core]
+	excludesfile = /Users/matthew.brennan/.gitignore

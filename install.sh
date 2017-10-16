@@ -4,7 +4,7 @@ set -e
 link_and_install() {
     local d=$1
 
-    echo "  ⎙ installing $d"
+    echo "  ⎙ setting up $d"
 
     if [ ! -f "$d"nolink ]; then
         ln -snf "$(pwd)/${d%/}" ~/".${d%/}"
