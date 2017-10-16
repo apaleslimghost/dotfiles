@@ -64,10 +64,12 @@ else
     echo ''
 fi
 
-echo '  ⎌ setting xcode location'
-sudo xcode-select -s /Library/Developer/CommandLineTools/
-echo '  ✓ done'
-echo ''
+if ! xcode-select --print-path | grep Xcode.app > /dev/null; then
+    echo '  ⎌ setting xcode location'
+    sudo xcode-select -s /Library/Developer/CommandLineTools/
+    echo '  ✓ done'
+    echo ''
+fi
 
 if [ ! -d "$HOME/.Dotfiles" ] ; then
     echo '  ⎘ cloning dotfiles repo'

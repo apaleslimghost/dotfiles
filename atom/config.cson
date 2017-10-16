@@ -54,7 +54,7 @@
     return_description: false
     simple_mode: true
   editor:
-    fontFamily: "Iosevka"
+    fontFamily: "Iosevka, Menlo,  monospace"
     fontSize: 11
     invisibles:
       eol: "⁋"
