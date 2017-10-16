@@ -1,6 +1,6 @@
 - [ ] clean up old modules
 - [ ] split atom & fish into submodules
-- [ ] hyper config
+- [x] hyper config
 - [ ] iosevka
 - [ ] separate brewfile for formulae requiring xcode
 - [ ] update.sh
