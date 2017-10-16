@@ -9,3 +9,4 @@
 - [ ] config for things like bettertouchtool, karabiner
 - [ ] system preferences
 - [ ] wallpaper
+- [ ] git utils & config (up, lg)
