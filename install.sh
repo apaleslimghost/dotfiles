@@ -8,7 +8,13 @@ link_and_install() {
 
     if [ ! -f "$d"nolink ]; then
         echo '  ⎌ linking folder'
-        ln -snf "$(pwd)/${d%/}" ~/".${d%/}"
+        local target=".${d%/}"
+        if [ -f "$d"linktarget ]; then
+            target=$(< "$d"linktarget)
+        fi
+
+        mkdir -p ~/"$(dirname "$target")"
+        ln -snf "$(pwd)/${d%/}" ~/"$target"
     fi
 
     if [ -f "$d"install.sh ]; then

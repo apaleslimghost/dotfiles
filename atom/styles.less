@@ -1,0 +1,124 @@
+@import 'packages/makika-syntax/styles/colors';
+
+// .syntax--entity.syntax--name.syntax--function {
+// 	color: @lime-700;
+// }
+//
+// .syntax--support {
+// 	color: @teal-700;
+// }
+
+status-bar {
+	// background: #212121 !important;
+
+	&.powerline {
+		height: 28px;
+		line-height: 28px;
+
+		> .flexbox-repaint-hack {
+			padding: 0;
+		}
+
+		.status-bar-left, .status-bar-right {
+			> * {
+				padding: 0 1rem;
+				background: #333;
+			}
+
+			.inline-block {
+				margin: 0;
+			}
+		}
+
+		.status-bar-left {
+			> * {
+				border-right: 1px solid #222;
+			}
+
+			> :first-child {
+				background: blue;
+			}
+
+			> :last-child {
+				background: none;
+				border-color: #333;
+			}
+		}
+
+		.status-bar-right {
+			> * {
+				border-left: 1px solid #222;
+			}
+
+			> :last-child {
+				background: blue;
+			}
+
+			> :first-child {
+				background: none;
+				border-color: #333;
+			}
+		}
+
+		#status-bar-vim-mode-plus {
+			font-size: 0;
+
+			&:before {
+				font-size: 0.8rem;
+			}
+
+			&.status-bar-vim-mode-plus-insert:before {
+				content: 'Test';
+			}
+		}
+	}
+}
+
+.linter-status-count {
+	> span {
+		background: none;
+		border: 1px solid;
+		font-weight: bold;
+		margin-right: .5em;
+	}
+
+	.highlight {
+		display: none;
+	}
+
+	.highlight-error {
+		color: @red-A400;
+	}
+
+	.highlight-warning {
+		color: @orange-A400;
+	}
+}
+
+atom-text-editor {
+	font-weight: 200;
+}
+
+* {
+	-webkit-font-smoothing: auto !important;
+}
+
+.atom-ternjs-type {
+	margin-top: -20px;
+	margin-left: 14px;
+	padding: 2px 6px;
+}
+
+#linter-tooltip linter-message {
+	color: inherit;
+}
+
+.ink-toolbar {
+	.bar {
+		display: none;
+	}
+
+	ink-console {
+		background: #171717;
+	}
+}

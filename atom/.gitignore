@@ -1,0 +1,10 @@
+compile-cache
+node_modules
+storage
+packages
+blob-store
+.apm
+.node-gyp
+recovery
+package-deps-state.json
+linter-config.json

@@ -1,0 +1,7 @@
+'body':
+	'cmd-q': 'core:save'
+	'cmd-q cmd-q': 'application:quit'
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+	'/': 'find-and-replace:show'
+	'n': 'find-and-replace:find-next',
+	'shift-N': 'find-and-replace:find-previous',

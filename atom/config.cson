@@ -1,0 +1,224 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      showDiagnosticTraces: true
+    hyperclick:
+      darwinTriggerKeys: "altKey"
+    use: {}
+  "atom-lupa": {}
+  "atom-package-deps":
+    ignored: [
+      "linter"
+      "prettier-atom"
+    ]
+  "atom-ternjs":
+    inlineFnCompletion: false
+  "atom-toolbar":
+    visible: false
+  "autocomplete-plus":
+    scopeBlacklist: [
+      ".text.plain"
+    ]
+  core:
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "source.clojure": [
+        "cd"
+      ]
+      "text.html.mustache": [
+        "ms"
+      ]
+    disabledPackages: [
+      "background-tips"
+      "deprecation-cop"
+      "autocomplete-snippets"
+      "github"
+      "atom-ternjs"
+      "flow-ide"
+      "indent-detective"
+    ]
+    packagesWithKeymapsDisabled: [
+      "imdone-atom"
+    ]
+    projectHome: "/Users/matthew.brennan/Projects"
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "makika-syntax"
+    ]
+    titleBar: "custom"
+    useCustomTitleBar: true
+    warnOnLargeFileLimit: 2
+  docblockr:
+    param_description: false
+    return_description: false
+    simple_mode: true
+  editor:
+    fontFamily: "Iosevka"
+    fontSize: 11
+    invisibles:
+      eol: "⁋"
+    lineHeight: 1.6
+    scrollPastEnd: true
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabLength: 3
+  "exception-reporting":
+    userId: "c26572b5-d3e2-4e76-b5c0-ff8c897a5b44"
+  "file-icons": {}
+  "find-and-replace":
+    liveSearchMinimumCharacters: 0
+    scrollToResultOnLiveSearch: true
+  "flow-ide":
+    showUncovered: true
+  "git-diff": {}
+  hyperclick:
+    darwinTriggerKeys: "altKey"
+  "ide-flowtype":
+    autoDownloadFlowBinaries: false
+  "isotope-ui":
+    lowContrastTooltip: true
+    minimalMode: true
+  "language-babel": {}
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 60
+    panelRepresents: "Current Line"
+    showProviderName: true
+    statusBarRepresents: "Current File"
+  minimap:
+    charHeight: 1
+    independentMinimapScroll: true
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  "move-status-items":
+    left: [
+      "STATUS-BAR-FILE.file-info"
+      "DIV.highlight-selected-status.highlight-selected-hidden"
+      "STATUS-BAR-CURSOR.cursor-position"
+      "STATUS-BAR-SELECTION.selection-count"
+      "DIV.linter-status-count"
+    ]
+    right: [
+      "DIV"
+      "ENCODING-SELECTOR-STATUS.encoding-status"
+      "GRAMMAR-SELECTOR-STATUS.grammar-status"
+      "STATUS-BAR-GIT.git-view"
+      "BUSY-SIGNAL.loading-spinner-tiny.idle"
+      "A.line-ending-tile"
+      "DIV.package-updates-status-view.text.text-info"
+    ]
+  "no-title-bar":
+    metaKeyMouseDrag: false
+  "one-dark-ui":
+    tabSizing: "Even"
+  parinfer:
+    "file-extensions": [
+      ".clj"
+      ".cljc"
+      ".cljs"
+      ".el"
+      ".lfe"
+      ".rkt"
+    ]
+  "prettier-atom":
+    formatOnSaveOptions: {}
+    prettierOptions:
+      bracketSpacing: false
+      singleQuote: true
+      trailingComma: "es5"
+      useTabs: true
+    silenceErrors: true
+    useEslint: true
+  "project-plus": {}
+  "proto-repl":
+    autoPrettyPrint: true
+    displayHelpText: false
+  "split-diff":
+    colors:
+      addedColorSide: "right"
+  "status-bar":
+    fullWidth: false
+  tabs:
+    enableVcsColoring: true
+  "theme-switch":
+    darkProfiles: [
+      "nucleus-dark-ui makika-syntax"
+    ]
+    lightProfiles: [
+      "one-light-ui makika-light-syntax"
+    ]
+    profiles: [
+      "nucleus-ui makika-syntax"
+      "one-light-ui makika-light-syntax"
+    ]
+  "todo-show":
+    findTheseTodos: [
+      "TODO"
+      "FIXME"
+      "CHANGED"
+      "XXX"
+      "IDEA"
+      "HACK"
+      "NOTE"
+      "REVIEW"
+      "NB"
+      "BUG"
+      "QUESTION"
+      "COMBAK"
+      "TEMP"
+      "COMPLEX"
+    ]
+    openListInDirection: "ontop"
+    showInTable: [
+      "Type"
+      "Text"
+      "Path"
+      "Line"
+    ]
+    sortBy: "Path"
+    statusBarIndicator: true
+  "tree-view":
+    alwaysOpenExisting: true
+    focusOnReveal: false
+    squashDirectoryNames: true
+  "vim-mode-plus":
+    automaticallyEscapeInsertModeOnActivePaneItemChange: true
+    blackholeRegisteredOperators: [
+      "change*"
+      "substitute*"
+    ]
+    clearHighlightSearchOnResetNormalMode: true
+    clearPersistentSelectionOnResetNormalMode: true
+    groupChangesWhenLeavingInsertMode: false
+    highlightSearch: true
+    ignoreCaseForSearch: true
+    ignoreCaseForSearchCurrentWord: true
+    incrementalSearch: true
+    incrementalSearchVisitDirection: "relative"
+    keymapPToPutWithAutoIndent: true
+    keymapYToYankToLastCharacterOfLine: true
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
+    startInInsertModeScopes: [
+      "ink-console"
+    ]
+    useSmartcaseForFind: true
+    useSmartcaseForSearch: true
+    useSmartcaseForSearchCurrentWord: true
+  welcome:
+    showOnStartup: false
+  "which-key":
+    keystrokesFormat: "symbol"
+    useMetaForAlt: false
+  zentabs:
+    maximumOpenedTabs: 8
+    neverCloseNew: true
+    neverCloseUnsaved: true
+".clojure.source":
+  editor:
+    softTabs: true
+    tabLength: 2
