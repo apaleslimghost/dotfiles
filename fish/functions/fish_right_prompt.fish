@@ -29,7 +29,7 @@ function __quarterto_git_info
                 print_color red "↯"
         end
 
-        print_color magenta " ⎇ $branch_name"        
+        print_color magenta " ⎇ $branch_name"
     end
 end
 
@@ -39,7 +39,7 @@ function fish_right_prompt
 
     __quarterto_git_info
 
-    if test "$CMD_DURATION" -gt 100
+    if test "$CMD_DURATION" -gt 500
         set -l duration_copy $CMD_DURATION
         set -l duration (echo $CMD_DURATION | humanize_duration)
 
