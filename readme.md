@@ -10,6 +10,12 @@ cat bootstrap.sh # in case of shenanigans
 sh bootstrap.sh
 ```
 
+bootstrap:
+
+  1. installs Xcode Command Line Tools
+  2. clones this repo
+  3. `cd`s to it and runs `install.sh`
+
 ## for yourself
 
 idk, fork it, have a look in the folders. each folder is a self contained thing that does some stuff:
