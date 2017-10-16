@@ -1,0 +1,11 @@
+- [ ] clean up old modules
+- [ ] split atom & fish into submodules
+- [ ] hyper config
+- [ ] iosevka
+- [ ] separate brewfile for formulae requiring xcode
+- [ ] update.sh
+- [ ] finish atom config
+- [ ] more fish goodies
+- [ ] config for things like bettertouchtool, karabiner
+- [ ] system preferences
+- [ ] wallpaper
