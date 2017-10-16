@@ -7,13 +7,14 @@ link_and_install() {
     echo "  ⎙ setting up $d"
 
     if [ ! -f "$d"nolink ]; then
+        echo '  ⎌ linking folder'
         ln -snf "$(pwd)/${d%/}" ~/".${d%/}"
     fi
 
     if [ -f "$d"install.sh ]; then
-        pushd "$d"
+        pushd "$d" > /dev/null
         ./install.sh
-        popd
+        popd > /dev/null
     fi
 
     echo '  ✓ done'
