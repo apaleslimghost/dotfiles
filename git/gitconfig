@@ -3,3 +3,5 @@
     name = Matt Brennan
 [core]
 	excludesfile = /Users/matthew.brennan/.gitignore
+[help]
+	autocorrect = 1

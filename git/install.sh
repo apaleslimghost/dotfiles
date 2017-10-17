@@ -3,7 +3,7 @@
 set -e
 
 for f in git* ; do
-    cp $f ~/.$f
+    ln -snf $(pwd)/$f ~/.$f
 done
 
 if [ ! -f ~/.ssh/id_rsa ] ; then
@@ -12,13 +12,13 @@ fi
 
 key_name="$USER.`hostname`"
 
-open 'https://github.com/settings/tokens/new?scopes=write:public_key&description=dotfiles+public+key'
-echo -n "Github OAuth token to add public key (leave blank to skip): "
-read -s github_token
+if ! curl -s https://api.github.com/users/quarterto/keys | grep "$(cut -f2 -d' ' < ~/.ssh/id_rsa.pub)" > /dev/null ; then
+   open 'https://github.com/settings/tokens/new?scopes=write:public_key&description=dotfiles+public+key'
+   echo -n "Github OAuth token to add public key: "
+   read -s github_token
 
-if [ "" != "$github_token" ] ; then
-    curl \
-        -H "Authorization: token $github_token" \
-        --data "{\"title\":\"$key_name\",\"key\":\"$(< ~/.ssh/id_rsa.pub)\"}" \
-        https://api.github.com/user/keys
+   curl \
+     -H "Authorization: token $github_token" \
+     --data "{\"title\":\"$key_name\",\"key\":\"$(< ~/.ssh/id_rsa.pub)\"}" \
+     https://api.github.com/user/keys
 fi
