@@ -12,10 +12,7 @@ function fish_prompt -d "Simple Fish Prompt"
         print_color yellow "$host_name "
     end
 
-    # Current working directory
-    set -l pwd_string (echo $PWD | sed 's|^'$HOME'\(.*\)$|~\1|')
-
-    print_color green "$pwd_string"
+    print_color green (prompt_pwd)
 
     set -l prompt_color brcyan
 

@@ -12,7 +12,13 @@ module.exports = {
     shellArgs: ['--login'],
     env: {},
     bell: 'SOUND',
-    copyOnSelect: false
+    copyOnSelect: false,
+    termCSS: `
+      x-row {
+         font-weight: 300;
+         font-variant-ligatures: contextual;
+      }
+    `
   },
 
   plugins: [

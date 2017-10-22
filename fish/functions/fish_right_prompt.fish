@@ -20,13 +20,15 @@ function __quarterto_git_info
             print_color cyan "⎘"
         end
 
-        switch (git_ahead)
+        set -l git_ahead (git_ahead)
+        switch "$git_ahead"
             case '+'
                 print_color blue "⇡"
             case '-'
                 print_color blue "⇣"
             case '±'
                 print_color red "↯"
+            case ''
         end
 
         print_color magenta " ⎇ $branch_name"
