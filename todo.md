@@ -1,12 +1,13 @@
-- [ ] clean up old modules
+- [x] clean up old modules
 - [ ] split atom & fish into submodules
 - [x] hyper config
 - [x] iosevka
-- [ ] separate brewfile for formulae requiring xcode
+- [x] separate brewfile for formulae requiring xcode
 - [ ] update.sh
 - [ ] finish atom config
 - [ ] more fish goodies
 - [ ] config for things like bettertouchtool, karabiner
 - [ ] system preferences
 - [ ] wallpaper
-- [ ] git utils & config (up, lg)
+- [x] git utils & config (up, lg)
+- [ ] task dependencies and sorting

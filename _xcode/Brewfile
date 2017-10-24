@@ -1,0 +1,6 @@
+mas "XCode", id: 497799835
+
+system "sudo xcode-select -s /Applications/XCode.app/Contents/Developer"
+
+brew "otfcc-mac64" # requires xcode
+brew "ttfautohint" # requires xcode

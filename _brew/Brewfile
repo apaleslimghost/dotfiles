@@ -16,12 +16,10 @@ brew "jq"
 brew "leiningen"
 brew "mobile-shell"
 brew "nvm"
-brew "otfcc-mac64" # requires xcode
 brew "phing"
 brew "php55"
 brew "the_silver_searcher"
 brew "tree"
-brew "ttfautohint" # requires xcode
 
 cask "atom-beta"
 cask "backblaze"
@@ -44,5 +42,4 @@ cask "spotify"
 cask "vagrant"
 cask "virtualbox"
 
-brew "mas"
 mas "Airmail 3", id: 918858936
