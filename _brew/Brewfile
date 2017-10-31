@@ -44,3 +44,4 @@ cask "vagrant"
 cask "virtualbox"
 
 mas "Airmail 3", id: 918858936
+mas "Pixelmator", id: 407963104
