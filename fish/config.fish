@@ -15,6 +15,8 @@ set fish_color_operator grey # the color for parameter expansion operators like 
 set fish_color_escape magenta # the color used to highlight character escapes like '\n' and '\x70'
 set fish_color_autosuggestion brgrey # the color used for autosuggestionsset fish_color_cancel grey # the color for the '^C' indicator on a canceled command
 
+set -x FTAPP_NO_DB 1
+
 fundle plugin 'edc/bass'
 fundle plugin 'fisherman/git_util'
 fundle plugin 'fisherman/humanize_duration'
