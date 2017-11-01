@@ -13,3 +13,4 @@
 - [ ] task dependencies and sorting
 - [ ] improve xcode
 - [ ] document manual config steps
+- [ ] icloud drive, project & work
