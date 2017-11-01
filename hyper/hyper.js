@@ -15,7 +15,6 @@ module.exports = {
     copyOnSelect: false,
     termCSS: `
       x-row {
-         font-weight: 300;
          font-variant-ligatures: contextual;
       }
     `
