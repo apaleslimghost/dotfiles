@@ -8,3 +8,10 @@
 [alias]
 	up = pull --autostash --rebase
 	lg = log --graph --pretty=format:'%C(cyan)⌗ %h%Creset %C(magenta)⎇ %D%Creset %Cgreen◷ %cr %Cblue✍ %an%Creset%n%w(80)%s%n' --abbrev-commit
+[merge]
+	tool = p4mergetool
+[mergetool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+	trustExitCode = false
+[mergetool]
+	keepBackup = false
