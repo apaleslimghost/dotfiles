@@ -13,7 +13,7 @@ fi
 key_name="$USER.`hostname`"
 
 if ! curl -s https://api.github.com/users/quarterto/keys | grep "$(cut -f2 -d' ' < ~/.ssh/id_rsa.pub)" > /dev/null ; then
-   open 'https://github.com/settings/tokens/new?scopes=write:public_key&description=dotfiles+public+key'
+   open "https://github.com/settings/tokens/new?scopes=write:public_key&description=$key_name+public+key"
    echo -n "Github OAuth token to add public key: "
    read -s github_token
 

@@ -11,3 +11,5 @@
 - [ ] wallpaper
 - [x] git utils & config (up, lg)
 - [ ] task dependencies and sorting
+- [ ] improve xcode
+- [ ] document manual config steps
