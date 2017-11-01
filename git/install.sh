@@ -22,3 +22,5 @@ if ! curl -s https://api.github.com/users/quarterto/keys | grep "$(cut -f2 -d' '
      --data "{\"title\":\"$key_name\",\"key\":\"$(< ~/.ssh/id_rsa.pub)\"}" \
      https://api.github.com/user/keys
 fi
+
+git remote set-url origin git@github.com:quarterto/dotfiles
