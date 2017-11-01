@@ -14,3 +14,10 @@
 - [ ] improve xcode
 - [ ] document manual config steps
 - [ ] icloud drive, project & work
+- [ ] dock hiding
+- [ ] chrome login
+- [ ] lastpass
+- [ ] trackpad settings
+- [ ] better atom package installation & config
+- [ ] keyboard settings
+- [ ] karabiner stetings
