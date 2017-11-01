@@ -23,4 +23,4 @@ if ! curl -s https://api.github.com/users/quarterto/keys | grep "$(cut -f2 -d' '
      https://api.github.com/user/keys
 fi
 
-git remote set-url origin git@github.com:quarterto/dotfiles
+git remote set-url origin git@github.com:quarterto/dotfiles.git
