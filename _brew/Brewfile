@@ -1,4 +1,5 @@
 cask_args appdir: "/Applications"
+
 tap "caskroom/cask"
 tap "homebrew/dupes"
 tap "homebrew/headonly"
@@ -6,6 +7,7 @@ tap "homebrew/versions"
 tap "josegonzalez/php"
 tap "caskroom/versions"
 tap "caryll/tap"
+# end tap
 
 brew "composer"
 brew "dockutil"
@@ -16,14 +18,17 @@ brew "jq"
 brew "leiningen"
 brew "minimal-racket"
 brew "mobile-shell"
+brew "nmap"
 brew "nvm"
 brew "phing"
 brew "php70"
 brew "the_silver_searcher"
 brew "tree"
+# end brew
 
 cask "atom-beta"
 cask "backblaze"
+cask "bartender"
 cask "bettertouchtool"
 cask "caffeine"
 cask "disk-inventory-x"
@@ -31,6 +36,7 @@ cask "duet"
 cask "google-chrome"
 cask "hyper"
 cask "karabiner-elements"
+cask "lastpass"
 cask "notion"
 cask "p4merge"
 cask "reaper"
@@ -43,6 +49,8 @@ cask "spotify-notifications"
 cask "spotify"
 cask "vagrant"
 cask "virtualbox"
+# end cask
 
 mas "Airmail 3", id: 918858936
 mas "Pixelmator", id: 407963104
+# end mas

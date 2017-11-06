@@ -21,3 +21,7 @@
 - [ ] better atom package installation & config
 - [ ] keyboard settings
 - [ ] karabiner stetings
+- [ ] date, battery
+- [ ] bartender
+- [ ] fonts
+- [ ] how to do private repo stuff
