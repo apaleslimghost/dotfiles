@@ -7,11 +7,14 @@ tap "homebrew/versions"
 tap "josegonzalez/php"
 tap "caskroom/versions"
 tap "caryll/tap"
+tap "alexcormier/personal"
 # end tap
 
+brew "carthage"
 brew "composer"
 brew "dockutil"
 brew "fish"
+brew "gawk"
 brew "heroku-toolbelt"
 brew "hub"
 brew "jq"
@@ -22,8 +25,11 @@ brew "nmap"
 brew "nvm"
 brew "phing"
 brew "php70"
+brew "setwp"
+brew "swiftlint"
 brew "the_silver_searcher"
 brew "tree"
+brew "vault"
 # end brew
 
 cask "atom-beta"
@@ -33,10 +39,14 @@ cask "bettertouchtool"
 cask "caffeine"
 cask "disk-inventory-x"
 cask "duet"
+cask "firefox"
+cask "focus"
 cask "google-chrome"
 cask "hyper"
 cask "karabiner-elements"
 cask "lastpass"
+cask "midikeys"
+cask "netspot"
 cask "notion"
 cask "p4merge"
 cask "reaper"
@@ -49,8 +59,10 @@ cask "spotify-notifications"
 cask "spotify"
 cask "vagrant"
 cask "virtualbox"
+cask "vox"
 # end cask
 
 mas "Airmail 3", id: 918858936
+mas "Numbers", id: 409203825
 mas "Pixelmator", id: 407963104
 # end mas
