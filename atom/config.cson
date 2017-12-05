@@ -114,6 +114,8 @@
     ]
   "no-title-bar":
     metaKeyMouseDrag: false
+    titleBar: "custom"
+    useCustomTitleBar: true
   "one-dark-ui":
     tabSizing: "Even"
   parinfer:
