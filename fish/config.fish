@@ -15,7 +15,10 @@ set fish_color_operator grey # the color for parameter expansion operators like 
 set fish_color_escape magenta # the color used to highlight character escapes like '\n' and '\x70'
 set fish_color_autosuggestion brgrey # the color used for autosuggestionsset fish_color_cancel grey # the color for the '^C' indicator on a canceled command
 
+# TODO: do this in a fishier way
 set -x FTAPP_NO_DB 1
+set -x VAULT_ADDR https://vault.in.ft.com
+set -x VAULT_AUTH_GITHUB_TOKEN (security find-generic-password -a $USER -s "FT Vault" -w)
 
 fundle plugin 'edc/bass'
 fundle plugin 'fisherman/git_util'
