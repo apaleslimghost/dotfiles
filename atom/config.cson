@@ -10,6 +10,7 @@
     ignored: [
       "linter"
       "prettier-atom"
+      "linter-eslint"
     ]
   "atom-ternjs":
     inlineFnCompletion: false
@@ -35,7 +36,7 @@
       "github"
       "atom-ternjs"
       "flow-ide"
-      "indent-detective"
+      "prettier-atom"
     ]
     packagesWithKeymapsDisabled: [
       "imdone-atom"
@@ -47,7 +48,6 @@
       "makika-syntax"
     ]
     titleBar: "custom"
-    useCustomTitleBar: true
     warnOnLargeFileLimit: 2
   docblockr:
     param_description: false
@@ -77,6 +77,7 @@
     darwinTriggerKeys: "altKey"
   "ide-flowtype":
     autoDownloadFlowBinaries: false
+    tryFlowBin: true
   "isotope-ui":
     lowContrastTooltip: true
     minimalMode: true
@@ -204,7 +205,6 @@
     incrementalSearchVisitDirection: "relative"
     keymapPToPutWithAutoIndent: true
     keymapYToYankToLastCharacterOfLine: true
-    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
     startInInsertModeScopes: [
       "ink-console"
     ]
@@ -218,7 +218,6 @@
     useMetaForAlt: false
   zentabs:
     maximumOpenedTabs: 8
-    neverCloseNew: true
     neverCloseUnsaved: true
 ".clojure.source":
   editor:

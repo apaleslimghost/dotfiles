@@ -13,7 +13,8 @@ set fish_color_match blue # the color used to highlight matching parenthesis
 set fish_color_search_match # the color used to highlight history search matches
 set fish_color_operator grey # the color for parameter expansion operators like '*' and '~'
 set fish_color_escape magenta # the color used to highlight character escapes like '\n' and '\x70'
-set fish_color_autosuggestion brgrey # the color used for autosuggestionsset fish_color_cancel grey # the color for the '^C' indicator on a canceled command
+set fish_color_autosuggestion brgrey # the color used for autosuggestions
+set fish_color_cancel grey # the color for the '^C' indicator on a canceled command
 
 # TODO: do this in a fishier way
 set -x FTAPP_NO_DB 1

@@ -10,6 +10,7 @@ tap "caryll/tap"
 tap "alexcormier/personal"
 # end tap
 
+brew "awscli"
 brew "carthage"
 brew "composer"
 brew "dockutil"
@@ -57,12 +58,14 @@ cask "slack"
 cask "steam"
 cask "spotify-notifications"
 cask "spotify"
+cask "transmission"
 cask "vagrant"
 cask "virtualbox"
+cask "visual-studio-code"
 cask "vox"
 # end cask
 
-mas "Airmail 3", id: 918858936
 mas "Numbers", id: 409203825
 mas "Pixelmator", id: 407963104
+mas "Boxy 2", id: 1053031090
 # end mas
