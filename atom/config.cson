@@ -37,6 +37,7 @@
       "atom-ternjs"
       "flow-ide"
       "prettier-atom"
+      "spell-check"
     ]
     packagesWithKeymapsDisabled: [
       "imdone-atom"
