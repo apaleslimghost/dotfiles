@@ -11,11 +11,13 @@
 	- [x] karabiner
 	- [x] focus
 - [ ] system preferences
-	- [ ] icloud drive, project & work
+	- [ ] icloud drive
 	- [ ] dock hiding
+	- [ ] global dark theme
 	- [ ] date, battery
 	- [ ] trackpad settings
 	- [ ] keyboard settings
+	- [ ] capslock (is that handled by karabiner? i dunno)
 - [x] wallpaper
 - [x] git utils & config (up, lg)
 - [ ] task dependencies and sorting
