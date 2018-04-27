@@ -7,8 +7,11 @@
 - [ ] finish atom config
 - [ ] more fish goodies
 - [ ] config for things like bettertouchtool, karabiner
+	- [ ] BTT
+	- [x] karabiner
+	- [x] focus
 - [ ] system preferences
-- [ ] wallpaper
+- [x] wallpaper
 - [x] git utils & config (up, lg)
 - [ ] task dependencies and sorting
 - [ ] improve xcode
