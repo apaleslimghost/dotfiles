@@ -1,11 +1,14 @@
 atom-ide-ui
+atom-typescript
 autocomplete-modules
 blame
 close-other-panes
 docblockr
 file-icons
+hex-editor
 highlight-selected
 ide-flowtype
+ide-typescript
 indent-detective
 language-babel
 language-fish-shell
@@ -15,10 +18,8 @@ makika-syntax
 minimap
 no-title-bar
 nucleus-dark-ui
-prettier-atom
 project-plus
 single-click-open
 vim-mode-plus
 which-key
 zentabs
-
