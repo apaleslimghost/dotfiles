@@ -7,11 +7,12 @@ link_and_install() {
     echo "  ⎙ setting up $d"
 
     if [ ! -f "$d"nolink ]; then
-        echo '  ⎌ linking folder'
         local target=".${d%/}"
         if [ -f "$d"linktarget ]; then
             target=$(< "$d"linktarget)
         fi
+
+        echo "  ⎌ linking folder to $target"
 
         mkdir -p ~/"$(dirname "$target")"
         ln -snf "$(pwd)/${d%/}" ~/"$target"
