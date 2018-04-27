@@ -11,20 +11,20 @@
 	- [x] karabiner
 	- [x] focus
 - [ ] system preferences
+	- [ ] icloud drive, project & work
+	- [ ] dock hiding
+	- [ ] date, battery
+	- [ ] trackpad settings
+	- [ ] keyboard settings
 - [x] wallpaper
 - [x] git utils & config (up, lg)
 - [ ] task dependencies and sorting
 - [ ] improve xcode
 - [ ] document manual config steps
-- [ ] icloud drive, project & work
-- [ ] dock hiding
 - [ ] chrome login
 - [ ] lastpass
-- [ ] trackpad settings
 - [ ] better atom package installation & config
-- [ ] keyboard settings
-- [ ] karabiner stetings
-- [ ] date, battery
 - [ ] bartender
-- [ ] fonts
 - [ ] how to do private repo stuff
+	- [ ] fonts
+	- [ ] serial numbers etc
