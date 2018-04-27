@@ -21,9 +21,12 @@ set -x FTAPP_NO_DB 1
 set -x VAULT_ADDR https://vault.in.ft.com
 set -x VAULT_AUTH_GITHUB_TOKEN (security find-generic-password -a $USER -s "FT Vault" -w)
 
-fundle plugin 'edc/bass'
 fundle plugin 'fisherman/git_util'
 fundle plugin 'fisherman/humanize_duration'
 fundle plugin 'fisherman/last_job_id'
+fundle plugin 'fisherman/menu'
+fundle plugin 'fisherman/get_file_age'
+fundle plugin 'fisherman/await'
+fundle plugin 'fisherman/fnm'
 
 fundle init

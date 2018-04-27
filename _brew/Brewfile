@@ -33,6 +33,7 @@ brew "tree"
 brew "vault"
 # end brew
 
+cask "adobe-creative-cloud"
 cask "atom"
 cask "backblaze"
 cask "bartender"

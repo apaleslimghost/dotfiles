@@ -16,6 +16,7 @@
     inlineFnCompletion: false
   "atom-toolbar":
     visible: false
+  "atom-typescript": {}
   "autocomplete-plus":
     scopeBlacklist: [
       ".text.plain"
@@ -36,11 +37,13 @@
       "github"
       "atom-ternjs"
       "flow-ide"
-      "prettier-atom"
       "spell-check"
+      "ide-typescript"
+      "autocomplete-plus"
     ]
     packagesWithKeymapsDisabled: [
       "imdone-atom"
+      "tree-view"
     ]
     projectHome: "/Users/matthew.brennan/Projects"
     telemetryConsent: "no"
@@ -60,6 +63,7 @@
     invisibles:
       eol: "⁋"
     lineHeight: 1.6
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…_-"
     scrollPastEnd: true
     showInvisibles: true
     softTabs: false
@@ -79,6 +83,8 @@
   "ide-flowtype":
     autoDownloadFlowBinaries: false
     tryFlowBin: true
+  "ide-typescript":
+    javascriptSupport: false
   "isotope-ui":
     lowContrastTooltip: true
     minimalMode: true
@@ -224,3 +230,12 @@
   editor:
     softTabs: true
     tabLength: 2
+".css.scss.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?…"
+".css.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!#$@%^&*|+=[]{}`?…-_"
+".sass.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…_-"
