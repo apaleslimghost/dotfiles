@@ -32,7 +32,7 @@ install_tools() {
 
     # find the update with the right name, and grab its identifier
     PROD=$(softwareupdate -l | grep -B 1 "${TOOLS_REGEX}" | \
-            awk -F"*" '/^ +\*/ {print $2}' | sed 's/^ *//' | head -n 1)
+            awk -F"*" '/^ +\*/ {print $2}' | sed 's/^ *//' | tail -n 1)
 
     # install it
     softwareupdate -i "${PROD}"

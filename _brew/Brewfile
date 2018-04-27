@@ -1,9 +1,7 @@
 cask_args appdir: "/Applications"
 
 tap "caskroom/cask"
-tap "homebrew/dupes"
 tap "homebrew/headonly"
-tap "homebrew/versions"
 tap "josegonzalez/php"
 tap "caskroom/versions"
 tap "caryll/tap"
