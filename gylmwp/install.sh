@@ -1,3 +1,3 @@
 #!/bin/sh
 set -x -e
-sudo cp Gylmwp.keylayout '/Library/Keyboard Layouts'
+sudo ln -snf Gylmwp.keylayout '/Library/Keyboard Layouts'
