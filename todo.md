@@ -1,23 +1,18 @@
-- [x] clean up old modules
 - [ ] split atom & fish into submodules
-- [x] hyper config
-- [x] iosevka
-- [x] separate brewfile for formulae requiring xcode
 - [ ] update.sh
 - [ ] finish atom config
 - [ ] more fish goodies
 - [ ] config for things like bettertouchtool, karabiner
-	- [ ] BTT
+	- [x] BTT
 	- [x] karabiner
 	- [x] focus
 - [ ] system preferences
 	- [ ] icloud drive
-	- [ ] dock hiding
-	- [ ] global dark theme
+	- [x] dock hiding
+	- [x] global dark theme
 	- [ ] date, battery
 	- [ ] trackpad settings
 	- [ ] keyboard settings
-	- [ ] capslock (is that handled by karabiner? i dunno)
 - [x] wallpaper
 - [x] git utils & config (up, lg)
 - [ ] task dependencies and sorting
