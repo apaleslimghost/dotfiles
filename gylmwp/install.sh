@@ -1,3 +1,4 @@
 #!/bin/sh
-set -x -e
-sudo ln -snf Gylmwp.keylayout '/Library/Keyboard Layouts'
+set -e
+cp -f Gylmwp.keylayout "$HOME/Library/Keyboard Layouts"
+echo '  ‼ log in and back out before switching to it kthx'
