@@ -1,0 +1,10 @@
+git@github.com:Financial-Times/bivalve.git
+ssh://git@git.svc.ft.com:7999/clamo/fastft.git
+ssh://git@git.svc.ft.com:7999/fta/fruitcake.git
+ssh://git@git.svc.ft.com:7999/fta/ft-app.git
+ssh://git@git.svc.ft.com:7999/fta/ft-app-api.git
+ssh://git@git.svc.ft.com:7999/fta/ft-app-ios.git
+ssh://git@git.svc.ft.com:7999/fta/ft-icons.git
+git@github.com:Financial-Times/google-amp.git
+ssh://git@git.svc.ft.com:7999/pe/policyengine-server.git
+git@github.com:Financial-Times/x-dash.git
