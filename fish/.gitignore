@@ -1,3 +1,4 @@
-fundle
+fundle/*
+!fundle/quarterto
 functions/fundle.fish
 fishd.*

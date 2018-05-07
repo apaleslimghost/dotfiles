@@ -28,5 +28,6 @@ fundle plugin 'fisherman/menu'
 fundle plugin 'fisherman/get_file_age'
 fundle plugin 'fisherman/await'
 fundle plugin 'fisherman/fnm'
+fundle plugin 'quarterto/check_git_status' --url 'quarterto/check_git_status'
 
 fundle init

@@ -49,6 +49,6 @@ function fish_right_prompt
     end
 
     if test "$status_copy" -ne 0
-        print_color $status_color " ⏎$status_copy"
+        print_color $status_color " ⏎ $status_copy"
     end
 end
