@@ -1,5 +1,5 @@
 function cd
-	emit precd
+	emit precd $argv
 	builtin cd $argv
-	emit postcd
+	emit postcd $argv
 end
