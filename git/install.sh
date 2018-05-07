@@ -23,4 +23,13 @@ if ! curl -s https://api.github.com/users/quarterto/keys | grep "$(cut -f2 -d' '
      https://api.github.com/user/keys
 fi
 
+# do some private framework magic to get wifi ssid
+ssid=$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | awk '/ SSID/ {print substr($0, index($0, $2))}')
+
+if [ "$ssid" == 'FTWLAN1' ] ; then
+   echo 'Copying public key and opening up Bitbucket'
+   pbcopy < ~/.ssh/id_rsa.pub
+   open http://git.svc.ft.com/plugins/servlet/ssh/account/keys/add
+fi
+
 git remote set-url origin git@github.com:quarterto/dotfiles.git

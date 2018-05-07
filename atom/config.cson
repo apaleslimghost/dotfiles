@@ -1,16 +1,20 @@
 "*":
+  "atom-beautify":
+    js:
+      disabled: true
   "atom-ide-ui":
     "atom-ide-diagnostics-ui":
       showDiagnosticTraces: true
-    hyperclick:
-      darwinTriggerKeys: "altKey"
-    use: {}
+    hyperclick: {}
+    use:
+      hyperclick: "always"
   "atom-lupa": {}
   "atom-package-deps":
     ignored: [
       "linter"
       "prettier-atom"
       "linter-eslint"
+      "path-hyperclick"
     ]
   "atom-ternjs":
     inlineFnCompletion: false
@@ -40,6 +44,7 @@
       "spell-check"
       "ide-typescript"
       "autocomplete-plus"
+      "language-gfm"
     ]
     packagesWithKeymapsDisabled: [
       "imdone-atom"
