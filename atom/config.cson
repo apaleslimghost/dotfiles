@@ -42,8 +42,6 @@
       "atom-ternjs"
       "flow-ide"
       "spell-check"
-      "ide-typescript"
-      "autocomplete-plus"
       "language-gfm"
     ]
     packagesWithKeymapsDisabled: [
@@ -88,8 +86,7 @@
   "ide-flowtype":
     autoDownloadFlowBinaries: false
     tryFlowBin: true
-  "ide-typescript":
-    javascriptSupport: false
+  "ide-typescript": {}
   "isotope-ui":
     lowContrastTooltip: true
     minimalMode: true
