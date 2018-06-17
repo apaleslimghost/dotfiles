@@ -6,6 +6,9 @@ tap "josegonzalez/php"
 tap "caskroom/versions"
 tap "caryll/tap"
 tap "alexcormier/personal"
+tap "osx-cross/avr"
+tap "PX4/homebrew-px4"
+tap "chee/chee"
 # end tap
 
 brew "awscli"
@@ -36,6 +39,11 @@ brew "the_silver_searcher"
 brew "tree"
 brew "ttfautohint"
 brew "vault"
+brew "avr-gcc"
+brew "dfu-programmer"
+brew "gcc-arm-none-eabi"
+brew "avrdude"
+brew "libfsm", args: ["HEAD"]
 # end brew
 
 cask "adobe-creative-cloud"
