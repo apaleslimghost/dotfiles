@@ -5,6 +5,27 @@
   "atom-ide-ui":
     "atom-ide-diagnostics-ui":
       showDiagnosticTraces: true
+    "atom-ide-terminal":
+      black: "#212121"
+      blue: "#29b6f6"
+      brightBlack: "#546e7a"
+      brightBlue: "#40c4ff"
+      brightCyan: "#64ffda"
+      brightGreen: "#b2ff59"
+      brightMagenta: "#ff4081"
+      brightRed: "#ff5252"
+      brightWhite: "#ffffff"
+      brightYellow: "#ffe57f"
+      cursorBlink: true
+      cursorStyle: "bar"
+      cyan: "#1de9b6"
+      documentationMessage: false
+      fontFamily: "Iosevka"
+      green: "#c6ff00"
+      magenta: "#ec407a"
+      red: "#ef5350"
+      white: "#f3f5f6"
+      yellow: "#ffe082"
     hyperclick: {}
     use:
       hyperclick: "always"
@@ -51,7 +72,7 @@
     projectHome: "/Users/matthew.brennan/Projects"
     telemetryConsent: "no"
     themes: [
-      "nucleus-dark-ui"
+      "flexible-ui"
       "makika-syntax"
     ]
     titleBar: "custom"
@@ -67,6 +88,7 @@
       eol: "⁋"
     lineHeight: 1.6
     nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…_-"
+    preferredLineLength: 100000
     scrollPastEnd: true
     showInvisibles: true
     softTabs: false
@@ -74,8 +96,10 @@
     tabLength: 3
   "exception-reporting":
     userId: "c26572b5-d3e2-4e76-b5c0-ff8c897a5b44"
-  "file-icons": {}
+  "file-icons":
+    strategies: {}
   "find-and-replace":
+    focusEditorAfterSearch: true
     liveSearchMinimumCharacters: 0
     scrollToResultOnLiveSearch: true
   "flow-ide":
@@ -100,6 +124,7 @@
   minimap:
     charHeight: 1
     independentMinimapScroll: true
+    interline: 2
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
@@ -127,7 +152,7 @@
     titleBar: "custom"
     useCustomTitleBar: true
   "one-dark-ui":
-    tabSizing: "Even"
+    stickyHeaders: false
   parinfer:
     "file-extensions": [
       ".clj"

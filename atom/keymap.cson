@@ -5,3 +5,7 @@
 	'/': 'find-and-replace:show'
 	'n': 'find-and-replace:find-next',
 	'shift-N': 'find-and-replace:find-previous',
+"atom-text-editor.vim-mode-plus.normal-mode":
+	"-": "quick-file-browser:browse-active-file-directory"
+'atom-workspace':
+	'cmd-ctrl-t': 'atom-ide-terminal:new-project-terminal'
