@@ -5,7 +5,13 @@
 	'/': 'find-and-replace:show'
 	'n': 'find-and-replace:find-next',
 	'shift-N': 'find-and-replace:find-previous',
-"atom-text-editor.vim-mode-plus.normal-mode":
-	"-": "quick-file-browser:browse-active-file-directory"
+'atom-text-editor.vim-mode-plus.normal-mode':
+	'-': 'quick-file-browser:browse-active-file-directory'
+'atom-text-editor':
+	'cmd-right': 'editor:move-to-end-of-line'
 'atom-workspace':
 	'cmd-ctrl-t': 'atom-ide-terminal:new-project-terminal'
+	'cmd-k cmd-b': 'toggle-docks:toggle'
+'.platform-darwin .terminal-pane':
+	'cmd-left': 'atom-ide-terminal:move-to-start-of-line'
+	'cmd-right': 'atom-ide-terminal:move-to-end-of-line'

@@ -126,10 +126,20 @@ atom-workspace {
 atom-panel.modal, .overlay {
 	&, .select-list, &.select-list,{
 		ul, ol {
-			&.list-group li.two-lines {
-				margin: 0 !important;
-				padding: 10px 20px;
+			&.list-group {
+				.two-lines, .FuzzyFinderResult {
+					margin: 0 !important;
+					padding: 10px 20px;
+				}
 			}
 		}
 	}
+}
+
+.github-CommitView-editor button {
+	border: 0 none !important;
+}
+
+.input-select {
+	color: #b4b4b4;
 }

@@ -59,7 +59,6 @@
       "background-tips"
       "deprecation-cop"
       "autocomplete-snippets"
-      "github"
       "atom-ternjs"
       "flow-ide"
       "spell-check"
@@ -99,16 +98,21 @@
   "file-icons":
     strategies: {}
   "find-and-replace":
+    closeFindPanelAfterSearch: true
     focusEditorAfterSearch: true
     liveSearchMinimumCharacters: 0
     scrollToResultOnLiveSearch: true
   "flow-ide":
     showUncovered: true
+  "git-control":
+    noFastForward: true
+    showGitFlowButton: false
   "git-diff": {}
+  github:
+    viewChangesForCurrentFileDiffPaneSplitDirection: "right"
   hyperclick:
     darwinTriggerKeys: "altKey"
   "ide-flowtype":
-    autoDownloadFlowBinaries: false
     tryFlowBin: true
   "ide-typescript": {}
   "isotope-ui":
@@ -163,7 +167,11 @@
       ".rkt"
     ]
   "prettier-atom":
-    formatOnSaveOptions: {}
+    formatOnSaveOptions:
+      enabled: true
+      isDisabledIfNoConfigFile: true
+      isDisabledIfNotInPackageJson: true
+      showInStatusBar: true
     prettierOptions:
       bracketSpacing: false
       singleQuote: true
