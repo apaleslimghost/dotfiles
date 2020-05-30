@@ -1,0 +1,4 @@
+{
+	"eslint.filetypes":["javascript","javascriptreact","typescript","typescriptreact", "coffee"],
+	"prettier.onlyUseLocalVersion": true
+}

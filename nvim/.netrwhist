@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/bren.brightwell/Projects/Almanac'
+let g:netrw_dirhist_2='/Users/bren.brightwell/Projects/boulevard-react'
+let g:netrw_dirhist_1='/Users/bren.brightwell/Work/next-es-interface/test/fixtures'
+let g:netrw_dirhist_0='/Users/bren.brightwell/Work/next-es-interface/test/server/processes'
+let g:netrw_dirhist_9='/Users/bren.brightwell/Work/next-es-interface'
+let g:netrw_dirhist_8='/Users/bren.brightwell/Work/next-es-interface/test'
+let g:netrw_dirhist_7='/Users/bren.brightwell/Work/next-es-interface/test/server'
+let g:netrw_dirhist_6='/Users/bren.brightwell/Work/next-es-interface/test/server/processes'
+let g:netrw_dirhist_5='/Users/bren.brightwell/Work/next-es-interface'
+let g:netrw_dirhist_4='/Users/bren.brightwell/Work/next-router'
