@@ -1,6 +1,9 @@
 
 atom.commands.add 'atom-workspace', 'atom-ide-terminal:new-project-terminal', ->
-  projectDir = atom.project.rootDirectories[0].path
+  currentPath = atom.workspace.getActivePaneItem()?.getPath?()
+  currentDir = atom.project.rootDirectories.find (dir)-> currentPath.startsWith dir.path
+  projectDir = (currentDir ? atom.project.rootDirectories[0]).path
+
   atom.packages.serviceHub.consume 'nuclide-terminal', '*', (t)->
     t.open(cwd: projectDir)
 

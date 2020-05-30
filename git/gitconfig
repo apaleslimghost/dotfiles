@@ -1,8 +1,9 @@
 [user]
-    email = matt@153.io
-    name = Matt Brennan
+	email = bren@153.io
+	name = bren
 [core]
-	excludesfile = /Users/matthew.brennan/.gitignore
+	excludesfile = /Users/bren.brightwell/.gitignore
+	editor = atom --wait
 [help]
 	autocorrect = 10
 [alias]
@@ -14,7 +15,7 @@
 [merge]
 	tool = p4mergetool
 [mergetool "p4mergetool"]
-	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
 	trustExitCode = false
 [mergetool]
 	keepBackup = false
@@ -23,3 +24,11 @@
 	driver = npx npm-merge-driver merge %A %O %B %P
 [rerere]
 	enabled = true
+[github]
+	user = quarterto
+	oauth-token = " aee1f15fc11694a9b54e1b23e2c7334f898ce604"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

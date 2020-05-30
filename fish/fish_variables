@@ -1,0 +1,24 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR GITHUB_PERSONAL_ACCESS_TOKEN:0666f7b487a4c59543df3cb99a4b03f489c18970
+SETUVAR --export IDF_PATH:/Users/bren\x2ebrightwell/esp32/esp\x2didf/
+SETUVAR --export MODDABLE:/Users/bren\x2ebrightwell/Projects/moddable
+SETUVAR SLACK_ADMIN_TOKEN:xoxs\x2d2182311736\x2d560304945073\x2d560880175106\x2d2bce6f8e5b274f4f80508c40b01e6b2292348c9d5a1398b2207cc6a4db55b510
+SETUVAR __fish_init_2_39_8:\x1d
+SETUVAR __fish_init_2_3_0:\x1d
+SETUVAR __fish_initialized:3100
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:\x1d
+SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_user_paths:/Users/bren\x2ebrightwell/\x2ecargo/bin\x1e/Users/bren\x2ebrightwell/\x2efzf/bin

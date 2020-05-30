@@ -1,4 +1,7 @@
 "*":
+  _dart:
+    _firstRun: true
+    _version: "1.0.1"
   "atom-beautify":
     js:
       disabled: true
@@ -36,6 +39,7 @@
       "prettier-atom"
       "linter-eslint"
       "path-hyperclick"
+      "linter-xo"
     ]
   "atom-ternjs":
     inlineFnCompletion: false
@@ -43,8 +47,11 @@
     visible: false
   "atom-typescript": {}
   "autocomplete-plus":
+    autoActivationDelay: 500
     scopeBlacklist: [
-      ".text.plain"
+      "source.json"
+      "text.plain"
+      "text.md"
     ]
   core:
     closeDeletedFileTabs: true
@@ -63,7 +70,14 @@
       "flow-ide"
       "spell-check"
       "language-gfm"
+      "teletype"
+      "github"
+      "language-typescript"
+      "language-javascript"
+      "linter"
+      "atom-toolbar"
     ]
+    followSymlinks: false
     packagesWithKeymapsDisabled: [
       "imdone-atom"
       "tree-view"
@@ -76,6 +90,9 @@
     ]
     titleBar: "custom"
     warnOnLargeFileLimit: 2
+  dart:
+    showOutlineView: false
+    showPubCheck: false
   docblockr:
     param_description: false
     return_description: false
@@ -118,13 +135,18 @@
   "isotope-ui":
     lowContrastTooltip: true
     minimalMode: true
-  "language-babel": {}
+  "language-babel":
+    taggedTemplateGrammar: [
+      "html:text.html.basic"
+    ]
   linter: {}
   "linter-ui-default":
     panelHeight: 60
     panelRepresents: "Current Line"
     showProviderName: true
     statusBarRepresents: "Current File"
+  "linter-xo":
+    fixOnSave: true
   minimap:
     charHeight: 1
     independentMinimapScroll: true
@@ -168,7 +190,6 @@
     ]
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       isDisabledIfNoConfigFile: true
       isDisabledIfNotInPackageJson: true
       showInStatusBar: true
@@ -259,7 +280,8 @@
     keystrokesFormat: "symbol"
     useMetaForAlt: false
   zentabs:
-    maximumOpenedTabs: 8
+    maximumOpenedTabs: 6
+    neverCloseNew: true
     neverCloseUnsaved: true
 ".clojure.source":
   editor:
@@ -271,6 +293,12 @@
 ".css.source":
   editor:
     nonWordCharacters: "/\\()\"':,.;<>~!#$@%^&*|+=[]{}`?…-_"
+".css.source.styled":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!#$@%^&*|+=[]{}`?…-_"
+".js.jsx.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
 ".sass.source":
   editor:
     nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…_-"

@@ -1,0 +1,1 @@
+/Users/bren.brightwell/.fzf/shell/key-bindings.fish
