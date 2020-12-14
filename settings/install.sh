@@ -3,8 +3,8 @@
 echo '  │ switching to dark mode'
 dark-mode on
 
-echo '  │ setting screenshots folder'
-defaults write com.apple.screencapture location $HOME/Documents/Screenshots
+echo '  │ send screenshots to clipboard'
+defaults write com.apple.screencapture target clipboard
 echo '  │ telling finder to show things'
 defaults write com.apple.finder AppleShowAllFiles -bool true
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -21,10 +21,6 @@ defaults write com.apple.dock autohide -bool true
 echo '  │ setting topleft hot corner'
 defaults write com.apple.dock wvous-tl-corner -int 5
 defaults write com.apple.dock wvous-tl-modifier -int 0
-
-echo '  │ setting Boxy as default mail app'
-# "mailbro"? really??
-duti -s com.francescodilorenzo.Mailbro mailto
 
 echo '  │ killing finder and dock'
 killall Finder Dock
