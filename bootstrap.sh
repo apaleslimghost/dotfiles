@@ -45,6 +45,12 @@ run() {
     if ! xcode-select --print-path | grep Xcode.app > /dev/null; then
         echo '  ⎌ setting xcode location'
         sudo xcode-select -s /Library/Developer/CommandLineTools/
+
+        while ! xcode-select --print-path | grep Xcode.app > /dev/null; do
+            echo '  ◷ still waiting for install'
+            sleep 10
+        done
+
         echo '  ✓ done'
         echo ''
     fi
