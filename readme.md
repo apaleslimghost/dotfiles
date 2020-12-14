@@ -5,9 +5,7 @@ a dotfiles.
 ## usage
 
 ```sh
-curl https://blog.153.io/dotfiles/bootstrap.sh -o bootstrap.sh
-cat bootstrap.sh # in case of shenanigans
-sh bootstrap.sh
+curl https://pages.ghost.computer/dotfiles/bootstrap.sh | bash
 ```
 
 bootstrap:
