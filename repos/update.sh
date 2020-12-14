@@ -1,30 +1,15 @@
 #!/bin/bash
 
-> non-repos
-> errors
-
 digest_repos() {
 	local root="$1"
-	local outfile="$(pwd)/$root"
-	local errors="$(pwd)/errors"
-	local nonrepos="$(pwd)/non-repos"
+	local file=$(basename $root)
 
-	> "$outfile"
-
-	for f in ~/"$root"/*; do
-		if [ -d "$f/.git" ]; then
-			pushd "$f" > /dev/null
-
-			if ! git remote get-url origin >> "$outfile" 2>> "$errors" ; then
-				echo $f >> "$errors"
-			fi
-
-			popd > /dev/null
-		else
-			echo $f >> $nonrepos
-		fi
-	done
+	for repo in $(ls -t "$root" | head -20); do
+		pushd "$root/$repo" > /dev/null
+		git remote get-url origin
+		popd > /dev/null
+	done > $file
 }
 
-# digest_repos Projects
-digest_repos Work
+digest_repos ~/Projects
+digest_repos ~/Work
