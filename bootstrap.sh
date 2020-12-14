@@ -18,29 +18,6 @@ quit() {
 
 trap quit EXIT
 
-install_tools() {
-    echo 'searching for update from app store'
-    # install Command Line Tools, borrowed from
-    # https://github.com/boxen/boxen-web/blob/2881bc53a66bfeb4f86a5850e888046d9d7ebf05/app/views/splash/script.sh.erb#L43
-    # on 10.9 and above we can leverage SUS to get the latest CLI tools
-    local TOOLS_REGEX="Command Line Tools"
-    local PLACEHOLDER=/tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
-
-    # create the placeholder file that's checked by CLI updates' .dist code
-    # in Apple's SUS catalog
-    touch $PLACEHOLDER
-
-    # find the update with the right name, and grab its identifier
-    PROD=$(softwareupdate -l | grep -B 1 "${TOOLS_REGEX}" | \
-            awk -F"*" '/^ +\*/ {print $2}' | sed 's/^ *//' | tail -n 1)
-
-    # install it
-    softwareupdate -i "${PROD}"
-
-    # remove the placeholder
-    rm -f $PLACEHOLDER
-}
-
 update_repo() {
     git stash
     git checkout master
@@ -57,7 +34,7 @@ run() {
     echo ''
     if [ ! -d '/Library/Developer/CommandLineTools' ] ; then
         echo '  ⚙︎ installing command line tools'
-        install_tools 2>&1 | sed "s/^/  │ /"
+        sudo xcode-select --install
         echo '  ✓ done'
         echo ''
     else
