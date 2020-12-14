@@ -1,9 +1,9 @@
 [user]
-	email = bren@153.io
-	name = bren
+	email = kara@153.io
+	name = Kara Brightwell
 [core]
-	excludesfile = /Users/bren.brightwell/.gitignore
-	editor = atom --wait
+	excludesfile = /Users/kara.brightwell/.gitignore
+	editor = emacsclient -c
 [help]
 	autocorrect = 10
 [alias]
@@ -24,11 +24,10 @@
 	driver = npx npm-merge-driver merge %A %O %B %P
 [rerere]
 	enabled = true
-[github]
-	user = quarterto
-	oauth-token = " aee1f15fc11694a9b54e1b23e2c7334f898ce604"
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[init]
+	defaultBranch = main
