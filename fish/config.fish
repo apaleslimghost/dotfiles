@@ -28,6 +28,12 @@ fundle plugin 'fisherman/last_job_id'
 fundle plugin 'fisherman/menu'
 fundle plugin 'fisherman/get_file_age'
 fundle plugin 'fisherman/await'
+fundle plugin 'jorgebucaran/fish-nvm'
+fundle plugin 'rbenv/fish-rbenv'
 fundle plugin 'quarterto/check_git_status' --url 'quarterto/check_git_status'
 
 fundle init
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+
