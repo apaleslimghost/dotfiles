@@ -2,7 +2,7 @@
 	email = kara@153.io
 	name = Kara Brightwell
 [core]
-	excludesfile = /Users/kara.brightwell/.gitignore
+	excludesfile = ~/.gitignore
 	editor = emacsclient -c
 [help]
 	autocorrect = 10
