@@ -1,3 +1,0 @@
-brew "otfcc-mac64" # requires xcode
-brew "ttfautohint" # requires xcode
-brew "swiftlint"
