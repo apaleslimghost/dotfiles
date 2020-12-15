@@ -5,6 +5,7 @@ tap 'homebrew/cask-versions'
 tap 'caryll/tap'
 tap 'osx-cross/avr'
 tap 'PX4/homebrew-px4'
+tap 'd12frosted/emacs-plus'
 # end tap
 
 brew 'awscli'
