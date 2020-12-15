@@ -35,23 +35,18 @@ run() {
     if [ ! -d '/Library/Developer/CommandLineTools' ] ; then
         echo '  ⚙︎ installing command line tools'
         sudo xcode-select --install
+
+        while [ ! -d '/Library/Developer/CommandLineTools' ]; do
+            echo '  ◷ still waiting for install'
+            sleep 30
+        done
+
+        sudo xcode-select -s /Library/Developer/CommandLineTools/
+
         echo '  ✓ done'
         echo ''
     else
         echo '  ✓ command line tools already installed'
-        echo ''
-    fi
-
-    if ! xcode-select --print-path | grep Xcode.app > /dev/null; then
-        echo '  ⎌ setting xcode location'
-        sudo xcode-select -s /Library/Developer/CommandLineTools/
-
-        while ! xcode-select --print-path | grep Xcode.app > /dev/null; do
-            echo '  ◷ still waiting for install'
-            sleep 10
-        done
-
-        echo '  ✓ done'
         echo ''
     fi
 
