@@ -20,7 +20,7 @@ trap quit EXIT
 
 update_repo() {
     git stash
-    git checkout master
+    git checkout main
     git pull --rebase
     git submodule update --recursive --remote
 }
