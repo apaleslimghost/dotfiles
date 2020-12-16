@@ -6,6 +6,7 @@ tap 'caryll/tap'
 tap 'osx-cross/avr'
 tap 'PX4/homebrew-px4'
 tap 'd12frosted/emacs-plus'
+tap 'heroku/brew'
 # end tap
 
 brew 'awscli'
