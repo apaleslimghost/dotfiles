@@ -1,4 +1,4 @@
 [submodule "iosevka"]
-	path = iosevka
-	url = https://github.com/quarterto/iosevka.git
+	path = 31-iosevka
+	url = https://github.com/apaleslimghost/iosevka.git
 	shallow = true
