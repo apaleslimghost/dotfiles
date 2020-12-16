@@ -44,19 +44,10 @@ cask 'iterm2'
 cask 'karabiner-elements'
 cask 'minecraft'
 cask 'notion'
-cask 'p4merge'
+cask 'p4v'
 cask 'sketch'
 cask 'slack'
 cask 'spotify'
-cask 'spotify-notifications'
 cask 'steam'
 cask 'transmission'
 # end cask
-
-mas 'Numbers', id: 409_203_825
-mas 'Pages', id: 409_201_541
-mas 'Pixelmator', id: 407_963_104
-mas 'Jira', id: 1_475_897_096
-mas 'Bear', id: 1_091_189_122
-
-# end mas
