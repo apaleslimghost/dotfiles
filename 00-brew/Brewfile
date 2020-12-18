@@ -32,6 +32,10 @@ brew 'gcc-arm-none-eabi'
 brew 'avrdude'
 brew 'postgresql'
 brew 'emacs-plus@28', args: %w[with-xwidgets with-modern-cg433n-icon]
+brew 'cmake'
+brew 'fd'
+brew 'coreutils'
+
 # end brew
 
 cask 'backblaze'
