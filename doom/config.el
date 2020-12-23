@@ -61,41 +61,6 @@
 (setq projectile-project-search-path '("~/Projects/" "~/Work/"))
 (setq projectile-auto-discover t)
 
-(defun workspace-load-maybe (name)
-  (persp-load-from-file-by-names
-   (expand-file-name +workspaces-data-file persp-save-dir)
-   *persp-hash* (list name))
-  (+workspace-exists-p name))
-
-(defun current-project-name ()
-  (doom-project-name +workspaces--project-dir))
-
-(defun workspace-save-silent (name)
-  (let ((fname (expand-file-name +workspaces-data-file persp-save-dir)))
-    (persp-save-to-file-by-names fname *persp-hash* (list name) t)))
-
-(defun workspace-save-current ()
-  (when (boundp '+workspaces--project-dir)
-    (workspace-save-silent (current-project-name))))
-
-(defun workspace-save-all ()
-  (dolist (workspace (+workspace-list-names))
-    (workspace-save-silent workspace)))
-
-(defun workspace-load-current ()
-  (when (boundp '+workspaces--project-dir)
-    (workspace-load-maybe (current-project-name))))
-
-(setq +workspaces-switch-project-function
-      (lambda (dir)
-	(workspace-save-current)
-	(when (eq 0 (length (+workspace-buffer-list)))
-	  (dired dir))))
-
-(add-hook 'projectile-before-switch-project-hook #'workspace-load-current)
-(add-hook 'kill-emacs-hook #'workspace-save-all)
-(run-with-timer 0 300 #'workspace-save-current)
-
 (setq whitespace-line-column nil
       whitespace-style
       '(face indentation tabs tab-mark spaces space-mark newline newline-mark
@@ -114,8 +79,8 @@
   (set-popup-rules!
     '(("^magit" :side left :width 60 :slot 1 :quit t :select t :modeline t)
       ("\\*transient\\*" :side left :width 60 :height 30 :slot 2 :quit nil :select nil :modeline nil)
-      ("^magit-diff" :side left :width 60 :height 0.7 :slot 1 :quit t :select nil :modeline t)
-      ("COMMIT_EDITMSG" :side left :width 60 :height 0.3 :slot 2 :quit nil :select t :modeline t))))
+      ("COMMIT_EDITMSG" :side left :width 60 :height 0.3 :slot 2 :quit nil :select t :modeline t)
+      ("^magit-diff" :side left :width 60 :height 0.7 :slot 1 :quit t :select nil :modeline t))))
 
 (setq magit-blame-styles
       '((margin
