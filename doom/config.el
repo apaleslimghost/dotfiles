@@ -52,8 +52,33 @@
 
 ;; vim-vinegar-like dired ui and - to open
 (setq dired-hide-details-hide-symlink-targets nil)
-(add-hook 'dired-mode-hook #'dired-hide-details-mode)
+(add-hook 'dired-mode-hook #'dired-setup)
 (map! :n "-" #'dired-jump)
+
+(defun dired-setup ()
+  (dired-hide-details-mode t)
+  (dired-omit-mode t)
+
+  ;; allow selection with mouse
+  (make-local-variable 'mouse-1-click-follows-link)
+  (setq mouse-1-click-follows-link nil)
+
+  (local-set-key (kbd  "<mouse-1>") #'dired-mouse-click))
+
+(defun dired-mouse-click (event)
+  "In Dired, visit the file or directory name you click on."
+  (interactive "e")
+  (let (window pos file)
+    (save-excursion
+      (setq window (posn-window (event-end event))
+            pos (posn-point (event-end event)))
+      (if (not (windowp window))
+          (error "No file chosen"))
+      (set-buffer (window-buffer window))
+      (goto-char pos)
+      (setq file (dired-get-file-for-visit)))
+    (find-alternate-file file)))
+
 
 (add-hook 'prog-mode-hook #'whitespace-mode)
 (add-hook 'prog-mode-hook #'visual-line-mode)
