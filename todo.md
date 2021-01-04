@@ -28,9 +28,9 @@ Sketch licence
 
 # What do I still need off my laptop?
 
-- [ ] Fonts
-- [ ] Ableton library
+- [x] Fonts
+- [x] Ableton library
 - [ ] Screen profile
 - [ ] Recent repo changes
-- [ ] Music library!
+- [x] Music library!
 - [ ] Multimc
