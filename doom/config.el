@@ -27,6 +27,8 @@
 ;; `load-theme' function. This is the default:
 (setq doom-theme 'doom-monokai-classic)
 
+(setq fancy-splash-image "~/.doom.d/emacs.png")
+
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
@@ -86,6 +88,8 @@
 (setq projectile-project-search-path '("~/Projects/" "~/Work/"))
 (setq projectile-auto-discover t)
 
+(projectile-rails-global-mode)
+
 (setq whitespace-line-column nil
       whitespace-style
       '(face indentation tabs tab-mark spaces space-mark newline newline-mark
@@ -97,8 +101,13 @@
 
 ;; (map! :map evil-mc-key-map [mouse-1] #'evil-mc-undo-all-cursors)
 
-(map! :map vterm-mode-map :after vterm
-      "<M-left>" #'vterm-send-M-b)
+(set-evil-initial-state! 'vterm-mode 'insert)
+(map! :map vterm-mode-map :gin [M-left] #'vterm-send-M-b)
+(map! :map vterm-mode-map :gin [M-right] #'vterm-send-M-f)
+(map! :map vterm-mode-map :gin [M-backspace] #'vterm-send-C-w)
+(map! :map vterm-mode-map :gin [s-left] #'vterm-send-C-a)
+(map! :map vterm-mode-map :gin [s-right] #'vterm-send-C-e)
+(map! :map vterm-mode-map :gin [s-backspace] #'vterm-send-C-u)
 
 (after! magit
   (set-popup-rules!
