@@ -35,12 +35,14 @@ brew 'emacs-plus@28', args: %w[with-xwidgets with-modern-cg433n-icon]
 brew 'cmake'
 brew 'fd'
 brew 'coreutils'
+brew 'rbenv'
 
 # end brew
 
 cask 'backblaze'
 cask 'bartender'
 cask 'bettertouchtool'
+Cask 'discord'
 cask 'firefox'
 cask 'flux'
 cask 'focus'
@@ -48,6 +50,7 @@ cask 'iterm2'
 cask 'karabiner-elements'
 cask 'minecraft'
 cask 'notion'
+cask 'omnidisksweeper'
 cask 'p4v'
 cask 'sketch'
 cask 'slack'

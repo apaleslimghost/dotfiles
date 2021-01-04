@@ -1,0 +1,38 @@
+{
+  "entries": {
+    "mas": {
+      "Numbers": {
+        "id": "409203825",
+        "version": "10.3.5"
+      },
+      "Pages": {
+        "id": "409201541",
+        "version": "10.3.5"
+      },
+      "Pixelmator": {
+        "id": "407963104",
+        "version": "3.9.2"
+      },
+      "Jira": {
+        "id": "1475897096",
+        "version": "119.0.0"
+      },
+      "Bear": {
+        "id": "1091189122",
+        "version": "1.8.2"
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.6.2",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "2ae39b9bfb18bd003acb4615815cdd32a25f992b",
+        "CLT": "12.3.0.0.1.1607026830",
+        "Xcode": "12.0",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}

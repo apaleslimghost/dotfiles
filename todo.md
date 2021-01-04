@@ -1,11 +1,8 @@
-- [ ] split atom & fish into submodules
-- [ ] update.sh
-- [ ] finish atom config
-- [ ] more fish goodies
 - [ ] config for things like bettertouchtool, karabiner
-	- [x] BTT
+	- [ ] BTT
 	- [x] karabiner
 	- [x] focus
+	- [ ] bartender
 - [ ] system preferences
 	- [ ] icloud drive
 	- [x] dock hiding
@@ -13,15 +10,27 @@
 	- [ ] date, battery
 	- [ ] trackpad settings
 	- [ ] keyboard settings
-- [x] wallpaper
-- [x] git utils & config (up, lg)
-- [ ] task dependencies and sorting
-- [ ] improve xcode
 - [ ] document manual config steps
-- [ ] chrome login
-- [ ] lastpass
-- [ ] better atom package installation & config
-- [ ] bartender
-- [ ] how to do private repo stuff
-	- [ ] fonts
-	- [ ] serial numbers etc
+
+# Manual setup & settings:
+
+Karabiner permissions & kext
+Gylmwp 
+Screen resolution
+Trackpad swipes
+Terminal & textedit font?
+Highlight colour
+Sidebar icon size
+Finder sidebar
+Slack login
+Calendars
+Sketch licence
+
+# What do I still need off my laptop?
+
+- [ ] Fonts
+- [ ] Ableton library
+- [ ] Screen profile
+- [ ] Recent repo changes
+- [ ] Music library!
+- [ ] Multimc

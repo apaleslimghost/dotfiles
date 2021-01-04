@@ -1,5 +1,3 @@
-if not functions -q fundle; eval (curl -sfL https://git.io/fundle-install); end
-
 set fish_greeting ""
 set fish_color_normal white # the default color
 set fish_color_command green # the color for commands
@@ -17,22 +15,20 @@ set fish_color_autosuggestion brgrey # the color used for autosuggestions
 set fish_color_cancel grey # the color for the '^C' indicator on a canceled command
 
 # TODO: do this in a fishier way
-set -x FTAPP_NO_DB 1
 set -x VAULT_ADDR https://vault.in.ft.com
 set -x VAULT_AUTH_GITHUB_TOKEN (security find-generic-password -a $USER -s "FT Vault" -w)
 
+# fundle plugin 'fisherman/git_util'
+# fundle plugin 'fisherman/humanize_duration'
+# fundle plugin 'fisherman/last_job_id'
+# fundle plugin 'fisherman/menu'
+# fundle plugin 'fisherman/get_file_age'
+# fundle plugin 'fisherman/await'
+# fundle plugin 'jorgebucaran/fish-nvm'
+# fundle plugin 'rbenv/fish-rbenv'
+# fundle plugin 'quarterto/check_git_status' --url 'quarterto/check_git_status'
 
-fundle plugin 'fisherman/git_util'
-fundle plugin 'fisherman/humanize_duration'
-fundle plugin 'fisherman/last_job_id'
-fundle plugin 'fisherman/menu'
-fundle plugin 'fisherman/get_file_age'
-fundle plugin 'fisherman/await'
-fundle plugin 'jorgebucaran/fish-nvm'
-fundle plugin 'rbenv/fish-rbenv'
-fundle plugin 'quarterto/check_git_status' --url 'quarterto/check_git_status'
-
-fundle init
+# fundle init
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
