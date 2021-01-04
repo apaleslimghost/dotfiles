@@ -11,5 +11,4 @@ digest_repos() {
 	done > $file
 }
 
-digest_repos ~/Projects
 digest_repos ~/Work

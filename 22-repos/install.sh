@@ -16,5 +16,4 @@ clone_all_the_things() {
 	popd
 }
 
-clone_all_the_things Projects
 clone_all_the_things Work
