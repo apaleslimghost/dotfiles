@@ -17,6 +17,7 @@ set fish_color_cancel grey # the color for the '^C' indicator on a canceled comm
 # TODO: do this in a fishier way
 set -x VAULT_ADDR https://vault.in.ft.com
 set -x VAULT_AUTH_GITHUB_TOKEN (security find-generic-password -a $USER -s "FT Vault" -w)
+set -x GITHUB_TOKEN (security find-generic-password -a $USER -s "Hub" -w)
 
 # fundle plugin 'fisherman/git_util'
 # fundle plugin 'fisherman/humanize_duration'
