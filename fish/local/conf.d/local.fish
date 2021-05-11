@@ -1,5 +1,3 @@
-fundle plugin 'fisherman/git_util'
-
 function __check_git_status_prompt
 	print_color cyan (basename $PWD)
 
