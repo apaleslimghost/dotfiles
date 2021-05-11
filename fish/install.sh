@@ -10,5 +10,4 @@ if [ "$user_shell" != "$(which fish)" ]; then
    chsh -s $(which fish)
 fi
 
-fish -c 'curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher'
-fisher update
+fish -c 'curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher && fisher update'
