@@ -7,7 +7,8 @@ fi
 user_shell="$(finger $USER | grep Shell | cut -f6 -d ' ')"
 
 if [ "$user_shell" != "$(which fish)" ]; then
-   chsh -s $(which fish) 
+   chsh -s $(which fish)
 fi
 
 fish -c 'curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher'
+fisher update

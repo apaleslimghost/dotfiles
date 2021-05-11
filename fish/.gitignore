@@ -1,4 +1,4 @@
-fundle/*
-!fundle/quarterto
-functions/fundle.fish
 fishd.*
+/functions
+/conf.d
+/completions
