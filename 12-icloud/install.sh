@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-icloud_root="~/Library/Mobile Documents/com~apple~CloudDocs/"
+icloud_root="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
 
 link_icloud_folder() {
 	local from="$1"
