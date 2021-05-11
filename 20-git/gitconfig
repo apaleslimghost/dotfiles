@@ -3,7 +3,7 @@
 	name = Kara Brightwell
 [core]
 	excludesfile = ~/.gitignore
-	editor = emacsclient -c
+	editor = code -w
 [help]
 	autocorrect = 10
 [alias]
