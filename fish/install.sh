@@ -10,4 +10,6 @@ if [ "$user_shell" != "$(which fish)" ]; then
    chsh -s $(which fish)
 fi
 
+rm -rf functions completions conf.d
+
 fish -c 'curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher && fisher update'
