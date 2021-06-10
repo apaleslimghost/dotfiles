@@ -44,6 +44,7 @@ cask 'minecraft'
 cask 'notion'
 cask 'p4v'
 cask 'spotify'
+cask 'standard-notes'
 cask 'steam'
 cask 'visual-studio-code'
 # end cask
