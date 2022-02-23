@@ -11,4 +11,4 @@ if [ -d /opt/homebrew ]; then
 fi
 
 brew update
-brew bundle
+brew bundle -v

@@ -20,4 +20,4 @@ if ! mas account; then
 	done
 fi
 
-brew bundle
+brew bundle -v
