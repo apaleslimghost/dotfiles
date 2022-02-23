@@ -22,7 +22,6 @@ update_repo() {
     git stash
     git checkout main
     git pull --rebase
-    git submodule update --recursive --remote
 }
 
 run() {
