@@ -38,6 +38,7 @@ brew 'mermaid-cli'
 brew 'qmk/qmk/qmk'
 brew 'picocom'
 brew 'circleci'
+brew 'java'
 
 # end brew
 
