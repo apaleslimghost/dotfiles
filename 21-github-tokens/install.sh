@@ -1,5 +1,7 @@
 #/bin/sh
 
+set -e
+
 ask_for_token() {
 	local token_name="$1"
 	if ! security find-generic-password -a $USER -s "$token_name" -w 2>&1 > /dev/null ; then
