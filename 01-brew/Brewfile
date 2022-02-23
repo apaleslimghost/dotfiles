@@ -4,6 +4,9 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'heroku/brew'
+tap 'osx-cross/arm'
+tap 'osx-cross/avr'
+tap 'qmk/qmk'
 # end tap
 
 brew 'awscli'
@@ -31,6 +34,11 @@ brew 'fd'
 brew 'coreutils'
 brew 'rbenv'
 brew 'volta'
+brew 'blackhole-2ch'
+brew 'mermaid-cli'
+brew 'qmk/qmk/qmk'
+brew 'picocom'
+brew 'circleci'
 
 # end brew
 
