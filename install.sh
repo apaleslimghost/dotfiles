@@ -14,6 +14,11 @@ link_and_install() {
 
         echo "  ⎌ linking folder to $target"
 
+        if [ -d "$target" ]; then
+            echo "  ! $target already exists!"
+            return 1
+        fi
+
         mkdir -p ~/"$(dirname "$target")"
         ln -snf "$(pwd)/$d" ~/"$target"
     fi
