@@ -17,3 +17,4 @@ clone_all_the_things() {
 }
 
 clone_all_the_things Work
+clone_all_the_things Projects

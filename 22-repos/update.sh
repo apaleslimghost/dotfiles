@@ -12,3 +12,4 @@ digest_repos() {
 }
 
 digest_repos ~/Work
+digest_repos ~/Projects
