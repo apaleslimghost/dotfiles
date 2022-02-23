@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'heroku/brew'
 # end tap
@@ -39,6 +40,7 @@ cask 'dynamic-dark-mode'
 cask 'firefox'
 cask 'flux'
 cask 'focus'
+cask 'font-cascadia-code'
 cask 'karabiner-elements'
 cask 'minecraft'
 cask 'notion'
