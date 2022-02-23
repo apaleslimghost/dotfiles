@@ -20,3 +20,9 @@ set -x VAULT_AUTH_GITHUB_TOKEN (security find-generic-password -a $USER -s "FT V
 set -x GITHUB_TOKEN (security find-generic-password -a $USER -s "Hub" -w)
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+
+if [ -d /opt/homebrew ]
+	eval (/opt/homebrew/bin/brew shellenv)
+end
