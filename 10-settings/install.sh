@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 echo '  │ switching to dark mode'
 dark-mode on
 
@@ -17,10 +19,6 @@ echo '  │ setting dock size'
 defaults write com.apple.dock tilesize -int 48
 echo '  │ turning dock autohide on'
 defaults write com.apple.dock autohide -bool true
-
-echo '  │ setting topleft hot corner'
-defaults write com.apple.dock wvous-tl-corner -int 5
-defaults write com.apple.dock wvous-tl-modifier -int 0
 
 echo '  │ killing finder and dock'
 killall Finder Dock
