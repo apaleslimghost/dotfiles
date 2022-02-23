@@ -20,7 +20,7 @@ link_and_install() {
 
     if [ -f "$d"/install.sh ]; then
         pushd "$d" > /dev/null
-        ./install.sh
+        source install.sh
         popd > /dev/null
     fi
 
