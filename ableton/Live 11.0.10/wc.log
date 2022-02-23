@@ -1,0 +1,19 @@
+INFO:2021-10-11 17:21:58,649:abl.webconnector.main:Start
+INFO:2021-10-11 17:21:58,651:abl.webconnector.main:Cleanup event logs.
+INFO:2021-10-11 17:22:03,652:abl.webconnector.main:Upload info.
+INFO:2021-10-11 17:22:03,724:abl.webconnector.auto_updates:Checking for auto updates from 11.0.10
+INFO:2021-10-11 17:22:04,139:abl.webconnector.auto_updates:Found update to 11.0.11
+INFO:2021-10-11 17:22:04,139:abl.webconnector.auto_updates:Update confirmed. Starting download...
+INFO:2021-10-11 17:22:04,141:abl.webconnector.tasks:Retrieving delta ableton_live_suite_11.0.11_from_11.0.10_osx_64.asu
+INFO:2021-10-11 17:22:12,886:abl.webconnector.tasks:Delta retrieved, elapsed time: 8745ms
+INFO:2021-10-11 17:22:12,886:abl.webconnector.tasks:Preparing auto-update tasks
+INFO:2021-10-11 17:22:12,892:abl.webconnector.connector:Copy installation
+INFO:2021-10-11 17:23:34,620:abl.webconnector.connector:Copy installation completed (81728 ms)
+INFO:2021-10-11 17:23:34,621:abl.webconnector.connector:Update cloned installation
+INFO:2021-10-11 17:23:45,003:abl.webconnector.connector:Update cloned installation completed (10381 ms)
+INFO:2021-10-11 17:23:46,001:abl.webconnector.main:Notifying Live that the update is ready to apply
+INFO:2021-10-11 17:23:46,002:abl.webconnector.main:Waiting for Live to terminate
+INFO:2021-10-11 17:25:18,297:abl.webconnector.connector:Cleaning up /Users/kara.brightwell/Library/Application Support/Ableton/Live 11.0.10/_autoupdates
+INFO:2021-10-11 17:25:18,619:abl.webconnector.connector:Invoking swapper to apply update
+INFO:2021-10-11 17:25:18,706:abl.webconnector.connector:Swapper invoked with pid: 81824
+INFO:2021-10-11 17:25:18,707:abl.webconnector.main:End

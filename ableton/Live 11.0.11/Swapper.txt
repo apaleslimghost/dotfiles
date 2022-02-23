@@ -1,0 +1,31 @@
+2021-11-16T21:50:00.210624: info: #######################################
+2021-11-16T21:50:00.214481: info: Started: Swapper 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-16T21:50:00.214505: info: #######################################
+2021-11-16T21:50:00.214519: info: Init: Setup environment
+2021-11-16T21:50:00.214582: info: : UUID: C65B45C6-DCB3-3748-B6FD-73096C5DFB47
+2021-11-16T21:50:00.214597: info: Init: Version: 'Swapper 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-16T21:50:00.214684: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-16T21:50:00.214715: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-16T21:50:00.215684: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-16T21:50:00.215707: info: Init: BuildType: 'Release'
+2021-11-16T21:50:00.215732: info: Init: Pid: 94212
+2021-11-16T21:50:00.215758: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-16T21:50:00.215777: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-16T21:50:00.215794: info: Init: CPU Count: 12
+2021-11-16T21:50:00.215807: info: Init: Physical RAM: 34359738368 B
+2021-11-16T21:50:00.215817: info: Init: Address Space: 18446744073709551615 B
+2021-11-16T21:50:00.215825: info: Init: 64-bit Edition
+2021-11-16T21:50:00.264057: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-16T21:50:00.273155: info: Init: Checksum 1: 62cccb8687324e3ae7bd9926f6a6efea
+2021-11-16T21:50:00.279496: info: Init: Checksum 2: 0e95f68b8e7d21d66b649480e8834999
+2021-11-16T21:50:00.293723: info: Init: Checksum 3: 0e95f68b8e7d21d66b649480e8834999
+2021-11-16T21:50:00.293826: info: Swapper: Start
+2021-11-16T21:50:00.293844: info: Swapper: Running as /var/folders/68/01x59jld33bdvx3yfrfrpp940000gp/T/tmpsNhTdO/Ableton Swapper
+2021-11-16T21:50:00.294207: info: Swapper: Working directory: /private/var/folders/68/01x59jld33bdvx3yfrfrpp940000gp/T/tmpsNhTdO/
+2021-11-16T21:50:00.300647: info: Scanner: Waiting for completion of parent process.
+2021-11-16T21:50:00.300787: info: Swapper: Swapping prepared copy at /Applications/.Ableton Live 11 Suite_updated.app to Live installation at /Applications/Ableton Live 11 Suite.app
+2021-11-16T21:50:00.300864: info: Swapper: Renaming Ableton Live 11 Suite.app to Ableton Live 11 Suite.app.Old
+2021-11-16T21:50:00.301123: info: Swapper: Renaming .Ableton Live 11 Suite_updated.app to Ableton Live 11 Suite.app
+2021-11-16T21:50:00.301335: info: Swapper: Deleting Ableton Live 11 Suite.app.Old
+2021-11-16T21:50:09.683304: info: Swapper: Return code: 0
+2021-11-16T21:50:09.683324: info: Swapper: End

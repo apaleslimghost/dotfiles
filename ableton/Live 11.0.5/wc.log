@@ -1,0 +1,91 @@
+INFO:2021-07-16 08:15:24,033:abl.webconnector.main:Start
+INFO:2021-07-16 08:15:24,037:abl.webconnector.main:Cleanup event logs.
+INFO:2021-07-16 08:15:29,043:abl.webconnector.main:Upload info.
+INFO:2021-07-16 08:15:29,084:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-07-16 08:15:29,944:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-07-16 08:15:30,089:abl.webconnector.main:End
+INFO:2021-07-24 15:15:14,483:abl.webconnector.main:Start
+INFO:2021-07-24 15:15:14,486:abl.webconnector.main:Cleanup event logs.
+INFO:2021-07-24 15:15:19,489:abl.webconnector.main:Upload info.
+INFO:2021-07-24 15:15:19,519:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-07-24 15:15:19,730:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-07-24 15:15:20,523:abl.webconnector.main:End
+INFO:2021-07-25 13:28:18,721:abl.webconnector.main:Start
+INFO:2021-07-25 13:28:18,724:abl.webconnector.main:Cleanup event logs.
+INFO:2021-07-25 13:28:23,728:abl.webconnector.main:Upload info.
+INFO:2021-07-25 13:28:23,755:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-07-25 13:28:24,475:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-07-25 13:28:24,759:abl.webconnector.main:End
+INFO:2021-08-03 11:08:15,822:abl.webconnector.main:Start
+INFO:2021-08-03 11:08:15,824:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-03 11:08:20,825:abl.webconnector.main:Upload info.
+INFO:2021-08-03 11:08:20,854:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-03 11:08:21,094:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-03 11:08:21,856:abl.webconnector.main:End
+INFO:2021-08-04 10:13:37,148:abl.webconnector.main:Start
+INFO:2021-08-04 10:13:37,150:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-04 10:13:42,154:abl.webconnector.main:Upload info.
+INFO:2021-08-04 10:13:42,186:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-04 10:13:42,411:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-04 10:13:43,187:abl.webconnector.main:End
+INFO:2021-08-04 17:22:49,313:abl.webconnector.main:Start
+INFO:2021-08-04 17:22:49,315:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-04 17:22:54,318:abl.webconnector.main:Upload info.
+INFO:2021-08-04 17:22:54,359:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-04 17:22:54,575:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-04 17:22:55,358:abl.webconnector.main:End
+INFO:2021-08-04 21:13:27,915:abl.webconnector.main:Start
+INFO:2021-08-04 21:13:27,917:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-04 21:13:32,922:abl.webconnector.main:Upload info.
+INFO:2021-08-04 21:13:32,956:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-04 21:13:33,187:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-04 21:13:33,956:abl.webconnector.main:End
+INFO:2021-08-05 22:08:09,038:abl.webconnector.main:Start
+INFO:2021-08-05 22:08:09,040:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-05 22:08:14,041:abl.webconnector.main:Upload info.
+INFO:2021-08-05 22:08:14,078:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-05 22:08:14,312:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-05 22:08:15,082:abl.webconnector.main:End
+INFO:2021-08-09 17:50:10,270:abl.webconnector.main:Start
+INFO:2021-08-09 17:50:10,272:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-09 17:50:15,276:abl.webconnector.main:Upload info.
+INFO:2021-08-09 17:50:15,313:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-09 17:50:15,702:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-09 17:50:16,315:abl.webconnector.main:End
+INFO:2021-08-13 15:35:04,315:abl.webconnector.main:Start
+INFO:2021-08-13 15:35:04,317:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-13 15:35:09,323:abl.webconnector.main:Upload info.
+INFO:2021-08-13 15:35:09,364:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-13 15:35:09,579:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-13 15:35:10,366:abl.webconnector.main:End
+INFO:2021-08-13 19:54:04,715:abl.webconnector.main:Start
+INFO:2021-08-13 19:54:04,718:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-13 19:54:09,723:abl.webconnector.main:Upload info.
+INFO:2021-08-13 19:54:09,778:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-13 19:54:09,990:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-13 19:54:10,781:abl.webconnector.main:End
+INFO:2021-08-14 10:17:16,030:abl.webconnector.main:Start
+INFO:2021-08-14 10:17:16,032:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-14 10:17:21,036:abl.webconnector.main:Upload info.
+INFO:2021-08-14 10:17:21,087:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-14 10:17:21,330:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-14 10:17:22,092:abl.webconnector.main:End
+INFO:2021-08-24 20:07:02,725:abl.webconnector.main:Start
+INFO:2021-08-24 20:07:02,727:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-24 20:07:07,733:abl.webconnector.main:Upload info.
+INFO:2021-08-24 20:07:07,778:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-24 20:07:08,027:abl.webconnector.auto_updates:Found update to 11.0.6
+INFO:2021-08-24 20:07:08,027:abl.webconnector.auto_updates:Update confirmed. Starting download...
+INFO:2021-08-24 20:07:08,028:abl.webconnector.tasks:Retrieving delta ableton_live_suite_11.0.6_from_11.0.5_osx_64.asu
+INFO:2021-08-24 20:07:13,939:abl.webconnector.tasks:Delta retrieved, elapsed time: 5910ms
+INFO:2021-08-24 20:07:13,941:abl.webconnector.tasks:Preparing auto-update tasks
+INFO:2021-08-24 20:07:13,950:abl.webconnector.connector:Copy installation
+INFO:2021-08-24 20:12:03,573:abl.webconnector.connector:Copy installation completed (289622 ms)
+INFO:2021-08-24 20:12:03,574:abl.webconnector.connector:Update cloned installation
+INFO:2021-08-24 20:12:12,071:abl.webconnector.connector:Update cloned installation completed (8496 ms)
+INFO:2021-08-24 20:12:12,414:abl.webconnector.main:Notifying Live that the update is ready to apply
+INFO:2021-08-24 20:12:12,414:abl.webconnector.main:Waiting for Live to terminate
+INFO:2021-08-24 21:56:52,310:abl.webconnector.connector:Cleaning up /Users/kara.brightwell/Library/Application Support/Ableton/Live 11.0.5/_autoupdates
+INFO:2021-08-24 21:56:52,634:abl.webconnector.connector:Invoking swapper to apply update
+INFO:2021-08-24 21:56:52,677:abl.webconnector.connector:Swapper invoked with pid: 75834
+INFO:2021-08-24 21:56:52,677:abl.webconnector.main:End

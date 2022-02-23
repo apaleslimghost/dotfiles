@@ -1,0 +1,378 @@
+2021-06-10T16:55:12.338371: info: #######################################
+2021-06-10T16:55:12.338514: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-10T16:55:12.338546: info: #######################################
+2021-06-10T16:55:12.338555: info: Init: Setup environment
+2021-06-10T16:55:12.338614: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-10T16:55:12.338626: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-10T16:55:12.338668: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-10T16:55:12.338679: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-10T16:55:12.338941: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-10T16:55:12.338957: info: Init: BuildType: 'Release'
+2021-06-10T16:55:12.338978: info: Init: Pid: 13560
+2021-06-10T16:55:12.339253: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-10T16:55:12.339275: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-10T16:55:12.339293: info: Init: CPU Count: 12
+2021-06-10T16:55:12.339306: info: Init: Physical RAM: 34359738368 B
+2021-06-10T16:55:12.339315: info: Init: Address Space: 18446744073709551615 B
+2021-06-10T16:55:12.339324: info: Init: 64-bit Edition
+2021-06-10T16:55:12.395165: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-06-10T16:55:12.416561: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-10T16:55:12.429956: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-10T16:55:12.456651: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-11T11:41:31.223173: info: #######################################
+2021-06-11T11:41:31.223423: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-11T11:41:31.223441: info: #######################################
+2021-06-11T11:41:31.223451: info: Init: Setup environment
+2021-06-11T11:41:31.223527: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-11T11:41:31.223540: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-11T11:41:31.223587: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-11T11:41:31.223599: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-11T11:41:31.223887: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-11T11:41:31.223916: info: Init: BuildType: 'Release'
+2021-06-11T11:41:31.223952: info: Init: Pid: 24989
+2021-06-11T11:41:31.224052: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-11T11:41:31.224085: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-11T11:41:31.224109: info: Init: CPU Count: 12
+2021-06-11T11:41:31.224131: info: Init: Physical RAM: 34359738368 B
+2021-06-11T11:41:31.224153: info: Init: Address Space: 18446744073709551615 B
+2021-06-11T11:41:31.224163: info: Init: 64-bit Edition
+2021-06-11T11:41:31.294925: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-06-11T11:41:31.317691: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-11T11:41:31.329206: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-11T11:41:31.358747: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-11T11:59:13.225793: info: #######################################
+2021-06-11T11:59:13.225882: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-11T11:59:13.225895: info: #######################################
+2021-06-11T11:59:13.225904: info: Init: Setup environment
+2021-06-11T11:59:13.225940: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-11T11:59:13.225953: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-11T11:59:13.225975: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-11T11:59:13.225988: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-11T11:59:13.226235: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-11T11:59:13.226254: info: Init: BuildType: 'Release'
+2021-06-11T11:59:13.226277: info: Init: Pid: 25087
+2021-06-11T11:59:13.226328: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-11T11:59:13.226346: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-11T11:59:13.226361: info: Init: CPU Count: 12
+2021-06-11T11:59:13.226372: info: Init: Physical RAM: 34359738368 B
+2021-06-11T11:59:13.226379: info: Init: Address Space: 18446744073709551615 B
+2021-06-11T11:59:13.226385: info: Init: 64-bit Edition
+2021-06-11T11:59:13.286850: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-06-11T11:59:13.308027: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-11T11:59:13.323048: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-11T11:59:13.336372: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-12T22:02:06.384586: info: #######################################
+2021-06-12T22:02:06.384747: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-12T22:02:06.384760: info: #######################################
+2021-06-12T22:02:06.384771: info: Init: Setup environment
+2021-06-12T22:02:06.384832: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-12T22:02:06.384846: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-12T22:02:06.384891: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-12T22:02:06.384903: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-12T22:02:06.385130: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-12T22:02:06.385175: info: Init: BuildType: 'Release'
+2021-06-12T22:02:06.385204: info: Init: Pid: 5890
+2021-06-12T22:02:06.385275: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-12T22:02:06.385295: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-12T22:02:06.385313: info: Init: CPU Count: 12
+2021-06-12T22:02:06.385325: info: Init: Physical RAM: 34359738368 B
+2021-06-12T22:02:06.385335: info: Init: Address Space: 18446744073709551615 B
+2021-06-12T22:02:06.385343: info: Init: 64-bit Edition
+2021-06-12T22:02:06.442610: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-12T22:02:06.466211: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-12T22:02:06.482178: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-12T22:02:06.517464: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-16T21:09:00.162454: info: #######################################
+2021-06-16T21:09:00.162592: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-16T21:09:00.162604: info: #######################################
+2021-06-16T21:09:00.162613: info: Init: Setup environment
+2021-06-16T21:09:00.162676: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-16T21:09:00.162688: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-16T21:09:00.162732: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-16T21:09:00.162744: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-16T21:09:00.162968: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-16T21:09:00.162986: info: Init: BuildType: 'Release'
+2021-06-16T21:09:00.163007: info: Init: Pid: 82828
+2021-06-16T21:09:00.163081: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-16T21:09:00.163102: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-16T21:09:00.163211: info: Init: CPU Count: 12
+2021-06-16T21:09:00.163238: info: Init: Physical RAM: 34359738368 B
+2021-06-16T21:09:00.163249: info: Init: Address Space: 18446744073709551615 B
+2021-06-16T21:09:00.163258: info: Init: 64-bit Edition
+2021-06-16T21:09:00.216386: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-16T21:09:00.239072: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-16T21:09:00.251600: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-16T21:09:00.277244: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-17T09:59:02.016098: info: #######################################
+2021-06-17T09:59:02.016272: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-17T09:59:02.016283: info: #######################################
+2021-06-17T09:59:02.016289: info: Init: Setup environment
+2021-06-17T09:59:02.016350: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-17T09:59:02.016359: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-17T09:59:02.016400: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-17T09:59:02.016409: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-17T09:59:02.016760: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-17T09:59:02.016785: info: Init: BuildType: 'Release'
+2021-06-17T09:59:02.016813: info: Init: Pid: 87044
+2021-06-17T09:59:02.016885: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-17T09:59:02.016903: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-17T09:59:02.016919: info: Init: CPU Count: 12
+2021-06-17T09:59:02.016930: info: Init: Physical RAM: 34359738368 B
+2021-06-17T09:59:02.016937: info: Init: Address Space: 18446744073709551615 B
+2021-06-17T09:59:02.016943: info: Init: 64-bit Edition
+2021-06-17T09:59:02.095601: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-17T09:59:02.117450: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-17T09:59:02.130974: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-17T09:59:02.161955: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-21T09:17:40.689219: info: #######################################
+2021-06-21T09:17:40.689378: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-21T09:17:40.689390: info: #######################################
+2021-06-21T09:17:40.689398: info: Init: Setup environment
+2021-06-21T09:17:40.689453: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-21T09:17:40.689463: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-21T09:17:40.689502: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-21T09:17:40.689512: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-21T09:17:40.689716: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-21T09:17:40.689732: info: Init: BuildType: 'Release'
+2021-06-21T09:17:40.689750: info: Init: Pid: 52611
+2021-06-21T09:17:40.689812: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-21T09:17:40.689830: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-21T09:17:40.689846: info: Init: CPU Count: 12
+2021-06-21T09:17:40.689858: info: Init: Physical RAM: 34359738368 B
+2021-06-21T09:17:40.689866: info: Init: Address Space: 18446744073709551615 B
+2021-06-21T09:17:40.689874: info: Init: 64-bit Edition
+2021-06-21T09:17:40.741089: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-21T09:17:40.762673: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-21T09:17:40.775226: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-21T09:17:40.807186: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-22T20:01:38.642973: info: #######################################
+2021-06-22T20:01:38.643117: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-22T20:01:38.643130: info: #######################################
+2021-06-22T20:01:38.643140: info: Init: Setup environment
+2021-06-22T20:01:38.643208: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-22T20:01:38.643222: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-22T20:01:38.643267: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-22T20:01:38.643279: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-22T20:01:38.643620: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-22T20:01:38.643649: info: Init: BuildType: 'Release'
+2021-06-22T20:01:38.643682: info: Init: Pid: 77155
+2021-06-22T20:01:38.643761: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-22T20:01:38.643809: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-22T20:01:38.643827: info: Init: CPU Count: 12
+2021-06-22T20:01:38.643838: info: Init: Physical RAM: 34359738368 B
+2021-06-22T20:01:38.643844: info: Init: Address Space: 18446744073709551615 B
+2021-06-22T20:01:38.643851: info: Init: 64-bit Edition
+2021-06-22T20:01:38.714968: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-06-22T20:01:38.740320: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-22T20:01:38.752347: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-22T20:01:38.781190: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-23T21:41:15.031121: info: #######################################
+2021-06-23T21:41:15.031255: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-23T21:41:15.031268: info: #######################################
+2021-06-23T21:41:15.031277: info: Init: Setup environment
+2021-06-23T21:41:15.031337: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-23T21:41:15.031348: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-23T21:41:15.031389: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-23T21:41:15.031399: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-23T21:41:15.031658: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-23T21:41:15.031681: info: Init: BuildType: 'Release'
+2021-06-23T21:41:15.031708: info: Init: Pid: 725
+2021-06-23T21:41:15.031779: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-23T21:41:15.031799: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-23T21:41:15.031817: info: Init: CPU Count: 12
+2021-06-23T21:41:15.031830: info: Init: Physical RAM: 34359738368 B
+2021-06-23T21:41:15.031839: info: Init: Address Space: 18446744073709551615 B
+2021-06-23T21:41:15.031848: info: Init: 64-bit Edition
+2021-06-23T21:41:15.085485: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-23T21:41:15.106736: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-23T21:41:15.119349: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-23T21:41:15.148345: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-24T20:17:18.850178: info: #######################################
+2021-06-24T20:17:18.850392: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-24T20:17:18.850416: info: #######################################
+2021-06-24T20:17:18.850430: info: Init: Setup environment
+2021-06-24T20:17:18.850567: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-24T20:17:18.850600: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-24T20:17:18.850668: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-24T20:17:18.850692: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-24T20:17:18.851073: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-24T20:17:18.851100: info: Init: BuildType: 'Release'
+2021-06-24T20:17:18.851152: info: Init: Pid: 17195
+2021-06-24T20:17:18.851276: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-24T20:17:18.851308: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-24T20:17:18.851339: info: Init: CPU Count: 12
+2021-06-24T20:17:18.851363: info: Init: Physical RAM: 34359738368 B
+2021-06-24T20:17:18.851380: info: Init: Address Space: 18446744073709551615 B
+2021-06-24T20:17:18.851399: info: Init: 64-bit Edition
+2021-06-24T20:17:18.918211: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-24T20:17:18.940306: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-24T20:17:18.952012: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-24T20:17:18.978837: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-26T16:57:16.119629: info: #######################################
+2021-06-26T16:57:16.119751: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-26T16:57:16.119777: info: #######################################
+2021-06-26T16:57:16.119784: info: Init: Setup environment
+2021-06-26T16:57:16.119839: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-26T16:57:16.119847: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-26T16:57:16.119886: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-26T16:57:16.119894: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-26T16:57:16.120121: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-26T16:57:16.120139: info: Init: BuildType: 'Release'
+2021-06-26T16:57:16.120159: info: Init: Pid: 31664
+2021-06-26T16:57:16.120226: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-26T16:57:16.120243: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-26T16:57:16.120257: info: Init: CPU Count: 12
+2021-06-26T16:57:16.120266: info: Init: Physical RAM: 34359738368 B
+2021-06-26T16:57:16.120273: info: Init: Address Space: 18446744073709551615 B
+2021-06-26T16:57:16.120279: info: Init: 64-bit Edition
+2021-06-26T16:57:16.170342: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-26T16:57:16.192578: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-26T16:57:16.204873: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-26T16:57:16.235481: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-27T20:50:16.652330: info: #######################################
+2021-06-27T20:50:16.652453: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-27T20:50:16.652465: info: #######################################
+2021-06-27T20:50:16.652473: info: Init: Setup environment
+2021-06-27T20:50:16.652531: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-27T20:50:16.652542: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-27T20:50:16.652584: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-27T20:50:16.652595: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-27T20:50:16.652861: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-27T20:50:16.652885: info: Init: BuildType: 'Release'
+2021-06-27T20:50:16.652911: info: Init: Pid: 36111
+2021-06-27T20:50:16.652983: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-27T20:50:16.653004: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-27T20:50:16.653022: info: Init: CPU Count: 12
+2021-06-27T20:50:16.653034: info: Init: Physical RAM: 34359738368 B
+2021-06-27T20:50:16.653044: info: Init: Address Space: 18446744073709551615 B
+2021-06-27T20:50:16.653052: info: Init: 64-bit Edition
+2021-06-27T20:50:16.709642: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-27T20:50:16.728886: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-27T20:50:16.740084: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-27T20:50:16.766357: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-27T21:20:05.239052: info: #######################################
+2021-06-27T21:20:05.239142: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-27T21:20:05.239159: info: #######################################
+2021-06-27T21:20:05.239173: info: Init: Setup environment
+2021-06-27T21:20:05.239218: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-27T21:20:05.239233: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-27T21:20:05.239255: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-27T21:20:05.239274: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-27T21:20:05.239631: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-27T21:20:05.239666: info: Init: BuildType: 'Release'
+2021-06-27T21:20:05.239702: info: Init: Pid: 36699
+2021-06-27T21:20:05.239746: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-27T21:20:05.239786: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-27T21:20:05.239804: info: Init: CPU Count: 12
+2021-06-27T21:20:05.239815: info: Init: Physical RAM: 34359738368 B
+2021-06-27T21:20:05.239822: info: Init: Address Space: 18446744073709551615 B
+2021-06-27T21:20:05.239829: info: Init: 64-bit Edition
+2021-06-27T21:20:05.302250: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-27T21:20:05.323754: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-27T21:20:05.337092: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-27T21:20:05.349773: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-28T15:01:11.423704: info: #######################################
+2021-06-28T15:01:11.423833: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-28T15:01:11.423844: info: #######################################
+2021-06-28T15:01:11.423853: info: Init: Setup environment
+2021-06-28T15:01:11.423912: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-28T15:01:11.423924: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-28T15:01:11.423965: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-28T15:01:11.423976: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-28T15:01:11.424251: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-28T15:01:11.424275: info: Init: BuildType: 'Release'
+2021-06-28T15:01:11.424301: info: Init: Pid: 45586
+2021-06-28T15:01:11.424372: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-28T15:01:11.424392: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-28T15:01:11.424410: info: Init: CPU Count: 12
+2021-06-28T15:01:11.424422: info: Init: Physical RAM: 34359738368 B
+2021-06-28T15:01:11.424432: info: Init: Address Space: 18446744073709551615 B
+2021-06-28T15:01:11.424441: info: Init: 64-bit Edition
+2021-06-28T15:01:11.486944: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-28T15:01:11.508635: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-28T15:01:11.520588: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-28T15:01:11.550208: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-28T16:12:47.673891: info: #######################################
+2021-06-28T16:12:47.673959: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-28T16:12:47.673970: info: #######################################
+2021-06-28T16:12:47.673979: info: Init: Setup environment
+2021-06-28T16:12:47.674011: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-28T16:12:47.674023: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-28T16:12:47.674040: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-28T16:12:47.674050: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-28T16:12:47.674226: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-28T16:12:47.674243: info: Init: BuildType: 'Release'
+2021-06-28T16:12:47.674262: info: Init: Pid: 46899
+2021-06-28T16:12:47.674292: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-28T16:12:47.674310: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-28T16:12:47.674326: info: Init: CPU Count: 12
+2021-06-28T16:12:47.674338: info: Init: Physical RAM: 34359738368 B
+2021-06-28T16:12:47.674347: info: Init: Address Space: 18446744073709551615 B
+2021-06-28T16:12:47.674355: info: Init: 64-bit Edition
+2021-06-28T16:12:47.726151: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-28T16:12:47.745061: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-28T16:12:47.758376: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-28T16:12:47.770928: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-29T13:44:11.138743: info: #######################################
+2021-06-29T13:44:11.138985: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-06-29T13:44:11.139097: info: #######################################
+2021-06-29T13:44:11.139213: info: Init: Setup environment
+2021-06-29T13:44:11.139294: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-06-29T13:44:11.139309: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-06-29T13:44:11.139355: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-06-29T13:44:11.139454: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-06-29T13:44:11.139783: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-06-29T13:44:11.139803: info: Init: BuildType: 'Release'
+2021-06-29T13:44:11.139834: info: Init: Pid: 59872
+2021-06-29T13:44:11.139913: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-06-29T13:44:11.139932: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-06-29T13:44:11.139949: info: Init: CPU Count: 12
+2021-06-29T13:44:11.139966: info: Init: Physical RAM: 34359738368 B
+2021-06-29T13:44:11.139975: info: Init: Address Space: 18446744073709551615 B
+2021-06-29T13:44:11.139983: info: Init: 64-bit Edition
+2021-06-29T13:44:11.252050: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-06-29T13:44:11.268993: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-06-29T13:44:11.280223: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-06-29T13:44:11.306452: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-07-11T11:35:23.387468: info: #######################################
+2021-07-11T11:35:23.387588: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-07-11T11:35:23.387599: info: #######################################
+2021-07-11T11:35:23.387608: info: Init: Setup environment
+2021-07-11T11:35:23.387664: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-07-11T11:35:23.387675: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-07-11T11:35:23.387714: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-07-11T11:35:23.387725: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-07-11T11:35:23.387934: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-07-11T11:35:23.387951: info: Init: BuildType: 'Release'
+2021-07-11T11:35:23.387970: info: Init: Pid: 90501
+2021-07-11T11:35:23.388034: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-07-11T11:35:23.388052: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-07-11T11:35:23.388068: info: Init: CPU Count: 12
+2021-07-11T11:35:23.388080: info: Init: Physical RAM: 34359738368 B
+2021-07-11T11:35:23.388089: info: Init: Address Space: 18446744073709551615 B
+2021-07-11T11:35:23.388097: info: Init: 64-bit Edition
+2021-07-11T11:35:23.439446: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-07-11T11:35:23.462136: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-07-11T11:35:23.475027: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-07-11T11:35:23.509387: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8
+2021-07-13T10:15:32.318045: info: #######################################
+2021-07-13T10:15:32.318188: info: Started: WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5
+2021-07-13T10:15:32.318200: info: #######################################
+2021-07-13T10:15:32.318209: info: Init: Setup environment
+2021-07-13T10:15:32.318268: info: : UUID: E172D550-9129-30E8-857D-576BC4D3373C
+2021-07-13T10:15:32.318280: info: Init: Version: 'WebConnector 11.0.2 Build: 2021-03-26_5b7f2a59a5' 1114114
+2021-07-13T10:15:32.318323: info: Init: BuildRevisions: 5b7f2a59a5595b4710f933f4c0063b9dc398917e
+2021-07-13T10:15:32.318333: info: Init: Commit ID: '5b7f2a59a5595b4710f933f4c0063b9dc398917e'
+2021-07-13T10:15:32.318597: info: Init: OS: 'Mac OS X version 11.4, Arch:x86-64'
+2021-07-13T10:15:32.318615: info: Init: BuildType: 'Release'
+2021-07-13T10:15:32.318636: info: Init: Pid: 8341
+2021-07-13T10:15:32.318705: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-07-13T10:15:32.318724: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-07-13T10:15:32.318758: info: Init: CPU Count: 12
+2021-07-13T10:15:32.318769: info: Init: Physical RAM: 34359738368 B
+2021-07-13T10:15:32.318776: info: Init: Address Space: 18446744073709551615 B
+2021-07-13T10:15:32.318781: info: Init: 64-bit Edition
+2021-07-13T10:15:32.372665: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-07-13T10:15:32.393948: info: Init: Checksum 1: 2f24899ed228b44d226d3b4ab726a434
+2021-07-13T10:15:32.404932: info: Init: Checksum 2: 1eebd7dc01bde41b33663b60c6f204e8
+2021-07-13T10:15:32.430347: info: Init: Checksum 3: 1eebd7dc01bde41b33663b60c6f204e8

@@ -1,0 +1,162 @@
+INFO:2021-11-17 13:10:16,863:abl.webconnector.main:Start
+INFO:2021-11-17 13:10:16,866:abl.webconnector.main:Cleanup event logs.
+INFO:2021-11-17 13:10:21,867:abl.webconnector.main:Upload info.
+INFO:2021-11-17 13:10:21,990:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2021-11-17 13:10:22,218:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-11-17 13:10:22,993:abl.webconnector.main:End
+INFO:2021-11-17 13:13:04,805:abl.webconnector.main:Start
+INFO:2021-11-17 13:13:04,807:abl.webconnector.main:Cleanup event logs.
+INFO:2021-11-17 13:13:09,810:abl.webconnector.main:Upload info.
+INFO:2021-11-17 13:13:09,957:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2021-11-17 13:13:10,198:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-11-17 13:13:10,958:abl.webconnector.main:End
+INFO:2021-11-23 21:05:37,963:abl.webconnector.main:Start
+INFO:2021-11-23 21:05:37,974:abl.webconnector.main:Cleanup event logs.
+INFO:2021-11-23 21:05:42,976:abl.webconnector.main:Upload info.
+INFO:2021-11-23 21:05:43,091:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2021-11-23 21:05:43,303:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-11-23 21:05:44,091:abl.webconnector.main:End
+INFO:2021-11-24 09:10:56,152:abl.webconnector.main:Start
+INFO:2021-11-24 09:10:56,154:abl.webconnector.main:Cleanup event logs.
+INFO:2021-11-24 09:11:01,159:abl.webconnector.main:Upload info.
+INFO:2021-11-24 09:11:01,275:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2021-11-24 09:11:01,548:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-11-24 09:11:02,275:abl.webconnector.main:End
+INFO:2021-11-25 12:18:43,673:abl.webconnector.main:Start
+INFO:2021-11-25 12:18:43,676:abl.webconnector.main:Cleanup event logs.
+INFO:2021-11-25 12:18:48,682:abl.webconnector.main:Upload info.
+INFO:2021-11-25 12:18:48,833:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2021-11-25 12:18:48,995:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-11-25 12:18:49,836:abl.webconnector.main:End
+INFO:2021-12-14 20:41:31,121:abl.webconnector.main:Start
+INFO:2021-12-14 20:41:31,123:abl.webconnector.main:Cleanup event logs.
+INFO:2021-12-14 20:41:36,129:abl.webconnector.main:Upload info.
+INFO:2021-12-14 20:41:36,245:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2021-12-14 20:41:36,485:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-12-14 20:41:37,248:abl.webconnector.main:End
+INFO:2021-12-29 15:18:08,875:abl.webconnector.main:Start
+INFO:2021-12-29 15:18:08,878:abl.webconnector.main:Cleanup event logs.
+INFO:2021-12-29 15:18:13,880:abl.webconnector.main:Upload info.
+INFO:2021-12-29 15:18:14,026:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2021-12-29 15:18:14,262:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-12-29 15:18:15,030:abl.webconnector.main:End
+INFO:2022-01-05 20:38:23,326:abl.webconnector.main:Start
+INFO:2022-01-05 20:38:23,328:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-05 20:38:28,329:abl.webconnector.main:Upload info.
+INFO:2022-01-05 20:38:28,446:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-05 20:38:28,717:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-05 20:38:29,446:abl.webconnector.main:End
+INFO:2022-01-06 19:52:22,773:abl.webconnector.main:Start
+INFO:2022-01-06 19:52:22,775:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-06 19:52:27,778:abl.webconnector.main:Upload info.
+INFO:2022-01-06 19:52:27,916:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-06 19:52:28,150:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-06 19:52:28,919:abl.webconnector.main:End
+INFO:2022-01-07 15:04:56,831:abl.webconnector.main:Start
+INFO:2022-01-07 15:04:56,833:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-07 15:05:01,835:abl.webconnector.main:Upload info.
+INFO:2022-01-07 15:05:01,964:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-07 15:05:02,243:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-07 15:05:02,967:abl.webconnector.main:End
+INFO:2022-01-11 19:38:03,076:abl.webconnector.main:Start
+INFO:2022-01-11 19:38:03,078:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-11 19:38:08,081:abl.webconnector.main:Upload info.
+INFO:2022-01-11 19:38:08,245:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-11 19:38:08,476:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-11 19:38:09,246:abl.webconnector.main:End
+INFO:2022-01-13 19:02:16,644:abl.webconnector.main:Start
+INFO:2022-01-13 19:02:16,647:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-13 19:02:21,648:abl.webconnector.main:Upload info.
+INFO:2022-01-13 19:02:21,772:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-13 19:02:22,125:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-13 19:02:22,772:abl.webconnector.main:End
+INFO:2022-01-14 12:18:37,865:abl.webconnector.main:Start
+INFO:2022-01-14 12:18:37,867:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-14 12:18:42,870:abl.webconnector.main:Upload info.
+INFO:2022-01-14 12:18:43,009:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-14 12:18:43,305:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-14 12:18:44,009:abl.webconnector.main:End
+INFO:2022-01-18 14:20:20,173:abl.webconnector.main:Start
+INFO:2022-01-18 14:20:20,176:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-18 14:20:25,177:abl.webconnector.main:Upload info.
+INFO:2022-01-18 14:20:25,308:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-18 14:20:25,564:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-18 14:20:26,312:abl.webconnector.main:End
+INFO:2022-01-19 12:50:24,527:abl.webconnector.main:Start
+INFO:2022-01-19 12:50:24,530:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-19 12:50:29,534:abl.webconnector.main:Upload info.
+INFO:2022-01-19 12:50:29,702:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-19 12:50:29,926:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-19 12:50:30,705:abl.webconnector.main:End
+INFO:2022-01-21 14:23:37,812:abl.webconnector.main:Start
+INFO:2022-01-21 14:23:37,814:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-21 14:23:42,818:abl.webconnector.main:Upload info.
+INFO:2022-01-21 14:23:42,972:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-21 14:23:43,197:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-21 14:23:43,976:abl.webconnector.main:End
+INFO:2022-01-21 15:12:12,942:abl.webconnector.main:Start
+INFO:2022-01-21 15:12:12,944:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-21 15:12:17,948:abl.webconnector.main:Upload info.
+INFO:2022-01-21 15:12:18,096:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-21 15:12:18,312:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-21 15:12:19,100:abl.webconnector.main:End
+INFO:2022-01-24 17:55:00,353:abl.webconnector.main:Start
+INFO:2022-01-24 17:55:00,356:abl.webconnector.main:Cleanup event logs.
+INFO:2022-01-24 17:55:05,361:abl.webconnector.main:Upload info.
+INFO:2022-01-24 17:55:05,515:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-01-24 17:55:05,860:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-01-24 17:55:06,517:abl.webconnector.main:End
+INFO:2022-02-02 20:22:25,302:abl.webconnector.main:Start
+INFO:2022-02-02 20:22:25,304:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-02 20:22:30,306:abl.webconnector.main:Upload info.
+INFO:2022-02-02 20:22:30,491:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-02 20:22:30,807:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-02 20:22:31,491:abl.webconnector.main:End
+INFO:2022-02-03 19:21:29,879:abl.webconnector.main:Start
+INFO:2022-02-03 19:21:29,881:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-03 19:21:34,885:abl.webconnector.main:Upload info.
+INFO:2022-02-03 19:21:35,066:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-03 19:21:35,315:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-03 19:21:36,067:abl.webconnector.main:End
+INFO:2022-02-04 21:48:04,905:abl.webconnector.main:Start
+INFO:2022-02-04 21:48:04,908:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-04 21:48:09,909:abl.webconnector.main:Upload info.
+INFO:2022-02-04 21:48:10,049:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-04 21:48:10,288:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-04 21:48:11,053:abl.webconnector.main:End
+INFO:2022-02-06 09:49:41,552:abl.webconnector.main:Start
+INFO:2022-02-06 09:49:41,555:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-06 09:49:46,560:abl.webconnector.main:Upload info.
+INFO:2022-02-06 09:49:46,722:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-06 09:49:47,290:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-06 09:49:47,725:abl.webconnector.main:End
+INFO:2022-02-10 21:21:45,959:abl.webconnector.main:Start
+INFO:2022-02-10 21:21:45,961:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-10 21:21:50,966:abl.webconnector.main:Upload info.
+INFO:2022-02-10 21:21:51,143:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-10 21:21:51,368:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-10 21:21:52,143:abl.webconnector.main:End
+INFO:2022-02-11 20:32:31,267:abl.webconnector.main:Start
+INFO:2022-02-11 20:32:31,270:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-11 20:32:36,276:abl.webconnector.main:Upload info.
+INFO:2022-02-11 20:32:36,473:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-11 20:32:36,728:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-11 20:32:37,474:abl.webconnector.main:End
+INFO:2022-02-14 21:32:52,440:abl.webconnector.main:Start
+INFO:2022-02-14 21:32:52,444:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-14 21:32:57,449:abl.webconnector.main:Upload info.
+INFO:2022-02-14 21:32:57,624:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-14 21:32:57,850:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-14 21:32:58,628:abl.webconnector.main:End
+INFO:2022-02-17 13:26:38,737:abl.webconnector.main:Start
+INFO:2022-02-17 13:26:38,739:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-17 13:26:43,743:abl.webconnector.main:Upload info.
+INFO:2022-02-17 13:26:43,892:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-17 13:26:44,092:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-17 13:26:44,896:abl.webconnector.main:End
+INFO:2022-02-21 19:59:14,915:abl.webconnector.main:Start
+INFO:2022-02-21 19:59:14,918:abl.webconnector.main:Cleanup event logs.
+INFO:2022-02-21 19:59:19,920:abl.webconnector.main:Upload info.
+INFO:2022-02-21 19:59:20,085:abl.webconnector.auto_updates:Checking for auto updates from 11.0.12
+INFO:2022-02-21 19:59:20,321:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-02-21 19:59:21,089:abl.webconnector.main:End

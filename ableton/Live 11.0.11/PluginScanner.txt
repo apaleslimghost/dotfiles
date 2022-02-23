@@ -1,0 +1,696 @@
+2021-10-11T17:25:58.641062: info: #######################################
+2021-10-11T17:25:58.641620: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-11T17:25:58.641644: info: #######################################
+2021-10-11T17:25:58.641657: info: Init: Setup environment
+2021-10-11T17:25:58.641764: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-11T17:25:58.641782: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-11T17:25:58.641847: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-11T17:25:58.641860: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-11T17:25:58.642148: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-11T17:25:58.642175: info: Init: BuildType: 'Release'
+2021-10-11T17:25:58.642204: info: Init: Pid: 81876
+2021-10-11T17:25:58.642253: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-11T17:25:58.642278: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-11T17:25:58.642299: info: Init: CPU Count: 12
+2021-10-11T17:25:58.642314: info: Init: Physical RAM: 34359738368 B
+2021-10-11T17:25:58.642325: info: Init: Address Space: 18446744073709551615 B
+2021-10-11T17:25:58.642334: info: Init: 64-bit Edition
+2021-10-11T17:25:58.706186: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-11T17:25:58.732521: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-11T17:25:58.750650: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-11T17:25:58.792024: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-11T17:25:58.792267: info: Licensing: [Variant=Beta]
+2021-10-11T17:25:58.793180: info: Metadata: Initialize XMP system
+2021-10-11T17:25:58.796852: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-11T17:25:59.065803: info: Vst3: start scanning plugins
+2021-10-11T17:25:59.065841: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-11T17:25:59.065915: error: Reading directory failed: No such file or directory
+2021-10-11T17:25:59.065985: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-11T17:25:59.069582: info: Vst3: finished scanning plugins
+2021-10-11T17:26:22.984832: info: #######################################
+2021-10-11T17:26:22.984894: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-11T17:26:22.984904: info: #######################################
+2021-10-11T17:26:22.984911: info: Init: Setup environment
+2021-10-11T17:26:22.984947: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-11T17:26:22.984956: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-11T17:26:22.984972: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-11T17:26:22.984981: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-11T17:26:22.985161: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-11T17:26:22.985175: info: Init: BuildType: 'Release'
+2021-10-11T17:26:22.985192: info: Init: Pid: 81890
+2021-10-11T17:26:22.985215: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-11T17:26:22.985232: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-11T17:26:22.985246: info: Init: CPU Count: 12
+2021-10-11T17:26:22.985256: info: Init: Physical RAM: 34359738368 B
+2021-10-11T17:26:22.985264: info: Init: Address Space: 18446744073709551615 B
+2021-10-11T17:26:22.985271: info: Init: 64-bit Edition
+2021-10-11T17:26:23.032917: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-11T17:26:23.050315: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-11T17:26:23.062393: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-11T17:26:23.074132: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-11T17:26:23.074337: info: Licensing: [Variant=Beta]
+2021-10-11T17:26:23.074668: info: Metadata: Initialize XMP system
+2021-10-11T17:26:23.075782: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-11T17:26:23.107179: info: Vst3: start scanning plugins
+2021-10-11T17:26:23.107213: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-11T17:26:23.107281: error: Reading directory failed: No such file or directory
+2021-10-11T17:26:23.107350: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-11T17:26:23.109566: info: Vst3: finished scanning plugins
+2021-10-11T17:26:42.762108: info: #######################################
+2021-10-11T17:26:42.762179: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-11T17:26:42.762192: info: #######################################
+2021-10-11T17:26:42.762201: info: Init: Setup environment
+2021-10-11T17:26:42.762246: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-11T17:26:42.762259: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-11T17:26:42.762281: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-11T17:26:42.762293: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-11T17:26:42.762515: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-11T17:26:42.762533: info: Init: BuildType: 'Release'
+2021-10-11T17:26:42.762555: info: Init: Pid: 81896
+2021-10-11T17:26:42.762585: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-11T17:26:42.762607: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-11T17:26:42.762626: info: Init: CPU Count: 12
+2021-10-11T17:26:42.762641: info: Init: Physical RAM: 34359738368 B
+2021-10-11T17:26:42.762651: info: Init: Address Space: 18446744073709551615 B
+2021-10-11T17:26:42.762661: info: Init: 64-bit Edition
+2021-10-11T17:26:42.817022: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-11T17:26:42.836317: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-11T17:26:42.850086: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-11T17:26:42.863589: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-11T17:26:42.863763: info: Licensing: [Variant=Beta]
+2021-10-11T17:26:42.864137: info: Metadata: Initialize XMP system
+2021-10-11T17:26:42.865420: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-11T17:26:42.899718: info: Vst3: start scanning plugins
+2021-10-11T17:26:42.899807: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-11T17:26:42.899890: error: Reading directory failed: No such file or directory
+2021-10-11T17:26:42.899965: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-11T17:26:42.901542: info: Vst3: finished scanning plugins
+2021-10-13T19:28:24.857438: info: #######################################
+2021-10-13T19:28:24.857751: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-13T19:28:24.857765: info: #######################################
+2021-10-13T19:28:24.857776: info: Init: Setup environment
+2021-10-13T19:28:24.857873: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-13T19:28:24.857888: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-13T19:28:24.857953: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-13T19:28:24.857966: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-13T19:28:24.858270: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-13T19:28:24.858291: info: Init: BuildType: 'Release'
+2021-10-13T19:28:24.858316: info: Init: Pid: 45867
+2021-10-13T19:28:24.858365: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-13T19:28:24.858389: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-13T19:28:24.858408: info: Init: CPU Count: 12
+2021-10-13T19:28:24.858447: info: Init: Physical RAM: 34359738368 B
+2021-10-13T19:28:24.858457: info: Init: Address Space: 18446744073709551615 B
+2021-10-13T19:28:24.858464: info: Init: 64-bit Edition
+2021-10-13T19:28:24.941861: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-10-13T19:28:24.975505: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-13T19:28:24.991719: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-13T19:28:25.022288: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-13T19:28:25.022464: info: Licensing: [Variant=Beta]
+2021-10-13T19:28:25.022830: info: Metadata: Initialize XMP system
+2021-10-13T19:28:25.024129: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-13T19:28:25.174949: info: Vst3: start scanning plugins
+2021-10-13T19:28:25.175008: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-13T19:28:25.175128: error: Reading directory failed: No such file or directory
+2021-10-13T19:28:25.175218: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-13T19:28:25.179520: info: Vst3: finished scanning plugins
+2021-10-13T20:44:06.536116: info: #######################################
+2021-10-13T20:44:06.536219: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-13T20:44:06.536228: info: #######################################
+2021-10-13T20:44:06.536236: info: Init: Setup environment
+2021-10-13T20:44:06.536318: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-13T20:44:06.536330: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-13T20:44:06.536385: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-13T20:44:06.536395: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-13T20:44:06.536618: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-13T20:44:06.536636: info: Init: BuildType: 'Release'
+2021-10-13T20:44:06.536663: info: Init: Pid: 46705
+2021-10-13T20:44:06.536711: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-13T20:44:06.536736: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-13T20:44:06.536756: info: Init: CPU Count: 12
+2021-10-13T20:44:06.536769: info: Init: Physical RAM: 34359738368 B
+2021-10-13T20:44:06.536779: info: Init: Address Space: 18446744073709551615 B
+2021-10-13T20:44:06.536787: info: Init: 64-bit Edition
+2021-10-13T20:44:06.635521: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-10-13T20:44:06.671205: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-13T20:44:06.690073: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-13T20:44:06.721352: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-13T20:44:06.721747: info: Licensing: [Variant=Beta]
+2021-10-13T20:44:06.722715: info: Metadata: Initialize XMP system
+2021-10-13T20:44:06.725820: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-13T20:44:06.776839: info: Vst3: start scanning plugins
+2021-10-13T20:44:06.776874: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-13T20:44:06.776953: error: Reading directory failed: No such file or directory
+2021-10-13T20:44:06.777026: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-13T20:44:06.779609: info: Vst3: finished scanning plugins
+2021-10-14T17:03:23.604945: info: #######################################
+2021-10-14T17:03:23.605288: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-14T17:03:23.605302: info: #######################################
+2021-10-14T17:03:23.605311: info: Init: Setup environment
+2021-10-14T17:03:23.605394: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-14T17:03:23.605408: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-14T17:03:23.605482: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-14T17:03:23.605491: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-14T17:03:23.606122: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-14T17:03:23.606138: info: Init: BuildType: 'Release'
+2021-10-14T17:03:23.606156: info: Init: Pid: 64440
+2021-10-14T17:03:23.606191: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-14T17:03:23.606205: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-14T17:03:23.606218: info: Init: CPU Count: 12
+2021-10-14T17:03:23.606227: info: Init: Physical RAM: 34359738368 B
+2021-10-14T17:03:23.606232: info: Init: Address Space: 18446744073709551615 B
+2021-10-14T17:03:23.606237: info: Init: 64-bit Edition
+2021-10-14T17:03:23.664324: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-14T17:03:23.687069: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-14T17:03:23.700989: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-14T17:03:23.734968: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-14T17:03:23.735150: info: Licensing: [Variant=Beta]
+2021-10-14T17:03:23.735551: info: Metadata: Initialize XMP system
+2021-10-14T17:03:23.737059: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-14T17:03:23.901899: info: Vst3: start scanning plugins
+2021-10-14T17:03:23.901928: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-14T17:03:23.902043: error: Reading directory failed: No such file or directory
+2021-10-14T17:03:23.902124: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-14T17:03:23.928369: info: Vst3: finished scanning plugins
+2021-10-16T10:11:21.307326: info: #######################################
+2021-10-16T10:11:21.307869: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-16T10:11:21.307883: info: #######################################
+2021-10-16T10:11:21.307893: info: Init: Setup environment
+2021-10-16T10:11:21.307986: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-16T10:11:21.308000: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-16T10:11:21.308065: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-16T10:11:21.308077: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-16T10:11:21.308363: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-16T10:11:21.308382: info: Init: BuildType: 'Release'
+2021-10-16T10:11:21.308428: info: Init: Pid: 4274
+2021-10-16T10:11:21.308554: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-16T10:11:21.308590: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-16T10:11:21.308613: info: Init: CPU Count: 12
+2021-10-16T10:11:21.308629: info: Init: Physical RAM: 34359738368 B
+2021-10-16T10:11:21.308640: info: Init: Address Space: 18446744073709551615 B
+2021-10-16T10:11:21.308650: info: Init: 64-bit Edition
+2021-10-16T10:11:21.376048: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-16T10:11:21.402157: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-16T10:11:21.416208: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-16T10:11:21.454726: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-16T10:11:21.454896: info: Licensing: [Variant=Beta]
+2021-10-16T10:11:21.455281: info: Metadata: Initialize XMP system
+2021-10-16T10:11:21.456402: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-16T10:11:21.617271: info: Vst3: start scanning plugins
+2021-10-16T10:11:21.617305: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-16T10:11:21.617399: error: Reading directory failed: No such file or directory
+2021-10-16T10:11:21.617496: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-16T10:11:21.643580: info: Vst3: finished scanning plugins
+2021-10-16T10:12:01.080024: info: #######################################
+2021-10-16T10:12:01.080156: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-16T10:12:01.080169: info: #######################################
+2021-10-16T10:12:01.080179: info: Init: Setup environment
+2021-10-16T10:12:01.080266: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-16T10:12:01.080280: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-16T10:12:01.080346: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-16T10:12:01.080359: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-16T10:12:01.080622: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-16T10:12:01.080641: info: Init: BuildType: 'Release'
+2021-10-16T10:12:01.080664: info: Init: Pid: 4296
+2021-10-16T10:12:01.080711: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-16T10:12:01.080732: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-16T10:12:01.080751: info: Init: CPU Count: 12
+2021-10-16T10:12:01.080765: info: Init: Physical RAM: 34359738368 B
+2021-10-16T10:12:01.080776: info: Init: Address Space: 18446744073709551615 B
+2021-10-16T10:12:01.080785: info: Init: 64-bit Edition
+2021-10-16T10:12:01.137398: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-16T10:12:01.161968: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-16T10:12:01.176019: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-16T10:12:01.207452: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-16T10:12:01.207638: info: Licensing: [Variant=Beta]
+2021-10-16T10:12:01.208073: info: Metadata: Initialize XMP system
+2021-10-16T10:12:01.209417: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-16T10:12:01.244642: info: Vst3: start scanning plugins
+2021-10-16T10:12:01.244685: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-16T10:12:01.244762: error: Reading directory failed: No such file or directory
+2021-10-16T10:12:01.244836: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-16T10:12:01.247455: info: Vst3: finished scanning plugins
+2021-10-20T20:51:15.777506: info: #######################################
+2021-10-20T20:51:15.778430: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-20T20:51:15.778443: info: #######################################
+2021-10-20T20:51:15.778451: info: Init: Setup environment
+2021-10-20T20:51:15.778563: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-20T20:51:15.778588: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-20T20:51:15.778648: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-20T20:51:15.778660: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-20T20:51:15.778981: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-20T20:51:15.778999: info: Init: BuildType: 'Release'
+2021-10-20T20:51:15.779022: info: Init: Pid: 66860
+2021-10-20T20:51:15.779062: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-20T20:51:15.779080: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-20T20:51:15.779096: info: Init: CPU Count: 12
+2021-10-20T20:51:15.779107: info: Init: Physical RAM: 34359738368 B
+2021-10-20T20:51:15.779116: info: Init: Address Space: 18446744073709551615 B
+2021-10-20T20:51:15.779123: info: Init: 64-bit Edition
+2021-10-20T20:51:15.838297: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-20T20:51:15.865412: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-20T20:51:15.879350: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-20T20:51:15.908197: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-20T20:51:15.908349: info: Licensing: [Variant=Beta]
+2021-10-20T20:51:15.908746: info: Metadata: Initialize XMP system
+2021-10-20T20:51:15.909959: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-20T20:51:16.177018: info: Vst3: start scanning plugins
+2021-10-20T20:51:16.177054: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-20T20:51:16.177139: error: Reading directory failed: No such file or directory
+2021-10-20T20:51:16.177208: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-20T20:51:16.180679: info: Vst3: finished scanning plugins
+2021-10-20T20:51:39.322385: info: #######################################
+2021-10-20T20:51:39.322455: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-20T20:51:39.322469: info: #######################################
+2021-10-20T20:51:39.322479: info: Init: Setup environment
+2021-10-20T20:51:39.322528: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-20T20:51:39.322543: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-20T20:51:39.322567: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-20T20:51:39.322583: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-20T20:51:39.322837: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-20T20:51:39.322857: info: Init: BuildType: 'Release'
+2021-10-20T20:51:39.322893: info: Init: Pid: 66869
+2021-10-20T20:51:39.322924: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-20T20:51:39.322945: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-20T20:51:39.322963: info: Init: CPU Count: 12
+2021-10-20T20:51:39.322977: info: Init: Physical RAM: 34359738368 B
+2021-10-20T20:51:39.322987: info: Init: Address Space: 18446744073709551615 B
+2021-10-20T20:51:39.322996: info: Init: 64-bit Edition
+2021-10-20T20:51:39.383027: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-20T20:51:39.402974: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-20T20:51:39.416828: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-20T20:51:39.430331: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-20T20:51:39.430509: info: Licensing: [Variant=Beta]
+2021-10-20T20:51:39.430910: info: Metadata: Initialize XMP system
+2021-10-20T20:51:39.432144: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-20T20:51:39.466352: info: Vst3: start scanning plugins
+2021-10-20T20:51:39.466391: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-20T20:51:39.466464: error: Reading directory failed: No such file or directory
+2021-10-20T20:51:39.466541: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-20T20:51:39.468491: info: Vst3: finished scanning plugins
+2021-10-20T20:51:59.206737: info: #######################################
+2021-10-20T20:51:59.206825: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-20T20:51:59.206837: info: #######################################
+2021-10-20T20:51:59.206847: info: Init: Setup environment
+2021-10-20T20:51:59.206891: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-20T20:51:59.206905: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-20T20:51:59.206926: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-20T20:51:59.206938: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-20T20:51:59.207181: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-20T20:51:59.207201: info: Init: BuildType: 'Release'
+2021-10-20T20:51:59.207223: info: Init: Pid: 66874
+2021-10-20T20:51:59.207268: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-20T20:51:59.207286: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-20T20:51:59.207302: info: Init: CPU Count: 12
+2021-10-20T20:51:59.207312: info: Init: Physical RAM: 34359738368 B
+2021-10-20T20:51:59.207319: info: Init: Address Space: 18446744073709551615 B
+2021-10-20T20:51:59.207325: info: Init: 64-bit Edition
+2021-10-20T20:51:59.262560: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-10-20T20:51:59.281995: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-20T20:51:59.296173: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-20T20:51:59.309688: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-20T20:51:59.309867: info: Licensing: [Variant=Beta]
+2021-10-20T20:51:59.310231: info: Metadata: Initialize XMP system
+2021-10-20T20:51:59.311760: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-20T20:51:59.347104: info: Vst3: start scanning plugins
+2021-10-20T20:51:59.347142: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-20T20:51:59.347195: error: Reading directory failed: No such file or directory
+2021-10-20T20:51:59.347265: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-20T20:51:59.348899: info: Vst3: finished scanning plugins
+2021-10-28T21:01:11.548985: info: #######################################
+2021-10-28T21:01:11.549122: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-28T21:01:11.549132: info: #######################################
+2021-10-28T21:01:11.549139: info: Init: Setup environment
+2021-10-28T21:01:11.549215: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-28T21:01:11.549226: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-28T21:01:11.549276: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-28T21:01:11.549285: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-28T21:01:11.549574: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-28T21:01:11.549590: info: Init: BuildType: 'Release'
+2021-10-28T21:01:11.549610: info: Init: Pid: 51725
+2021-10-28T21:01:11.549650: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-28T21:01:11.549668: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-28T21:01:11.549682: info: Init: CPU Count: 12
+2021-10-28T21:01:11.549694: info: Init: Physical RAM: 34359738368 B
+2021-10-28T21:01:11.549702: info: Init: Address Space: 18446744073709551615 B
+2021-10-28T21:01:11.549710: info: Init: 64-bit Edition
+2021-10-28T21:01:11.609882: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-10-28T21:01:11.634447: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-28T21:01:11.650811: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-28T21:01:11.680144: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-28T21:01:11.680361: info: Licensing: [Variant=Beta]
+2021-10-28T21:01:11.680761: info: Metadata: Initialize XMP system
+2021-10-28T21:01:11.682078: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-28T21:01:11.857906: info: Vst3: start scanning plugins
+2021-10-28T21:01:11.857950: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-28T21:01:11.858061: error: Reading directory failed: No such file or directory
+2021-10-28T21:01:11.858157: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-28T21:01:11.886388: info: Vst3: finished scanning plugins
+2021-10-29T14:27:15.388881: info: #######################################
+2021-10-29T14:27:15.389065: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-29T14:27:15.389077: info: #######################################
+2021-10-29T14:27:15.389102: info: Init: Setup environment
+2021-10-29T14:27:15.389231: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-29T14:27:15.389244: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-29T14:27:15.389304: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-29T14:27:15.389314: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-29T14:27:15.389907: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-29T14:27:15.389951: info: Init: BuildType: 'Release'
+2021-10-29T14:27:15.389994: info: Init: Pid: 18670
+2021-10-29T14:27:15.390068: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-29T14:27:15.390094: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-29T14:27:15.390110: info: Init: CPU Count: 12
+2021-10-29T14:27:15.390126: info: Init: Physical RAM: 34359738368 B
+2021-10-29T14:27:15.390133: info: Init: Address Space: 18446744073709551615 B
+2021-10-29T14:27:15.390141: info: Init: 64-bit Edition
+2021-10-29T14:27:15.487779: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-10-29T14:27:15.514969: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-29T14:27:15.533907: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-29T14:27:15.583162: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-29T14:27:15.583382: info: Licensing: [Variant=Beta]
+2021-10-29T14:27:15.583887: info: Metadata: Initialize XMP system
+2021-10-29T14:27:15.585766: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-29T14:27:15.736048: info: Vst3: start scanning plugins
+2021-10-29T14:27:15.736087: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-29T14:27:15.736200: error: Reading directory failed: No such file or directory
+2021-10-29T14:27:15.736418: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-29T14:27:15.755565: info: Vst3: finished scanning plugins
+2021-10-29T20:57:40.398695: info: #######################################
+2021-10-29T20:57:40.399158: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-29T20:57:40.399182: info: #######################################
+2021-10-29T20:57:40.399193: info: Init: Setup environment
+2021-10-29T20:57:40.399294: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-29T20:57:40.399309: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-29T20:57:40.399372: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-29T20:57:40.399384: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-29T20:57:40.399698: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-29T20:57:40.399718: info: Init: BuildType: 'Release'
+2021-10-29T20:57:40.399743: info: Init: Pid: 31496
+2021-10-29T20:57:40.399790: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-29T20:57:40.399811: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-29T20:57:40.399831: info: Init: CPU Count: 12
+2021-10-29T20:57:40.399846: info: Init: Physical RAM: 34359738368 B
+2021-10-29T20:57:40.399856: info: Init: Address Space: 18446744073709551615 B
+2021-10-29T20:57:40.399866: info: Init: 64-bit Edition
+2021-10-29T20:57:40.472839: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-10-29T20:57:40.495237: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-29T20:57:40.507942: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-29T20:57:40.538778: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-29T20:57:40.539029: info: Licensing: [Variant=Beta]
+2021-10-29T20:57:40.539524: info: Metadata: Initialize XMP system
+2021-10-29T20:57:40.541024: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-29T20:57:40.662832: info: Vst3: start scanning plugins
+2021-10-29T20:57:40.662868: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-29T20:57:40.662954: error: Reading directory failed: No such file or directory
+2021-10-29T20:57:40.663026: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-29T20:57:40.666049: info: Vst3: finished scanning plugins
+2021-10-30T10:30:29.854900: info: #######################################
+2021-10-30T10:30:29.855446: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-10-30T10:30:29.855463: info: #######################################
+2021-10-30T10:30:29.855474: info: Init: Setup environment
+2021-10-30T10:30:29.855581: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-10-30T10:30:29.855596: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-10-30T10:30:29.855671: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-10-30T10:30:29.855689: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-10-30T10:30:29.856064: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-10-30T10:30:29.856093: info: Init: BuildType: 'Release'
+2021-10-30T10:30:29.856128: info: Init: Pid: 34514
+2021-10-30T10:30:29.856278: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-10-30T10:30:29.856360: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-10-30T10:30:29.856407: info: Init: CPU Count: 12
+2021-10-30T10:30:29.856438: info: Init: Physical RAM: 34359738368 B
+2021-10-30T10:30:29.856456: info: Init: Address Space: 18446744073709551615 B
+2021-10-30T10:30:29.856468: info: Init: 64-bit Edition
+2021-10-30T10:30:29.982119: info: Init: GraphicsDevice: 'Intel UHD Graphics 630'
+2021-10-30T10:30:30.013200: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-10-30T10:30:30.030100: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-30T10:30:30.064917: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-10-30T10:30:30.065132: info: Licensing: [Variant=Beta]
+2021-10-30T10:30:30.065584: info: Metadata: Initialize XMP system
+2021-10-30T10:30:30.067110: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-10-30T10:30:30.146219: info: Vst3: start scanning plugins
+2021-10-30T10:30:30.146262: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-10-30T10:30:30.146352: error: Reading directory failed: No such file or directory
+2021-10-30T10:30:30.146447: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-10-30T10:30:30.200987: info: Vst3: finished scanning plugins
+2021-11-01T20:48:55.130540: info: #######################################
+2021-11-01T20:48:55.130824: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-01T20:48:55.130835: info: #######################################
+2021-11-01T20:48:55.130843: info: Init: Setup environment
+2021-11-01T20:48:55.130918: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-01T20:48:55.130929: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-01T20:48:55.131126: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-01T20:48:55.131145: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-01T20:48:55.131490: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-01T20:48:55.131511: info: Init: BuildType: 'Release'
+2021-11-01T20:48:55.131536: info: Init: Pid: 50041
+2021-11-01T20:48:55.131586: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-01T20:48:55.131609: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-01T20:48:55.131628: info: Init: CPU Count: 12
+2021-11-01T20:48:55.131642: info: Init: Physical RAM: 34359738368 B
+2021-11-01T20:48:55.131653: info: Init: Address Space: 18446744073709551615 B
+2021-11-01T20:48:55.131662: info: Init: 64-bit Edition
+2021-11-01T20:48:55.204769: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-01T20:48:55.231708: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-01T20:48:55.244513: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-01T20:48:55.279364: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-01T20:48:55.279556: info: Licensing: [Variant=Beta]
+2021-11-01T20:48:55.280057: info: Metadata: Initialize XMP system
+2021-11-01T20:48:55.281655: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-01T20:48:55.440479: info: Vst3: start scanning plugins
+2021-11-01T20:48:55.440513: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-01T20:48:55.440594: error: Reading directory failed: No such file or directory
+2021-11-01T20:48:55.440694: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-01T20:48:55.467466: info: Vst3: finished scanning plugins
+2021-11-02T20:27:48.247250: info: #######################################
+2021-11-02T20:27:48.247383: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-02T20:27:48.247396: info: #######################################
+2021-11-02T20:27:48.247405: info: Init: Setup environment
+2021-11-02T20:27:48.247490: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-02T20:27:48.247503: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-02T20:27:48.247561: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-02T20:27:48.247573: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-02T20:27:48.247810: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-02T20:27:48.247829: info: Init: BuildType: 'Release'
+2021-11-02T20:27:48.247850: info: Init: Pid: 68763
+2021-11-02T20:27:48.247893: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-02T20:27:48.247913: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-02T20:27:48.247931: info: Init: CPU Count: 12
+2021-11-02T20:27:48.247944: info: Init: Physical RAM: 34359738368 B
+2021-11-02T20:27:48.247954: info: Init: Address Space: 18446744073709551615 B
+2021-11-02T20:27:48.247963: info: Init: 64-bit Edition
+2021-11-02T20:27:48.326853: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-02T20:27:48.351202: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-02T20:27:48.366749: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-02T20:27:48.398540: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-02T20:27:48.398721: info: Licensing: [Variant=Beta]
+2021-11-02T20:27:48.399129: info: Metadata: Initialize XMP system
+2021-11-02T20:27:48.400452: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-02T20:27:48.547248: info: Vst3: start scanning plugins
+2021-11-02T20:27:48.547279: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-02T20:27:48.547356: error: Reading directory failed: No such file or directory
+2021-11-02T20:27:48.547427: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-02T20:27:48.573417: info: Vst3: finished scanning plugins
+2021-11-03T09:18:30.601842: info: #######################################
+2021-11-03T09:18:30.602403: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-03T09:18:30.602419: info: #######################################
+2021-11-03T09:18:30.602430: info: Init: Setup environment
+2021-11-03T09:18:30.602703: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-03T09:18:30.602748: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-03T09:18:30.602837: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-03T09:18:30.602867: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-03T09:18:30.603239: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-03T09:18:30.603263: info: Init: BuildType: 'Release'
+2021-11-03T09:18:30.603314: info: Init: Pid: 72593
+2021-11-03T09:18:30.603392: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-03T09:18:30.603438: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-03T09:18:30.603464: info: Init: CPU Count: 12
+2021-11-03T09:18:30.603477: info: Init: Physical RAM: 34359738368 B
+2021-11-03T09:18:30.603485: info: Init: Address Space: 18446744073709551615 B
+2021-11-03T09:18:30.603492: info: Init: 64-bit Edition
+2021-11-03T09:18:30.673130: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-03T09:18:30.701116: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-03T09:18:30.717830: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-03T09:18:30.753200: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-03T09:18:30.753395: info: Licensing: [Variant=Beta]
+2021-11-03T09:18:30.753982: info: Metadata: Initialize XMP system
+2021-11-03T09:18:30.755353: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-03T09:18:30.800646: info: Vst3: start scanning plugins
+2021-11-03T09:18:30.800679: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-03T09:18:30.800762: error: Reading directory failed: No such file or directory
+2021-11-03T09:18:30.800835: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-03T09:18:30.804721: info: Vst3: finished scanning plugins
+2021-11-03T09:18:56.155629: info: #######################################
+2021-11-03T09:18:56.155722: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-03T09:18:56.155735: info: #######################################
+2021-11-03T09:18:56.155744: info: Init: Setup environment
+2021-11-03T09:18:56.155793: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-03T09:18:56.155807: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-03T09:18:56.155827: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-03T09:18:56.155839: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-03T09:18:56.156052: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-03T09:18:56.156071: info: Init: BuildType: 'Release'
+2021-11-03T09:18:56.156093: info: Init: Pid: 72600
+2021-11-03T09:18:56.156123: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-03T09:18:56.156143: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-03T09:18:56.156162: info: Init: CPU Count: 12
+2021-11-03T09:18:56.156176: info: Init: Physical RAM: 34359738368 B
+2021-11-03T09:18:56.156186: info: Init: Address Space: 18446744073709551615 B
+2021-11-03T09:18:56.156195: info: Init: 64-bit Edition
+2021-11-03T09:18:56.214544: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-03T09:18:56.235359: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-03T09:18:56.250537: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-03T09:18:56.265325: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-03T09:18:56.265515: info: Licensing: [Variant=Beta]
+2021-11-03T09:18:56.265915: info: Metadata: Initialize XMP system
+2021-11-03T09:18:56.267152: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-03T09:18:56.306600: info: Vst3: start scanning plugins
+2021-11-03T09:18:56.306644: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-03T09:18:56.306732: error: Reading directory failed: No such file or directory
+2021-11-03T09:18:56.306809: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-03T09:18:56.308388: info: Vst3: finished scanning plugins
+2021-11-03T09:19:17.994672: info: #######################################
+2021-11-03T09:19:17.994755: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-03T09:19:17.994767: info: #######################################
+2021-11-03T09:19:17.994776: info: Init: Setup environment
+2021-11-03T09:19:17.994821: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-03T09:19:17.994834: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-03T09:19:17.994855: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-03T09:19:17.994866: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-03T09:19:17.995091: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-03T09:19:17.995111: info: Init: BuildType: 'Release'
+2021-11-03T09:19:17.995140: info: Init: Pid: 72603
+2021-11-03T09:19:17.995175: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-03T09:19:17.995254: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-03T09:19:17.995313: info: Init: CPU Count: 12
+2021-11-03T09:19:17.995336: info: Init: Physical RAM: 34359738368 B
+2021-11-03T09:19:17.995347: info: Init: Address Space: 18446744073709551615 B
+2021-11-03T09:19:17.995356: info: Init: 64-bit Edition
+2021-11-03T09:19:18.054385: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-03T09:19:18.075590: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-03T09:19:18.091506: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-03T09:19:18.107262: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-03T09:19:18.107475: info: Licensing: [Variant=Beta]
+2021-11-03T09:19:18.108001: info: Metadata: Initialize XMP system
+2021-11-03T09:19:18.109462: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-03T09:19:18.148074: info: Vst3: start scanning plugins
+2021-11-03T09:19:18.148117: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-03T09:19:18.148192: error: Reading directory failed: No such file or directory
+2021-11-03T09:19:18.148262: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-03T09:19:18.149968: info: Vst3: finished scanning plugins
+2021-11-08T10:12:49.076698: info: #######################################
+2021-11-08T10:12:49.076897: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-08T10:12:49.076908: info: #######################################
+2021-11-08T10:12:49.076915: info: Init: Setup environment
+2021-11-08T10:12:49.077003: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-08T10:12:49.077014: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-08T10:12:49.077064: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-08T10:12:49.077073: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-08T10:12:49.077381: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-08T10:12:49.077404: info: Init: BuildType: 'Release'
+2021-11-08T10:12:49.077427: info: Init: Pid: 22241
+2021-11-08T10:12:49.077469: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-08T10:12:49.077489: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-08T10:12:49.077508: info: Init: CPU Count: 12
+2021-11-08T10:12:49.077520: info: Init: Physical RAM: 34359738368 B
+2021-11-08T10:12:49.077528: info: Init: Address Space: 18446744073709551615 B
+2021-11-08T10:12:49.077535: info: Init: 64-bit Edition
+2021-11-08T10:12:49.133283: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-08T10:12:49.156787: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-08T10:12:49.170742: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-08T10:12:49.201448: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-08T10:12:49.201617: info: Licensing: [Variant=Beta]
+2021-11-08T10:12:49.201983: info: Metadata: Initialize XMP system
+2021-11-08T10:12:49.203192: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-08T10:12:49.354930: info: Vst3: start scanning plugins
+2021-11-08T10:12:49.354963: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-08T10:12:49.355051: error: Reading directory failed: No such file or directory
+2021-11-08T10:12:49.355141: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-08T10:12:49.381901: info: Vst3: finished scanning plugins
+2021-11-08T15:16:33.237728: info: #######################################
+2021-11-08T15:16:33.237885: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-08T15:16:33.237902: info: #######################################
+2021-11-08T15:16:33.237916: info: Init: Setup environment
+2021-11-08T15:16:33.238025: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-08T15:16:33.238043: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-08T15:16:33.238120: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-08T15:16:33.238137: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-08T15:16:33.238515: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-08T15:16:33.238542: info: Init: BuildType: 'Release'
+2021-11-08T15:16:33.238574: info: Init: Pid: 26074
+2021-11-08T15:16:33.238628: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-08T15:16:33.238652: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-08T15:16:33.238673: info: Init: CPU Count: 12
+2021-11-08T15:16:33.238688: info: Init: Physical RAM: 34359738368 B
+2021-11-08T15:16:33.238700: info: Init: Address Space: 18446744073709551615 B
+2021-11-08T15:16:33.238711: info: Init: 64-bit Edition
+2021-11-08T15:16:33.313034: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-08T15:16:33.339857: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-08T15:16:33.355185: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-08T15:16:33.389491: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-08T15:16:33.389664: info: Licensing: [Variant=Beta]
+2021-11-08T15:16:33.390092: info: Metadata: Initialize XMP system
+2021-11-08T15:16:33.391476: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-08T15:16:33.438311: info: Vst3: start scanning plugins
+2021-11-08T15:16:33.438347: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-08T15:16:33.438428: error: Reading directory failed: No such file or directory
+2021-11-08T15:16:33.438509: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-08T15:16:33.441722: info: Vst3: finished scanning plugins
+2021-11-08T15:17:07.232106: info: #######################################
+2021-11-08T15:17:07.232183: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-08T15:17:07.232194: info: #######################################
+2021-11-08T15:17:07.232203: info: Init: Setup environment
+2021-11-08T15:17:07.232245: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-08T15:17:07.232257: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-08T15:17:07.232276: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-08T15:17:07.232287: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-08T15:17:07.232550: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-08T15:17:07.232568: info: Init: BuildType: 'Release'
+2021-11-08T15:17:07.232589: info: Init: Pid: 26086
+2021-11-08T15:17:07.232617: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-08T15:17:07.232637: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-08T15:17:07.232683: info: Init: CPU Count: 12
+2021-11-08T15:17:07.232694: info: Init: Physical RAM: 34359738368 B
+2021-11-08T15:17:07.232701: info: Init: Address Space: 18446744073709551615 B
+2021-11-08T15:17:07.232707: info: Init: 64-bit Edition
+2021-11-08T15:17:07.290562: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-08T15:17:07.312132: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-08T15:17:07.330280: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-08T15:17:07.346339: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-08T15:17:07.346555: info: Licensing: [Variant=Beta]
+2021-11-08T15:17:07.347417: info: Metadata: Initialize XMP system
+2021-11-08T15:17:07.352568: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-08T15:17:07.409643: info: Vst3: start scanning plugins
+2021-11-08T15:17:07.409696: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-08T15:17:07.409824: error: Reading directory failed: No such file or directory
+2021-11-08T15:17:07.409943: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-08T15:17:07.412826: info: Vst3: finished scanning plugins
+2021-11-16T21:27:09.960838: info: #######################################
+2021-11-16T21:27:09.961130: info: Started: PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb
+2021-11-16T21:27:09.961163: info: #######################################
+2021-11-16T21:27:09.961182: info: Init: Setup environment
+2021-11-16T21:27:09.961331: info: : UUID: 32ABCAE8-39F7-3CCE-BEA2-27F1A44B6A90
+2021-11-16T21:27:09.961358: info: Init: Version: 'PluginScanner 11.0.11 Build: 2021-09-28_6a1c879bfb' 1114129
+2021-11-16T21:27:09.961462: info: Init: BuildRevisions: 6a1c879bfb313ba56389eba66fb26a216f80d2b1
+2021-11-16T21:27:09.961484: info: Init: Commit ID: '6a1c879bfb313ba56389eba66fb26a216f80d2b1'
+2021-11-16T21:27:09.961900: info: Init: OS: 'Mac OS X version 11.6, Arch:x86-64'
+2021-11-16T21:27:09.961937: info: Init: BuildType: 'Release'
+2021-11-16T21:27:09.961983: info: Init: Pid: 93866
+2021-11-16T21:27:09.962065: info: Init: Hardware Model: 'MacBookPro15,1'
+2021-11-16T21:27:09.962103: info: Init: CPU Brand String: 'Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz'
+2021-11-16T21:27:09.962135: info: Init: CPU Count: 12
+2021-11-16T21:27:09.962160: info: Init: Physical RAM: 34359738368 B
+2021-11-16T21:27:09.962178: info: Init: Address Space: 18446744073709551615 B
+2021-11-16T21:27:09.962191: info: Init: 64-bit Edition
+2021-11-16T21:27:10.035333: info: Init: GraphicsDevice: 'Radeon Pro 555X'
+2021-11-16T21:27:10.057341: info: Init: Checksum 1: 539ed46e02225490ffe1a86623ac3d65
+2021-11-16T21:27:10.071467: info: Init: Checksum 2: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-16T21:27:10.102513: info: Init: Checksum 3: bd6f889374c2f2e0cc162ee94f61db26
+2021-11-16T21:27:10.102711: info: Licensing: [Variant=Beta]
+2021-11-16T21:27:10.103143: info: Metadata: Initialize XMP system
+2021-11-16T21:27:10.104799: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-11-16T21:27:10.248974: info: Vst3: start scanning plugins
+2021-11-16T21:27:10.249012: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2021-11-16T21:27:10.249104: error: Reading directory failed: No such file or directory
+2021-11-16T21:27:10.249186: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2021-11-16T21:27:10.276052: info: Vst3: finished scanning plugins
