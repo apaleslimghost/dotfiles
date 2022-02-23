@@ -8,7 +8,7 @@ fi
 
 if [ -d /opt/homebrew ]; then
   source $(/opt/homebrew/bin/brew shellenv)
-end
+fi
 
 brew update
 brew bundle
