@@ -1,0 +1,49 @@
+2022-02-23T16:14:19.570921: info: #######################################
+2022-02-23T16:14:19.571249: info: Started: Index 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T16:14:19.571256: info: #######################################
+2022-02-23T16:14:19.571260: info: Init: Setup environment
+2022-02-23T16:14:19.571271: info: UUID: 1E6565D1-6B20-3C6B-83FB-FCAA27181E99
+2022-02-23T16:14:19.572179: info: Code ID: identifier "Ableton Index" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T16:14:19.572190: info: Init: Version: 'Index 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T16:14:19.572198: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T16:14:19.572203: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T16:14:19.573789: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T16:14:19.573801: info: Init: BuildType: 'Release'
+2022-02-23T16:14:19.573806: info: Init: Pid: 3023
+2022-02-23T16:14:19.573817: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T16:14:19.573826: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T16:14:19.573832: info: Init: CPU Count: 8
+2022-02-23T16:14:19.573852: info: Init: Physical RAM: 17179869184 B
+2022-02-23T16:14:19.573857: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T16:14:19.573860: info: Init: 64-bit Edition
+2022-02-23T16:14:19.644317: info: Init: Checksum 1: 32bd54b9e1ff6253073b1cdc894697cd
+2022-02-23T16:14:19.664050: info: Init: Checksum 2: 5aed9284c9f3c39cd70450ad44ab34a9
+2022-02-23T16:14:19.682848: info: Init: Checksum 3: 5aed9284c9f3c39cd70450ad44ab34a9
+2022-02-23T16:14:19.682978: info: Licensing: [Variant=Beta]
+2022-02-23T16:14:19.683163: info: Net: Setting up connection framework
+2022-02-23T16:14:19.683170: info: Metadata: Initialize XMP system
+2022-02-23T16:14:19.691735: info: App resources: "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources"
+2022-02-23T16:14:19.691833: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T16:14:19.705744: info: Database: Open database '/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2022-02-23T16:14:20.346266: info: Configure: FactoryPacks: '/Users/kara.brightwell/Music/Ableton/Factory Packs/M4L Pluggo for Live', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Spectrum Effects by Amazing Noises', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Dark Synth by Amazing Noises', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Dub Machines by Surreal Machines', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Ensemble by Max for Cats', '/Users/kara.brightwell/Music/Ableton/Factory Packs/IRCAMAX 1 by IRCAM', '/Users/kara.brightwell/Music/Ableton/Factory Packs/IRCAMAX 2 by IRCAM', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Time and Timbre by Skinnerbox', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Holder by K-Devices', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Chaos Effects by Amazing Noises', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Max 7 Pitch and Time Machines', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Patter by Adam Florin', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Polyphylla by Mellisonic', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Terra by K-Devices', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Bengal by Max for Cats', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Transient Machines by Surreal Machines', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Hypermorph by Sonic Faction', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Pallas by Max for Cats', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Iota by Dillon Bastan', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Surround Panner', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Creative Extensions', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Latin Percussion', '/Users/kara.brightwell/Music/Ableton/Factory Packs/APC Step Sequencer by Mark Egloff', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Granulator by Monolake', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Kasio by Oli Larkin', '/Users/kara.brightwell/Music/Ableton/Factory Packs/PitchDrop by Mormo', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Schwarzonator 2 by Henrik Schwarz', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Orchestral Strings 2', '/Users/kara.brightwell/Music/Ableton/Factory Packs/Max for Live Essentials', '/Users/kara.brightwell/Music/Ableton/Factory Packs/M4L Big Three', '/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Core Library'
+2022-02-23T16:14:20.346327: info: Configure: UserFolders: '/Users/kara.brightwell/Library/Mobile Documents/com~apple~CloudDocs/Sound/Asymptotes'
+2022-02-23T16:14:20.346333: info: Configure: ManagedFolders: 
+2022-02-23T16:14:20.346336: info: Configure: LegacyFactoryPacks: 
+2022-02-23T16:14:20.346340: info: Configure: UserLibrary: /Users/kara.brightwell/Music/Ableton/User Library
+2022-02-23T16:14:20.346344: info: Configure: CurrentProject: /Users/kara.brightwell/Music/Ableton/Live Recordings/2022-02-23 161418 Temp Project
+2022-02-23T16:14:20.346353: info: Configure: Builtin: '/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Builtin'
+2022-02-23T16:14:20.372755: info: Configuring places: Time elapsed: 15
+2022-02-23T16:14:20.391571: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Core Library" from being garbage-collected
+2022-02-23T16:14:20.398969: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Builtin" from being garbage-collected
+2022-02-23T16:14:20.399979: info: DatabaseGC: Marking unused files. Time: 20
+2022-02-23T16:14:20.402131: info: DatabaseStats: Live files: 6723
+2022-02-23T16:14:20.402134: info: DatabaseStats: Dead files: 0
+2022-02-23T16:14:20.402137: info: DatabaseStats: Ancestors count: 63728
+2022-02-23T16:14:20.402139: info: DatabaseStats: Number of metadata-file relations: 14303
+2022-02-23T16:14:20.402142: info: DatabaseStats: Number of metadata values: 430
+2022-02-23T16:14:20.402144: info: DatabaseStats: Places count: 4
+2022-02-23T16:14:20.408676: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2022-02-23T16:14:20.829705: info: Start extraction, Event ID: 1
+2022-02-23T16:14:32.323578: info: Database: Cleanup keywords: 1 ms
+2022-02-23T16:14:32.339083: info: Database: Cleanup metadata: 15 ms
+2022-02-23T16:14:32.350374: info: Database: Cleanup search aggregation: 11 ms

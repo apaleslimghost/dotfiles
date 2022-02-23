@@ -1,0 +1,268 @@
+2022-02-23T16:14:15.008631: info: #######################################
+2022-02-23T16:14:15.008652: info: Started: Live 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T16:14:15.008658: info: #######################################
+2022-02-23T16:14:15.008662: info: Init: Setup environment
+2022-02-23T16:14:15.008666: info: Preferences: Copied "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.0.12/Library.cfg" to "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.1/Library.cfg"
+2022-02-23T16:14:15.008670: info: Preferences: Copied "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.0.12/Preferences.cfg" to "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.1/Preferences.cfg"
+2022-02-23T16:14:15.008674: info: UserRemoteScript: Copied "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.0.12/User Remote Scripts/UserConfiguration.txt" to "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.1/User Remote Scripts/UserConfiguration.txt"
+2022-02-23T16:14:15.008678: info: UserRemoteScript: Copied "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.0.12/User Remote Scripts/InstantMappings-HowTo.txt" to "/Users/kara.brightwell/Library/Preferences/Ableton/Live 11.1/User Remote Scripts/InstantMappings-HowTo.txt"
+2022-02-23T16:14:15.085931: info: UUID: 702803BE-4C2B-3EDD-83D9-F0F511C34B42
+2022-02-23T16:14:15.087776: info: Code ID: identifier "com.ableton.live" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T16:14:15.087788: info: Init: Version: 'Live 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T16:14:15.087797: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T16:14:15.087802: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T16:14:15.088439: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T16:14:15.088448: info: Init: BuildType: 'Release'
+2022-02-23T16:14:15.088453: info: Init: Pid: 3011
+2022-02-23T16:14:15.088466: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T16:14:15.088474: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T16:14:15.088479: info: Init: CPU Count: 8
+2022-02-23T16:14:15.088489: info: Init: Physical RAM: 17179869184 B
+2022-02-23T16:14:15.088493: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T16:14:15.088497: info: Init: 64-bit Edition
+2022-02-23T16:14:15.480957: info: Init: Checksum 1: 5f6626c30033f8e994910f575048daa7
+2022-02-23T16:14:15.612281: info: Init: Checksum 2: 810a8d1aa5b841716d7d2330d387d987
+2022-02-23T16:14:15.735118: info: Init: Checksum 3: 810a8d1aa5b841716d7d2330d387d987
+2022-02-23T16:14:15.738823: info: Licensing: [Variant=Suite]
+2022-02-23T16:14:15.739021: info: Metadata: Initialize XMP system
+2022-02-23T16:14:15.739162: info: Net: Setting up connection framework
+2022-02-23T16:14:15.744326: info: Licensing: Licenses loaded: 
+  [ProductId=0x02, ProductVersion=0xB0, DistributionType=KStandard]
+2022-02-23T16:14:15.744339: info: Licensing: Use server: https://services.ableton.com
+2022-02-23T16:14:15.812628: info: Init: Screen at +0+0: 1680x1050, scale 2
+2022-02-23T16:14:16.709876: info: FileLimit: Maximum number of files was : 256 (err: 0)
+2022-02-23T16:14:16.709915: info: FileLimit: Tried to set maximum number of files to : 8192 (err: 0)
+2022-02-23T16:14:16.709923: info: FileLimit: Maximum number of files now : 8192 (err: 0)
+2022-02-23T16:14:16.709928: info: Init LanguageManager
+2022-02-23T16:14:16.710286: info: MemoryUsage: V: 419.2 , R: 203.7 , P: 0 
+2022-02-23T16:14:17.075681: info: Init Menu
+2022-02-23T16:14:17.075832: info: Run event loop
+2022-02-23T16:14:17.107990: info: Begin building application
+2022-02-23T16:14:17.108756: info: Create App
+2022-02-23T16:14:17.126044: info: Register main window
+2022-02-23T16:14:17.126061: info: Check for other instance
+2022-02-23T16:14:17.132174: info: Init App
+2022-02-23T16:14:17.132184: info: Live App: Init usage data writer
+2022-02-23T16:14:17.135509: info: Live App: Begin Init
+2022-02-23T16:14:17.135527: info: Live App: Start as first instance: yes
+2022-02-23T16:14:17.135572: info: Database: Loading database from "/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db"
+2022-02-23T16:14:17.135590: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T16:14:17.149728: info: Database: Open database '/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2022-02-23T16:14:17.151048: info: Default App: Begin InitApplication
+2022-02-23T16:14:17.209602: info: Metal: Using Apple M1.
+  GPU feature set support:
+    Family1_v1:              true
+    Family1_v2:              true
+    Family1_v3:              true
+    Family1_v4:              true
+    Family2_v1:              true
+    ReadWriteTextureTier2:   false
+2022-02-23T16:14:17.217302: info: Default App: Begin LoadPrefs
+2022-02-23T16:14:17.217981: info: VuMeter: Use default. MeterUpdateRate = 40
+2022-02-23T16:14:17.217994: info: Audio In Out: Constructor started
+2022-02-23T16:14:17.218001: info: Audio In Out: Constructor finished
+2022-02-23T16:14:17.231926: info: CoreAudio: Device init: MacBook Pro Speakers (0 In, 2 Out) (Apple Inc., Id: 54, UniqueId: BuiltInSpeakerDevice)
+2022-02-23T16:14:17.232363: info: CoreAudio: Device init: MacBook Pro Microphone (1 In, 0 Out) (Apple Inc., Id: 61, UniqueId: BuiltInMicrophoneDevice)
+2022-02-23T16:14:17.234724: info: CoreAudio: Device init: BlackHole 2ch (2 In, 2 Out) (Existential Audio Inc., Id: 46, UniqueId: BlackHole2ch_UID)
+2022-02-23T16:14:17.234741: info: Audio In Out: OnArchitecturesAdded started
+2022-02-23T16:14:17.234754: info: Audio In Out: OnArchitecturesAdded finished
+2022-02-23T16:14:17.450054: info: ALMidiIO: Start EnumerateDevices
+2022-02-23T16:14:17.450608: info: ALMidiIO: End EnumerateDevices
+2022-02-23T16:14:17.452315: info: Audio In Out: Init started
+2022-02-23T16:14:17.452913: info: Audio In Out: Init finished
+2022-02-23T16:14:17.452932: info: LSongAgent: Begin Constructing
+2022-02-23T16:14:17.456684: info: LSongAgent: End Constructing
+2022-02-23T16:14:17.456745: info: MemoryUsage: V: 419.3 GB, R: 284.1 MB, P: 0 Bytes
+2022-02-23T16:14:17.457434: info: Audio In Out: AfterRead started
+2022-02-23T16:14:17.457463: info: Audio In Out: AfterRead finished
+2022-02-23T16:14:17.457535: info: MidiDeviceManager: Start OpenAllActivatedDevices
+2022-02-23T16:14:17.458710: info: MidiDeviceManager: End OpenAllActivatedDevices
+2022-02-23T16:14:17.458914: info: ALivePreferences: Begin AfterPreferencesLoaded
+2022-02-23T16:14:17.458956: info: ALivePreferences: Session cookie?: yes
+2022-02-23T16:14:17.468954: info: Directories: Core Library Slice dir: [/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Core Library] 
+2022-02-23T16:14:17.469220: info: PluginManager: Scan start ------------------
+2022-02-23T16:14:17.469479: info: AU: Audio Units scan started
+2022-02-23T16:14:17.478808: info: AU: Audio Units scan ended
+2022-02-23T16:14:17.479881: info: Plugins: start scanner process
+2022-02-23T16:14:17.480266: info: PluginManager: Scan end --------------------
+2022-02-23T16:14:17.480601: info: ALivePreferences: End AfterPreferencesLoaded
+2022-02-23T16:14:17.480616: info: Default App: End LoadPrefs
+2022-02-23T16:14:17.507347: info: Default App: Performing pre-document setup...
+2022-02-23T16:14:18.495250: info: LiveUi: AddControlled...
+2022-02-23T16:14:18.551571: info: LiveUi: AddControlled: done.
+2022-02-23T16:14:18.551601: info: Default App: Checking whether to restore the document...
+2022-02-23T16:14:18.551634: info: Default App: Begin OnNew
+2022-02-23T16:14:18.556076: info: Default App: TryToLoadTemplate: Default document exists. Going to load "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Builtin/Templates/DefaultLiveSet.als"'
+2022-02-23T16:14:18.561382: info: Default App: Begin ExchangeDocument
+2022-02-23T16:14:18.561402: info: MemoryUsage: V: 420.5 GB, R: 306 MB, P: 0 Bytes
+2022-02-23T16:14:18.600078: info: LSongAgent: Begin SetSongUnit
+2022-02-23T16:14:18.600099: info: Audio In Out: Start started
+2022-02-23T16:14:18.600104: info: Audio In Out: Internal Start started
+2022-02-23T16:14:18.609245: info: Audio In Out: Begin of UpdateAudioStateStatic 
+2022-02-23T16:14:18.610663: info: Audio In Out: Driver Type: CoreAudio
+2022-02-23T16:14:18.610675: info: Audio In Out: Input Device: MacBook Pro Microphone (1 In, 0 Out)
+2022-02-23T16:14:18.610681: info: Audio In Out: Output Device: BlackHole 2ch (2 In, 2 Out)
+2022-02-23T16:14:18.610686: info: Audio In Out: Input Channels: 2
+2022-02-23T16:14:18.610689: info: Audio In Out: Output Channels: 2
+2022-02-23T16:14:18.610694: info: Audio In Out: Sample Rate: 44100
+2022-02-23T16:14:18.610698: info: Audio In Out: Input Buffer Size: 512 Samples
+2022-02-23T16:14:18.610702: info: Audio In Out: Input Latency: 0.00 ms
+2022-02-23T16:14:18.610705: info: Audio In Out: Output Buffer Size: 512 Samples
+2022-02-23T16:14:18.610917: info: Audio In Out: Output Latency: 11.6 ms
+2022-02-23T16:14:18.611457: info: Audio In Out: Output Latency (with buffering): 11.6 ms
+2022-02-23T16:14:18.611809: info: Audio In Out: Driver Error Compensation (ms): 0.00 ms
+2022-02-23T16:14:18.611819: info: Audio In Out: Overall Latency: 23.2 ms
+2022-02-23T16:14:18.611871: info: Audio In Out: End of UpdateAudioStateStatic 
+2022-02-23T16:14:18.670885: info: Audio In Out: Internal Start finished
+2022-02-23T16:14:18.670905: info: Audio In Out: Start finished
+2022-02-23T16:14:18.671078: info: LSongAgent: End SetSongUnit
+2022-02-23T16:14:18.686901: info: Audio time allocations: AudioBuffer: Capacity/Used/Failures: 1000/0/0
+2022-02-23T16:14:18.686984: info: Audio time allocations: AudioBuffer: Capacity/Used/Failures: 1956/0/0
+2022-02-23T16:14:18.695229: info: MemoryUsage: V: 420.5 GB, R: 345.1 MB, P: 0 Bytes
+2022-02-23T16:14:18.702888: info: AMidiIO: Midi Remote Scripts: 
+  MidiRemoteScript 1 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 2 [Control Surface="Push" Input="None" Output="None"]
+  MidiRemoteScript 3 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 4 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 5 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 6 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 7 [Control Surface="None" Input="None" Output="None"]
+2022-02-23T16:14:18.702894: info: AMidiIO: Takeover Mode: Pickup
+2022-02-23T16:14:18.702943: info: AMidiIO: Midi Devices: 
+  MidiInDevice [Name="Computer Keyboard", Track=true, Sync=false, Remote=false, MPE=false, MIDI Clock Sync Delay=0, Sync Type="MIDI Clock", MTC Frame Rate="All", MTC Start Offset=0]
+2022-02-23T16:14:18.702956: info: Default App: End ExchangeDocument
+2022-02-23T16:14:18.702964: info: MemoryUsage: V: 420.5 GB, R: 345.3 MB, P: 0 Bytes
+2022-02-23T16:14:18.703269: info: Loading document "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Builtin/Templates/DefaultLiveSet.als"
+2022-02-23T16:14:18.720204: info: Loaded document was created by Ableton Live 11.1d1
+2022-02-23T16:14:18.720219: info: Default App: Begin ExchangeDocument
+2022-02-23T16:14:18.720234: info: MemoryUsage: V: 420.5 GB, R: 352.5 MB, P: 0 Bytes
+2022-02-23T16:14:18.798767: info: LSongAgent: Begin SetSongUnit
+2022-02-23T16:14:18.799327: info: LSongAgent: End SetSongUnit
+2022-02-23T16:14:18.810448: info: Audio time allocations: Large Sysex Events: Capacity/Used/Failures: 7/0/0
+2022-02-23T16:14:18.810487: info: Audio time allocations: Medium Sysex Events: Capacity/Used/Failures: 1985/0/0
+2022-02-23T16:14:18.810504: info: Audio time allocations: Small Sysex Events: Capacity/Used/Failures: 13107/0/0
+2022-02-23T16:14:18.810519: info: Audio time allocations: Max Remote Automation Events: Capacity/Used/Failures: 5041/0/0
+2022-02-23T16:14:18.810542: info: Audio time allocations: Max Device Automation Events: Capacity/Used/Failures: 3196/0/0
+2022-02-23T16:14:18.810556: info: Audio time allocations: Max Device Midi Events: Capacity/Used/Failures: 7710/0/0
+2022-02-23T16:14:18.822752: info: Audio time allocations: EventBuffering: Capacity/Used/Failures: 18724/20/0
+2022-02-23T16:14:18.832204: info: LSongAgent: Begin SetSongUnit
+2022-02-23T16:14:18.832310: info: LSongAgent: End SetSongUnit
+2022-02-23T16:14:18.837211: info: Audio time allocations: Parameter Compensate Delay: Capacity/Used/Failures: 524288/0/0
+2022-02-23T16:14:19.151524: info: AMidiIO: Midi Remote Scripts: 
+  MidiRemoteScript 1 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 2 [Control Surface="Push" Input="None" Output="None"]
+  MidiRemoteScript 3 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 4 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 5 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 6 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 7 [Control Surface="None" Input="None" Output="None"]
+2022-02-23T16:14:19.151535: info: AMidiIO: Takeover Mode: Pickup
+2022-02-23T16:14:19.151570: info: AMidiIO: Midi Devices: 
+  MidiInDevice [Name="Computer Keyboard", Track=true, Sync=false, Remote=false, MPE=false, MIDI Clock Sync Delay=0, Sync Type="MIDI Clock", MTC Frame Rate="All", MTC Start Offset=0]
+2022-02-23T16:14:19.240410: info: Default App: End ExchangeDocument
+2022-02-23T16:14:19.240448: info: MemoryUsage: V: 420.6 GB, R: 385.7 MB, P: 0 Bytes
+2022-02-23T16:14:19.249789: info: Default App: End InitApplication
+2022-02-23T16:14:19.249847: info: Live App: End Init
+2022-02-23T16:14:19.299087: info: MemoryUsage: V: 420.7 GB, R: 460.3 MB, P: 0 Bytes
+2022-02-23T16:14:19.415067: info: MemoryUsage: V: 421.2 GB, R: 613.9 MB, P: 0 Bytes
+2022-02-23T16:14:19.415101: info: Finish building application
+2022-02-23T16:14:19.487056: info: Performance: Startup hook 'CloseSplashScreen': Running time: 2 ms
+2022-02-23T16:14:19.505497: info: Performance: Startup hook 'OpenSecondWindowOnStartup': Running time: 0 ms
+2022-02-23T16:14:19.515366: info: MemoryUsage: V: 421.1 GB, R: 536.4 MB, P: 0 Bytes
+2022-02-23T16:14:19.526311: info: WebConnectStarter: Starting up
+2022-02-23T16:14:19.528265: info: ExternalSubProcess: Going to start: "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Extensions/WebConnector/Ableton Web Connector"
+2022-02-23T16:14:19.529543: info: ExternalSubProcess: Started with pid: 3022
+2022-02-23T16:14:19.529556: info: Performance: Startup hook 'StartWebConnector': Running time: 3 ms
+2022-02-23T16:14:19.535697: info: Performance: Startup hook 'WriteUsageData': Running time: 0 ms
+2022-02-23T16:14:19.557586: info: ExternalSubProcess: Going to start: "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Extensions/Index/Ableton Index"
+2022-02-23T16:14:19.558815: info: ExternalSubProcess: Started with pid: 3023
+2022-02-23T16:14:19.558833: info: SubProcess: Set process priority 2 for pid 3023
+2022-02-23T16:14:19.558853: info: Performance: Startup hook 'StartIndex': Running time: 4 ms
+2022-02-23T16:14:19.585483: info: Licensing: Applying startup configuration: 02, IsDemo=false
+2022-02-23T16:14:19.590985: info: Performance: Startup hook 'CheckRegistrationAppStartupHook': Running time: 16 ms
+2022-02-23T16:14:19.616246: info: Audio time allocations: Midi Delay: Capacity/Used/Failures: 21845/0/0
+2022-02-23T16:14:19.616463: info: Performance: Startup hook 'FileSystemEndUpdate': Running time: 0 ms
+2022-02-23T16:14:19.636065: info: Link: Disabled
+2022-02-23T16:14:20.182044: info: Max: Version 8.2.1 (2f7eaf31afd)
+2022-02-23T16:14:20.182359: info: Performance: Startup hook 'SetupMaxApp': Running time: 519 ms
+2022-02-23T16:14:20.182432: info: MemoryUsage: V: 421.3 GB, R: 627.8 MB, P: 0 Bytes
+2022-02-23T16:14:20.183838: info: Live App: Check for default content
+2022-02-23T16:14:20.189170: info: Performance: Startup hook 'DefaultPackInstallationAppStartupHook': Running time: 5 ms
+2022-02-23T16:14:20.221914: info: Live App: Check for package installation
+2022-02-23T16:14:20.221954: info: Performance: Startup hook 'UserTriggeredPackInstallationAppStartupHook': Running time: 0 ms
+2022-02-23T16:14:20.236137: info: Live App: Check lesson init
+2022-02-23T16:14:20.236598: info: Performance: Startup hook 'ShowLessonAppStartupHook': Running time: 0 ms
+2022-02-23T16:14:20.256226: info: Performance: Startup hook 'InitializeContentLibrary': Running time: 0 ms
+2022-02-23T16:14:20.299174: info: Performance: Startup hook 'StartLibraryRescan': Running time: 0 ms
+2022-02-23T16:14:20.306333: info: Performance: Startup hook 'FetchDownloadablePackListFromWeb': Running time: 0 ms
+2022-02-23T16:14:20.326651: info: Performance: Startup hook 'EndAuthorizationSession': Running time: 0 ms
+2022-02-23T16:14:25.151640: info: Default App: Begin SavePrefs
+2022-02-23T16:14:25.168530: info: Default App: End SavePrefs
+2022-02-23T16:14:31.098733: info: Default App: Begin SavePrefs
+2022-02-23T16:14:31.106162: info: Default App: End SavePrefs
+2022-02-23T16:14:31.452228: info: Default App: Begin ExchangeDocument
+2022-02-23T16:14:31.452322: info: MemoryUsage: V: 421.5 GB, R: 661.3 MB, P: 0 Bytes
+2022-02-23T16:14:31.489161: info: LSongAgent: Begin SetSongUnit
+2022-02-23T16:14:31.491065: info: LSongAgent: End SetSongUnit
+2022-02-23T16:14:31.500338: info: Audio time allocations: Large Sysex Events: Capacity/Used/Failures: 7/0/0
+2022-02-23T16:14:31.500412: info: Audio time allocations: Medium Sysex Events: Capacity/Used/Failures: 1985/0/0
+2022-02-23T16:14:31.500436: info: Audio time allocations: Small Sysex Events: Capacity/Used/Failures: 13107/0/0
+2022-02-23T16:14:31.500456: info: Audio time allocations: Max Remote Automation Events: Capacity/Used/Failures: 5041/0/0
+2022-02-23T16:14:31.500478: info: Audio time allocations: Max Device Automation Events: Capacity/Used/Failures: 3196/0/0
+2022-02-23T16:14:31.500497: info: Audio time allocations: Max Device Midi Events: Capacity/Used/Failures: 7710/0/0
+2022-02-23T16:14:31.512831: info: Audio time allocations: EventBuffering: Capacity/Used/Failures: 18724/82/0
+2022-02-23T16:14:31.518819: info: LSongAgent: Begin SetSongUnit
+2022-02-23T16:14:31.518892: info: LSongAgent: End SetSongUnit
+2022-02-23T16:14:31.528001: info: Audio time allocations: Parameter Compensate Delay: Capacity/Used/Failures: 524288/0/0
+2022-02-23T16:14:31.543307: info: AMidiIO: Midi Remote Scripts: 
+  MidiRemoteScript 1 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 2 [Control Surface="Push" Input="None" Output="None"]
+  MidiRemoteScript 3 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 4 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 5 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 6 [Control Surface="None" Input="None" Output="None"]
+  MidiRemoteScript 7 [Control Surface="None" Input="None" Output="None"]
+2022-02-23T16:14:31.543316: info: AMidiIO: Takeover Mode: Pickup
+2022-02-23T16:14:31.543357: info: AMidiIO: Midi Devices: 
+  MidiInDevice [Name="Computer Keyboard", Track=true, Sync=false, Remote=false, MPE=false, MIDI Clock Sync Delay=0, Sync Type="MIDI Clock", MTC Frame Rate="All", MTC Start Offset=0]
+2022-02-23T16:14:31.543783: info: Default App: End ExchangeDocument
+2022-02-23T16:14:31.543803: info: MemoryUsage: V: 421.5 GB, R: 662.5 MB, P: 0 Bytes
+2022-02-23T16:14:31.570135: info: LSongAgent: Begin SetSongUnit
+2022-02-23T16:14:31.570632: info: LSongAgent: End SetSongUnit
+2022-02-23T16:14:31.581350: info: Audio time allocations: Large Sysex Events: Capacity/Used/Failures: 7/0/0
+2022-02-23T16:14:31.581372: info: Audio time allocations: Medium Sysex Events: Capacity/Used/Failures: 1985/0/0
+2022-02-23T16:14:31.581386: info: Audio time allocations: Small Sysex Events: Capacity/Used/Failures: 13107/0/0
+2022-02-23T16:14:31.581398: info: Audio time allocations: Max Remote Automation Events: Capacity/Used/Failures: 5041/0/0
+2022-02-23T16:14:31.581411: info: Audio time allocations: Max Device Automation Events: Capacity/Used/Failures: 3196/0/0
+2022-02-23T16:14:31.581423: info: Audio time allocations: Max Device Midi Events: Capacity/Used/Failures: 7710/0/0
+2022-02-23T16:14:31.593441: info: Audio time allocations: Midi Delay: Capacity/Used/Failures: 21845/0/0
+2022-02-23T16:14:31.593469: info: Audio time allocations: EventBuffering: Capacity/Used/Failures: 18724/35/0
+2022-02-23T16:14:31.604007: info: LSongAgent: Begin Destructing
+2022-02-23T16:14:31.604108: info: LSongAgent: Begin SetSongUnit
+2022-02-23T16:14:31.604111: info: LSongAgent: End SetSongUnit
+2022-02-23T16:14:31.605122: info: Audio time allocations: Parameter Compensate Delay: Capacity/Used/Failures: 524288/0/0
+2022-02-23T16:14:31.616054: info: Audio time allocations: Midi Delay: Capacity/Used/Failures: 21845/0/0
+2022-02-23T16:14:31.616073: info: Audio In Out: Stop started
+2022-02-23T16:14:31.621701: info: Audio In Out: Begin of UpdateAudioStateStatic 
+2022-02-23T16:14:31.621768: info: Audio In Out: Driver Type: CoreAudio
+2022-02-23T16:14:31.621775: info: Audio In Out: Input Device: MacBook Pro Microphone (1 In, 0 Out)
+2022-02-23T16:14:31.621779: info: Audio In Out: Output Device: BlackHole 2ch (2 In, 2 Out)
+2022-02-23T16:14:31.621784: info: Audio In Out: Input Buffer Size: 512 Samples
+2022-02-23T16:14:31.621789: info: Audio In Out: Input Latency: 0.00 ms
+2022-02-23T16:14:31.621794: info: Audio In Out: Driver Error Compensation (ms): 0.00 ms
+2022-02-23T16:14:31.621798: info: Audio In Out: Overall Latency: 23.2 ms
+2022-02-23T16:14:31.621825: info: Audio In Out: End of UpdateAudioStateStatic 
+2022-02-23T16:14:31.621838: info: Audio In Out: Stop finished
+2022-02-23T16:14:31.621903: info: Audio In Out: Exit started
+2022-02-23T16:14:31.621908: info: Audio In Out: Exit finished
+2022-02-23T16:14:31.621910: info: LSongAgent: End Destructing
+2022-02-23T16:14:31.622071: info: MidiDeviceManager: Start CloseAllActivatedDevices
+2022-02-23T16:14:31.622076: info: MidiDeviceManager: End CloseAllActivatedDevices
+2022-02-23T16:14:31.623243: info: Audio time allocations: Midi Delay: Capacity/Used/Failures: 21845/0/0
+2022-02-23T16:14:31.623266: info: Audio time allocations: Parameter Compensate Delay: Capacity/Used/Failures: 524288/0/0
+2022-02-23T16:14:31.623281: info: Audio time allocations: EventBuffering: Capacity/Used/Failures: 18724/6/0
+2022-02-23T16:14:31.623393: info: Live App: GlobalExit(): Start
+2022-02-23T16:14:31.625677: info: Audio time allocations: AudioBuffer: Capacity/Used/Failures: 506/0/0
+2022-02-23T16:14:31.625702: info: Audio time allocations: AudioBuffer: Capacity/Used/Failures: 1000/4/0
+2022-02-23T16:14:31.626370: info: WebConnectStarter: Stop
+2022-02-23T16:14:31.635635: info: Live App: GlobalExit(): End
