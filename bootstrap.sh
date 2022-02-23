@@ -40,6 +40,7 @@ run() {
             sleep 30
         done
 
+        echo "  ✱ found command line tools, let's use them as our xcode"
         sudo xcode-select -s /Library/Developer/CommandLineTools/
 
         echo '  ✓ done'
