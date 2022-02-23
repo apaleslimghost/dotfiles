@@ -9,7 +9,7 @@ link_and_install() {
     if [ ! -f "$d"/nolink ]; then
         local target=".$d"
         if [ -f "$d"/linktarget ]; then
-            target=$(< "$d"/linktarget)
+            target="$(< "$d"/linktarget)"
         fi
 
         echo "  ⎌ linking folder to $target"
