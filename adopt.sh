@@ -5,7 +5,7 @@ adopt() {
 	local target="$1"
 	local real_target="$(realpath "$target")"
 	local parent="$(dirname "$real_target")"
-	local name=$(basename $real_target)
+	local name="$(basename "$real_target")"
 
 	if [ -d ~/.Dotfiles/"${name#.}" ]; then
 		echo "  ⤼ skipping $target, already adopted?"
@@ -22,9 +22,9 @@ adopt() {
 }
 
 adopt_all() {
-	for target in $@; do
+	for target do
 		adopt "$target"
 	done
 }
 
-adopt_all $@
+adopt_all "$@"
