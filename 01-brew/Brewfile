@@ -41,6 +41,7 @@ brew 'circleci'
 
 # end brew
 
+cask 'ableton-live-suite'
 cask 'bartender'
 cask 'bettertouchtool'
 cask 'blackhole-2ch'
