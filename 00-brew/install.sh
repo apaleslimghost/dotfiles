@@ -7,7 +7,7 @@ if ! command -v brew >/dev/null 2>&1 && [ ! -d /opt/homebrew ] ; then
 fi
 
 if [ -d /opt/homebrew ]; then
-  source $(/opt/homebrew/bin/brew shellenv)
+  eval $(/opt/homebrew/bin/brew shellenv)
 fi
 
 brew update
