@@ -3,6 +3,7 @@
     "canvas_scale": 0.0,
     "icon_scale": -1,
     "icon_theme": 2,
+    "text_editor_zoom": 0,
     "use_icons_in_menus": false
   },
   "auto_backup": {
