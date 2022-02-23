@@ -30,6 +30,7 @@ brew 'cmake'
 brew 'fd'
 brew 'coreutils'
 brew 'rbenv'
+brew 'volta'
 
 # end brew
 
