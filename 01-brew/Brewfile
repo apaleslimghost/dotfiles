@@ -7,6 +7,7 @@ tap 'heroku/brew'
 tap 'osx-cross/arm'
 tap 'osx-cross/avr'
 tap 'qmk/qmk'
+tap "homebrew/cask-drivers"
 # end tap
 
 brew 'awscli'
@@ -14,6 +15,7 @@ brew 'dark-mode'
 brew 'dockutil'
 brew 'fish'
 brew 'gawk'
+brew "gh"
 brew 'heroku'
 brew 'httpie'
 brew 'hub'
@@ -39,10 +41,12 @@ brew 'qmk/qmk/qmk'
 brew 'picocom'
 brew 'circleci'
 brew 'java'
+brew "vlc"
 
 # end brew
 
 cask 'ableton-live-suite'
+cask "avidemux"
 cask 'bartender'
 cask 'bettertouchtool'
 cask 'blackhole-2ch'
@@ -58,7 +62,10 @@ cask 'minecraft'
 cask 'mimestream'
 cask 'notion'
 cask 'p4v'
+cask "raycast"
+cask "qmk-toolbox"
 cask 'spotify'
 cask 'steam'
+cask 'transmission'
 cask 'visual-studio-code'
 # end cask

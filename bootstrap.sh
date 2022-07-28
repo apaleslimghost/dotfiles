@@ -53,7 +53,7 @@ run() {
     if [ ! -d "$HOME/.Dotfiles" ] ; then
         echo '  ⎘ cloning dotfiles repo'
         # clone ourself
-        git clone --recursive git://github.com/quarterto/dotfiles ~/.Dotfiles 2>&1 | sed "s/^/  │ /"
+        git clone --recursive git@github.com:apaleslimghost/dotfiles ~/.Dotfiles 2>&1 | sed "s/^/  │ /"
         echo '  ✓ done'
         echo ''
     fi
