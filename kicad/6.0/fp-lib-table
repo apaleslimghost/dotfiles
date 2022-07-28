@@ -135,4 +135,7 @@
   (lib (name "Keebio-Parts")(type "KiCad")(uri "/Users/kara.brightwell/Documents/KiCad/6.0/footprints/Keebio-Parts.pretty")(options "")(descr ""))
   (lib (name "Pale Slim Ghost")(type "KiCad")(uri "/Users/kara.brightwell/Documents/KiCad/6.0/footprints/Pale Slim Ghost.pretty")(options "")(descr ""))
   (lib (name "AudioJacks")(type "KiCad")(uri "/Users/kara.brightwell/Documents/KiCad/6.0/footprints/AudioJacks.pretty")(options "")(descr ""))
+  (lib (name "promicro")(type "KiCad")(uri "/Users/kara.brightwell/Documents/KiCad/6.0/footprints/promicro.pretty")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "/Users/kara.brightwell/Documents/KiCad/6.0/footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "Switches")(type "KiCad")(uri "/Users/kara.brightwell/Documents/KiCad/6.0/footprints/Switches.pretty")(options "")(descr ""))
 )

@@ -2,7 +2,7 @@
   "appearance": {
     "color_theme": "_builtin_default"
   },
-  "bitmap_file_name": "/Users/kara.brightwell/Downloads/canvas.png",
+  "bitmap_file_name": "/Users/kara.brightwell/Documents/Synths/etc/Icon silk.png",
   "color_picker": {
     "default_tab": 0
   },
@@ -26,7 +26,7 @@
     "select_factor": 0.75
   },
   "last_format": 1,
-  "last_mod_layer": 1,
+  "last_mod_layer": 0,
   "lib_tree": {
     "column_width": 360
   },
@@ -97,12 +97,12 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/kara.brightwell/Downloads",
+    "mru_path": "/Users/kara.brightwell/Documents/Synths/etc",
     "perspective": "layout2|",
-    "pos_x": 306,
-    "pos_y": 90,
+    "pos_x": 126,
+    "pos_y": 240,
     "size_x": 1280,
-    "size_y": 720,
+    "size_y": 736,
     "zoom_factors": []
   }
 }

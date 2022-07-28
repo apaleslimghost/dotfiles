@@ -5,7 +5,7 @@
   "camera": {
     "animation_enabled": true,
     "moving_speed_multiplier": 3,
-    "projection_mode": 0,
+    "projection_mode": 1,
     "rotation_increment": 10.0
   },
   "color_picker": {
@@ -33,7 +33,7 @@
     "column_width": 360
   },
   "meta": {
-    "version": 1
+    "version": 2
   },
   "printing": {
     "background": false,
@@ -51,7 +51,7 @@
     "material_mode": 0,
     "opengl_AA_disableOnMove": false,
     "opengl_AA_mode": 3,
-    "opengl_copper_thickness": true,
+    "opengl_copper_thickness": false,
     "opengl_highlight_on_rollover": true,
     "opengl_holes_disableOnMove": false,
     "opengl_render_bbox_only_OnMove": false,
@@ -174,7 +174,7 @@
       "user_grid_x": "10 mil",
       "user_grid_y": "10 mil"
     },
-    "maximized": false,
+    "maximized": true,
     "mru_path": "",
     "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=802;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1680;besth=973;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(5,0,0)=504|",
     "pos_x": 0,

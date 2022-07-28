@@ -205,6 +205,7 @@ eeschema.InteractiveDrawingLineWireBus.finish	K
 eeschema.InteractiveDrawingLineWireBus.finishBus	
 eeschema.InteractiveDrawingLineWireBus.finishLine	
 eeschema.InteractiveDrawingLineWireBus.finishWire	
+eeschema.InteractiveDrawingLineWireBus.trimOverlappingWires	
 eeschema.InteractiveDrawingLineWireBus.unfoldBus	C
 eeschema.InteractiveEdit.assignNetclass	
 eeschema.InteractiveEdit.autoplaceFields	O

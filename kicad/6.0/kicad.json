@@ -36,6 +36,10 @@
       {
         "name": "KiCad official repository",
         "url": "https://repository.kicad.org/repository.json"
+      },
+      {
+        "name": "Bouni's KiCad repository",
+        "url": "https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json"
       }
     ]
   },
@@ -50,22 +54,22 @@
   },
   "system": {
     "file_history": [
-      "/Users/kara.brightwell/Documents/Eurorack/Parakeets/Parakeets.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/Manx/Owls.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/Manx/Manx.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/mini bees/mini bees.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/Bus/Bus.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/Mallards/Mallards.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/PSU/PSU.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/Dolphins/Dolphins.kicad_pro",
-      "/Users/kara.brightwell/Documents/Eurorack/cicadas/Cicadas.kicad_pro"
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies 2.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/panels/chord-organ/chord-organ.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/dolphins/dolphins.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/owlets/owls.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/owls/owls.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/cicadas/cicadas.kicad_pro",
+      "/Users/kara.brightwell/Documents/Synths/eurorack/panels/chord-organ/Chord organ.kicad_pro"
     ],
     "first_run_shown": false,
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "max_undo_items": 0,
     "open_projects": [
-      ""
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pro"
     ],
     "units": 1
   },
@@ -113,12 +117,12 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/kara.brightwell/Documents/Eurorack/Parakeets/",
+    "mru_path": "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/",
     "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=523;besth=560;minw=523;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=523|",
-    "pos_x": 349,
-    "pos_y": 221,
+    "pos_x": 599,
+    "pos_y": 244,
     "size_x": 865,
-    "size_y": 552,
+    "size_y": 665,
     "zoom_factors": []
   }
 }
