@@ -32,3 +32,819 @@
 2022-02-23T16:14:19.660051: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
 2022-02-23T16:14:19.660236: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
 2022-02-23T16:14:19.660410: info: Vst2: finished scanning plugins
+2022-02-23T20:58:40.343286: info: #######################################
+2022-02-23T20:58:40.343667: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T20:58:40.343681: info: #######################################
+2022-02-23T20:58:40.343686: info: Init: Setup environment
+2022-02-23T20:58:40.343709: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-23T20:58:40.344039: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T20:58:40.344048: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T20:58:40.344057: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T20:58:40.344061: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T20:58:40.345290: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T20:58:40.345306: info: Init: BuildType: 'Release'
+2022-02-23T20:58:40.345311: info: Init: Pid: 18126
+2022-02-23T20:58:40.345348: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T20:58:40.345356: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T20:58:40.345361: info: Init: CPU Count: 8
+2022-02-23T20:58:40.345383: info: Init: Physical RAM: 17179869184 B
+2022-02-23T20:58:40.345386: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T20:58:40.345388: info: Init: 64-bit Edition
+2022-02-23T20:58:40.411034: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-23T20:58:40.429591: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T20:58:40.449980: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T20:58:40.450080: info: Licensing: [Variant=Beta]
+2022-02-23T20:58:40.450249: info: Metadata: Initialize XMP system
+2022-02-23T20:58:40.450777: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T20:58:40.464739: info: Vst3: start scanning plugins
+2022-02-23T20:58:40.464762: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-23T20:58:40.464808: error: Reading directory failed: No such file or directory
+2022-02-23T20:58:40.464838: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-23T20:58:40.464856: error: Reading directory failed: No such file or directory
+2022-02-23T20:58:40.465121: info: Vst3: finished scanning plugins
+2022-02-23T20:58:40.465131: info: Vst2: start scanning plugins
+2022-02-23T20:58:40.465136: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-23T20:58:40.465192: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-23T20:58:40.465244: info: Vst2: finished scanning plugins
+2022-02-23T20:59:00.479456: info: #######################################
+2022-02-23T20:59:00.479774: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T20:59:00.479783: info: #######################################
+2022-02-23T20:59:00.479787: info: Init: Setup environment
+2022-02-23T20:59:00.479799: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-23T20:59:00.480349: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T20:59:00.480357: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T20:59:00.480364: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T20:59:00.480368: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T20:59:00.481310: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T20:59:00.481320: info: Init: BuildType: 'Release'
+2022-02-23T20:59:00.481325: info: Init: Pid: 18150
+2022-02-23T20:59:00.481346: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T20:59:00.481354: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T20:59:00.481360: info: Init: CPU Count: 8
+2022-02-23T20:59:00.481374: info: Init: Physical RAM: 17179869184 B
+2022-02-23T20:59:00.481379: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T20:59:00.481382: info: Init: 64-bit Edition
+2022-02-23T20:59:00.561362: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-23T20:59:00.578733: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T20:59:00.598236: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T20:59:00.598336: info: Licensing: [Variant=Beta]
+2022-02-23T20:59:00.598530: info: Metadata: Initialize XMP system
+2022-02-23T20:59:00.599467: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T20:59:00.611958: info: Vst3: start scanning plugins
+2022-02-23T20:59:00.611988: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-23T20:59:00.612040: error: Reading directory failed: No such file or directory
+2022-02-23T20:59:00.612078: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-23T20:59:00.612089: error: Reading directory failed: No such file or directory
+2022-02-23T20:59:00.612158: info: Vst3: finished scanning plugins
+2022-02-23T20:59:00.612166: info: Vst2: start scanning plugins
+2022-02-23T20:59:00.612170: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-23T20:59:00.612220: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-23T20:59:00.612279: info: Vst2: finished scanning plugins
+2022-02-23T21:01:29.260374: info: #######################################
+2022-02-23T21:01:29.260897: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T21:01:29.260908: info: #######################################
+2022-02-23T21:01:29.260913: info: Init: Setup environment
+2022-02-23T21:01:29.260932: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-23T21:01:29.261572: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T21:01:29.261583: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T21:01:29.261592: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T21:01:29.261597: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T21:01:29.262699: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T21:01:29.262710: info: Init: BuildType: 'Release'
+2022-02-23T21:01:29.262715: info: Init: Pid: 18258
+2022-02-23T21:01:29.262738: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T21:01:29.262746: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T21:01:29.262751: info: Init: CPU Count: 8
+2022-02-23T21:01:29.262766: info: Init: Physical RAM: 17179869184 B
+2022-02-23T21:01:29.262770: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T21:01:29.262774: info: Init: 64-bit Edition
+2022-02-23T21:01:29.335123: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-23T21:01:29.354002: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:01:29.375121: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:01:29.375221: info: Licensing: [Variant=Beta]
+2022-02-23T21:01:29.375414: info: Metadata: Initialize XMP system
+2022-02-23T21:01:29.376169: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T21:01:29.391889: info: Vst3: start scanning plugins
+2022-02-23T21:01:29.391911: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-23T21:01:29.391961: error: Reading directory failed: No such file or directory
+2022-02-23T21:01:29.391997: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-23T21:01:29.392008: error: Reading directory failed: No such file or directory
+2022-02-23T21:01:29.392081: info: Vst3: finished scanning plugins
+2022-02-23T21:01:29.392092: info: Vst2: start scanning plugins
+2022-02-23T21:01:29.392097: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-23T21:01:29.392163: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-23T21:01:29.392219: info: Vst2: finished scanning plugins
+2022-02-23T21:01:49.300996: info: #######################################
+2022-02-23T21:01:49.301155: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T21:01:49.301162: info: #######################################
+2022-02-23T21:01:49.301166: info: Init: Setup environment
+2022-02-23T21:01:49.301187: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-23T21:01:49.301441: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T21:01:49.301455: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T21:01:49.301460: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T21:01:49.301464: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T21:01:49.302430: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T21:01:49.302439: info: Init: BuildType: 'Release'
+2022-02-23T21:01:49.302443: info: Init: Pid: 18278
+2022-02-23T21:01:49.302453: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T21:01:49.302459: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T21:01:49.302462: info: Init: CPU Count: 8
+2022-02-23T21:01:49.302475: info: Init: Physical RAM: 17179869184 B
+2022-02-23T21:01:49.302479: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T21:01:49.302481: info: Init: 64-bit Edition
+2022-02-23T21:01:49.373243: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-23T21:01:49.390273: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:01:49.406172: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:01:49.406246: info: Licensing: [Variant=Beta]
+2022-02-23T21:01:49.406421: info: Metadata: Initialize XMP system
+2022-02-23T21:01:49.407166: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T21:01:49.419100: info: Vst3: start scanning plugins
+2022-02-23T21:01:49.419115: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-23T21:01:49.419136: error: Reading directory failed: No such file or directory
+2022-02-23T21:01:49.419158: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-23T21:01:49.419167: error: Reading directory failed: No such file or directory
+2022-02-23T21:01:49.419222: info: Vst3: finished scanning plugins
+2022-02-23T21:01:49.419229: info: Vst2: start scanning plugins
+2022-02-23T21:01:49.419233: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-23T21:01:49.419290: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-23T21:01:49.419341: info: Vst2: finished scanning plugins
+2022-02-23T21:02:08.345639: info: #######################################
+2022-02-23T21:02:08.345797: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T21:02:08.345803: info: #######################################
+2022-02-23T21:02:08.345807: info: Init: Setup environment
+2022-02-23T21:02:08.345818: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-23T21:02:08.346036: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T21:02:08.346043: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T21:02:08.346049: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T21:02:08.346054: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T21:02:08.347022: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T21:02:08.347035: info: Init: BuildType: 'Release'
+2022-02-23T21:02:08.347041: info: Init: Pid: 18285
+2022-02-23T21:02:08.347052: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T21:02:08.347059: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T21:02:08.347064: info: Init: CPU Count: 8
+2022-02-23T21:02:08.347080: info: Init: Physical RAM: 17179869184 B
+2022-02-23T21:02:08.347084: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T21:02:08.347088: info: Init: 64-bit Edition
+2022-02-23T21:02:08.416513: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-23T21:02:08.433192: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:02:08.448884: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:02:08.448931: info: Licensing: [Variant=Beta]
+2022-02-23T21:02:08.449094: info: Metadata: Initialize XMP system
+2022-02-23T21:02:08.449804: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T21:02:08.461654: info: Vst3: start scanning plugins
+2022-02-23T21:02:08.461667: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-23T21:02:08.461682: error: Reading directory failed: No such file or directory
+2022-02-23T21:02:08.461701: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-23T21:02:08.461712: error: Reading directory failed: No such file or directory
+2022-02-23T21:02:08.461763: info: Vst3: finished scanning plugins
+2022-02-23T21:02:08.461771: info: Vst2: start scanning plugins
+2022-02-23T21:02:08.461775: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-23T21:02:08.461834: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-23T21:02:08.461882: info: Vst2: finished scanning plugins
+2022-02-23T21:02:27.355235: info: #######################################
+2022-02-23T21:02:27.355398: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T21:02:27.355404: info: #######################################
+2022-02-23T21:02:27.355408: info: Init: Setup environment
+2022-02-23T21:02:27.355423: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-23T21:02:27.355659: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T21:02:27.355667: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T21:02:27.355673: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T21:02:27.355678: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T21:02:27.356645: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T21:02:27.356656: info: Init: BuildType: 'Release'
+2022-02-23T21:02:27.356661: info: Init: Pid: 18301
+2022-02-23T21:02:27.356675: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T21:02:27.356682: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T21:02:27.356687: info: Init: CPU Count: 8
+2022-02-23T21:02:27.356702: info: Init: Physical RAM: 17179869184 B
+2022-02-23T21:02:27.356706: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T21:02:27.356710: info: Init: 64-bit Edition
+2022-02-23T21:02:27.427628: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-23T21:02:27.444338: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:02:27.460123: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:02:27.460185: info: Licensing: [Variant=Beta]
+2022-02-23T21:02:27.460338: info: Metadata: Initialize XMP system
+2022-02-23T21:02:27.461107: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T21:02:27.473038: info: Vst3: start scanning plugins
+2022-02-23T21:02:27.473055: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-23T21:02:27.473069: error: Reading directory failed: No such file or directory
+2022-02-23T21:02:27.473091: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-23T21:02:27.473101: error: Reading directory failed: No such file or directory
+2022-02-23T21:02:27.473170: info: Vst3: finished scanning plugins
+2022-02-23T21:02:27.473177: info: Vst2: start scanning plugins
+2022-02-23T21:02:27.473192: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-23T21:02:27.473247: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-23T21:02:27.473294: info: Vst2: finished scanning plugins
+2022-02-23T21:02:46.373891: info: #######################################
+2022-02-23T21:02:46.374054: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-23T21:02:46.374062: info: #######################################
+2022-02-23T21:02:46.374066: info: Init: Setup environment
+2022-02-23T21:02:46.374087: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-23T21:02:46.374347: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-23T21:02:46.374356: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-23T21:02:46.374365: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-23T21:02:46.374370: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-23T21:02:46.375326: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-23T21:02:46.375335: info: Init: BuildType: 'Release'
+2022-02-23T21:02:46.375339: info: Init: Pid: 18314
+2022-02-23T21:02:46.375352: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-23T21:02:46.375359: info: Init: CPU Brand String: 'Apple M1'
+2022-02-23T21:02:46.375364: info: Init: CPU Count: 8
+2022-02-23T21:02:46.375380: info: Init: Physical RAM: 17179869184 B
+2022-02-23T21:02:46.375384: info: Init: Address Space: 18446744073709551615 B
+2022-02-23T21:02:46.375388: info: Init: 64-bit Edition
+2022-02-23T21:02:46.445578: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-23T21:02:46.462523: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:02:46.478463: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-23T21:02:46.478534: info: Licensing: [Variant=Beta]
+2022-02-23T21:02:46.478692: info: Metadata: Initialize XMP system
+2022-02-23T21:02:46.479473: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-23T21:02:46.491400: info: Vst3: start scanning plugins
+2022-02-23T21:02:46.491424: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-23T21:02:46.491444: error: Reading directory failed: No such file or directory
+2022-02-23T21:02:46.491477: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-23T21:02:46.491492: error: Reading directory failed: No such file or directory
+2022-02-23T21:02:46.491557: info: Vst3: finished scanning plugins
+2022-02-23T21:02:46.491565: info: Vst2: start scanning plugins
+2022-02-23T21:02:46.491570: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-23T21:02:46.491642: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-23T21:02:46.491694: info: Vst2: finished scanning plugins
+2022-02-25T20:58:51.693714: info: #######################################
+2022-02-25T20:58:51.694118: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-25T20:58:51.694125: info: #######################################
+2022-02-25T20:58:51.694129: info: Init: Setup environment
+2022-02-25T20:58:51.694144: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-25T20:58:51.694407: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-25T20:58:51.694414: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-25T20:58:51.694421: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-25T20:58:51.694433: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-25T20:58:51.695162: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-25T20:58:51.695171: info: Init: BuildType: 'Release'
+2022-02-25T20:58:51.695174: info: Init: Pid: 28271
+2022-02-25T20:58:51.695195: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-25T20:58:51.695201: info: Init: CPU Brand String: 'Apple M1'
+2022-02-25T20:58:51.695205: info: Init: CPU Count: 8
+2022-02-25T20:58:51.695218: info: Init: Physical RAM: 17179869184 B
+2022-02-25T20:58:51.695221: info: Init: Address Space: 18446744073709551615 B
+2022-02-25T20:58:51.695224: info: Init: 64-bit Edition
+2022-02-25T20:58:51.767363: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-25T20:58:51.785537: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-25T20:58:51.806256: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-25T20:58:51.806374: info: Licensing: [Variant=Beta]
+2022-02-25T20:58:51.806562: info: Metadata: Initialize XMP system
+2022-02-25T20:58:51.807308: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-25T20:58:51.823584: info: Vst3: start scanning plugins
+2022-02-25T20:58:51.823610: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-25T20:58:51.823647: error: Reading directory failed: No such file or directory
+2022-02-25T20:58:51.823680: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-25T20:58:51.823694: error: Reading directory failed: No such file or directory
+2022-02-25T20:58:51.823984: info: Vst3: finished scanning plugins
+2022-02-25T20:58:51.823995: info: Vst2: start scanning plugins
+2022-02-25T20:58:51.824000: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-25T20:58:51.824068: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-25T20:58:51.824120: info: Vst2: finished scanning plugins
+2022-02-28T15:54:12.719183: info: #######################################
+2022-02-28T15:54:12.719974: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-28T15:54:12.719987: info: #######################################
+2022-02-28T15:54:12.719992: info: Init: Setup environment
+2022-02-28T15:54:12.720013: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-28T15:54:12.720617: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-28T15:54:12.720638: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-28T15:54:12.720648: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-28T15:54:12.720653: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-28T15:54:12.722373: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-28T15:54:12.722399: info: Init: BuildType: 'Release'
+2022-02-28T15:54:12.722404: info: Init: Pid: 76494
+2022-02-28T15:54:12.722604: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-28T15:54:12.722616: info: Init: CPU Brand String: 'Apple M1'
+2022-02-28T15:54:12.722622: info: Init: CPU Count: 8
+2022-02-28T15:54:12.722641: info: Init: Physical RAM: 17179869184 B
+2022-02-28T15:54:12.722646: info: Init: Address Space: 18446744073709551615 B
+2022-02-28T15:54:12.722650: info: Init: 64-bit Edition
+2022-02-28T15:54:12.807137: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-28T15:54:12.917848: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:54:12.977583: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:54:12.977746: info: Licensing: [Variant=Beta]
+2022-02-28T15:54:12.978188: info: Metadata: Initialize XMP system
+2022-02-28T15:54:12.992067: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-28T15:54:13.099195: info: Vst3: start scanning plugins
+2022-02-28T15:54:13.099231: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-28T15:54:13.099307: error: Reading directory failed: No such file or directory
+2022-02-28T15:54:13.099348: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-28T15:54:13.099399: error: Reading directory failed: No such file or directory
+2022-02-28T15:54:13.099946: info: Vst3: finished scanning plugins
+2022-02-28T15:54:13.100159: info: Vst2: start scanning plugins
+2022-02-28T15:54:13.100168: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-28T15:54:13.100266: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-28T15:54:13.100326: info: Vst2: finished scanning plugins
+2022-02-28T15:54:37.327715: info: #######################################
+2022-02-28T15:54:37.328229: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-28T15:54:37.328235: info: #######################################
+2022-02-28T15:54:37.328239: info: Init: Setup environment
+2022-02-28T15:54:37.328251: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-28T15:54:37.328800: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-28T15:54:37.328808: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-28T15:54:37.328814: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-28T15:54:37.328818: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-28T15:54:37.330075: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-28T15:54:37.330087: info: Init: BuildType: 'Release'
+2022-02-28T15:54:37.330092: info: Init: Pid: 76526
+2022-02-28T15:54:37.330113: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-28T15:54:37.330121: info: Init: CPU Brand String: 'Apple M1'
+2022-02-28T15:54:37.330126: info: Init: CPU Count: 8
+2022-02-28T15:54:37.330142: info: Init: Physical RAM: 17179869184 B
+2022-02-28T15:54:37.330147: info: Init: Address Space: 18446744073709551615 B
+2022-02-28T15:54:37.330151: info: Init: 64-bit Edition
+2022-02-28T15:54:37.413636: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-28T15:54:37.430535: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:54:37.449436: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:54:37.449509: info: Licensing: [Variant=Beta]
+2022-02-28T15:54:37.449681: info: Metadata: Initialize XMP system
+2022-02-28T15:54:37.450458: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-28T15:54:37.462755: info: Vst3: start scanning plugins
+2022-02-28T15:54:37.462771: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-28T15:54:37.462985: error: Reading directory failed: No such file or directory
+2022-02-28T15:54:37.463012: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-28T15:54:37.463023: error: Reading directory failed: No such file or directory
+2022-02-28T15:54:37.463079: info: Vst3: finished scanning plugins
+2022-02-28T15:54:37.463090: info: Vst2: start scanning plugins
+2022-02-28T15:54:37.463096: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-28T15:54:37.463282: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-28T15:54:37.463340: info: Vst2: finished scanning plugins
+2022-02-28T15:54:56.359701: info: #######################################
+2022-02-28T15:54:56.360111: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-28T15:54:56.360138: info: #######################################
+2022-02-28T15:54:56.360142: info: Init: Setup environment
+2022-02-28T15:54:56.360157: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-28T15:54:56.360812: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-28T15:54:56.360818: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-28T15:54:56.360824: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-28T15:54:56.360827: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-28T15:54:56.361560: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-28T15:54:56.361568: info: Init: BuildType: 'Release'
+2022-02-28T15:54:56.361572: info: Init: Pid: 76544
+2022-02-28T15:54:56.361591: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-28T15:54:56.361597: info: Init: CPU Brand String: 'Apple M1'
+2022-02-28T15:54:56.361601: info: Init: CPU Count: 8
+2022-02-28T15:54:56.361614: info: Init: Physical RAM: 17179869184 B
+2022-02-28T15:54:56.361618: info: Init: Address Space: 18446744073709551615 B
+2022-02-28T15:54:56.361621: info: Init: 64-bit Edition
+2022-02-28T15:54:56.434928: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-28T15:54:56.452383: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:54:56.471650: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:54:56.471751: info: Licensing: [Variant=Beta]
+2022-02-28T15:54:56.471936: info: Metadata: Initialize XMP system
+2022-02-28T15:54:56.473030: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-28T15:54:56.485129: info: Vst3: start scanning plugins
+2022-02-28T15:54:56.485144: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-28T15:54:56.485157: error: Reading directory failed: No such file or directory
+2022-02-28T15:54:56.485177: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-28T15:54:56.485185: error: Reading directory failed: No such file or directory
+2022-02-28T15:54:56.485241: info: Vst3: finished scanning plugins
+2022-02-28T15:54:56.485247: info: Vst2: start scanning plugins
+2022-02-28T15:54:56.485250: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-28T15:54:56.485289: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-28T15:54:56.485329: info: Vst2: finished scanning plugins
+2022-02-28T15:55:15.454610: info: #######################################
+2022-02-28T15:55:15.455081: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-28T15:55:15.455087: info: #######################################
+2022-02-28T15:55:15.455092: info: Init: Setup environment
+2022-02-28T15:55:15.455107: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-28T15:55:15.455785: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-28T15:55:15.455798: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-28T15:55:15.455806: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-28T15:55:15.455811: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-28T15:55:15.456592: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-28T15:55:15.456605: info: Init: BuildType: 'Release'
+2022-02-28T15:55:15.456610: info: Init: Pid: 76559
+2022-02-28T15:55:15.456633: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-28T15:55:15.456641: info: Init: CPU Brand String: 'Apple M1'
+2022-02-28T15:55:15.456654: info: Init: CPU Count: 8
+2022-02-28T15:55:15.456690: info: Init: Physical RAM: 17179869184 B
+2022-02-28T15:55:15.456693: info: Init: Address Space: 18446744073709551615 B
+2022-02-28T15:55:15.456696: info: Init: 64-bit Edition
+2022-02-28T15:55:15.537078: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-28T15:55:15.554507: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:55:15.574637: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:55:15.574746: info: Licensing: [Variant=Beta]
+2022-02-28T15:55:15.574906: info: Metadata: Initialize XMP system
+2022-02-28T15:55:15.575730: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-28T15:55:15.588770: info: Vst3: start scanning plugins
+2022-02-28T15:55:15.588804: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-28T15:55:15.588838: error: Reading directory failed: No such file or directory
+2022-02-28T15:55:15.588882: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-28T15:55:15.588894: error: Reading directory failed: No such file or directory
+2022-02-28T15:55:15.588966: info: Vst3: finished scanning plugins
+2022-02-28T15:55:15.588972: info: Vst2: start scanning plugins
+2022-02-28T15:55:15.588975: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-28T15:55:15.589042: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-28T15:55:15.589094: info: Vst2: finished scanning plugins
+2022-02-28T15:55:34.512906: info: #######################################
+2022-02-28T15:55:34.513257: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-02-28T15:55:34.513267: info: #######################################
+2022-02-28T15:55:34.513272: info: Init: Setup environment
+2022-02-28T15:55:34.513284: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-02-28T15:55:34.513870: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-02-28T15:55:34.513878: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-02-28T15:55:34.513885: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-02-28T15:55:34.513889: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-02-28T15:55:34.514592: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-02-28T15:55:34.514603: info: Init: BuildType: 'Release'
+2022-02-28T15:55:34.514609: info: Init: Pid: 76577
+2022-02-28T15:55:34.514658: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-02-28T15:55:34.514667: info: Init: CPU Brand String: 'Apple M1'
+2022-02-28T15:55:34.514673: info: Init: CPU Count: 8
+2022-02-28T15:55:34.514688: info: Init: Physical RAM: 17179869184 B
+2022-02-28T15:55:34.514693: info: Init: Address Space: 18446744073709551615 B
+2022-02-28T15:55:34.514697: info: Init: 64-bit Edition
+2022-02-28T15:55:34.584198: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-02-28T15:55:34.601560: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:55:34.620545: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-02-28T15:55:34.620639: info: Licensing: [Variant=Beta]
+2022-02-28T15:55:34.620798: info: Metadata: Initialize XMP system
+2022-02-28T15:55:34.621569: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-02-28T15:55:34.633992: info: Vst3: start scanning plugins
+2022-02-28T15:55:34.634018: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-02-28T15:55:34.634037: error: Reading directory failed: No such file or directory
+2022-02-28T15:55:34.634065: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-02-28T15:55:34.634082: error: Reading directory failed: No such file or directory
+2022-02-28T15:55:34.634156: info: Vst3: finished scanning plugins
+2022-02-28T15:55:34.634164: info: Vst2: start scanning plugins
+2022-02-28T15:55:34.634167: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-02-28T15:55:34.634213: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-02-28T15:55:34.634258: info: Vst2: finished scanning plugins
+2022-03-01T21:28:51.593312: info: #######################################
+2022-03-01T21:28:51.596320: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-01T21:28:51.596381: info: #######################################
+2022-03-01T21:28:51.596389: info: Init: Setup environment
+2022-03-01T21:28:51.596441: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-01T21:28:51.598606: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-01T21:28:51.598637: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-01T21:28:51.598650: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-01T21:28:51.598657: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-01T21:28:51.601915: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-01T21:28:51.601951: info: Init: BuildType: 'Release'
+2022-03-01T21:28:51.601966: info: Init: Pid: 73010
+2022-03-01T21:28:51.602000: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-01T21:28:51.602010: info: Init: CPU Brand String: 'Apple M1'
+2022-03-01T21:28:51.602016: info: Init: CPU Count: 8
+2022-03-01T21:28:51.602034: info: Init: Physical RAM: 17179869184 B
+2022-03-01T21:28:51.602039: info: Init: Address Space: 18446744073709551615 B
+2022-03-01T21:28:51.602043: info: Init: 64-bit Edition
+2022-03-01T21:28:52.175916: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-01T21:28:52.209455: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-01T21:28:52.231073: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-01T21:28:52.231220: info: Licensing: [Variant=Beta]
+2022-03-01T21:28:52.231418: info: Metadata: Initialize XMP system
+2022-03-01T21:28:52.232207: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-01T21:28:52.309989: info: Vst3: start scanning plugins
+2022-03-01T21:28:52.310061: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-01T21:28:52.310168: error: Reading directory failed: No such file or directory
+2022-03-01T21:28:52.310240: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-01T21:28:52.310261: error: Reading directory failed: No such file or directory
+2022-03-01T21:28:52.310721: info: Vst3: finished scanning plugins
+2022-03-01T21:28:52.310732: info: Vst2: start scanning plugins
+2022-03-01T21:28:52.310737: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-01T21:28:52.311059: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-01T21:28:52.311236: info: Vst2: finished scanning plugins
+2022-03-02T21:34:33.591394: info: #######################################
+2022-03-02T21:34:33.592578: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-02T21:34:33.592590: info: #######################################
+2022-03-02T21:34:33.592597: info: Init: Setup environment
+2022-03-02T21:34:33.592621: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-02T21:34:33.593333: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-02T21:34:33.595575: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-02T21:34:33.595592: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-02T21:34:33.595597: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-02T21:34:33.599963: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-02T21:34:33.599973: info: Init: BuildType: 'Release'
+2022-03-02T21:34:33.599977: info: Init: Pid: 52336
+2022-03-02T21:34:33.600001: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-02T21:34:33.600007: info: Init: CPU Brand String: 'Apple M1'
+2022-03-02T21:34:33.600011: info: Init: CPU Count: 8
+2022-03-02T21:34:33.600028: info: Init: Physical RAM: 17179869184 B
+2022-03-02T21:34:33.600032: info: Init: Address Space: 18446744073709551615 B
+2022-03-02T21:34:33.600035: info: Init: 64-bit Edition
+2022-03-02T21:34:33.720655: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-02T21:34:33.746646: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-02T21:34:33.770872: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-02T21:34:33.771262: info: Licensing: [Variant=Beta]
+2022-03-02T21:34:33.772046: info: Metadata: Initialize XMP system
+2022-03-02T21:34:33.773177: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-02T21:34:33.888187: info: Vst3: start scanning plugins
+2022-03-02T21:34:33.898051: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-02T21:34:33.899981: error: Reading directory failed: No such file or directory
+2022-03-02T21:34:33.900033: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-02T21:34:33.900057: error: Reading directory failed: No such file or directory
+2022-03-02T21:34:33.901899: info: Vst3: finished scanning plugins
+2022-03-02T21:34:33.901925: info: Vst2: start scanning plugins
+2022-03-02T21:34:33.901931: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-02T21:34:33.902195: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-02T21:34:33.903217: info: Vst2: finished scanning plugins
+2022-03-05T21:32:19.043029: info: #######################################
+2022-03-05T21:32:19.043847: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-05T21:32:19.043856: info: #######################################
+2022-03-05T21:32:19.043861: info: Init: Setup environment
+2022-03-05T21:32:19.043880: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-05T21:32:19.044632: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-05T21:32:19.044645: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-05T21:32:19.044655: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-05T21:32:19.044661: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-05T21:32:19.046438: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-05T21:32:19.046446: info: Init: BuildType: 'Release'
+2022-03-05T21:32:19.046450: info: Init: Pid: 59210
+2022-03-05T21:32:19.046472: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-05T21:32:19.046480: info: Init: CPU Brand String: 'Apple M1'
+2022-03-05T21:32:19.046485: info: Init: CPU Count: 8
+2022-03-05T21:32:19.046503: info: Init: Physical RAM: 17179869184 B
+2022-03-05T21:32:19.046508: info: Init: Address Space: 18446744073709551615 B
+2022-03-05T21:32:19.046513: info: Init: 64-bit Edition
+2022-03-05T21:32:19.119867: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-05T21:32:19.152359: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-05T21:32:19.172024: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-05T21:32:19.172125: info: Licensing: [Variant=Beta]
+2022-03-05T21:32:19.172322: info: Metadata: Initialize XMP system
+2022-03-05T21:32:19.173045: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-05T21:32:19.189286: info: Vst3: start scanning plugins
+2022-03-05T21:32:19.189313: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-05T21:32:19.189365: error: Reading directory failed: No such file or directory
+2022-03-05T21:32:19.189392: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-05T21:32:19.189406: error: Reading directory failed: No such file or directory
+2022-03-05T21:32:19.189495: info: Vst3: finished scanning plugins
+2022-03-05T21:32:19.189502: info: Vst2: start scanning plugins
+2022-03-05T21:32:19.189505: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-05T21:32:19.189681: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-05T21:32:19.189798: info: Vst2: finished scanning plugins
+2022-03-14T11:21:32.273101: info: #######################################
+2022-03-14T11:21:32.274107: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-14T11:21:32.274116: info: #######################################
+2022-03-14T11:21:32.274121: info: Init: Setup environment
+2022-03-14T11:21:32.274145: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-14T11:21:32.274950: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-14T11:21:32.274962: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-14T11:21:32.274974: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-14T11:21:32.274982: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-14T11:21:32.276591: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-14T11:21:32.276604: info: Init: BuildType: 'Release'
+2022-03-14T11:21:32.276609: info: Init: Pid: 95319
+2022-03-14T11:21:32.276634: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-14T11:21:32.276642: info: Init: CPU Brand String: 'Apple M1'
+2022-03-14T11:21:32.276647: info: Init: CPU Count: 8
+2022-03-14T11:21:32.276663: info: Init: Physical RAM: 17179869184 B
+2022-03-14T11:21:32.276667: info: Init: Address Space: 18446744073709551615 B
+2022-03-14T11:21:32.276671: info: Init: 64-bit Edition
+2022-03-14T11:21:32.360548: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-14T11:21:32.380704: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T11:21:32.402872: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T11:21:32.403015: info: Licensing: [Variant=Beta]
+2022-03-14T11:21:32.403354: info: Metadata: Initialize XMP system
+2022-03-14T11:21:32.404222: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-14T11:21:32.485655: info: Vst3: start scanning plugins
+2022-03-14T11:21:32.485679: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-14T11:21:32.485728: error: Reading directory failed: No such file or directory
+2022-03-14T11:21:32.485762: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-14T11:21:32.485777: error: Reading directory failed: No such file or directory
+2022-03-14T11:21:32.486064: info: Vst3: finished scanning plugins
+2022-03-14T11:21:32.486077: info: Vst2: start scanning plugins
+2022-03-14T11:21:32.486083: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-14T11:21:32.486242: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-14T11:21:32.486362: info: Vst2: finished scanning plugins
+2022-03-14T17:11:22.050637: info: #######################################
+2022-03-14T17:11:22.051697: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-14T17:11:22.051704: info: #######################################
+2022-03-14T17:11:22.051708: info: Init: Setup environment
+2022-03-14T17:11:22.051724: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-14T17:11:22.052741: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-14T17:11:22.052751: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-14T17:11:22.052758: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-14T17:11:22.052762: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-14T17:11:22.054892: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-14T17:11:22.054905: info: Init: BuildType: 'Release'
+2022-03-14T17:11:22.054910: info: Init: Pid: 15620
+2022-03-14T17:11:22.054933: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-14T17:11:22.054941: info: Init: CPU Brand String: 'Apple M1'
+2022-03-14T17:11:22.054947: info: Init: CPU Count: 8
+2022-03-14T17:11:22.054964: info: Init: Physical RAM: 17179869184 B
+2022-03-14T17:11:22.054968: info: Init: Address Space: 18446744073709551615 B
+2022-03-14T17:11:22.054972: info: Init: 64-bit Edition
+2022-03-14T17:11:22.137732: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-14T17:11:22.158742: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:11:22.180839: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:11:22.180936: info: Licensing: [Variant=Beta]
+2022-03-14T17:11:22.181123: info: Metadata: Initialize XMP system
+2022-03-14T17:11:22.181859: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-14T17:11:22.290672: info: Vst3: start scanning plugins
+2022-03-14T17:11:22.290705: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-14T17:11:22.290748: error: Reading directory failed: No such file or directory
+2022-03-14T17:11:22.290788: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-14T17:11:22.290810: error: Reading directory failed: No such file or directory
+2022-03-14T17:11:22.291176: info: Vst3: finished scanning plugins
+2022-03-14T17:11:22.291194: info: Vst2: start scanning plugins
+2022-03-14T17:11:22.291201: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-14T17:11:22.291462: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-14T17:11:22.291671: info: Vst2: finished scanning plugins
+2022-03-14T17:11:45.685899: info: #######################################
+2022-03-14T17:11:45.686587: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-14T17:11:45.686594: info: #######################################
+2022-03-14T17:11:45.686598: info: Init: Setup environment
+2022-03-14T17:11:45.686613: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-14T17:11:45.687226: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-14T17:11:45.687238: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-14T17:11:45.687246: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-14T17:11:45.687251: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-14T17:11:45.688798: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-14T17:11:45.688815: info: Init: BuildType: 'Release'
+2022-03-14T17:11:45.688818: info: Init: Pid: 15642
+2022-03-14T17:11:45.688839: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-14T17:11:45.688845: info: Init: CPU Brand String: 'Apple M1'
+2022-03-14T17:11:45.688849: info: Init: CPU Count: 8
+2022-03-14T17:11:45.688865: info: Init: Physical RAM: 17179869184 B
+2022-03-14T17:11:45.688868: info: Init: Address Space: 18446744073709551615 B
+2022-03-14T17:11:45.688871: info: Init: 64-bit Edition
+2022-03-14T17:11:45.756104: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-14T17:11:45.773524: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:11:45.792302: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:11:45.792381: info: Licensing: [Variant=Beta]
+2022-03-14T17:11:45.792546: info: Metadata: Initialize XMP system
+2022-03-14T17:11:45.793248: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-14T17:11:45.809094: info: Vst3: start scanning plugins
+2022-03-14T17:11:45.809109: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-14T17:11:45.809130: error: Reading directory failed: No such file or directory
+2022-03-14T17:11:45.809154: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-14T17:11:45.809164: error: Reading directory failed: No such file or directory
+2022-03-14T17:11:45.809324: info: Vst3: finished scanning plugins
+2022-03-14T17:11:45.809335: info: Vst2: start scanning plugins
+2022-03-14T17:11:45.809340: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-14T17:11:45.809526: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-14T17:11:45.809696: info: Vst2: finished scanning plugins
+2022-03-14T17:12:04.706254: info: #######################################
+2022-03-14T17:12:04.707094: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-14T17:12:04.707100: info: #######################################
+2022-03-14T17:12:04.707105: info: Init: Setup environment
+2022-03-14T17:12:04.707119: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-14T17:12:04.707919: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-14T17:12:04.707931: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-14T17:12:04.707939: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-14T17:12:04.707943: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-14T17:12:04.709447: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-14T17:12:04.709455: info: Init: BuildType: 'Release'
+2022-03-14T17:12:04.709460: info: Init: Pid: 15658
+2022-03-14T17:12:04.709483: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-14T17:12:04.709490: info: Init: CPU Brand String: 'Apple M1'
+2022-03-14T17:12:04.709496: info: Init: CPU Count: 8
+2022-03-14T17:12:04.709513: info: Init: Physical RAM: 17179869184 B
+2022-03-14T17:12:04.709518: info: Init: Address Space: 18446744073709551615 B
+2022-03-14T17:12:04.709522: info: Init: 64-bit Edition
+2022-03-14T17:12:04.777474: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-14T17:12:04.794834: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:12:04.813795: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:12:04.813883: info: Licensing: [Variant=Beta]
+2022-03-14T17:12:04.814041: info: Metadata: Initialize XMP system
+2022-03-14T17:12:04.814792: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-14T17:12:04.831147: info: Vst3: start scanning plugins
+2022-03-14T17:12:04.831192: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-14T17:12:04.831210: error: Reading directory failed: No such file or directory
+2022-03-14T17:12:04.831233: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-14T17:12:04.831244: error: Reading directory failed: No such file or directory
+2022-03-14T17:12:04.831305: info: Vst3: finished scanning plugins
+2022-03-14T17:12:04.831312: info: Vst2: start scanning plugins
+2022-03-14T17:12:04.831316: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-14T17:12:04.831695: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-14T17:12:04.831827: info: Vst2: finished scanning plugins
+2022-03-14T17:12:23.777360: info: #######################################
+2022-03-14T17:12:23.778153: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-14T17:12:23.778164: info: #######################################
+2022-03-14T17:12:23.778169: info: Init: Setup environment
+2022-03-14T17:12:23.778192: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-14T17:12:23.778989: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-14T17:12:23.779000: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-14T17:12:23.779009: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-14T17:12:23.779014: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-14T17:12:23.780680: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-14T17:12:23.780693: info: Init: BuildType: 'Release'
+2022-03-14T17:12:23.780698: info: Init: Pid: 15672
+2022-03-14T17:12:23.780882: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-14T17:12:23.780896: info: Init: CPU Brand String: 'Apple M1'
+2022-03-14T17:12:23.780902: info: Init: CPU Count: 8
+2022-03-14T17:12:23.780920: info: Init: Physical RAM: 17179869184 B
+2022-03-14T17:12:23.780924: info: Init: Address Space: 18446744073709551615 B
+2022-03-14T17:12:23.780928: info: Init: 64-bit Edition
+2022-03-14T17:12:23.855779: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-14T17:12:23.873298: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:12:23.890305: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:12:23.890377: info: Licensing: [Variant=Beta]
+2022-03-14T17:12:23.890546: info: Metadata: Initialize XMP system
+2022-03-14T17:12:23.891298: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-14T17:12:23.905837: info: Vst3: start scanning plugins
+2022-03-14T17:12:23.905860: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-14T17:12:23.905878: error: Reading directory failed: No such file or directory
+2022-03-14T17:12:23.905905: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-14T17:12:23.905916: error: Reading directory failed: No such file or directory
+2022-03-14T17:12:23.905979: info: Vst3: finished scanning plugins
+2022-03-14T17:12:23.905986: info: Vst2: start scanning plugins
+2022-03-14T17:12:23.905991: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-14T17:12:23.906334: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-14T17:12:23.907091: info: Vst2: finished scanning plugins
+2022-03-14T17:12:42.721504: info: #######################################
+2022-03-14T17:12:42.722456: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-14T17:12:42.722463: info: #######################################
+2022-03-14T17:12:42.722468: info: Init: Setup environment
+2022-03-14T17:12:42.722498: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-14T17:12:42.728740: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-14T17:12:42.728762: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-14T17:12:42.728770: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-14T17:12:42.728773: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-14T17:12:42.730728: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-14T17:12:42.730743: info: Init: BuildType: 'Release'
+2022-03-14T17:12:42.730747: info: Init: Pid: 15686
+2022-03-14T17:12:42.730774: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-14T17:12:42.730781: info: Init: CPU Brand String: 'Apple M1'
+2022-03-14T17:12:42.730785: info: Init: CPU Count: 8
+2022-03-14T17:12:42.730802: info: Init: Physical RAM: 17179869184 B
+2022-03-14T17:12:42.730806: info: Init: Address Space: 18446744073709551615 B
+2022-03-14T17:12:42.730808: info: Init: 64-bit Edition
+2022-03-14T17:12:42.806130: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-14T17:12:42.823590: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:12:42.842442: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:12:42.842522: info: Licensing: [Variant=Beta]
+2022-03-14T17:12:42.842687: info: Metadata: Initialize XMP system
+2022-03-14T17:12:42.843438: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-14T17:12:42.857058: info: Vst3: start scanning plugins
+2022-03-14T17:12:42.857075: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-14T17:12:42.857091: error: Reading directory failed: No such file or directory
+2022-03-14T17:12:42.857114: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-14T17:12:42.857126: error: Reading directory failed: No such file or directory
+2022-03-14T17:12:42.857180: info: Vst3: finished scanning plugins
+2022-03-14T17:12:42.857187: info: Vst2: start scanning plugins
+2022-03-14T17:12:42.857190: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-14T17:12:42.857362: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-14T17:12:42.857498: info: Vst2: finished scanning plugins
+2022-03-14T17:13:01.731046: info: #######################################
+2022-03-14T17:13:01.731798: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-14T17:13:01.731807: info: #######################################
+2022-03-14T17:13:01.731814: info: Init: Setup environment
+2022-03-14T17:13:01.731834: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-14T17:13:01.732583: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-14T17:13:01.732594: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-14T17:13:01.732602: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-14T17:13:01.732607: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-14T17:13:01.734039: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-14T17:13:01.734049: info: Init: BuildType: 'Release'
+2022-03-14T17:13:01.734054: info: Init: Pid: 15706
+2022-03-14T17:13:01.734110: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-14T17:13:01.734124: info: Init: CPU Brand String: 'Apple M1'
+2022-03-14T17:13:01.734131: info: Init: CPU Count: 8
+2022-03-14T17:13:01.734148: info: Init: Physical RAM: 17179869184 B
+2022-03-14T17:13:01.734160: info: Init: Address Space: 18446744073709551615 B
+2022-03-14T17:13:01.734163: info: Init: 64-bit Edition
+2022-03-14T17:13:01.801791: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-14T17:13:01.819350: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:13:01.838129: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-14T17:13:01.838204: info: Licensing: [Variant=Beta]
+2022-03-14T17:13:01.838361: info: Metadata: Initialize XMP system
+2022-03-14T17:13:01.839118: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-14T17:13:01.853116: info: Vst3: start scanning plugins
+2022-03-14T17:13:01.853129: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-14T17:13:01.853141: error: Reading directory failed: No such file or directory
+2022-03-14T17:13:01.853159: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-14T17:13:01.853168: error: Reading directory failed: No such file or directory
+2022-03-14T17:13:01.853218: info: Vst3: finished scanning plugins
+2022-03-14T17:13:01.853224: info: Vst2: start scanning plugins
+2022-03-14T17:13:01.853227: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-14T17:13:01.853385: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-14T17:13:01.853511: info: Vst2: finished scanning plugins
+2022-03-16T16:37:12.270176: info: #######################################
+2022-03-16T16:37:12.271290: info: Started: PluginScanner 11.1 Build: 2022-01-27_9922074e99
+2022-03-16T16:37:12.271298: info: #######################################
+2022-03-16T16:37:12.271303: info: Init: Setup environment
+2022-03-16T16:37:12.271331: info: UUID: A0F8752A-C5C5-3F9B-A142-72E505613157
+2022-03-16T16:37:12.272233: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2022-03-16T16:37:12.272257: info: Init: Version: 'PluginScanner 11.1 Build: 2022-01-27_9922074e99' 1114368
+2022-03-16T16:37:12.272275: info: Init: BuildRevisions: 9922074e99c8d74b4021d5bda09b5e9ff4498fc5
+2022-03-16T16:37:12.272281: info: Init: Commit ID: '9922074e99c8d74b4021d5bda09b5e9ff4498fc5'
+2022-03-16T16:37:12.274468: info: Init: OS: 'macOS 12.2.1 (21D62), Arch:arm64'
+2022-03-16T16:37:12.274490: info: Init: BuildType: 'Release'
+2022-03-16T16:37:12.274495: info: Init: Pid: 98994
+2022-03-16T16:37:12.274526: info: Init: Hardware Model: 'MacBookPro17,1'
+2022-03-16T16:37:12.274535: info: Init: CPU Brand String: 'Apple M1'
+2022-03-16T16:37:12.274541: info: Init: CPU Count: 8
+2022-03-16T16:37:12.274562: info: Init: Physical RAM: 17179869184 B
+2022-03-16T16:37:12.274566: info: Init: Address Space: 18446744073709551615 B
+2022-03-16T16:37:12.274570: info: Init: 64-bit Edition
+2022-03-16T16:37:12.373089: info: Init: Checksum 1: c95de97657d8b85771b193c61b59254b
+2022-03-16T16:37:12.683702: info: Init: Checksum 2: 72e7d465087977bd142058c135b1f2a8
+2022-03-16T16:37:12.778021: info: Init: Checksum 3: 72e7d465087977bd142058c135b1f2a8
+2022-03-16T16:37:12.778671: info: Licensing: [Variant=Beta]
+2022-03-16T16:37:12.778922: info: Metadata: Initialize XMP system
+2022-03-16T16:37:12.781274: info: Database: Open database '/Users/kara.brightwell/Library/Application Support/Ableton/Live Database/Live-files-47.db' (key: SQL[2], sqlite 3.30.1)
+2022-03-16T16:37:13.201199: info: Vst3: start scanning plugins
+2022-03-16T16:37:13.201276: info: Vst3: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST3" (user)
+2022-03-16T16:37:13.201408: error: Reading directory failed: No such file or directory
+2022-03-16T16:37:13.201568: info: Vst3: scanning plugins in "/Library/Audio/Plug-Ins/VST3" (local)
+2022-03-16T16:37:13.201610: error: Reading directory failed: No such file or directory
+2022-03-16T16:37:13.201889: info: Vst3: finished scanning plugins
+2022-03-16T16:37:13.201973: info: Vst2: start scanning plugins
+2022-03-16T16:37:13.201996: info: Vst2: scanning plugins in "/Users/kara.brightwell/Library/Audio/Plug-Ins/VST" (user)
+2022-03-16T16:37:13.202318: info: Vst2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (local)
+2022-03-16T16:37:13.206479: info: Vst2: finished scanning plugins
