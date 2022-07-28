@@ -41,7 +41,6 @@ brew 'qmk/qmk/qmk'
 brew 'picocom'
 brew 'circleci'
 brew 'java'
-brew "vlc"
 
 # end brew
 
@@ -68,4 +67,5 @@ cask 'spotify'
 cask 'steam'
 cask 'transmission'
 cask 'visual-studio-code'
+cask "vlc"
 # end cask
