@@ -21,10 +21,10 @@ if ! curl -s https://api.github.com/users/apaleslimghost/keys | grep "$(cut -f2 
      -H "Authorization: token $github_token" \
      --data "{\"title\":\"$key_name\",\"key\":\"$(< ~/.ssh/id_rsa.pub)\"}" \
      https://api.github.com/user/keys
-fi
 
-open https://github.com/settings/keys
-echo -n "  ⏎ go authorise the key with SAML pls "
-read -n1
+    open https://github.com/settings/keys
+    echo -n "  ⏎ go authorise the key with SAML pls "
+    read -n1
+fi
 
 git remote set-url origin git@github.com:apaleslimghost/dotfiles.git
