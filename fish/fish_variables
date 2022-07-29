@@ -5,8 +5,7 @@ SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_initialized:3100
 SETUVAR _fisher__2F_Users_2F_kara_2E_brightwell_2F_2E_44_otfiles_2F_fish_2F_local_files:/Users/kara\x2ebrightwell/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/functions/git\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/functions/print_color\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/functions/vault\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/conf\x2ed/local\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/kara\x2ebrightwell/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/completions/fisher\x2efish
-SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/Users/kara\x2ebrightwell/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/functions/nvm\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_plugins:rbenv/fish\x2drbenv\x1ejorgebucaran/nvm\x2efish\x1e/Users/kara\x2ebrightwell/\x2eDotfiles/fish/local\x1ejorgebucaran/fisher
+SETUVAR _fisher_plugins:rbenv/fish\x2drbenv\x1e/Users/kara\x2ebrightwell/\x2eDotfiles/fish/local\x1ejorgebucaran/fisher
 SETUVAR _fisher_rbenv_2F_fish_2D_rbenv_files:/Users/kara\x2ebrightwell/\x2econfig/fish/functions/rbenv\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/conf\x2ed/rbenv\x2efish\x1e/Users/kara\x2ebrightwell/\x2econfig/fish/completions/rbenv\x2efish
 SETUVAR fish_color_cwd:green
 SETUVAR fish_color_cwd_root:red
@@ -24,6 +23,3 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_user_paths:/opt/homebrew/opt/openssl\x401\x2e1/bin\x1e/opt/homebrew/sbin\x1e/opt/homebrew/bin\x1e/Users/kara\x2ebrightwell/\x2econfig/nvm/14\x2e7\x2e0/bin\x1e/Users/kara\x2ebrightwell/\x2ecargo/bin\x1e/Users/kara\x2ebrightwell/\x2efzf/bin
-SETUVAR nvm_data:/Users/kara\x2ebrightwell/\x2elocal/share/nvm
-SETUVAR nvm_default_version:12
-SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
