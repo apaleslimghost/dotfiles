@@ -1,10 +1,10 @@
 {
   "action_plugins": [
     {
-      "/Users/kara.brightwell/Documents/KiCad/6.0/3rdparty/plugins/com_github_mitxela_kicad-round-tracks/round_tracks_action.py/ActionRoundTracks": true
+      "/Users/apaleslimghost/Documents/KiCad/6.0/3rdparty/plugins/com_github_mitxela_kicad-round-tracks/round_tracks_action.py/ActionRoundTracks": true
     },
     {
-      "/Users/kara.brightwell/Documents/KiCad/6.0/3rdparty/plugins/com_github_bouni_kicad-jlcpcb-tools/plugin.py/JLCPCBPlugin": true
+      "/Users/apaleslimghost/Documents/KiCad/6.0/3rdparty/plugins/com_github_bouni_kicad-jlcpcb-tools/plugin.py/JLCPCBPlugin": true
     }
   ],
   "appearance": {
@@ -33,7 +33,7 @@
   },
   "drc_dialog": {
     "refill_zones": true,
-    "severities": 24,
+    "severities": 26,
     "test_all_track_errors": false,
     "test_footprints": true
   },
@@ -242,14 +242,14 @@
     "origin_y": 0.0
   },
   "lib_tree": {
-    "column_width": 971
+    "column_width": 1052
   },
   "meta": {
     "version": 1
   },
   "netlist": {
     "associate_by_ref_sch": false,
-    "delete_extra_footprints": false,
+    "delete_extra_footprints": true,
     "delete_shorting_tracks": false,
     "delete_single_pad_nets": false,
     "report_filter": 28,
@@ -276,7 +276,7 @@
     "track_clearance_mode": 2,
     "track_fill": true,
     "via_fill": true,
-    "zone_mode": 1
+    "zone_mode": 0
   },
   "place_file": {
     "file_format": 0,
@@ -322,15 +322,15 @@
   },
   "system": {
     "file_history": [
+      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_pcb",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pcb",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/ants-psu/ants-psu.kicad_pcb",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails.kicad_pcb",
       "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pcb",
       "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies 2.kicad_pcb",
       "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_pcb",
       "/Users/kara.brightwell/Documents/Synths/eurorack/panels/chord-organ/chord-organ.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/dolphins/dolphins.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/chordata-rounded.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/bus/bus.kicad_pcb",
-      "/Users/kara.brightwell/Downloads/Minimal/RP2040_minimal/RP2040_minimal.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/owls/owls.kicad_pcb"
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/dolphins/dolphins.kicad_pcb"
     ],
     "first_run_shown": true,
     "last_footprint3d_dir": "${KISYS3DMOD}/ec11-rotary-encoder-dode-switch-15mm-1.snapshot.1",
@@ -416,9 +416,9 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1210;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=785;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=565;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=643;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=212|dock_size(5,0,0)=387|",
-    "pos_x": 0,
-    "pos_y": 25,
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1227;besth=42;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=937;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=565;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=643;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=42|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=212|dock_size(5,0,0)=387|",
+    "pos_x": 15,
+    "pos_y": 91,
     "size_x": 1680,
     "size_y": 973,
     "zoom_factors": [

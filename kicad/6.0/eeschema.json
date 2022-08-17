@@ -107,7 +107,7 @@
     "drag_is_move": true
   },
   "lib_tree": {
-    "column_width": 1401
+    "column_width": 1882
   },
   "lib_view": {
     "cmp_list_width": 148,
@@ -197,15 +197,15 @@
   },
   "system": {
     "file_history": [
+      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_sch",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_sch",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails.kicad_sch",
       "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_sch",
       "/Users/kara.brightwell/Documents/Synths/eurorack/modules/owls/owls.kicad_sch",
       "/Users/kara.brightwell/Documents/Synths/eurorack/modules/hummingbirds/hummingbirds.kicad_sch",
       "/Users/kara.brightwell/Documents/Synths/eurorack/modules/cicadas/cicadas.kicad_sch",
       "/Users/kara.brightwell/Downloads/Minimal/RP2040_minimal/RP2040_minimal.kicad_sch",
-      "/Users/kara.brightwell/Downloads/Minimal/RP2040_minimal/RP2040_minimal.sch",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_sch",
-      "/Users/kara.brightwell/Documents/Synths/standalone/kestrels/kestrels.kicad_sch",
-      "/Users/kara.brightwell/Downloads/crkbd-main/corne-cherry/pcb/corne-cherry.sch"
+      "/Users/kara.brightwell/Downloads/Minimal/RP2040_minimal/RP2040_minimal.sch"
     ],
     "first_run_shown": true,
     "last_imperial_units": 0,

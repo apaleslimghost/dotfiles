@@ -21,7 +21,7 @@
   },
   "environment": {
     "vars": {
-      "KISYS3DMOD": "/Users/kara.brightwell/Documents/KiCad/6.0/3dmodels"
+      "KISYS3DMOD": "/Users/apaleslimghost/Documents/KiCad/6.0/3dmodels"
     }
   },
   "graphics": {
