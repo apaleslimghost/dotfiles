@@ -18,7 +18,6 @@ brew 'gawk'
 brew "gh"
 brew 'heroku'
 brew 'httpie'
-brew 'hub'
 brew 'imagemagick'
 brew 'jq'
 brew 'lastpass-cli'

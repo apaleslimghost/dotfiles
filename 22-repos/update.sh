@@ -3,8 +3,7 @@
 set -e
 
 digest_repos() {
-	local root="$1"
-	local file=$(basename $root)
+	local file="$1"
 
 	for repo in $(ls -t "$root" | head -20); do
 		pushd "$root/$repo" > /dev/null
@@ -14,5 +13,4 @@ digest_repos() {
 	done > $file
 }
 
-digest_repos ~/Work
-digest_repos ~/Projects
+digest_repos "${laptop_type:-personal}-repos"

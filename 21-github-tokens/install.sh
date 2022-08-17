@@ -15,5 +15,6 @@ ask_for_token() {
 	fi
 }
 
-ask_for_token "FT Vault"
-ask_for_token "Hub"
+if [ "$laptop_type" == "work" ]; then
+	ask_for_token "FT Vault"
+fi

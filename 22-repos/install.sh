@@ -3,18 +3,13 @@
 set -x -e
 
 clone_all_the_things() {
-	local root="$HOME/$1"
 	local repos=$(< $1)
 
-	mkdir -p $root
-	pushd $root
+	mkdir -p ~/Code
 
 	for repo in $repos ; do
-		git clone $repo || echo "Already cloned $repo"
+		gh repo clone $repo ~/Code/$repo || echo "Already cloned $repo"
 	done
-
-	popd
 }
 
-clone_all_the_things Work
-clone_all_the_things Projects
+clone_all_the_things "${laptop_type:-personal}-repos"
