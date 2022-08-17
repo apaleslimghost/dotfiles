@@ -1,0 +1,10 @@
+{
+	"timer": 15,
+	"musicQueue": 5,
+	"displayAtStart": true,
+	"displayType": "ACTION_BAR",
+	"volumeIncrement": 5,
+	"allowHighVolume": false,
+	"cheat": false,
+	"musicCategoryStart": "OVERWORLD"
+}
