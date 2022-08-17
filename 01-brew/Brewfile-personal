@@ -1,0 +1,69 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'heroku/brew'
+tap 'osx-cross/arm'
+tap 'osx-cross/avr'
+tap 'qmk/qmk'
+tap "homebrew/cask-drivers"
+# end tap
+
+brew 'awscli'
+brew 'dark-mode'
+brew 'dockutil'
+brew 'fish'
+brew 'gawk'
+brew "gh"
+brew 'heroku'
+brew 'httpie'
+brew 'hub'
+brew 'imagemagick'
+brew 'jq'
+brew 'lastpass-cli'
+brew 'less'
+brew 'mas'
+brew 'ripgrep'
+brew 'ruby'
+brew 'the_silver_searcher'
+brew 'tree'
+brew 'vault'
+brew 'avrdude'
+brew 'postgresql'
+brew 'cmake'
+brew 'fd'
+brew 'coreutils'
+brew 'rbenv'
+brew 'volta'
+brew 'mermaid-cli'
+brew 'qmk/qmk/qmk'
+brew 'picocom'
+brew 'circleci'
+brew 'java'
+
+# end brew
+
+cask 'ableton-live-suite'
+cask "avidemux"
+cask 'bettertouchtool'
+cask 'blackhole-2ch'
+cask 'discord'
+cask 'dynamic-dark-mode'
+cask 'firefox'
+cask 'focus'
+cask 'font-cascadia-code'
+cask 'karabiner-elements'
+cask 'kicad'
+cask 'minecraft'
+cask 'mimestream'
+cask 'notion'
+cask 'p4v'
+cask "raycast"
+cask "qmk-toolbox"
+cask 'spotify'
+cask 'steam'
+cask 'transmission'
+cask 'visual-studio-code'
+cask "vlc"
+# end cask

@@ -11,4 +11,4 @@ if [ -d /opt/homebrew ]; then
 fi
 
 brew update
-brew bundle -v
+brew bundle -v --file=Brewfile${laptop_type:-personal}
