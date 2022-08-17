@@ -40,3 +40,63 @@ INFO:2022-07-17 10:49:12,450:abl.webconnector.main:Upload info.
 INFO:2022-07-17 10:49:12,552:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
 INFO:2022-07-17 10:49:12,794:abl.webconnector.auto_updates:No update found; terminating
 INFO:2022-07-17 10:49:13,553:abl.webconnector.main:End
+INFO:2022-07-29 08:32:58,456:abl.webconnector.main:Start
+INFO:2022-07-29 08:32:58,458:abl.webconnector.main:Cleanup event logs.
+INFO:2022-07-29 08:33:03,462:abl.webconnector.main:Upload info.
+INFO:2022-07-29 08:33:03,471:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
+INFO:2022-07-29 08:33:03,678:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-07-29 08:33:04,471:abl.webconnector.main:End
+INFO:2022-07-29 21:42:28,908:abl.webconnector.main:Start
+INFO:2022-07-29 21:42:28,909:abl.webconnector.main:Cleanup event logs.
+INFO:2022-07-29 21:42:33,914:abl.webconnector.main:Upload info.
+INFO:2022-07-29 21:42:33,921:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
+INFO:2022-07-29 21:42:34,136:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-07-29 21:42:34,922:abl.webconnector.main:End
+INFO:2022-07-29 21:52:38,015:abl.webconnector.main:Start
+INFO:2022-07-29 21:52:38,016:abl.webconnector.main:Cleanup event logs.
+INFO:2022-07-29 21:52:43,022:abl.webconnector.main:Upload info.
+INFO:2022-07-29 21:52:43,023:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
+INFO:2022-07-29 21:52:43,228:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-07-29 21:52:44,024:abl.webconnector.main:End
+INFO:2022-07-29 22:05:00,143:abl.webconnector.main:Start
+INFO:2022-07-29 22:05:00,147:abl.webconnector.main:Cleanup event logs.
+INFO:2022-07-29 22:05:05,153:abl.webconnector.main:Upload info.
+INFO:2022-07-29 22:05:05,163:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
+INFO:2022-07-29 22:05:05,448:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-07-29 22:05:06,167:abl.webconnector.main:End
+INFO:2022-07-30 09:32:47,085:abl.webconnector.main:Start
+INFO:2022-07-30 09:32:47,085:abl.webconnector.main:Cleanup event logs.
+INFO:2022-07-30 09:32:52,091:abl.webconnector.main:Upload info.
+INFO:2022-07-30 09:32:52,106:abl.webconnector.main:Check for Updates interrupted by early Live termination
+INFO:2022-07-30 09:32:52,106:abl.webconnector.main:End
+INFO:2022-07-30 09:33:12,168:abl.webconnector.main:Start
+INFO:2022-07-30 09:33:12,169:abl.webconnector.main:Cleanup event logs.
+INFO:2022-07-30 09:33:17,175:abl.webconnector.main:Upload info.
+INFO:2022-07-30 09:33:17,187:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
+INFO:2022-07-30 09:33:17,405:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-07-30 09:33:18,190:abl.webconnector.main:End
+INFO:2022-08-08 14:55:04,101:abl.webconnector.main:Start
+INFO:2022-08-08 14:55:04,102:abl.webconnector.main:Cleanup event logs.
+INFO:2022-08-08 14:55:09,109:abl.webconnector.main:Upload info.
+INFO:2022-08-08 14:55:09,126:abl.webconnector.main:Check for Updates interrupted by early Live termination
+INFO:2022-08-08 14:55:09,126:abl.webconnector.main:End
+INFO:2022-08-08 14:55:09,126:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
+ERROR:2022-08-08 14:55:09,127:abl.webconnector.main:Exception in worker thread
+Traceback (most recent call last):
+  File "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Python2/abl.webconnector/abl/webconnector/main.py", line 66, in target
+    action()
+  File "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Python2/abl.webconnector/abl/webconnector/main.py", line 252, in check_for_auto_updates
+    res = connector.check_and_process_auto_updates(tags, version, usage_reporter)
+  File "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Python2/abl.webconnector/abl/webconnector/connector.py", line 314, in check_and_process_auto_updates
+    return check_and_process_auto_updates(self, tags, current_version, usage_reporter)
+  File "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Python2/abl.webconnector/abl/webconnector/auto_updates.py", line 22, in check_and_process_auto_updates
+    usage_reporter.log(et.CHECK_FOR_UPDATES, current_version=current_version, tags=tags)
+  File "/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Python2/abl.webconnector/abl/webconnector/reporting.py", line 87, in log
+    self.outf.write("%s%s%s\n" % (prefix, event, params_suffix))
+ValueError: I/O operation on closed file
+INFO:2022-08-10 17:48:07,594:abl.webconnector.main:Start
+INFO:2022-08-10 17:48:07,599:abl.webconnector.main:Cleanup event logs.
+INFO:2022-08-10 17:48:12,605:abl.webconnector.main:Upload info.
+INFO:2022-08-10 17:48:12,616:abl.webconnector.auto_updates:Checking for auto updates from 11.1.6
+INFO:2022-08-10 17:48:12,827:abl.webconnector.auto_updates:No update found; terminating
+INFO:2022-08-10 17:48:13,621:abl.webconnector.main:End
