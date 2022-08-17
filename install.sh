@@ -35,8 +35,34 @@ link_and_install() {
 
 modules=$@
 
+work_modules="00-sudo
+01-brew
+02-app-store
+10-settings
+11-manual-login
+20-git
+21-github-tokens
+22-repos
+23-hosts
+30-gylmwp
+focus
+karabiner
+nushell"
+
+personal_modules="$work_modules
+ableton
+kicad
+minecraft"
+
 if [ "$1" == "" ]; then
-    modules=$(ls -d -- */)
+    case $laptop_type in
+    work)
+        modules=$work_modules ;;
+    personal)
+        modules=$personal_modules ;;
+    *)
+        modules=$(ls -d -- */) ;;
+    esac
 fi
 
 for d in $modules; do
