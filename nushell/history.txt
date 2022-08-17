@@ -1,0 +1,75 @@
+ls
+node -v
+volta
+$env.PATH
+code 
+vim /Users/apaleslimghost/Library/Application Support/nushell/env.nu
+vim "/Users/apaleslimghost/Library/Application Support/nushell/env.nu"
+$env.PATH
+node
+help append
+vim "/Users/apaleslimghost/Library/Application Support/nushell/env.nu"
+node
+volta install node
+node
+vim "/Users/apaleslimghost/Library/Application Support/nushell/env.nu"
+node -v
+$env.PATH
+cd ../
+./adopt.sh '/Users/apaleslimghost/Library/Application Support/nushell'
+cat adopt.sh
+./adopt.sh "/Users/apaleslimghost/Library/Application Support/nushell"
+./adopt.sh /Users/apaleslimghost/Library/Application\ Support/nushell
+zsh
+code .
+which volta
+which node
+file ~/Library/Preferences/com.apple.HIToolbox.plist
+plutil -convert xml1 ~/Library/Preferences/com.apple.HIToolbox.plist
+vim ~/Library/Preferences/com.apple.HIToolbox.plist
+help ln
+ln
+rm -rf ~/Music/
+sudo rm -rf ~/Music/
+ln -s /Users/apaleslimghost/Library/Mobile\ Documents/com\~apple\~CloudDocs/Music ~/Music
+ls minecraft/
+ls minecraft/libraries/
+ls minecraft/assets/
+ls minecraft/runtime/
+ls minecraft/runtime/java-runtime-gamma/
+ls minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/
+^open minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/
+/Users/apaleslimghost/.Dotfiles/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java  -jar ~/Downloads/fabric-installer-0.11.0.jar
+^open minecraft/mods
+/Users/apaleslimghost/.Dotfiles/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java  -jar ~/Downloads/fabric-installer-0.11.0.jar
+iconsur
+brew install iconsur
+help iconsur
+man iconsur
+iconsur -h
+volta install node
+iconsur -h
+iconsur set /Applications/Firefox.app/
+iconsur set /Applications/Spotify.app
+iconsur set `/Applications/Ableton Live 11 Suite.app/`
+iconsur set `/Applications/Ableton Live 11 Suite.app/` --scale 1.2
+ls /Applications/KiCad/
+iconsur set /Applications/KiCad/KiCad.app --scale 1.1
+iconsur set /Applications/KiCad/KiCad.app --scale 1.1 -l
+iconsur set /Applications/KiCad/KiCad.app --scale 1.3 -l
+^open `~/Library/Application Support/Firefox/Profiles`
+brew search fritzing
+brew install --cask slack
+brew install sketch
+code .Dotfiles/
+cd minecraft/
+git add .
+git status
+rm -rf _mods/
+git status
+git reset
+git add .
+git status
+cd ..
+rm -rf fish
+git add -A fish
