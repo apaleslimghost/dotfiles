@@ -60,12 +60,6 @@ run() {
 
     cd ~/.Dotfiles
 
-    while [ "$laptop_type" != "work" ] && [ "$laptop_type" != "personal" ]; do
-        echo -n '  ⎚ is this a work or personal laptop? '
-        read laptop_type
-        export $laptop_type
-    done
-
     echo '  ◷ getting up to date'
     update_repo 2>&1 | sed "s/^/  │ /"
     echo '  ✓ done'

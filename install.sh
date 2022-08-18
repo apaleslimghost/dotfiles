@@ -54,6 +54,12 @@ ableton
 kicad
 minecraft"
 
+while [ "$laptop_type" != "work" ] && [ "$laptop_type" != "personal" ]; do
+    echo -n '  ⎚ is this a work or personal laptop? '
+    read laptop_type
+    export $laptop_type
+done
+
 if [ "$1" == "" ]; then
     case $laptop_type in
     work)
