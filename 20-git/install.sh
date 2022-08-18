@@ -10,7 +10,7 @@ if [ ! -f ~/.ssh/id_rsa ] ; then
     ssh-keygen -N "" -f ~/.ssh/id_rsa
 fi
 
-if ! gh auth status >/dev/null 2>&1
+if ! gh auth status >/dev/null 2>&1 ; then
     gh auth login
 fi
 
