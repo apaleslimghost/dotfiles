@@ -13,9 +13,11 @@
 	today = !git diff $(git rev-list --max-count=1 --before="$(TZ='GMT+24' date +'%Y-%m-%d')" head)
 	permission-reset = !git diff -p -R | grep -E \"^(diff|(old|new) mode)\" | git apply
 [merge]
-	tool = p4mergetool
+  tool = code
+[mergetool "code"]
+  cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
 [mergetool "p4mergetool"]
-	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+	cmd = ~/Applications/p4merge.app/Contents/MacOS/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
 	trustExitCode = false
 [mergetool]
 	keepBackup = false
