@@ -60,3 +60,6 @@ let-env NU_PLUGIN_DIRS = [
 
 let-env PATH = ($env.PATH | prepend ['~/.volta/bin', '/opt/homebrew/bin'])
 let-env VOLTA_HOME = '~/.volta'
+
+let-env VAULT_AUTH_GITHUB_TOKEN = (security find-generic-password -a $env.USER -s 'FT Vault' -w | str trim)
+let-env VAULT_ADDR = "https://vault.in.ft.com"
