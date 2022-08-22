@@ -38,8 +38,8 @@ modules=$@
 work_modules="00-sudo
 01-brew
 02-app-store
-10-settings
 11-manual-login
+gh
 20-git
 21-github-tokens
 22-repos
