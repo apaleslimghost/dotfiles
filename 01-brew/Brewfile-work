@@ -17,6 +17,7 @@ brew 'vault'
 brew 'coreutils'
 brew 'volta'
 brew 'circleci'
+brew 'zsh'
 # end brew
 
 cask 'bettertouchtool'

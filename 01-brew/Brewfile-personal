@@ -40,6 +40,7 @@ brew 'qmk/qmk/qmk'
 brew 'picocom'
 brew 'circleci'
 brew 'java'
+brew 'zsh'
 
 # end brew
 

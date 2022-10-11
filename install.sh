@@ -47,7 +47,7 @@ gh
 30-gylmwp
 focus
 karabiner
-nushell"
+zsh"
 
 personal_modules="$work_modules
 ableton
