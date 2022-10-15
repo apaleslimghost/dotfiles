@@ -257,6 +257,76 @@
             "repository_name": "Bouni's KiCad repository"
         },
         {
+            "current_version": "0.0",
+            "install_timestamp": 1659076060,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.bouni.kicad-jlcpcb-tools 2",
+                "license": "",
+                "name": "com_github_bouni_kicad-jlcpcb-tools 2",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "1.2.0",
+            "install_timestamp": 1664824229,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/gregdavill",
+                        "twitter": "https://twitter.com/gregdavill",
+                        "web": "https://gregdavill.com"
+                    },
+                    "name": "Greg Davill"
+                },
+                "description": "Custom font label generator",
+                "description_full": "A label generator that renders svgs from truetype fonts, and creates silkscreen footprints for your PCB. Based of a similar plugin for Cadsoft Eagle called Buzzard",
+                "identifier": "com.github.gregdavill.KiBuzzard",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/gregdavill",
+                        "twitter": "https://twitter.com/gregdavill",
+                        "web": "https://gregdavill.com"
+                    },
+                    "name": "Greg Davill"
+                },
+                "name": "KiBuzzard",
+                "resources": {
+                    "homepage": "https://github.com/gregdavill/KiBuzzard"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "dbd0906ece41961ef7b28493ff1a9c1163dfbed028e8ccd6ce7a17a73a3154d8",
+                        "download_size": 6900468,
+                        "download_url": "https://github.com/gregdavill/KiBuzzard/releases/download/1.2.0/KiBuzzard-1.2.0-pcm.zip",
+                        "install_size": 22510171,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.2.0"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
             "current_version": "1.2",
             "install_timestamp": 1656401441,
             "package": {

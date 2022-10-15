@@ -107,18 +107,18 @@
     "drag_is_move": true
   },
   "lib_tree": {
-    "column_width": 1882
+    "column_width": 2503
   },
   "lib_view": {
     "cmp_list_width": 148,
     "lib_list_width": 148,
     "show_pin_electrical_type": true,
     "window": {
-      "display": 0,
+      "display": 1,
       "maximized": false,
       "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=557;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Libraries;caption=;state=1020;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=148;besth=-1;minw=80;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Symbols;caption=;state=1020;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=148;besth=-1;minw=80;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=150|dock_size(4,1,0)=150|dock_size(5,0,0)=309|",
-      "pos_x": 627,
-      "pos_y": 332,
+      "pos_x": 1945,
+      "pos_y": 120,
       "size_x": 1030,
       "size_y": 632
     }
@@ -191,21 +191,21 @@
     "height": 563,
     "keep_symbol": false,
     "place_all_units": true,
-    "sash_pos_h": 474,
+    "sash_pos_h": 604,
     "sash_pos_v": 431,
-    "width": 817
+    "width": 981
   },
   "system": {
     "file_history": [
+      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/mules/mules.kicad_sch",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/monkeys/monkeys.kicad_sch",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/cicadas/cicadas.kicad_sch",
+      "/Users/apaleslimghost/Documents/Synths/standalone/keyboard/keyboard.kicad_sch",
       "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_sch",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_sch",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/boas/boas.kicad_sch",
       "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails.kicad_sch",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_sch",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/owls/owls.kicad_sch",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/hummingbirds/hummingbirds.kicad_sch",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/cicadas/cicadas.kicad_sch",
-      "/Users/kara.brightwell/Downloads/Minimal/RP2040_minimal/RP2040_minimal.kicad_sch",
-      "/Users/kara.brightwell/Downloads/Minimal/RP2040_minimal/RP2040_minimal.sch"
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/krill/krill.kicad_sch",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_sch"
     ],
     "first_run_shown": true,
     "last_imperial_units": 0,
@@ -225,7 +225,7 @@
       "axes_enabled": false,
       "fast_grid_1": 1,
       "fast_grid_2": 2,
-      "last_size": 3,
+      "last_size": 4,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "show": true,
@@ -247,9 +247,9 @@
     "mru_path": "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/",
     "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1140;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=232;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=602;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=402|dock_size(3,6,0)=30|",
     "pos_x": 120,
-    "pos_y": 100,
-    "size_x": 1440,
-    "size_y": 875,
+    "pos_y": 118,
+    "size_x": 1470,
+    "size_y": 919,
     "zoom_factors": [
       0.05,
       0.07,

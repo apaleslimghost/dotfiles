@@ -151,12 +151,12 @@
     },
     "maximized": false,
     "mru_path": "",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=683;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=410;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Libraries;caption=;state=1020;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=200;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Footprints;caption=;state=1020;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=300;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(3,6,0)=30|dock_size(4,2,0)=202|dock_size(4,1,0)=302|dock_size(5,0,0)=384|",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=690;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=410;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Libraries;caption=;state=1020;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=200;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Footprints;caption=;state=1020;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=300;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(3,6,0)=30|dock_size(4,2,0)=202|dock_size(4,1,0)=302|dock_size(5,0,0)=384|",
     "pos_x": 320,
     "pos_y": 252,
     "size_x": 1280,
     "size_y": 720,
-    "zoom": 3.8663820514409304,
+    "zoom": 7.090148640072458,
     "zoom_factors": []
   },
   "footprint_wizard": {
@@ -242,13 +242,13 @@
     "origin_y": 0.0
   },
   "lib_tree": {
-    "column_width": 1052
+    "column_width": 1275
   },
   "meta": {
     "version": 1
   },
   "netlist": {
-    "associate_by_ref_sch": false,
+    "associate_by_ref_sch": true,
     "delete_extra_footprints": true,
     "delete_shorting_tracks": false,
     "delete_single_pad_nets": false,
@@ -322,18 +322,18 @@
   },
   "system": {
     "file_history": [
+      "/Users/apaleslimghost/Documents/Synths/standalone/encoders/encoders front panel.kicad_pcb",
+      "/Users/apaleslimghost/Documents/Synths/standalone/encoders/encoders back panel.kicad_pcb",
+      "/Users/apaleslimghost/Downloads/corne-classic.kicad_pcb",
+      "/Users/apaleslimghost/Documents/Synths/standalone/keyboard/keyboard.kicad_pcb",
       "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_pcb",
+      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails.kicad_pcb",
       "/Users/apaleslimghost/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pcb",
       "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/ants-psu/ants-psu.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies 2.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/panels/chord-organ/chord-organ.kicad_pcb",
-      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/dolphins/dolphins.kicad_pcb"
+      "/Users/kara.brightwell/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pcb"
     ],
     "first_run_shown": true,
-    "last_footprint3d_dir": "${KISYS3DMOD}/ec11-rotary-encoder-dode-switch-15mm-1.snapshot.1",
+    "last_footprint3d_dir": "/Users/apaleslimghost/Documents/KiCad/6.0/3dmodels",
     "last_footprint_lib_dir": "/Users/kara.brightwell/Documents/KiCad/6.0/footprints",
     "last_imperial_units": 0,
     "last_metric_units": 1,
@@ -380,8 +380,8 @@
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 8,
-      "fast_grid_2": 9,
-      "last_size": 9,
+      "fast_grid_2": 22,
+      "last_size": 10,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "show": true,
@@ -411,16 +411,16 @@
       ],
       "snap": 0,
       "style": 0,
-      "user_grid_x": "0.254 mm",
-      "user_grid_y": "0.254 mm"
+      "user_grid_x": "10.75 mm",
+      "user_grid_y": "6.206516 mm"
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1227;besth=42;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=937;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=565;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=643;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=42|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=212|dock_size(5,0,0)=387|",
-    "pos_x": 15,
-    "pos_y": 91,
-    "size_x": 1680,
-    "size_y": 973,
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1210;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=792;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=565;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=643;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=212|dock_size(5,0,0)=387|",
+    "pos_x": 120,
+    "pos_y": 118,
+    "size_x": 1470,
+    "size_y": 919,
     "zoom_factors": [
       0.13,
       0.22,
@@ -443,11 +443,11 @@
     ]
   },
   "zones": {
-    "clearance": 5.0,
+    "clearance": 20.0,
     "hatching_style": 2,
-    "min_thickness": 5.0,
+    "min_thickness": 10.0,
     "net_sort_mode": 3,
-    "thermal_relief_copper_width": 10.0,
-    "thermal_relief_gap": 10.0
+    "thermal_relief_copper_width": 20.0,
+    "thermal_relief_gap": 20.0
   }
 }
