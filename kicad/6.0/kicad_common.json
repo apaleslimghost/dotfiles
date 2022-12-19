@@ -4,11 +4,11 @@
     "icon_scale": -1,
     "icon_theme": 2,
     "text_editor_zoom": 0,
-    "use_icons_in_menus": false
+    "use_icons_in_menus": true
   },
   "auto_backup": {
     "backup_on_autosave": false,
-    "enabled": true,
+    "enabled": false,
     "limit_daily_files": 5,
     "limit_total_files": 25,
     "limit_total_size": 104857600,
@@ -55,10 +55,10 @@
     "sash_pos": 380
   },
   "session": {
-    "remember_open_files": false
+    "remember_open_files": true
   },
   "system": {
-    "autosave_interval": 600,
+    "autosave_interval": 0,
     "clear_3d_cache_interval": 30,
     "editor_name": "/usr/bin/open",
     "file_history_size": 9,
@@ -66,6 +66,6 @@
     "pdf_viewer_name": "",
     "text_editor": "/usr/bin/open -e",
     "use_system_pdf_viewer": true,
-    "working_dir": "/Applications/KiCad/KiCad.app/Contents/Applications"
+    "working_dir": "/Applications/KiCad"
   }
 }

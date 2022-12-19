@@ -185,6 +185,7 @@
     "rgb(77, 127, 196)"
   ],
   "schematic": {
+    "anchor": "rgb(0, 0, 255)",
     "aux_items": "rgb(0, 0, 0)",
     "background": "rgb(38, 42, 51)",
     "brightened": "rgb(201, 169, 249)",

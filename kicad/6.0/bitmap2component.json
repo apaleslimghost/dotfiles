@@ -2,7 +2,7 @@
   "appearance": {
     "color_theme": "_builtin_default"
   },
-  "bitmap_file_name": "/Users/apaleslimghost/Documents/Synths/etc/Icon silk.png",
+  "bitmap_file_name": "/Users/apaleslimghost/Documents/Synths/eurorack/modules/bats/art.png",
   "color_picker": {
     "default_tab": 0
   },
@@ -33,7 +33,7 @@
   "meta": {
     "version": 0
   },
-  "negative": false,
+  "negative": true,
   "printing": {
     "background": false,
     "color_theme": "",
@@ -51,7 +51,7 @@
     "max_undo_items": 0,
     "units": 1
   },
-  "threshold": 100,
+  "threshold": 90,
   "units": 0,
   "window": {
     "cursor": {
@@ -97,9 +97,9 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Documents/Synths/etc",
+    "mru_path": "/Users/apaleslimghost/Documents/Synths/eurorack/modules/bats",
     "perspective": "layout2|",
-    "pos_x": 126,
+    "pos_x": 226,
     "pos_y": 240,
     "size_x": 1280,
     "size_y": 736,
