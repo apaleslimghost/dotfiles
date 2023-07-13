@@ -27,6 +27,12 @@ Slack login
 Calendars
 Sketch licence
 Music library
+Default browser
+Multitouch licence
+Dock items
+Raycast
+Mimestream
+mission control grouping
 
 # What do I still need off my laptop?
 
