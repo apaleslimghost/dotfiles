@@ -6,7 +6,7 @@ if ! lpass status > /dev/null; then
 	lpass login --trust kara.brightwell@ft.com
 fi
 
-lpass show --password 'iTunes' | pbcopy
+lpass show --password 'iTunes' | tr -d '\n' | pbcopy
 echo '  ⎘ copied iTunes password to clipboard'
 
 echo '  ⎁ please log in to the app store'
