@@ -19,8 +19,10 @@ brew 'coreutils'
 brew 'volta'
 brew 'circleci'
 brew 'zsh'
+brew 'httpie'
 # end brew
 
+cask 'httpie'
 cask 'bettertouchtool'
 cask 'discord'
 cask 'firefox'
