@@ -13,6 +13,24 @@ znap source zsh-users/zsh-syntax-highlighting
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
+bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
+bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
+bindkey -M menuselect '\r' .accept-line
+
+zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
+
+() {
+   local -a prefix=( '\e'{\[,O} )
+   local -a up=( ${^prefix}A ) down=( ${^prefix}B )
+   local key=
+   for key in $up[@]; do
+      bindkey "$key" up-line-or-history
+   done
+   for key in $down[@]; do
+      bindkey "$key" down-line-or-history
+   done
+}
+
 export VAULT_ADDR="https://vault.in.ft.com"
 export VAULT_AUTH_GITHUB_TOKEN=$(security find-generic-password -a "${USER}" -s "FT Vault" -w)
 
