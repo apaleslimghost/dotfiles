@@ -1,25 +1,46 @@
 {
   "annotation": {
+    "automatic": true,
     "messages_filter": 29,
     "method": 0,
     "options": 0,
+    "recursive": true,
     "scope": 0,
     "sort_order": 1
   },
   "appearance": {
     "color_theme": "Behave Light",
+    "default_font": "KiCad Font",
     "edit_component_visible_columns": "0 1 2 3 4 5 6 7",
+    "edit_label_height": 402,
+    "edit_label_visible_columns": "0 1 2 3 4 5 6 7",
+    "edit_label_width": 970,
+    "edit_sheet_height": 387,
     "edit_sheet_visible_columns": "0 1 2 3 4 5 6 7",
+    "edit_sheet_width": 1040,
+    "edit_symbol_height": 549,
+    "edit_symbol_visible_columns": "0 1 2 3 4 5 6 7",
+    "edit_symbol_width": 1104,
     "erc_severities": 24,
     "footprint_preview": true,
     "navigator_stays_open": false,
     "print_sheet_reference": true,
+    "show_erc_errors": true,
+    "show_erc_exclusions": false,
+    "show_erc_warnings": true,
     "show_hidden_fields": false,
     "show_hidden_pins": false,
     "show_illegal_symbol_lib_dialog": true,
     "show_page_limits": true,
     "show_sexpr_file_convert_warning": true,
     "show_sheet_filename_case_sensitivity_dialog": true
+  },
+  "aui": {
+    "hierarchy_panel_docked_width": 200,
+    "hierarchy_panel_float_height": 200,
+    "hierarchy_panel_float_width": 200,
+    "schematic_hierarchy_float": false,
+    "show_schematic_hierarchy": false
   },
   "autoplace_fields": {
     "align_to_grid": true,
@@ -47,6 +68,7 @@
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
+    "on_selection": true,
     "zoom_to_fit": true
   },
   "drawing": {
@@ -72,6 +94,7 @@
       9.0,
       12.0
     ],
+    "line_mode": 1,
     "pin_symbol_size": 25,
     "repeat_label_increment": 1,
     "text_offset_ratio": 0.08
@@ -90,12 +113,19 @@
     ],
     "find_string": "r3",
     "flags": 1,
+    "match_case": false,
+    "match_mode": 0,
     "replace_history": [
       "100k",
       "2k",
       ""
     ],
-    "replace_string": "100k"
+    "replace_references": false,
+    "replace_string": "100k",
+    "search_all_fields": false,
+    "search_all_pins": false,
+    "search_and_replace": false,
+    "search_current_sheet_only": false
   },
   "graphics": {
     "canvas_type": 1,
@@ -104,10 +134,18 @@
     "select_factor": 0.75
   },
   "input": {
-    "drag_is_move": true
+    "drag_is_move": true,
+    "esc_clears_net_highlight": true
   },
   "lib_tree": {
-    "column_width": 2663
+    "column_widths": {
+      "Description": 104,
+      "Item": 2663
+    },
+    "columns": [
+      "Item",
+      "Description"
+    ]
   },
   "lib_view": {
     "cmp_list_width": 300,
@@ -124,7 +162,7 @@
     }
   },
   "meta": {
-    "version": 1
+    "version": 3
   },
   "netlist": {
     "plugins": []
@@ -153,7 +191,8 @@
     "frame_reference": true,
     "hpgl_origin": 0,
     "hpgl_paper_size": 0,
-    "hpgl_pen_size": 0.5
+    "hpgl_pen_size": 0.5,
+    "other_open_file_after_plot": false
   },
   "printing": {
     "background": false,
@@ -167,6 +206,7 @@
   "selection": {
     "draw_selected_children": true,
     "fill_shapes": false,
+    "highlight_thickness": 2,
     "select_pin_selects_symbol": true,
     "text_as_box": false,
     "thickness": 3
@@ -197,15 +237,15 @@
   },
   "system": {
     "file_history": [
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/bats/bats.kicad_sch",
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard.kicad_sch",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/zebras.kicad_sch",
+      "/Users/apaleslimghost/Downloads/Trill-master/hardware/craft/trill-craft_A3.sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders.kicad_sch",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cicadas/cicadas.kicad_sch",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/fireflies/fireflies.kicad_sch",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/ospreys/ospreys.kicad_sch",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_sch",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails 2.kicad_sch",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_sch",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/bats/bats.kicad_sch"
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-entry-1u/ants-entry-1u.kicad_sch",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-psu/ants-psu.kicad_sch",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-entry-case-panel/ants-entry-case-panel.kicad_sch",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-entry-1u-panel/ants-entry-1u-panel.kicad_sch",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-entry-3u/ants-entry-3u.kicad_sch"
     ],
     "first_run_shown": true,
     "last_imperial_units": 0,
@@ -245,11 +285,11 @@
     },
     "maximized": true,
     "mru_path": "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1140;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=232;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=602;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=402|dock_size(3,6,0)=30|",
-    "pos_x": 332,
-    "pos_y": 78,
-    "size_x": 1710,
-    "size_y": 1069,
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1204;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=45;floaty=116;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=396;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=762;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=162;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=32|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=402|",
+    "pos_x": 396,
+    "pos_y": 384,
+    "size_x": 1470,
+    "size_y": 919,
     "zoom_factors": [
       0.05,
       0.07,

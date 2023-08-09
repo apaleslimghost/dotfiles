@@ -2,7 +2,7 @@
   "appearance": {
     "color_theme": "_builtin_default"
   },
-  "bitmap_file_name": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cicadas/art/cicadas silk.png",
+  "bitmap_file_name": "/Users/apaleslimghost/Downloads/33914729780_bdeae3bc96_o.jpg",
   "color_picker": {
     "default_tab": 0
   },
@@ -10,14 +10,18 @@
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
+    "on_selection": true,
     "zoom_to_fit": true
   },
   "find_replace": {
     "find_history": [],
     "find_string": "",
     "flags": 1,
+    "match_case": false,
+    "match_mode": 0,
     "replace_history": [],
-    "replace_string": ""
+    "replace_string": "",
+    "search_and_replace": false
   },
   "graphics": {
     "canvas_type": 1,
@@ -28,7 +32,9 @@
   "last_format": 1,
   "last_mod_layer": 0,
   "lib_tree": {
-    "column_width": 360
+    "column_width": 360,
+    "column_widths": null,
+    "columns": []
   },
   "meta": {
     "version": 0
@@ -97,7 +103,7 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cicadas/art",
+    "mru_path": "/Users/apaleslimghost/Downloads",
     "perspective": "layout2|",
     "pos_x": 226,
     "pos_y": 240,

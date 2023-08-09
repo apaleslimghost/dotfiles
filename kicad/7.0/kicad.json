@@ -9,14 +9,18 @@
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
+    "on_selection": true,
     "zoom_to_fit": true
   },
   "find_replace": {
     "find_history": [],
     "find_string": "",
     "flags": 1,
+    "match_case": false,
+    "match_mode": 0,
     "replace_history": [],
-    "replace_string": ""
+    "replace_string": "",
+    "search_and_replace": false
   },
   "graphics": {
     "canvas_type": 1,
@@ -25,13 +29,19 @@
     "select_factor": 0.75
   },
   "lib_tree": {
-    "column_width": 360
+    "column_width": 360,
+    "column_widths": null,
+    "columns": []
   },
   "meta": {
     "version": 0
   },
   "pcm": {
+    "check_for_updates": true,
     "last_download_dir": "",
+    "lib_auto_add": true,
+    "lib_auto_remove": true,
+    "lib_prefix": "PCM_",
     "repositories": [
       {
         "name": "KiCad official repository",
@@ -53,23 +63,24 @@
     "use_theme": false
   },
   "system": {
+    "check_for_updates": 2,
     "file_history": [
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/bats/bats.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/zebras.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/boards/zebras-main.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/boards/zebras-white-keys.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/boards/zebras-black-keys.kicad_pro",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders-3d-rear.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cicadas/cicadas.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/fireflies/fireflies.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/chordata/chordata.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/ospreys/ospreys.kicad_pro",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_pro",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails 2.kicad_pro"
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-psu/ants-psu.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-entry-case-panel/ants-entry-case-panel.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/ants-entry-1u-panel/ants-entry-1u-panel.kicad_pro"
     ],
     "first_run_shown": false,
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "max_undo_items": 0,
     "open_projects": [
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/bats/bats.kicad_pro"
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard.kicad_pro"
     ],
     "units": 1
   },
@@ -117,10 +128,10 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/bats/",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=523;besth=560;minw=523;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=523|",
-    "pos_x": 406,
-    "pos_y": 269,
+    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/keyboard/",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=519;besth=560;minw=519;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=519|",
+    "pos_x": 421,
+    "pos_y": 291,
     "size_x": 865,
     "size_y": 665,
     "zoom_factors": []

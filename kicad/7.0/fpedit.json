@@ -4,7 +4,7 @@
   },
   "aui": {
     "appearance_panel_tab": 0,
-    "right_panel_width": 249,
+    "right_panel_width": 341,
     "show_layer_manager": true
   },
   "color_picker": {
@@ -13,6 +13,7 @@
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
+    "on_selection": true,
     "zoom_to_fit": true
   },
   "design_settings": {
@@ -57,9 +58,11 @@
     "silk_text_thickness": 0.15
   },
   "editing": {
+    "fp_use_45_degree_limit": false,
     "magnetic_graphics": true,
     "magnetic_pads": 2,
     "polar_coords": false,
+    "rotation_angle": 900,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -80,8 +83,11 @@
     "find_history": [],
     "find_string": "",
     "flags": 1,
+    "match_case": false,
+    "match_mode": 0,
     "replace_history": [],
-    "replace_string": ""
+    "replace_string": "",
+    "search_and_replace": false
   },
   "graphics": {
     "canvas_type": 1,
@@ -90,10 +96,13 @@
     "select_factor": 0.75
   },
   "lib_tree": {
-    "column_width": 360
+    "column_widths": {
+      "Item": 360
+    },
+    "columns": []
   },
   "meta": {
-    "version": 1
+    "version": 2
   },
   "pcb_display": {
     "active_layer_preset": "All Layers",
@@ -164,14 +173,14 @@
       "user_grid_x": "10 mil",
       "user_grid_y": "10 mil"
     },
-    "lib_width": 258,
+    "lib_width": 313,
     "maximized": true,
     "mru_path": "/Users/apaleslimghost/Downloads/LIB_TL074HIDYYR/TL074HIDYYR/KiCad",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1287;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=410;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Footprints;caption=Libraries;state=2044;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=442;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=3;row=0;pos=1;prop=0;bestw=249;besth=146;minw=160;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(4,2,0)=260|dock_size(2,2,0)=34|dock_size(2,3,0)=249|dock_size(5,0,0)=387|",
-    "pos_x": 197,
-    "pos_y": 80,
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1324;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Footprints;caption=Libraries;state=2046;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=451;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=547;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1276;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=3;row=0;pos=1;prop=0;bestw=209;besth=106;minw=160;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=162;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=32|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(2,3,0)=341|dock_size(5,0,0)=402|",
+    "pos_x": 0,
+    "pos_y": 0,
     "size_x": 1710,
-    "size_y": 1069,
+    "size_y": 1112,
     "zoom_factors": [
       0.13,
       0.22,

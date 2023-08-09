@@ -12,6 +12,7 @@
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
+    "on_selection": true,
     "zoom_to_fit": true
   },
   "excellon_defaults": {
@@ -26,8 +27,11 @@
     "find_history": [],
     "find_string": "",
     "flags": 1,
+    "match_case": false,
+    "match_mode": 0,
     "replace_history": [],
-    "replace_string": ""
+    "replace_string": "",
+    "search_and_replace": false
   },
   "gerber_to_pcb_copperlayers_count": 2,
   "gerber_to_pcb_layers": [],
@@ -38,7 +42,9 @@
     "select_factor": 0.75
   },
   "lib_tree": {
-    "column_width": 360
+    "column_width": 360,
+    "column_widths": null,
+    "columns": []
   },
   "meta": {
     "version": 0

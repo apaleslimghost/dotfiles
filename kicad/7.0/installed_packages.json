@@ -1,0 +1,184 @@
+{
+    "packages": [
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1672348654,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.bouni.kicad-jlcpcb-tools",
+                "license": "",
+                "name": "com_github_bouni_kicad-jlcpcb-tools",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": true,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1672348308,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.bouni.kicad-jlcpcb-tools 2",
+                "license": "",
+                "name": "com_github_bouni_kicad-jlcpcb-tools 2",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": true,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1672348656,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.gregdavill.KiBuzzard",
+                "license": "",
+                "name": "com_github_gregdavill_KiBuzzard",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": true,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1672348653,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.mitxela.kicad-round-tracks",
+                "license": "",
+                "name": "com_github_mitxela_kicad-round-tracks",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": true,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1675980882,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.yaqwsx.kikit",
+                "license": "",
+                "name": "com_github_yaqwsx_kikit",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": true,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "1.1.0",
+            "install_timestamp": 1684746383,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "description": "A footprint and schematic library for KiKit annotations.",
+                "description_full": "KiKit uses these symbols a footprints to annotate your boards (e.g., to place a tab in a panel).",
+                "identifier": "com.github.yaqwsx.kikit-library",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "name": "KiKit Library",
+                "resources": {
+                    "homepage": "https://github.com/yaqwsx/KiKit"
+                },
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "241314947e56983287a9fa4a74286c5eae5de6421374b5983127e68f9f144d48",
+                        "download_size": 11217,
+                        "download_url": "https://github.com/yaqwsx/KiKit/releases/download/v1.1.0/pcm-kikit-lib.zip",
+                        "install_size": 14934,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.1.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
