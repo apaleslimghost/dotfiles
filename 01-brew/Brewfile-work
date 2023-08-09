@@ -35,4 +35,6 @@ cask 'notion'
 cask "raycast"
 cask 'spotify'
 cask 'visual-studio-code'
+cask 'multitouch'
+cask 'scroll-reverser'
 # end cask

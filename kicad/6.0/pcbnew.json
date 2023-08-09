@@ -74,8 +74,9 @@
   "export_svg": {
     "black_and_white": false,
     "layers": [
-      12,
-      18
+      37,
+      39,
+      44
     ],
     "mirror": false,
     "one_file": false,
@@ -247,7 +248,7 @@
     "origin_y": 0.0
   },
   "lib_tree": {
-    "column_width": 1317
+    "column_width": 1337
   },
   "meta": {
     "version": 1
@@ -281,7 +282,7 @@
     "track_clearance_mode": 2,
     "track_fill": true,
     "via_fill": true,
-    "zone_mode": 0
+    "zone_mode": 1
   },
   "place_file": {
     "file_format": 0,
@@ -327,18 +328,18 @@
   },
   "system": {
     "file_history": [
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/ospreys/ospreys.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/chordata/chordata.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/snails/snails 2.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/accessories/mules/mules 2.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/fireflies/fireflies.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/eurorack/modules/bats/bats.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/standalone/encoders/encoders front panel.kicad_pcb",
-      "/Users/apaleslimghost/Documents/Synths/standalone/encoders/encoders back panel.kicad_pcb",
-      "/Users/apaleslimghost/Downloads/corne-classic.kicad_pcb"
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/bats/bats.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders-3d-rear.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders-3d-io.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders-3d-panel.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders/spiders-3d.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cicadas/cicadas.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/fireflies/fireflies.kicad_pcb",
+      "/Users/apaleslimghost/Downloads/DaisyDrum Bottom.kicad_pcb"
     ],
     "first_run_shown": true,
-    "last_footprint3d_dir": "/Users/apaleslimghost/Documents/KiCad/6.0/3dmodels",
+    "last_footprint3d_dir": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/spiders",
     "last_footprint_lib_dir": "/Users/kara.brightwell/Documents/KiCad/6.0/footprints",
     "last_imperial_units": 0,
     "last_metric_units": 1,
@@ -386,7 +387,7 @@
       "axes_enabled": false,
       "fast_grid_1": 8,
       "fast_grid_2": 22,
-      "last_size": 8,
+      "last_size": 9,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "show": true,
@@ -422,10 +423,10 @@
     "maximized": true,
     "mru_path": "",
     "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1146;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=792;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=565;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=643;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=153;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=212|dock_size(5,0,0)=387|",
-    "pos_x": 120,
-    "pos_y": 118,
-    "size_x": 1470,
-    "size_y": 919,
+    "pos_x": 0,
+    "pos_y": 131,
+    "size_x": 1710,
+    "size_y": 1069,
     "zoom_factors": [
       0.13,
       0.22,

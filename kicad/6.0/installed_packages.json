@@ -392,6 +392,50 @@
             },
             "repository_id": "46f88614eade3439",
             "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.1.0",
+            "install_timestamp": 1675980875,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "description": "Automation for KiCAD",
+                "description_full": "KiKit is a Python library, KiCAD plugin and a CLI tool to automate several tasks in a standard KiCAD workflow like:\n• panelization of both, regular and oddly shaped, boards\n• automated exporting manufacturing data based on manufacturer presets\n• multi-board project in KiCAD\n• building board presentation pages\n• making 3D-printed solder stencils\n• and more",
+                "identifier": "com.github.yaqwsx.kikit",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "name": "KiKit",
+                "resources": {
+                    "homepage": "https://github.com/yaqwsx/KiKit"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "ed3778fc79a96e33affe0da5bc057163022ed9fc645a3fa01e5156e4a7ac60cd",
+                        "download_size": 9544,
+                        "download_url": "https://github.com/yaqwsx/KiKit/releases/download/v1.1.0/pcm-kikit.zip",
+                        "install_size": 10590,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.1.0"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
         }
     ]
 }

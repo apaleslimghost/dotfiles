@@ -1,6 +1,6 @@
 {
   "3d_viewer": {
-    "background_bottom": "rgb(97, 4, 95)",
+    "background_bottom": "rgb(170, 7, 107)",
     "background_top": "rgb(170, 7, 107)",
     "board": "rgba(51, 43, 23, 0.902)",
     "copper": "rgb(184, 115, 50)",

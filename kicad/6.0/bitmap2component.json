@@ -2,7 +2,7 @@
   "appearance": {
     "color_theme": "_builtin_default"
   },
-  "bitmap_file_name": "/Users/apaleslimghost/Documents/Synths/eurorack/modules/bats/art.png",
+  "bitmap_file_name": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cicadas/art/cicadas silk.png",
   "color_picker": {
     "default_tab": 0
   },
@@ -33,7 +33,7 @@
   "meta": {
     "version": 0
   },
-  "negative": true,
+  "negative": false,
   "printing": {
     "background": false,
     "color_theme": "",
@@ -97,7 +97,7 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Documents/Synths/eurorack/modules/bats",
+    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cicadas/art",
     "perspective": "layout2|",
     "pos_x": 226,
     "pos_y": 240,

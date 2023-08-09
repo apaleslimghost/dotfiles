@@ -47,7 +47,6 @@ brew 'zsh'
 
 cask 'ableton-live-suite'
 cask "avidemux"
-cask 'bettertouchtool'
 cask 'blackhole-2ch'
 cask 'discord'
 cask 'dynamic-dark-mode'
@@ -57,6 +56,8 @@ cask 'font-caskaydia-cove-nerd-font'
 cask 'iterm2'
 cask 'karabiner-elements'
 cask 'kicad'
+cask 'multitouch'
+cask 'scroll-reverser'
 cask 'mimestream'
 cask 'notion'
 cask 'p4v'
@@ -64,6 +65,7 @@ cask "raycast"
 cask "qmk-toolbox"
 cask 'spotify'
 cask 'steam'
+cask 'slack'
 cask 'transmission'
 cask 'visual-studio-code'
 cask "vlc"
