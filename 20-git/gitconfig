@@ -33,3 +33,9 @@
 	required = true
 [init]
 	defaultBranch = main
+[maintenance]
+	repo = /Users/apaleslimghost/.Dotfiles/zsh/plugins/znap
+	repo = /Users/apaleslimghost/.Dotfiles/zsh/plugins/zsh-autocomplete
+	repo = /Users/apaleslimghost/.Dotfiles/zsh/plugins/zsh-syntax-highlighting
+	repo = /Users/apaleslimghost/.Dotfiles/zsh/plugins/marlonrichert/zsh-autocomplete
+	repo = /Users/apaleslimghost/.Dotfiles/zsh/plugins/zsh-users/zsh-syntax-highlighting

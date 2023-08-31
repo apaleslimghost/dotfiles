@@ -1,6 +1,8 @@
-znap_path=~/.Dotfiles/zsh/plugins/znap
+znap_path=~/.Dotfiles/zsh/plugins
 
-source $znap_path/znap.zsh
+source $znap_path/znap/znap.zsh
+
+zstyle ':znap:*' repos-dir $znap_path
 
 znap eval homebrew "/opt/homebrew/bin/brew shellenv"
 znap eval ohmyposh 'oh-my-posh init zsh --print --config=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/catppuccin.omp.json'
