@@ -2,7 +2,7 @@
   "appearance": {
     "color_theme": "_builtin_default"
   },
-  "bitmap_file_name": "/Users/apaleslimghost/Downloads/33914729780_bdeae3bc96_o.jpg",
+  "bitmap_file_name": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/ravens/ravens-silk-black.png",
   "color_picker": {
     "default_tab": 0
   },
@@ -57,7 +57,7 @@
     "max_undo_items": 0,
     "units": 1
   },
-  "threshold": 90,
+  "threshold": 100,
   "units": 0,
   "window": {
     "cursor": {
@@ -103,7 +103,7 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Downloads",
+    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/ravens",
     "perspective": "layout2|",
     "pos_x": 226,
     "pos_y": 240,

@@ -359,13 +359,13 @@
   },
   "system": {
     "file_history": [
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/ravens/ravens-panel-black.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/bats/bats.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard right.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard left.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard panel right.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard panel left.kicad_pcb",
-      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/zebras.kicad_pcb",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/boards/zebras-main.kicad_pcb"
     ],
@@ -381,7 +381,7 @@
     "pns": {
       "auto_posture": true,
       "can_violate_drc": false,
-      "corner_mode": 0,
+      "corner_mode": 3,
       "effort": 1,
       "fix_all_segments": true,
       "follow_mouse": true,

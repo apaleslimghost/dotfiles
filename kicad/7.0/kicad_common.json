@@ -72,6 +72,6 @@
     "pdf_viewer_name": "",
     "text_editor": "/usr/bin/open -e",
     "use_system_pdf_viewer": true,
-    "working_dir": "/Applications/KiCad/KiCad.app/Contents/Applications"
+    "working_dir": "/Applications/KiCad"
   }
 }
