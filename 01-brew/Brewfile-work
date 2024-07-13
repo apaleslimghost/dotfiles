@@ -20,6 +20,7 @@ brew 'volta'
 brew 'circleci'
 brew 'zsh'
 brew 'httpie'
+brew 'neovim'
 # end brew
 
 cask 'httpie'
@@ -37,4 +38,5 @@ cask 'spotify'
 cask 'visual-studio-code'
 cask 'multitouch'
 cask 'scroll-reverser'
+cask 'neovide'
 # end cask

@@ -42,6 +42,7 @@ brew 'picocom'
 brew 'circleci'
 brew 'java'
 brew 'zsh'
+brew 'neovim'
 
 # end brew
 
@@ -69,4 +70,5 @@ cask 'slack'
 cask 'transmission'
 cask 'visual-studio-code'
 cask "vlc"
+cask 'neovide'
 # end cask
