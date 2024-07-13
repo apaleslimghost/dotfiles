@@ -6,8 +6,13 @@
 	editor = code -w
 [help]
 	autocorrect = 10
+[pull]
+	rebase = true
+[rebase]
+	autostash = true
+	autosquash = true
 [alias]
-	up = pull --autostash --rebase
+	up = pull
 	lg = log --graph --pretty=format:'%C(cyan)⌗ %h%Creset %C(magenta)⎇ %D%Creset %Cgreen◷ %cr %Cblue✍ %an%Creset%n%w(80)%s%n' --abbrev-commit
 	recent-branches = !git reflog --date=relative | gawk 'match($0, /HEAD@\\{(.+)\\}: chec.out: moving from .+ to (.+)/, m) && !branches[m[2]]++ {print m[1] \"\\t\" m[2]} ' | tail -r
 	today = !git diff $(git rev-list --max-count=1 --before="$(TZ='GMT+24' date +'%Y-%m-%d')" head)
