@@ -193,10 +193,46 @@ return {
 		end
 	},
 	{
-		"nvim-treesitter/nvim-treesitter",
+		'nvim-treesitter/nvim-treesitter',
+		dependencies = {
+			'nvim-treesitter/nvim-treesitter-textobjects', -- Add treesitter groups as textobjects
+		},
+		lazy = true,
+		build = ':TSUpdate',
 		config = function()
-			require("nvim-treesitter").setup()
-			vim.cmd([[TSUpdate]])
+			require('nvim-treesitter.configs').setup {
+				ensure_installed = { "typescript", "javascript", "lua" },
+				auto_install = true,
+				highlight = {
+					enable = true
+				},
+				textobjects = {
+					select = {
+						enable = true,
+						-- Automatically jump forward to textobj, similar to targets.vim
+						lookahead = true,
+						keymaps = {
+							-- You can use the capture groups defined in textobjects.scm
+							["av"] = "@assignment.outer",
+							["iv"] = "@assignment.inner",
+							["as"] = "@statement.outer",
+							["a?"] = "@conditional.outer",
+							["i?"] = "@conditional.inner",
+							["af"] = "@function.outer",
+							["if"] = "@function.inner",
+							["ac"] = "@class.outer",
+							["ic"] = "@class.inner",
+							["ia"] = "@parameter.inner",
+							["aa"] = "@parameter.outer",
+							["i/"] = "@regex.inner",
+							["a/"] = "@regex.outer",
+						},
+					}
+				},
+				matchup = {
+					enable = true
+				}
+			}
 		end
 	},
 	{
