@@ -1,0 +1,833 @@
+{
+  "action_plugins": [
+    {
+      "/Users/apaleslimghost/Documents/KiCad/7.0/3rdparty/plugins/com_github_gregdavill_KiBuzzard/plugin.py/KiBuzzardPlugin": true
+    },
+    {
+      "/Users/apaleslimghost/Documents/KiCad/7.0/3rdparty/plugins/com_github_mitxela_kicad-round-tracks/round_tracks_action.py/ActionRoundTracks": true
+    },
+    {
+      "/Users/apaleslimghost/Documents/KiCad/7.0/3rdparty/plugins/com_github_bouni_kicad-jlcpcb-tools/plugin.py/JLCPCBPlugin": true
+    },
+    {
+      "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kikit/actionPlugins/hideReferences.py/HideReferencesPlugin": true
+    },
+    {
+      "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kikit/actionPlugins/panelize.py/PanelizePlugin": true
+    }
+  ],
+  "appearance": {
+    "color_theme": "behave-dark"
+  },
+  "aui": {
+    "appearance_expand_layer_display": false,
+    "appearance_expand_net_display": false,
+    "appearance_panel_tab": 0,
+    "properties_panel_width": 20,
+    "properties_splitter_proportion": 0.5,
+    "right_panel_width": 212,
+    "search_panel_dock_direction": 3,
+    "search_panel_height": 56,
+    "search_panel_width": 100,
+    "show_layer_manager": true,
+    "show_properties": false,
+    "show_search": false
+  },
+  "cleanup": {
+    "cleanup_short_circuits": true,
+    "cleanup_tracks_in_pad": false,
+    "cleanup_unconnected": true,
+    "cleanup_vias": true,
+    "delete_dangling_vias": true,
+    "merge_segments": true
+  },
+  "color_picker": {
+    "default_tab": 1
+  },
+  "cross_probing": {
+    "auto_highlight": true,
+    "center_on_items": true,
+    "on_selection": true,
+    "zoom_to_fit": true
+  },
+  "drc_dialog": {
+    "refill_zones": true,
+    "severities": 26,
+    "test_all_track_errors": false,
+    "test_footprints": true
+  },
+  "editing": {
+    "allow_free_pads": true,
+    "arc_edit_mode": 0,
+    "auto_fill_zones": false,
+    "ctrl_click_highlight": false,
+    "esc_clears_net_highlight": true,
+    "flip_left_right": true,
+    "fp_use_45_degree_limit": false,
+    "magnetic_all_layers": false,
+    "magnetic_graphics": false,
+    "magnetic_pads": 1,
+    "magnetic_tracks": 1,
+    "pcb_use_45_degree_limit": false,
+    "polar_coords": false,
+    "rotation_angle": 900,
+    "show_courtyard_collisions": true,
+    "track_drag_action": 1,
+    "use_45_degree_graphic_segments": false,
+    "use_45_degree_limit": false
+  },
+  "export_2581": {
+    "compress": false,
+    "precision": 3,
+    "units": 0,
+    "version": 1
+  },
+  "export_idf": {
+    "auto_adjust": false,
+    "ref_units": 0,
+    "ref_x": 0.0,
+    "ref_y": 0.0,
+    "units_mils": false
+  },
+  "export_step": {
+    "no_dnp": false,
+    "no_unspecified": false,
+    "no_virtual": false,
+    "origin_mode": 1,
+    "origin_units": 0,
+    "origin_x": 0.0,
+    "origin_y": 0.0,
+    "overwrite_file": true,
+    "replace_models": false
+  },
+  "export_svg": {
+    "black_and_white": false,
+    "color_theme": "",
+    "layers": [
+      52
+    ],
+    "mirror": false,
+    "one_file": true,
+    "output_dir": "./",
+    "page_size": 2,
+    "plot_board_edges": true,
+    "use_theme": true
+  },
+  "export_vrml": {
+    "copy_3d_models": false,
+    "origin_mode": 0,
+    "ref_units": 0,
+    "ref_x": 176.53,
+    "ref_y": 56.27,
+    "units": 2,
+    "use_relative_paths": false
+  },
+  "find_replace": {
+    "find_history": [
+      "r81",
+      "r8!"
+    ],
+    "find_string": "r81",
+    "flags": 0,
+    "match_case": false,
+    "match_mode": 0,
+    "replace_history": [],
+    "replace_string": "",
+    "search_and_replace": false
+  },
+  "footprint_chooser": {
+    "filter_on_pin_count": false,
+    "height": 680,
+    "sash_h": 568,
+    "sash_v": 303,
+    "sort_mode": 0,
+    "use_fp_filters": false,
+    "width": 880
+  },
+  "footprint_viewer": {
+    "auto_zoom": false,
+    "autozoom": true,
+    "cursor": {
+      "always_show_cursor": true,
+      "fullscreen_cursor": false
+    },
+    "display": 0,
+    "fp_list_width": 300,
+    "grid": {
+      "axes_enabled": true,
+      "fast_grid_1": 1,
+      "fast_grid_2": 2,
+      "last_size": 1,
+      "line_width": 1.0,
+      "min_spacing": 10.0,
+      "override_connected": false,
+      "override_connected_idx": 16,
+      "override_graphics": false,
+      "override_graphics_idx": 15,
+      "override_text": false,
+      "override_text_idx": 18,
+      "override_vias": false,
+      "override_vias_idx": 18,
+      "override_wires": false,
+      "override_wires_idx": 19,
+      "overrides_enabled": false,
+      "show": true,
+      "sizes": [
+        {
+          "name": "",
+          "x": "1000 mil",
+          "y": "1000 mil"
+        },
+        {
+          "name": "",
+          "x": "500 mil",
+          "y": "500 mil"
+        },
+        {
+          "name": "",
+          "x": "250 mil",
+          "y": "250 mil"
+        },
+        {
+          "name": "",
+          "x": "200 mil",
+          "y": "200 mil"
+        },
+        {
+          "name": "",
+          "x": "100 mil",
+          "y": "100 mil"
+        },
+        {
+          "name": "",
+          "x": "50 mil",
+          "y": "50 mil"
+        },
+        {
+          "name": "",
+          "x": "25 mil",
+          "y": "25 mil"
+        },
+        {
+          "name": "",
+          "x": "20 mil",
+          "y": "20 mil"
+        },
+        {
+          "name": "",
+          "x": "10 mil",
+          "y": "10 mil"
+        },
+        {
+          "name": "",
+          "x": "5 mil",
+          "y": "5 mil"
+        },
+        {
+          "name": "",
+          "x": "2 mil",
+          "y": "2 mil"
+        },
+        {
+          "name": "",
+          "x": "1 mil",
+          "y": "1 mil"
+        },
+        {
+          "name": "",
+          "x": "5.0 mm",
+          "y": "5.0 mm"
+        },
+        {
+          "name": "",
+          "x": "2.5 mm",
+          "y": "2.5 mm"
+        },
+        {
+          "name": "",
+          "x": "1.0 mm",
+          "y": "1.0 mm"
+        },
+        {
+          "name": "",
+          "x": "0.5 mm",
+          "y": "0.5 mm"
+        },
+        {
+          "name": "",
+          "x": "0.25 mm",
+          "y": "0.25 mm"
+        },
+        {
+          "name": "",
+          "x": "0.2 mm",
+          "y": "0.2 mm"
+        },
+        {
+          "name": "",
+          "x": "0.1 mm",
+          "y": "0.1 mm"
+        },
+        {
+          "name": "",
+          "x": "0.05 mm",
+          "y": "0.05 mm"
+        },
+        {
+          "name": "",
+          "x": "0.025 mm",
+          "y": "0.025 mm"
+        },
+        {
+          "name": "",
+          "x": "0.01 mm",
+          "y": "0.01 mm"
+        }
+      ],
+      "snap": 0,
+      "style": 0,
+      "user_grid_x": "10 mil",
+      "user_grid_y": "10 mil"
+    },
+    "lib_list_width": 200,
+    "maximized": false,
+    "mru_path": "",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=731;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=410;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Libraries;caption=;state=1020;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=200;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Footprints;caption=;state=1020;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=300;besth=-1;minw=100;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=162;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(3,6,0)=32|dock_size(4,2,0)=202|dock_size(4,1,0)=302|dock_size(5,0,0)=384|",
+    "pos_x": 222,
+    "pos_y": 252,
+    "size_x": 1280,
+    "size_y": 720,
+    "zoom": 7.4451437844055475,
+    "zoom_factors": []
+  },
+  "footprint_wizard": {
+    "cursor": {
+      "always_show_cursor": true,
+      "fullscreen_cursor": true
+    },
+    "display": 0,
+    "grid": {
+      "axes_enabled": true,
+      "fast_grid_1": 1,
+      "fast_grid_2": 2,
+      "last_size": 1,
+      "line_width": 1.0,
+      "min_spacing": 10.0,
+      "override_connected": false,
+      "override_connected_idx": 16,
+      "override_graphics": false,
+      "override_graphics_idx": 15,
+      "override_text": false,
+      "override_text_idx": 18,
+      "override_vias": false,
+      "override_vias_idx": 18,
+      "override_wires": false,
+      "override_wires_idx": 19,
+      "overrides_enabled": false,
+      "show": true,
+      "sizes": [
+        {
+          "name": "",
+          "x": "1000 mil",
+          "y": "1000 mil"
+        },
+        {
+          "name": "",
+          "x": "500 mil",
+          "y": "500 mil"
+        },
+        {
+          "name": "",
+          "x": "250 mil",
+          "y": "250 mil"
+        },
+        {
+          "name": "",
+          "x": "200 mil",
+          "y": "200 mil"
+        },
+        {
+          "name": "",
+          "x": "100 mil",
+          "y": "100 mil"
+        },
+        {
+          "name": "",
+          "x": "50 mil",
+          "y": "50 mil"
+        },
+        {
+          "name": "",
+          "x": "25 mil",
+          "y": "25 mil"
+        },
+        {
+          "name": "",
+          "x": "20 mil",
+          "y": "20 mil"
+        },
+        {
+          "name": "",
+          "x": "10 mil",
+          "y": "10 mil"
+        },
+        {
+          "name": "",
+          "x": "5 mil",
+          "y": "5 mil"
+        },
+        {
+          "name": "",
+          "x": "2 mil",
+          "y": "2 mil"
+        },
+        {
+          "name": "",
+          "x": "1 mil",
+          "y": "1 mil"
+        },
+        {
+          "name": "",
+          "x": "5.0 mm",
+          "y": "5.0 mm"
+        },
+        {
+          "name": "",
+          "x": "2.5 mm",
+          "y": "2.5 mm"
+        },
+        {
+          "name": "",
+          "x": "1.0 mm",
+          "y": "1.0 mm"
+        },
+        {
+          "name": "",
+          "x": "0.5 mm",
+          "y": "0.5 mm"
+        },
+        {
+          "name": "",
+          "x": "0.25 mm",
+          "y": "0.25 mm"
+        },
+        {
+          "name": "",
+          "x": "0.2 mm",
+          "y": "0.2 mm"
+        },
+        {
+          "name": "",
+          "x": "0.1 mm",
+          "y": "0.1 mm"
+        },
+        {
+          "name": "",
+          "x": "0.05 mm",
+          "y": "0.05 mm"
+        },
+        {
+          "name": "",
+          "x": "0.025 mm",
+          "y": "0.025 mm"
+        },
+        {
+          "name": "",
+          "x": "0.01 mm",
+          "y": "0.01 mm"
+        }
+      ],
+      "snap": 0,
+      "style": 0,
+      "user_grid_x": "10 mil",
+      "user_grid_y": "10 mil"
+    },
+    "maximized": false,
+    "mru_path": "",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=332;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=-1;besth=26;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Params;caption=Parameters;state=2044;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=360;besth=180;minw=360;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Output;caption=;state=1020;dir=4;layer=0;row=0;pos=1;prop=100000;bestw=360;besth=77;minw=360;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=385;besth=157;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=26|dock_size(4,0,0)=389|dock_size(5,0,0)=384|",
+    "pos_x": 320,
+    "pos_y": 252,
+    "size_x": 1280,
+    "size_y": 720,
+    "zoom_factors": []
+  },
+  "footprint_wizard_list": {
+    "height": 426,
+    "width": 580
+  },
+  "gen_drill": {
+    "drill_file_type": 0,
+    "map_file_type": 1,
+    "merge_pth_npth": false,
+    "minimal_header": false,
+    "mirror": false,
+    "unit_drill_is_inch": true,
+    "use_route_for_oval_holes": true,
+    "zeros_format": 0
+  },
+  "graphics": {
+    "canvas_type": 1,
+    "high_contrast_factor": 0.3499999940395355,
+    "highlight_factor": 0.5,
+    "select_factor": 0.75
+  },
+  "import_graphics": {
+    "dxf_units": 0,
+    "fix_discontinuities": true,
+    "group_items": true,
+    "interactive_placement": true,
+    "layer": 0,
+    "line_width": 0.2,
+    "line_width_units": 0,
+    "origin_units": 0,
+    "origin_x": 0.0,
+    "origin_y": 0.0,
+    "tolerance": 1.0,
+    "use_dlg_layer_selection": true
+  },
+  "lib_tree": {
+    "column_widths": {
+      "Description": 104,
+      "Item": 1337
+    },
+    "columns": [
+      "Item",
+      "Description"
+    ],
+    "open_libs": [
+      "Connector_PinHeader_2.54mm",
+      "Package_TO_SOT_SMD"
+    ]
+  },
+  "meta": {
+    "version": 5
+  },
+  "net_inspector_dialog": {
+    "col_order": [],
+    "col_widths": [],
+    "dlg_height": 520,
+    "dlg_width": 960,
+    "group_by": false,
+    "group_by_kind": 0,
+    "group_by_text": "",
+    "show_zero_pad_nets": true,
+    "sort_ascending": true,
+    "sorting_column": -1
+  },
+  "netlist": {
+    "associate_by_ref_sch": true,
+    "delete_extra_footprints": true,
+    "delete_shorting_tracks": false,
+    "delete_single_pad_nets": false,
+    "report_filter": 28,
+    "update_footprints": true
+  },
+  "pcb_display": {
+    "force_show_fields_when_fp_selected": true,
+    "graphic_items_fill": true,
+    "graphics_fill": true,
+    "live_3d_refresh": false,
+    "max_links_shown": 3,
+    "net_names_mode": 3,
+    "origin_invert_x_axis": false,
+    "origin_invert_y_axis": false,
+    "origin_mode": 0,
+    "pad_clearance": true,
+    "pad_fill": true,
+    "pad_no_connects": true,
+    "pad_numbers": true,
+    "ratsnest_curved": true,
+    "ratsnest_footprint": true,
+    "ratsnest_global": true,
+    "ratsnest_thickness": 0.5,
+    "show_page_borders": true,
+    "text_fill": true,
+    "track_clearance_mode": 2,
+    "track_fill": true,
+    "via_fill": true,
+    "zone_mode": 1
+  },
+  "place_file": {
+    "excludeTH": false,
+    "file_format": 0,
+    "file_options": 0,
+    "include_board_edge": false,
+    "negate_xcoord": false,
+    "onlySMD": false,
+    "output_directory": "",
+    "units": 1,
+    "use_place_file_origin": true
+  },
+  "plot": {
+    "all_layers_on_one_page": 1,
+    "as_item_checkboxes": false,
+    "check_zones_before_plotting": true,
+    "edgecut_on_all_layers": true,
+    "fine_scale_x": 1.0,
+    "fine_scale_y": 1.0,
+    "mirror": false,
+    "pads_drill_mode": 2,
+    "ps_fine_width_adjust": 0.0
+  },
+  "printing": {
+    "background": false,
+    "color_theme": "",
+    "layers": [],
+    "monochrome": true,
+    "scale": 1.0,
+    "title_block": false,
+    "use_theme": false
+  },
+  "reannotate_dialog": {
+    "annotate_back_prefix": "",
+    "annotate_back_refdes_start": "",
+    "annotate_choice": 3,
+    "annotate_exclude_list": "",
+    "annotate_exclude_locked": false,
+    "annotate_front_prefix": "",
+    "annotate_front_refdes_start": "1",
+    "annotate_grid_index": 8,
+    "annotate_remove_back_prefix": false,
+    "annotate_remove_front_prefix": false,
+    "annotate_report_file_name": "/Users/apaleslimghost/Code/apaleslimghost/keyboard/report.txt",
+    "annotate_report_severity": 0,
+    "annotate_sort_code": 0,
+    "annotate_sort_on_modules": true
+  },
+  "system": {
+    "file_history": [
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/rooks/rooks-panel.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/bats/bats.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard-left.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keyboard/keyboard.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/ravens/boards/ravens-panel-black.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/rooks/rooks.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/ravens/ravens.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/chameleons/chameleons.kicad_pcb",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/keypad.kicad_pcb"
+    ],
+    "first_run_shown": true,
+    "last_footprint3d_dir": "/Users/apaleslimghost/Documents/KiCad/8.0/3dmodels",
+    "last_footprint_lib_dir": "/Users/apaleslimghost/Documents/KiCad/8.0/footprints",
+    "last_imperial_units": 0,
+    "last_metric_units": 1,
+    "max_undo_items": 0,
+    "show_import_issues": true,
+    "units": 1
+  },
+  "tools": {
+    "pns": {
+      "auto_posture": true,
+      "can_violate_drc": false,
+      "corner_mode": 0,
+      "effort": 1,
+      "fix_all_segments": true,
+      "follow_mouse": true,
+      "free_angle_mode": false,
+      "inline_drag": false,
+      "jump_over_obstacles": false,
+      "meta": {
+        "version": 0
+      },
+      "mode": 2,
+      "optimize_dragged_track": false,
+      "remove_loops": true,
+      "shove_iteration_limit": 250,
+      "shove_time_limit": 1000,
+      "shove_vias": true,
+      "smart_pads": true,
+      "smooth_dragged_segments": true,
+      "snap_to_pads": true,
+      "snap_to_tracks": true,
+      "start_diagonal": false,
+      "suggest_finish": false,
+      "via_force_prop_iteration_limit": 40,
+      "walkaround_hug_length_threshold": 1.5,
+      "walkaround_iteration_limit": 40
+    }
+  },
+  "window": {
+    "cursor": {
+      "always_show_cursor": true,
+      "fullscreen_cursor": false
+    },
+    "display": 0,
+    "footprint_text_shown_columns": "0 1 2 3 4 5 6",
+    "grid": {
+      "axes_enabled": false,
+      "fast_grid_1": 8,
+      "fast_grid_2": 22,
+      "last_size": 9,
+      "line_width": 1.0,
+      "min_spacing": 10.0,
+      "override_connected": false,
+      "override_connected_idx": 16,
+      "override_graphics": false,
+      "override_graphics_idx": 15,
+      "override_text": false,
+      "override_text_idx": 18,
+      "override_vias": false,
+      "override_vias_idx": 18,
+      "override_wires": false,
+      "override_wires_idx": 19,
+      "overrides_enabled": false,
+      "show": true,
+      "sizes": [
+        {
+          "name": "",
+          "x": "1000 mil",
+          "y": "1000 mil"
+        },
+        {
+          "name": "",
+          "x": "500 mil",
+          "y": "500 mil"
+        },
+        {
+          "name": "",
+          "x": "250 mil",
+          "y": "250 mil"
+        },
+        {
+          "name": "",
+          "x": "200 mil",
+          "y": "200 mil"
+        },
+        {
+          "name": "",
+          "x": "100 mil",
+          "y": "100 mil"
+        },
+        {
+          "name": "",
+          "x": "50 mil",
+          "y": "50 mil"
+        },
+        {
+          "name": "",
+          "x": "25 mil",
+          "y": "25 mil"
+        },
+        {
+          "name": "",
+          "x": "20 mil",
+          "y": "20 mil"
+        },
+        {
+          "name": "",
+          "x": "10 mil",
+          "y": "10 mil"
+        },
+        {
+          "name": "",
+          "x": "5 mil",
+          "y": "5 mil"
+        },
+        {
+          "name": "",
+          "x": "2 mil",
+          "y": "2 mil"
+        },
+        {
+          "name": "",
+          "x": "1 mil",
+          "y": "1 mil"
+        },
+        {
+          "name": "",
+          "x": "5.0 mm",
+          "y": "5.0 mm"
+        },
+        {
+          "name": "",
+          "x": "2.5 mm",
+          "y": "2.5 mm"
+        },
+        {
+          "name": "",
+          "x": "1.0 mm",
+          "y": "1.0 mm"
+        },
+        {
+          "name": "",
+          "x": "0.5 mm",
+          "y": "0.5 mm"
+        },
+        {
+          "name": "",
+          "x": "0.25 mm",
+          "y": "0.25 mm"
+        },
+        {
+          "name": "",
+          "x": "0.2 mm",
+          "y": "0.2 mm"
+        },
+        {
+          "name": "",
+          "x": "0.1 mm",
+          "y": "0.1 mm"
+        },
+        {
+          "name": "",
+          "x": "0.05 mm",
+          "y": "0.05 mm"
+        },
+        {
+          "name": "",
+          "x": "0.025 mm",
+          "y": "0.025 mm"
+        },
+        {
+          "name": "",
+          "x": "0.01 mm",
+          "y": "0.01 mm"
+        },
+        {
+          "name": "User Grid",
+          "x": "10.75 mm",
+          "y": "6.206516 mm"
+        }
+      ],
+      "snap": 0,
+      "style": 0,
+      "user_grid_x": "",
+      "user_grid_y": ""
+    },
+    "maximized": true,
+    "mru_path": "",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1090;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1170;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=675;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1534;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=162;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=32|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=212|dock_size(5,0,0)=402|",
+    "pos_x": 401,
+    "pos_y": 598,
+    "size_x": 1470,
+    "size_y": 919,
+    "zoom_factors": [
+      0.13,
+      0.22,
+      0.35,
+      0.6,
+      1.0,
+      1.5,
+      2.2,
+      3.5,
+      5.0,
+      8.0,
+      13.0,
+      20.0,
+      35.0,
+      50.0,
+      80.0,
+      130.0,
+      220.0,
+      300.0
+    ]
+  },
+  "zones": {
+    "clearance": 5.0,
+    "hatching_style": 2,
+    "min_thickness": 5.0,
+    "net_sort_mode": 3,
+    "thermal_relief_copper_width": 10.0,
+    "thermal_relief_gap": 10.0
+  }
+}

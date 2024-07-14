@@ -6,6 +6,7 @@
     "icon_theme": 2,
     "show_scrollbars": false,
     "text_editor_zoom": 0,
+    "toolbar_icon_size": 24,
     "use_icons_in_menus": true
   },
   "auto_backup": {
@@ -20,12 +21,19 @@
     "data_collection_prompt": false,
     "env_var_overwrite_warning": false,
     "scaled_3d_models_warning": false,
+    "update_check_prompt": true,
     "zone_fill_warning": true
   },
   "environment": {
     "vars": {
-      "KISYS3DMOD": "/Users/apaleslimghost/Documents/KiCad/7.0/3dmodels"
+      "KISYS3DMOD": "/Users/apaleslimghost/Documents/KiCad/8.0/3dmodels"
     }
+  },
+  "git": {
+    "authorEmail": "",
+    "authorName": "",
+    "repositories": null,
+    "useDefaultAuthor": true
   },
   "graphics": {
     "cairo_antialiasing_mode": 0,
@@ -37,10 +45,12 @@
     "center_on_zoom": true,
     "focus_follow_sch_pcb": false,
     "horizontal_pan": true,
+    "hotkey_feedback": true,
     "immediate_actions": true,
     "mouse_left": -1,
     "mouse_middle": 2,
     "mouse_right": 2,
+    "reverse_scroll_pan_h": false,
     "scroll_modifier_pan_h": 306,
     "scroll_modifier_pan_v": 0,
     "scroll_modifier_zoom": 308,
@@ -72,6 +82,6 @@
     "pdf_viewer_name": "",
     "text_editor": "/usr/bin/open -e",
     "use_system_pdf_viewer": true,
-    "working_dir": "/Applications/KiCad"
+    "working_dir": "/Applications/KiCad/KiCad.app/Contents/Applications"
   }
 }
