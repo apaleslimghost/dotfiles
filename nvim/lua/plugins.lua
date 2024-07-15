@@ -172,6 +172,13 @@ return {
 				{ "<leader>w", group = "Window" },
 				{ "<leader>ws", "<Cmd>split<CR>", desc = "Split" },
 				{ "<leader>wv", "<Cmd>vsplit<CR>", desc = "VSplit" },
+
+				{ "<leader>b", group = "Buffers" },
+				{ "<leader>bd", "<Cmd>bd<CR>", desc = "Delete" },
+				{ "<leader>bu", "<Cmd>e#<CR>", desc = "Reopen closed" },
+
+				{ "<leader>bN", group = "New" },
+				{ "<leader>bNn", "<Cmd>enew<CR>", desc = "New empty buffer" },
 			}
 		}
 	},
