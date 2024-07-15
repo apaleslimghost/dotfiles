@@ -162,7 +162,16 @@ return {
 			vim.o.timeout = true
 			vim.o.timeoutlen = 300
 		end,
+
 		opts = {
+			preset = "helix",
+
+			spec =  {
+				{ "<leader><leader>", ":", desc = "Commands" },
+				{ "<leader>w", group = "Window" },
+				{ "<leader>ws", "<Cmd>split<CR>", desc = "Split" },
+				{ "<leader>wv", "<Cmd>vsplit<CR>", desc = "VSplit" },
+			}
 		}
 	},
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
