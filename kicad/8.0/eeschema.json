@@ -527,6 +527,7 @@
   },
   "system": {
     "file_history": [
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/panels/dual-popcorn/dual-popcorn.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/ostriches/ostriches.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/lyrebirds/lyrebirds.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/koalas/koalas.kicad_sch",
@@ -534,8 +535,7 @@
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/snails/snails.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/rooks/rooks.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/elephants.kicad_sch",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/chordata/chordata.kicad_sch",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/keypad.kicad_sch"
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/chordata/chordata.kicad_sch"
     ],
     "first_run_shown": true,
     "last_imperial_units": 0,
