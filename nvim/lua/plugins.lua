@@ -175,7 +175,9 @@ return {
 			}
 		}
 	},
-	{ "akinsho/toggleterm.nvim" },
+	{ "akinsho/toggleterm.nvim", config = function()
+		require("toggleterm").setup()
+	end },
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
 	{
 		'rmagatti/auto-session',
