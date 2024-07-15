@@ -58,6 +58,20 @@ vim.api.nvim_create_autocmd("WinLeave", {
 	end,
 })
 
+vim.api.nvim_create_autocmd({"BufWinEnter", "WinEnter"}, {
+  pattern = "term://*",
+  callback = function()
+    vim.cmd("startinsert")
+  end,
+})
+
+vim.api.nvim_create_autocmd("BufLeave", {
+  pattern = "term://*",
+  callback = function()
+    vim.cmd("stopinsert")
+  end,
+})
+
 for _, diag in ipairs({ "Error", "Warn", "Info", "Hint" }) do
 	vim.fn.sign_define("DiagnosticSign" .. diag, {
 		text = "",

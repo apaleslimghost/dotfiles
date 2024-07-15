@@ -168,12 +168,14 @@ return {
 
 			spec =  {
 				{ "<leader><leader>", ":", desc = "Commands" },
+				{ "<leader>'", "<Cmd>ToggleTerm<CR>", desc = "Toggle terminal" },
 				{ "<leader>w", group = "Window" },
 				{ "<leader>ws", "<Cmd>split<CR>", desc = "Split" },
 				{ "<leader>wv", "<Cmd>vsplit<CR>", desc = "VSplit" },
 			}
 		}
 	},
+	{ "akinsho/toggleterm.nvim" },
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
 	{
 		'rmagatti/auto-session',
