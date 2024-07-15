@@ -37,6 +37,7 @@ vim.o.undofile = true
 vim.o.mousemoveevent = true
 vim.o.splitright = true
 vim.o.splitbelow = true
+vim.o.hidden = true
 
 vim.diagnostic.config({
 	virtual_text = false,
