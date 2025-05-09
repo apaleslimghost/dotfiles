@@ -1,0 +1,139 @@
+{
+    "packages": [
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1697966487,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.bouni.kicad-jlcpcb-tools",
+                "license": "",
+                "name": "com_github_bouni_kicad-jlcpcb-tools",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1672348656,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.gregdavill.KiBuzzard",
+                "license": "",
+                "name": "com_github_gregdavill_KiBuzzard",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1672348653,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.mitxela.kicad-round-tracks",
+                "license": "",
+                "name": "com_github_mitxela_kicad-round-tracks",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1675980882,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.yaqwsx.kikit",
+                "license": "",
+                "name": "com_github_yaqwsx_kikit",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        },
+        {
+            "current_version": "0.0",
+            "install_timestamp": 1697966366,
+            "package": {
+                "author": {
+                    "contact": {},
+                    "name": ""
+                },
+                "description": "",
+                "description_full": "",
+                "identifier": "com.github.yaqwsx.kikit-library",
+                "license": "",
+                "name": "com_github_yaqwsx_kikit-library",
+                "resources": {},
+                "type": "invalid",
+                "versions": [
+                    {
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "",
+            "repository_name": "<unknown>"
+        }
+    ]
+}

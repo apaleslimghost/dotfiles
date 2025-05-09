@@ -64,7 +64,7 @@
   "meta": {
     "version": 1
   },
-  "pin_table_visible_columns": "0 1 2 3 4 8 9",
+  "pin_table_visible_columns": "0 1 2 3 4 8 9 10 12",
   "printing": {
     "background": false,
     "color_theme": "",

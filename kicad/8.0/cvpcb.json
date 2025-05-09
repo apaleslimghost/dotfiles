@@ -12,7 +12,7 @@
     "zoom_to_fit": true
   },
   "filter_footprint": 4,
-  "filter_footprint_text": "0805",
+  "filter_footprint_text": "stripboard",
   "find_replace": {
     "find_history": [],
     "find_string": "",

@@ -662,6 +662,7 @@ pcbnew.InteractiveSelection.SyncSelectionWithNets
 pcbnew.InteractiveSelection.UnselectItem		
 pcbnew.InteractiveSelection.UnselectItems		
 pcbnew.InteractiveSelection.unrouteSelected		
+pcbnew.LengthTuner.Settings	Cmd+L	
 pcbnew.LengthTuner.TuneDiffPair	8	
 pcbnew.LengthTuner.TuneDiffPairSkew	9	
 pcbnew.LengthTuner.TuneSingleTrack	7	
