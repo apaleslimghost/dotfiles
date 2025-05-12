@@ -37,12 +37,11 @@ modules=$@
 
 work_modules="00-sudo
 01-brew
-02-app-store
+1password
+03-app-store
 11-manual-login
 gh
 20-git
-21-github-tokens
-22-repos
 23-hosts
 30-gylmwp
 focus

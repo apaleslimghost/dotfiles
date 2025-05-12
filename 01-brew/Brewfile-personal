@@ -11,7 +11,6 @@ brew "gh"
 brew 'heroku'
 brew 'httpie'
 brew 'imagemagick'
-brew 'lastpass-cli'
 brew 'less'
 brew 'mas'
 brew 'ripgrep'
@@ -62,4 +61,6 @@ cask 'transmission'
 cask 'visual-studio-code'
 cask "vlc"
 cask 'neovide'
+cask '1password'
+cask '1password-cli'
 # end cask
