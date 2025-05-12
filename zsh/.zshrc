@@ -1,4 +1,4 @@
-znap_path=~/.Dotfiles/zsh/plugins
+znap_path=$HOME/.Dotfiles/zsh/plugins
 
 source $znap_path/znap/znap.zsh
 
@@ -32,9 +32,6 @@ zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
       bindkey "$key" down-line-or-history
    done
 }
-
-export VAULT_ADDR="https://vault.in.ft.com"
-export VAULT_AUTH_GITHUB_TOKEN=$(security find-generic-password -a "${USER}" -s "FT Vault" -w)
 
 export VOLTA_HOME=$HOME/.volta
 path=($VOLTA_HOME/bin ~/.iterm2 $path)
