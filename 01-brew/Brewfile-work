@@ -19,6 +19,7 @@ brew 'zsh'
 brew 'httpie'
 brew 'jq'
 brew 'zsh'
+brew "doppler"
 # end brew
 
 cask 'httpie'
