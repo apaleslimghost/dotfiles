@@ -11,7 +11,13 @@ if [ ! -f ~/.ssh/id_rsa ] ; then
 fi
 
 if ! gh auth status >/dev/null 2>&1 ; then
-    gh auth login
+    echo '  ⚿ logging in to gh'
+    gh auth login -s admin:public_key -s admin:ssh_signing_key
+fi
+
+if ! gh ssh-key list | grep $(hostname) >/dev/null 2>&1 ; then
+    echo '  ⚿ adding SSH key to Github account'
+    gh ssh-key add ~/.ssh/id_rsa.pub
 fi
 
 git remote set-url origin git@github.com:apaleslimghost/dotfiles.git
