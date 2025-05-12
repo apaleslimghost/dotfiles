@@ -1,8 +1,7 @@
 cask_args appdir: '~/Applications'
 
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
+puts ENV['laptop_type']
+
 tap 'heroku/brew'
 # end tap
 
@@ -14,29 +13,26 @@ brew 'less'
 brew 'mas'
 brew 'oh-my-posh'
 brew 'tree'
-brew 'vault'
 brew 'coreutils'
 brew 'volta'
 brew 'circleci'
 brew 'zsh'
 brew 'httpie'
-brew 'neovim'
+brew 'jq'
+brew 'zsh'
 # end brew
 
 cask 'httpie'
-cask 'bettertouchtool'
 cask 'discord'
-cask 'firefox'
+cask 'zen'
 cask 'focus'
-cask 'font-caskaydia-cove-nerd-font'
+cask 'font-fantasque-sans-mono-nerd-font'
 cask 'iterm2'
 cask 'karabiner-elements'
 cask 'mimestream'
-cask 'notion'
 cask "raycast"
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'multitouch'
 cask 'scroll-reverser'
-cask 'neovide'
 # end cask
