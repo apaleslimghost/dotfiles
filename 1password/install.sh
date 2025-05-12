@@ -7,4 +7,4 @@ open -a '1password.app'
 echo -n "  ⏎ press enter when you're done "
 read -n1
 
-op vault l
+op vault list
