@@ -44,7 +44,6 @@ gh
 20-git
 23-hosts
 30-gylmwp
-focus
 karabiner
 zsh"
 
