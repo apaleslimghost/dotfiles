@@ -42,79 +42,83 @@
     {
       "colors": [
         {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
           "color": "rgb(102, 102, 128)",
-          "layer": 477
+          "layer": "background_bottom"
         },
         {
           "color": "rgb(204, 204, 230)",
-          "layer": 478
+          "layer": "background_top"
         },
         {
           "color": "rgba(110, 115, 77, 0.902)",
-          "layer": 479
+          "layer": "board"
         },
         {
           "color": "rgb(191, 156, 59)",
-          "layer": 480
+          "layer": "copper"
         },
         {
           "color": "rgb(191, 156, 59)",
-          "layer": 481
+          "layer": "copper_bottom"
         },
         {
           "color": "rgb(240, 240, 240)",
-          "layer": 482
+          "layer": "silkscreen_bottom"
         },
         {
           "color": "rgb(240, 240, 240)",
-          "layer": 483
+          "layer": "silkscreen_top"
         },
         {
           "color": "rgba(20, 51, 36, 0.831)",
-          "layer": 484
+          "layer": "soldermask_bottom"
         },
         {
           "color": "rgba(20, 51, 36, 0.831)",
-          "layer": 485
+          "layer": "soldermask_top"
         },
         {
           "color": "rgb(128, 128, 128)",
-          "layer": 486
+          "layer": "solderpaste"
         },
         {
           "color": "rgb(217, 217, 217)",
-          "layer": 488
+          "layer": "user_comments"
         },
         {
           "color": "rgb(217, 217, 217)",
-          "layer": 489
+          "layer": "user_drawings"
         },
         {
           "color": "rgb(179, 26, 26)",
-          "layer": 490
+          "layer": "user_eco1"
         },
         {
           "color": "rgb(179, 26, 26)",
-          "layer": 491
+          "layer": "user_eco2"
         }
       ],
       "layers": [
-        130,
-        142,
-        143,
-        479,
-        480,
-        481,
-        482,
-        483,
-        484,
-        485,
-        486,
-        487,
-        492,
-        493,
-        494,
-        497
+        "fp_text",
+        "fp_values",
+        "fp_references",
+        "board",
+        "copper",
+        "copper_bottom",
+        "silkscreen_bottom",
+        "silkscreen_top",
+        "soldermask_bottom",
+        "soldermask_top",
+        "solderpaste",
+        "adhesive",
+        "th_models",
+        "smd_models",
+        "virtual_models",
+        "3d_axes"
       ],
       "name": "legacy colors"
     }
@@ -126,7 +130,10 @@
     "open_libs": []
   },
   "meta": {
-    "version": 3
+    "version": 4
+  },
+  "plugins": {
+    "actions": []
   },
   "printing": {
     "background": false,
@@ -154,6 +161,7 @@
     "opengl_thickness_disableOnMove": false,
     "opengl_vias_disableOnMove": false,
     "plated_and_bare_copper": false,
+    "preview_show_board_body": true,
     "raytrace_anti_aliasing": true,
     "raytrace_backfloor": false,
     "raytrace_lightAzimuth": [
@@ -228,8 +236,58 @@
     "show_soldermask_bottom": true,
     "show_soldermask_top": true,
     "show_solderpaste": true,
+    "show_user1": false,
+    "show_user10": false,
+    "show_user11": false,
+    "show_user12": false,
+    "show_user13": false,
+    "show_user14": false,
+    "show_user15": false,
+    "show_user16": false,
+    "show_user17": false,
+    "show_user18": false,
+    "show_user19": false,
+    "show_user2": false,
+    "show_user20": false,
+    "show_user21": false,
+    "show_user22": false,
+    "show_user23": false,
+    "show_user24": false,
+    "show_user25": false,
+    "show_user26": false,
+    "show_user27": false,
+    "show_user28": false,
+    "show_user29": false,
+    "show_user3": false,
+    "show_user30": false,
+    "show_user31": false,
+    "show_user32": false,
+    "show_user33": false,
+    "show_user34": false,
+    "show_user35": false,
+    "show_user36": false,
+    "show_user37": false,
+    "show_user38": false,
+    "show_user39": false,
+    "show_user4": false,
+    "show_user40": false,
+    "show_user41": false,
+    "show_user42": false,
+    "show_user43": false,
+    "show_user44": false,
+    "show_user45": false,
+    "show_user5": false,
+    "show_user6": false,
+    "show_user7": false,
+    "show_user8": false,
+    "show_user9": false,
     "show_zones": true,
-    "subtract_mask_from_silk": false
+    "subtract_mask_from_silk": false,
+    "use_board_editor_copper_colors": false
+  },
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
   },
   "system": {
     "file_history": [],
@@ -386,10 +444,29 @@
     "maximized": true,
     "mru_path": "",
     "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=738;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=190;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=16;besth=16;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(2,3,0)=190|dock_size(5,0,0)=18|",
-    "pos_x": 0,
-    "pos_y": 37,
-    "size_x": 1470,
-    "size_y": 919,
-    "zoom_factors": []
+    "pos_x": 83,
+    "pos_y": 415,
+    "size_x": 1710,
+    "size_y": 1069,
+    "zoom_factors": [
+      0.13,
+      0.22,
+      0.35,
+      0.6,
+      1.0,
+      1.5,
+      2.2,
+      3.5,
+      5.0,
+      8.0,
+      13.0,
+      20.0,
+      35.0,
+      50.0,
+      80.0,
+      130.0,
+      220.0,
+      300.0
+    ]
   }
 }

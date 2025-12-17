@@ -1,7 +1,12 @@
 {
   "appearance": {
     "color_theme": "_builtin_default",
-    "left_frame_width": 250
+    "mode_opacity_value": 0.6,
+    "page_type": "GERBER",
+    "show_border_and_titleblock": false,
+    "show_dcodes": false,
+    "show_negative_objects": false,
+    "show_page_limit": false
   },
   "color_picker": {
     "default_tab": 0
@@ -11,6 +16,14 @@
     "center_on_items": true,
     "on_selection": true,
     "zoom_to_fit": true
+  },
+  "excellon_defaults": {
+    "inch_integer_len": 2,
+    "inch_mantissa_len": 4,
+    "lz_format": true,
+    "mm_integer_len": 3,
+    "mm_mantissa_len": 3,
+    "unit_mm": false
   },
   "find_replace": {
     "find_history": [],
@@ -22,6 +35,8 @@
     "replace_string": "",
     "search_and_replace": false
   },
+  "gerber_to_pcb_copperlayers_count": 2,
+  "gerber_to_pcb_layers": [],
   "graphics": {
     "canvas_type": 1,
     "high_contrast_factor": 0.3499999940395355,
@@ -37,22 +52,8 @@
   "meta": {
     "version": 0
   },
-  "pcm": {
-    "check_for_updates": true,
-    "last_download_dir": "",
-    "lib_auto_add": true,
-    "lib_auto_remove": true,
-    "lib_prefix": "PCM_",
-    "repositories": [
-      {
-        "name": "KiCad official repository",
-        "url": "https://repository.kicad.org/repository.json"
-      },
-      {
-        "name": "Bouni's KiCad repository",
-        "url": "https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json"
-      }
-    ]
+  "plugins": {
+    "actions": []
   },
   "printing": {
     "background": false,
@@ -63,40 +64,42 @@
     "title_block": false,
     "use_theme": false
   },
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
+  },
   "system": {
-    "check_for_kicad_updates": true,
-    "check_for_updates": 2,
-    "file_history": [
-      "/Users/apaleslimghost/Code/apaleslimghost/amphioxi-layouts/dual-vca/dual-vca.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/amphioxi/src/assets/kicad-template/kicad-template.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/amphioxi/src/assets/kicad-template/kicad-template/kicad-template.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/amphioxi/amphioxi.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/amphioxi/amphioxi-io.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/parakeets/parakeets.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/amphioxi/amphioxi-panel.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/rooks/rooks.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/mixer/mixer.kicad_pro"
+    "drill_file_history": [
+      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-PTH.drl"
     ],
-    "first_run_shown": false,
+    "file_history": [
+      "/Users/apaleslimghost/Downloads/GERBER-elephants(1)/elephants-CuTop.gbr",
+      "/Users/apaleslimghost/Downloads/GERBER-elephants/elephants-CuTop.gbr",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/jlcpcb/gerber/elephants-panel-MaskTop.gts",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/jlcpcb/production_files/GERBER-elephants-panel/elephants-panel-MaskBottom.gbr",
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard left/gerber/keyboard left-CuBottom.gbl",
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard left/gerber/keyboard left-CuTop.gtl",
+      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-F_Silkscreen.gto",
+      "/Users/kara.brightwell/Documents/Eurorack/Bees/Bees-F_Silkscreen.gbr",
+      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-B_Silkscreen.gbo"
+    ],
+    "first_run_shown": true,
+    "job_file_history": [],
     "last_imperial_units": 0,
     "last_metric_units": 1,
-    "last_received_update": "8.0.2",
-    "last_update_check_time": "2025-05-05T15:51:01",
     "max_undo_items": 0,
-    "open_projects": [
-      "/Users/apaleslimghost/Code/apaleslimghost/amphioxi-layouts/dual-vca/dual-vca.kicad_pro"
-    ],
     "show_import_issues": true,
-    "units": 1
+    "units": 1,
+    "zip_file_history": []
   },
   "window": {
     "cursor": {
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
-    "display": 1,
+    "display": 0,
     "grid": {
-      "axes_enabled": false,
+      "axes_enabled": true,
       "fast_grid_1": 1,
       "fast_grid_2": 2,
       "last_size": 1,
@@ -232,12 +235,33 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/amphioxi-layouts/dual-vca/",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=519;besth=560;minw=519;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=519|",
-    "pos_x": 2399,
-    "pos_y": 53,
-    "size_x": 865,
-    "size_y": 665,
-    "zoom_factors": []
+    "mru_path": "/Users/apaleslimghost/Downloads/GERBER-elephants(1)",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=610;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=1011;besth=24;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=26;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=620;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=260;besth=32;minw=260;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=260;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,4,0)=24|dock_size(3,6,0)=26|dock_size(4,3,0)=34|dock_size(2,3,0)=260|dock_size(5,0,0)=402|",
+    "pos_x": 133,
+    "pos_y": 149,
+    "size_x": 1470,
+    "size_y": 919,
+    "zoom_factors": [
+      0.022,
+      0.035,
+      0.05,
+      0.08,
+      0.13,
+      0.22,
+      0.35,
+      0.6,
+      1.0,
+      2.2,
+      3.5,
+      5.0,
+      8.0,
+      13.0,
+      22.0,
+      35.0,
+      50.0,
+      80.0,
+      130.0,
+      220.0
+    ]
   }
 }

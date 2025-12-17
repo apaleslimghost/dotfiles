@@ -1,11 +1,7 @@
 {
   "appearance": {
     "color_theme": "_builtin_default",
-    "page_type": "GERBER",
-    "show_border_and_titleblock": false,
-    "show_dcodes": false,
-    "show_negative_objects": false,
-    "show_page_limit": false
+    "left_frame_width": 250
   },
   "color_picker": {
     "default_tab": 0
@@ -15,14 +11,6 @@
     "center_on_items": true,
     "on_selection": true,
     "zoom_to_fit": true
-  },
-  "excellon_defaults": {
-    "inch_integer_len": 2,
-    "inch_mantissa_len": 4,
-    "lz_format": true,
-    "mm_integer_len": 3,
-    "mm_mantissa_len": 3,
-    "unit_mm": false
   },
   "find_replace": {
     "find_history": [],
@@ -34,8 +22,6 @@
     "replace_string": "",
     "search_and_replace": false
   },
-  "gerber_to_pcb_copperlayers_count": 2,
-  "gerber_to_pcb_layers": [],
   "graphics": {
     "canvas_type": 1,
     "high_contrast_factor": 0.3499999940395355,
@@ -51,6 +37,26 @@
   "meta": {
     "version": 0
   },
+  "pcm": {
+    "check_for_updates": true,
+    "last_download_dir": "",
+    "lib_auto_add": true,
+    "lib_auto_remove": true,
+    "lib_prefix": "PCM_",
+    "repositories": [
+      {
+        "name": "KiCad official repository",
+        "url": "https://repository.kicad.org/repository.json"
+      },
+      {
+        "name": "Bouni's KiCad repository",
+        "url": "https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json"
+      }
+    ]
+  },
+  "plugins": {
+    "actions": []
+  },
   "printing": {
     "background": false,
     "color_theme": "",
@@ -60,27 +66,48 @@
     "title_block": false,
     "use_theme": false
   },
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
+  },
   "system": {
-    "drill_file_history": [
-      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-PTH.drl"
-    ],
+    "check_for_kicad_updates": true,
+    "check_for_updates": 2,
     "file_history": [
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/jlcpcb/gerber/elephants-panel-MaskTop.gts",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/jlcpcb/production_files/GERBER-elephants-panel/elephants-panel-MaskBottom.gbr",
-      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard left/gerber/keyboard left-CuBottom.gbl",
-      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard left/gerber/keyboard left-CuTop.gtl",
-      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-F_Silkscreen.gto",
-      "/Users/kara.brightwell/Documents/Eurorack/Bees/Bees-F_Silkscreen.gbr",
-      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-B_Silkscreen.gbo"
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cattle/cattle.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/ibex/ibex.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/keypad.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/elephants.kicad_pro",
+      "/Users/apaleslimghost/Downloads/Untitled/Untitled.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/goats/goats.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/goats/ibex-panel-bottom/ibex-panel-bottom.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/goats/ibex-panel-top.kicad_pro",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/amphioxi/amphioxi.kicad_pro"
     ],
-    "first_run_shown": true,
-    "job_file_history": [],
+    "first_run_shown": false,
+    "last_design_block_lib_dir": "",
     "last_imperial_units": 0,
     "last_metric_units": 1,
+    "last_received_update": "9.0.4",
+    "last_update_check_time": "2025-11-28T19:49:39",
     "max_undo_items": 0,
+    "open_projects": [
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cattle/cattle.kicad_pro"
+    ],
     "show_import_issues": true,
-    "units": 1,
-    "zip_file_history": []
+    "units": 1
+  },
+  "template": {
+    "window": {
+      "pos": {
+        "x": -1,
+        "y": -1
+      },
+      "size": {
+        "height": -1,
+        "width": -1
+      }
+    }
   },
   "window": {
     "cursor": {
@@ -89,7 +116,7 @@
     },
     "display": 0,
     "grid": {
-      "axes_enabled": true,
+      "axes_enabled": false,
       "fast_grid_1": 1,
       "fast_grid_2": 2,
       "last_size": 1,
@@ -225,33 +252,31 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/jlcpcb/gerber",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=495;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=1066;besth=24;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=620;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=343;besth=32;minw=343;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=343;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=162;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,4,0)=24|dock_size(3,6,0)=32|dock_size(4,3,0)=34|dock_size(2,3,0)=343|dock_size(5,0,0)=402|",
-    "pos_x": 120,
-    "pos_y": 118,
-    "size_x": 1470,
-    "size_y": 919,
+    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cattle/",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editors;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=700;besth=590;minw=700;minh=590;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=700|",
+    "pos_x": 253,
+    "pos_y": 177,
+    "size_x": 865,
+    "size_y": 665,
     "zoom_factors": [
-      0.022,
-      0.035,
-      0.05,
-      0.08,
       0.13,
       0.22,
       0.35,
       0.6,
       1.0,
+      1.5,
       2.2,
       3.5,
       5.0,
       8.0,
       13.0,
-      22.0,
+      20.0,
       35.0,
       50.0,
       80.0,
       130.0,
-      220.0
+      220.0,
+      300.0
     ]
   }
 }

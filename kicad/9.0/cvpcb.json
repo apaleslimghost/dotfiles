@@ -12,7 +12,7 @@
     "zoom_to_fit": true
   },
   "filter_footprint": 4,
-  "filter_footprint_text": "stripboard",
+  "filter_footprint_text": "",
   "find_replace": {
     "find_history": [],
     "find_string": "",
@@ -182,8 +182,28 @@
     "show_text_fill": true,
     "size_x": 1280,
     "size_y": 668,
+    "use_45_limit": true,
     "zoom": 5.362717075587409,
-    "zoom_factors": []
+    "zoom_factors": [
+      0.13,
+      0.22,
+      0.35,
+      0.6,
+      1.0,
+      1.5,
+      2.2,
+      3.5,
+      5.0,
+      8.0,
+      13.0,
+      20.0,
+      35.0,
+      50.0,
+      80.0,
+      130.0,
+      220.0,
+      300.0
+    ]
   },
   "footprints_pane_width": 384,
   "graphics": {
@@ -202,6 +222,9 @@
   "meta": {
     "version": 0
   },
+  "plugins": {
+    "actions": []
+  },
   "printing": {
     "background": false,
     "color_theme": "",
@@ -210,6 +233,10 @@
     "scale": 1.0,
     "title_block": false,
     "use_theme": false
+  },
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
   },
   "system": {
     "file_history": [],
