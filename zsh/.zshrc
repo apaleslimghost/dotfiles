@@ -38,3 +38,5 @@ path=($VOLTA_HOME/bin ~/.iterm2 $HOME/.local/bin $HOME/bin $path)
 export PATH
 
 export DOPPLER_TOKEN=$(doppler configure get token --plain)
+
+export STM32_PRG_PATH=/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin
