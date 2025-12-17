@@ -34,5 +34,7 @@ zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
 }
 
 export VOLTA_HOME=$HOME/.volta
-path=($VOLTA_HOME/bin ~/.iterm2 $path)
+path=($VOLTA_HOME/bin ~/.iterm2 $HOME/.local/bin $HOME/bin $path)
 export PATH
+
+export DOPPLER_TOKEN=$(doppler configure get token --plain)
