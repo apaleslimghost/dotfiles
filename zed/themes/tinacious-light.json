@@ -1,39 +1,47 @@
 {
 	"$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-	"name": "tinacious-light",
+	"name": "Tinacious Design Syntax (light)",
 	"author": "Converted from VSCode theme",
 	"themes": [
 		{
-			"name": "tinacious-light",
+			"name": "Tinacious Design Syntax (light)",
 			"appearance": "light",
 			"style": {
 				"background.appearance": "opaque",
 				"background": "#f8f8ff",
-				"surface.background": "#f5f5ff",
+				"surface.background": "#f0f0ff",
+				"elevated_surface.background": "#f0f0ff",
+				"panel.background": "#f8f8ff",
 				"text": "#44425e",
 				"text.muted": "#7c79ac",
 				"text.disabled": "#44425e80",
-				"border.transparent": "undefined00",
-				"element.active": "undefinedCC",
-				"element.selected": "#b3b3d44e",
-				"ghost_element.background": "#f8f8ff00",
-				"ghost_element.hover": "#f39",
-				"ghost_element.active": "#b3b3d44eCC",
-				"ghost_element.selected": "#b3b3d44e",
-				"ghost_element.disabled": "#eae9ff7766",
+				"border.transparent": "#000",
+				"element.active": "#eadefb",
+				"element.selected": "#f0f0ff",
+				"element.hover": "#eadefb",
+				"ghost_element.background": "#eadefb00",
+				"ghost_element.hover": "#eadefb",
+				"ghost_element.active": "#eadefb",
+				"ghost_element.selected": "#eadefb",
+				"ghost_element.disabled": "#eadefb77",
 				"editor.background": "#f8f8ff",
 				"editor.foreground": "#44425e",
 				"editor.line_number": "#7c79ac",
-				"editor.active_line.background": "#eae9ff77",
+				"editor.gutter.background": "#f8f8ff",
+				"editor.active_line.background": "#f0f0ff",
 				"editor.indent_guide": "#dbdaff",
 				"editor.indent_guide_active": "#ff339944",
 				"editor.selection.background": "#dbdaff",
 				"editor.document_highlight.read_background": "#ff339922",
 				"editor.document_highlight.write_background": "#01a9e155",
-				"editor.subheader.background": "#ff339911",
+				"editor.subheader.background": "#f0f0ff",
+				"tab.active_background": "#f8f8ff",
+				"tab.inactive_background": "#f0f0ff",
+				"tab_bar.background": "#f0f0ff",
 				"terminal.foreground": "#44425e",
 				"terminal.bright_foreground": "#44425e",
 				"terminal.dim_foreground": "#44425e99",
+				"terminal.background": "#f8f8ff",
 				"terminal.ansi.black": "#2c2c3e",
 				"terminal.ansi.red": "#ff3399",
 				"terminal.ansi.green": "#00b253",
@@ -59,7 +67,7 @@
 				"terminal.ansi.dim_cyan": "#00CED166",
 				"terminal.ansi.dim_white": "#ffffff66",
 				"error.background": "undefined19",
-				"warning.background": "undefined19",
+				"warning.background": "#FFAA00",
 				"info.background": "undefined19",
 				"hint.background": "undefined19",
 				"success.background": "undefined19",
@@ -67,98 +75,107 @@
 				"deleted.background": "#ffa6cf33",
 				"panel.indent_guide": "#dbdaff",
 				"panel.indent_guide_active": "#ff339944",
-				"status_bar.background": "#ff3399",
-				"title_bar.background": "#f8f8ff",
+				"status_bar.background": "#f0f0ff",
+				"title_bar.background": "#f0f0ff",
 				"toolbar.background": "#f8f8ff",
 				"search.match_background": "#01a9e155",
 				"scrollbar.thumb.background": "#cc66ff3e",
 				"scrollbar.thumb.hover_background": "#CC66FF",
+				"vim.mode.text": "#f8f8ff",
+				"vim.normal.background": "#f49b00",
+				"vim.visual.background": "#FF3399",
+				"vim.insert.background": "#00b253",
+				"vim.visual_line.background": "#FF3399",
+				"vim.visual_block.background": "#FF3399",
+				"vim.replace.background": "#e64553",
+				"modified": "#FFAA00",
+				"created": "#00b253",
 				"players": [
 					{
 						"cursor": "#f39",
 						"selection": "#dbdaff",
-						"background": "#f8f8ff"
-					}
+						"background": "#f8f8ff",
+					},
 				],
 				"syntax": {
 					"variable": {},
 					"variable.builtin": {},
 					"variable.parameter": {
 						"color": "#f49b00",
-						"font_style": "italic"
+						"font_style": "italic",
 					},
 					"constant.builtin": {
-						"color": "#00CED1"
+						"color": "#00CED1",
 					},
 					"string": {
-						"color": "#FFAA00"
+						"color": "#FFAA00",
 					},
 					"string.documentation": {
-						"color": "#FFAA00"
+						"color": "#FFAA00",
 					},
 					"charcter": {
-						"color": "#FFAA00"
+						"color": "#FFAA00",
 					},
 					"number": {
-						"color": "#CC66FF"
+						"color": "#CC66FF",
 					},
 					"function": {
-						"color": "#00b253"
+						"color": "#00b253",
 					},
 					"function.builtin": {
-						"color": "#00CED1"
+						"color": "#00CED1",
 					},
 					"function.call": {
-						"color": "#00b253"
+						"color": "#00b253",
 					},
 					"type": {
 						"color": "#00AEE8",
-						"font_style": "italic"
+						"font_style": "italic",
 					},
 					"type.builtin": {
 						"color": "#00AEE8",
-						"font_style": "italic"
+						"font_style": "italic",
 					},
 					"operator": {
 						"color": "#FF3399",
-						"font_weight": 700
+						"font_weight": 700,
 					},
 					"class": {
 						"color": "#00AEE8",
-						"font_style": "italic"
+						"font_style": "italic",
 					},
 					"keyword": {
 						"color": "#FF3399",
-						"font_weight": 700
+						"font_weight": 700,
 					},
 					"keyword.type": {
 						"color": "#FF3399",
-						"font_weight": 700
+						"font_weight": 700,
 					},
 					"keyword.function": {
 						"color": "#FF3399",
-						"font_weight": 700
+						"font_weight": 700,
 					},
 					"keyword.operator": {
 						"color": "#FF3399",
-						"font_weight": 700
+						"font_weight": 700,
 					},
 					"keyword.import": {
 						"color": "#FF3399",
-						"font_weight": 700
+						"font_weight": 700,
 					},
 					"comment": {
-						"color": "#A09BB3"
+						"color": "#A09BB3",
 					},
 					"tag": {
-						"color": "#FF3399"
+						"color": "#FF3399",
 					},
 					"parameter": {
 						"color": "#f49b00",
-						"font_style": "italic"
-					}
-				}
-			}
-		}
-	]
+						"font_style": "italic",
+					},
+				},
+			},
+		},
+	],
 }
