@@ -34,6 +34,7 @@
 			"space m r r": "editor::Rename",
 
 			"space p f": "file_finder::Toggle",
+			"space p p": "projects::OpenRecent",
 
 			"space w v": "pane::SplitRight",
 			"space w s": "pane::SplitDown",

@@ -7,95 +7,102 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-   "show_whitespaces": "boundary",
-   "hard_tabs": true,
-   "languages": {
-      "JavaScript": {
-         "hard_tabs": true
-      }
-   },
-   "prettier": {
-      "allowed": true
-   },
-   "agent_ui_font_size": 16.0,
-   "ui_font_family": ".ZedSans",
-   "restore_on_startup": "last_workspace",
-   "minimap": {
-      "thumb_border": "left_open",
-      "show": "never"
-   },
-   "icon_theme": {
-      "mode": "system",
-      "light": "Catppuccin Latte",
-      "dark": "Catppuccin Frappé",
-   },
-   "buffer_line_height": "comfortable",
-   "buffer_font_weight": 300.0,
-   "terminal": {
-      "font_weight": 300.0,
-      "font_size": 13.0,
-      "line_height": {
-         "custom": 1.12,
-      },
-   },
-   "soft_wrap": "editor_width",
-   "relative_line_numbers": "disabled",
-   "drag_and_drop_selection": {
-      "enabled": false,
-   },
-   "sticky_scroll": {
-      "enabled": true,
-   },
-   "gutter": {
-      "folds": false,
-   },
-   "git": {
-      "inline_blame": {
-         "enabled": false,
-      },
-   },
-   "agent": {
-      "button": false,
-      "model_parameters": [],
-   },
-   "collaboration_panel": {
-      "dock": "bottom",
-   },
-   "git_panel": {
-      "dock": "right",
-   },
-   "outline_panel": {
-      "dock": "right",
-   },
-   "project_panel": {
-      "hide_gitignore": false,
-      "entry_spacing": "comfortable",
-      "dock": "right",
-   },
-   "preview_tabs": {
-      "enabled": false,
-   },
-   "title_bar": {
-      "show_menus": false,
-      "show_sign_in": false,
-      "show_branch_icon": true,
-   },
-   "tabs": {
-      "file_icons": false,
-   },
-   "tab_bar": {
-      "show_tab_bar_buttons": true,
-      "show": false,
-   },
-   "tab_size": 3,
-   "buffer_font_family": "FantasqueSansM Nerd Font",
-   "disable_ai": true,
-   "vim_mode": true,
-   "ui_font_size": 16,
-   "buffer_font_size": 12.0,
-   "theme": {
-      "mode": "dark",
-      "light": "tinacious-light",
-      "dark": "Tinacious Design Syntax",
-   },
+	"bottom_dock_layout": "contained",
+	"show_whitespaces": "boundary",
+	"hard_tabs": true,
+	"languages": {
+		"JavaScript": {
+			"hard_tabs": true,
+		},
+		"YAML": {
+			"hard_tabs": false,
+			"tab_size": 2,
+		},
+	},
+	"prettier": {
+		"allowed": true,
+	},
+	"agent_ui_font_size": 16.0,
+	"ui_font_family": ".ZedSans",
+	"restore_on_startup": "last_workspace",
+	"minimap": {
+		"thumb_border": "left_open",
+		"show": "never",
+	},
+	"icon_theme": {
+		"mode": "system",
+		"light": "Catppuccin Latte",
+		"dark": "Catppuccin Frappé",
+	},
+	"buffer_line_height": {
+		"custom": 1.8,
+	},
+	"buffer_font_weight": 300.0,
+	"terminal": {
+		"font_weight": 300.0,
+		"font_size": 13.0,
+		"line_height": {
+			"custom": 1.14,
+		},
+	},
+	"soft_wrap": "editor_width",
+	"relative_line_numbers": "disabled",
+	"drag_and_drop_selection": {
+		"enabled": false,
+	},
+	"sticky_scroll": {
+		"enabled": true,
+	},
+	"gutter": {
+		"folds": false,
+	},
+	"git": {
+		"inline_blame": {
+			"enabled": false,
+		},
+	},
+	"agent": {
+		"button": false,
+		"model_parameters": [],
+	},
+	"collaboration_panel": {
+		"dock": "bottom",
+	},
+	"git_panel": {
+		"dock": "right",
+	},
+	"outline_panel": {
+		"dock": "right",
+	},
+	"project_panel": {
+		"hide_gitignore": false,
+		"entry_spacing": "comfortable",
+		"dock": "right",
+	},
+	"preview_tabs": {
+		"enabled": false,
+	},
+	"title_bar": {
+		"show_menus": false,
+		"show_sign_in": false,
+		"show_branch_icon": true,
+	},
+	"tabs": {
+		"file_icons": false,
+	},
+	"tab_bar": {
+		"show_tab_bar_buttons": true,
+		"show": false,
+	},
+	"tab_size": 3,
+	"buffer_font_family": "FantasqueSansM Nerd Font",
+	"disable_ai": true,
+	"vim_mode": true,
+	"ui_font_size": 16,
+	"buffer_font_size": 13.0,
+	"theme": {
+		"mode": "system",
+		"light": "Tinacious Design Syntax (light)",
+		"dark": "Tinacious Design Syntax",
+	},
 }
