@@ -37,7 +37,6 @@ cask 'ableton-live-suite'
 cask "avidemux"
 cask 'blackhole-2ch'
 cask 'discord'
-cask 'dynamic-dark-mode'
 cask 'zen'
 cask 'focus'
 cask 'font-caskaydia-cove-nerd-font'
