@@ -7,7 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-	"bottom_dock_layout": "contained",
+	"use_smartcase_search": true,
+ "toolbar": {
+  "quick_actions": true,
+  "selections_menu": true,
+  "code_actions": true
+ },
+ "bottom_dock_layout": "contained",
 	"show_whitespaces": "boundary",
 	"hard_tabs": true,
 	"languages": {

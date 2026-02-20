@@ -36,6 +36,11 @@
 			"space p f": "file_finder::Toggle",
 			"space p p": "projects::OpenRecent",
 
+			"space t b": "workspace::ToggleRightDock",
+			"space t j": "workspace::ToggleBottomDock",
+			"space t t": "workspace::ToggleAllDocks",
+			"space t c": "workspace::ToggleCenteredLayout",
+
 			"space w v": "pane::SplitRight",
 			"space w s": "pane::SplitDown",
 			"space w d": "pane::CloseAllItems",
