@@ -74,9 +74,9 @@
     "check_for_kicad_updates": true,
     "check_for_updates": 2,
     "file_history": [
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/keypad.kicad_pro",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cattle/cattle.kicad_pro",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/ibex/ibex.kicad_pro",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/keypad.kicad_pro",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/elephants.kicad_pro",
       "/Users/apaleslimghost/Downloads/Untitled/Untitled.kicad_pro",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/goats/goats.kicad_pro",
@@ -89,10 +89,10 @@
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "last_received_update": "9.0.4",
-    "last_update_check_time": "2025-11-28T19:49:39",
+    "last_update_check_time": "2025-12-27T11:27:13",
     "max_undo_items": 0,
     "open_projects": [
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cattle/cattle.kicad_pro"
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/keypad.kicad_pro"
     ],
     "show_import_issues": true,
     "units": 1
@@ -252,7 +252,7 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/cattle/",
+    "mru_path": "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/",
     "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editors;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=700;besth=590;minw=700;minh=590;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=700|",
     "pos_x": 253,
     "pos_y": 177,
