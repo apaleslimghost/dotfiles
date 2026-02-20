@@ -36,6 +36,7 @@ link_and_install() {
 modules=$@
 
 work_modules="00-sudo
+30-gylmwp
 01-brew
 1password
 03-app-store
@@ -43,9 +44,9 @@ work_modules="00-sudo
 gh
 20-git
 23-hosts
-30-gylmwp
 karabiner
-zsh"
+zsh
+zed"
 
 personal_modules="$work_modules
 ableton

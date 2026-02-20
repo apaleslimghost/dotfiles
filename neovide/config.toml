@@ -1,9 +1,0 @@
-neovim-bin = "/opt/homebrew/bin/nvim"
-frame = "transparent"
-
-[font]
-normal = ["CozetteVector"]
-size = 13
-edging = "alias"
-
-
