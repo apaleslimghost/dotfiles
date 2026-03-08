@@ -40,3 +40,8 @@ export PATH
 export DOPPLER_TOKEN=$(doppler configure get token --plain)
 
 export STM32_PRG_PATH=/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/apaleslimghost/.lmstudio/bin"
+# End of LM Studio CLI section
+

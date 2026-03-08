@@ -7,13 +7,34 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"edit_predictions": {
+		"mode": "subtle",
+		"provider": "zed",
+	},
+	"lsp": {
+		"vtsls": {
+			"settings": {
+				"typescript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always",
+					},
+				},
+				"javascript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always",
+					},
+				},
+			},
+			"enable_lsp_tasks": true,
+		},
+	},
 	"use_smartcase_search": true,
- "toolbar": {
-  "quick_actions": true,
-  "selections_menu": true,
-  "code_actions": true
- },
- "bottom_dock_layout": "contained",
+	"toolbar": {
+		"quick_actions": true,
+		"selections_menu": true,
+		"code_actions": true,
+	},
+	"bottom_dock_layout": "contained",
 	"show_whitespaces": "boundary",
 	"hard_tabs": true,
 	"languages": {
@@ -24,11 +45,15 @@
 			"hard_tabs": false,
 			"tab_size": 2,
 		},
+		"Prisma": {
+			"format_on_save": "on",
+			"formatter": "language_server",
+			"language_servers": ["prisma-language-server"],
+		},
 	},
 	"prettier": {
 		"allowed": true,
 	},
-	"agent_ui_font_size": 16.0,
 	"ui_font_family": ".ZedSans",
 	"restore_on_startup": "last_workspace",
 	"minimap": {
@@ -67,10 +92,6 @@
 			"enabled": false,
 		},
 	},
-	"agent": {
-		"button": false,
-		"model_parameters": [],
-	},
 	"collaboration_panel": {
 		"dock": "bottom",
 	},
@@ -102,7 +123,6 @@
 	},
 	"tab_size": 3,
 	"buffer_font_family": "FantasqueSansM Nerd Font",
-	"disable_ai": true,
 	"vim_mode": true,
 	"ui_font_size": 16,
 	"buffer_font_size": 13.0,

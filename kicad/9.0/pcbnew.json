@@ -545,11 +545,10 @@
       "Description"
     ],
     "open_libs": [
-      "-- Recently Used --",
+      "Keebio-Parts",
       "Pale Slim Ghost",
-      "Switches",
       "Rotary_Encoder",
-      "Keebio-Parts"
+      "Switches"
     ]
   },
   "meta": {
