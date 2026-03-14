@@ -37,11 +37,8 @@ export VOLTA_HOME=$HOME/.volta
 path=($VOLTA_HOME/bin ~/.iterm2 $HOME/.local/bin $HOME/bin $path)
 export PATH
 
-export DOPPLER_TOKEN=$(doppler configure get token --plain)
+if which doppler > /dev/null; then
+	export DOPPLER_TOKEN=$(doppler configure get token --plain)
+fi
 
 export STM32_PRG_PATH=/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/apaleslimghost/.lmstudio/bin"
-# End of LM Studio CLI section
-
