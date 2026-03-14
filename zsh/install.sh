@@ -19,3 +19,5 @@ if ! grep /opt/homebrew/bin/zsh /etc/shells > /dev/null ; then
 fi
 
 chsh -s /opt/homebrew/bin/zsh
+
+touch ~/.hushlogin
