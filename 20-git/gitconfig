@@ -1,11 +1,13 @@
 [user]
-	email = kara@153.io
+	email = kara@ghost.computer
 	name = Kara Brightwell
 [core]
 	excludesfile = ~/.gitignore
-	editor = code -w
+	editor = zed -w
 [help]
 	autocorrect = 10
+[push]
+	autoSetupRemote = true
 [pull]
 	rebase = true
 [rebase]
@@ -18,17 +20,12 @@
 	today = !git diff $(git rev-list --max-count=1 --before="$(TZ='GMT+24' date +'%Y-%m-%d')" head)
 	permission-reset = !git diff -p -R | grep -E \"^(diff|(old|new) mode)\" | git apply
 [merge]
-  tool = code
-[mergetool "code"]
-  cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+	tool = p4mergetool
 [mergetool "p4mergetool"]
 	cmd = ~/Applications/p4merge.app/Contents/MacOS/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
 	trustExitCode = false
 [mergetool]
 	keepBackup = false
-[merge "npm-merge-driver"]
-	name = automatically merge npm lockfiles
-	driver = npx npm-merge-driver merge %A %O %B %P
 [rerere]
 	enabled = true
 [filter "lfs"]
@@ -45,3 +42,5 @@
 	repo = /Users/apaleslimghost/.Dotfiles/zsh/plugins/marlonrichert/zsh-autocomplete
 	repo = /Users/apaleslimghost/.Dotfiles/zsh/plugins/zsh-users/zsh-syntax-highlighting
 	repo = /Users/kara.brightwell/.Dotfiles/zsh/plugins/znap
+	repo = /Users/kara.brightwell/.Dotfiles/zsh/plugins/marlonrichert/zsh-autocomplete
+	repo = /Users/kara.brightwell/.Dotfiles/zsh/plugins/zsh-users/zsh-syntax-highlighting

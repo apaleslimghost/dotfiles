@@ -7,9 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"which_key": {
+		"enabled": true,
+	},
 	"edit_predictions": {
 		"mode": "subtle",
 		"provider": "zed",
+	},
+	"cli_default_open_behavior": "new_window",
+	"format_on_save": "on",
+	"use_smartcase_search": true,
+	"toolbar": {
+		"quick_actions": true,
+		"selections_menu": true,
+		"code_actions": true,
 	},
 	"lsp": {
 		"vtsls": {
@@ -27,18 +38,36 @@
 			},
 			"enable_lsp_tasks": true,
 		},
-	},
-	"use_smartcase_search": true,
-	"toolbar": {
-		"quick_actions": true,
-		"selections_menu": true,
-		"code_actions": true,
+		"biome": {
+			"settings": {
+				"require_config_file": true,
+			},
+		},
 	},
 	"bottom_dock_layout": "contained",
 	"show_whitespaces": "boundary",
 	"hard_tabs": true,
 	"languages": {
+		"TypeScript": {
+			"use_on_type_format": false,
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true,
+			},
+		},
+		"TSX": {
+			"use_on_type_format": false,
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true,
+			},
+		},
 		"JavaScript": {
+			"use_on_type_format": false,
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true,
+			},
 			"hard_tabs": true,
 		},
 		"YAML": {
@@ -48,11 +77,13 @@
 		"Prisma": {
 			"format_on_save": "on",
 			"formatter": "language_server",
-			"language_servers": ["prisma-language-server"],
+			"language_servers": [
+				"prisma-language-server"
+			],
 		},
 	},
 	"prettier": {
-		"allowed": true,
+		"allowed": false,
 	},
 	"ui_font_family": ".ZedSans",
 	"restore_on_startup": "last_workspace",
@@ -110,9 +141,9 @@
 		"enabled": false,
 	},
 	"title_bar": {
+		"show_branch_status_icon": true,
 		"show_menus": false,
 		"show_sign_in": false,
-		"show_branch_icon": true,
 	},
 	"tabs": {
 		"file_icons": false,

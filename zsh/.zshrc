@@ -34,7 +34,7 @@ zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
 }
 
 export VOLTA_HOME=$HOME/.volta
-path=($VOLTA_HOME/bin ~/.iterm2 $HOME/.local/bin $HOME/bin $path)
+path=($VOLTA_HOME/bin ~/.iterm2 $HOME/.local/bin $HOME/bin $path $HOME/.cargo/bin)
 export PATH
 
 if which doppler > /dev/null; then
