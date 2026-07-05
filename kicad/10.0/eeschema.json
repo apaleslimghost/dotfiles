@@ -1,15 +1,22 @@
 {
+  "ERC": {
+    "crossprobe": true,
+    "scroll_on_crossprobe": true,
+    "show_all_errors": false
+  },
   "annotation": {
     "automatic": true,
     "messages_filter": 29,
     "method": 0,
     "options": 1,
     "recursive": true,
+    "regroup_units": false,
     "scope": 1,
     "sort_order": 1
   },
   "appearance": {
     "color_theme": "Behave Light",
+    "custom_toolbars": false,
     "default_font": "KiCad Font",
     "edit_component_visible_columns": "0 1 2 3 4 5 6 7",
     "edit_label_height": 402,
@@ -62,16 +69,21 @@
       "height": 200,
       "width": 200
     },
-    "properties_panel_width": 300,
+    "net_nav_search_mode_wildcard": true,
+    "properties_panel_width": 20,
     "properties_splitter_proportion": 0.5,
+    "remote_symbol_panel_docked_width": 20,
+    "remote_symbol_panel_float_height": -1,
+    "remote_symbol_panel_float_width": -1,
+    "remote_symbol_show": false,
     "schematic_hierarchy_float": false,
     "search_panel_dock_direction": 3,
-    "search_panel_height": 110,
-    "search_panel_width": 284,
+    "search_panel_height": 163,
+    "search_panel_width": 1642,
     "show_net_nav_panel": false,
     "show_properties": false,
     "show_schematic_hierarchy": false,
-    "show_search": false
+    "show_search": true
   },
   "autoplace_fields": {
     "align_to_grid": true,
@@ -93,12 +105,17 @@
     ],
     "selected_plugin": "bom_csv_grouped_by_value"
   },
+  "change_symbols": {
+    "update_references": false,
+    "update_values": false
+  },
   "color_picker": {
     "default_tab": 0
   },
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
+    "flash_selection": false,
     "on_selection": true,
     "zoom_to_fit": true
   },
@@ -111,6 +128,7 @@
         "Item": 300
       }
     },
+    "place_as_group": true,
     "place_as_sheet": false,
     "repeated_placement": false,
     "sash_pos_h": 440,
@@ -130,6 +148,7 @@
     "default_text_size": 50,
     "default_wire_thickness": 6,
     "field_names": "(templatefields)",
+    "hop_over_size_choice": 0,
     "hv_lines_only": true,
     "junction_size_choice": 3,
     "junction_size_mult": 4.0,
@@ -142,9 +161,13 @@
       12.0
     ],
     "line_mode": 1,
+    "new_power_symbols": 0,
     "pin_symbol_size": 25,
     "repeat_label_increment": 1,
     "text_offset_ratio": 0.08
+  },
+  "editing": {
+    "arc_edit_mode": 0
   },
   "field_editor": {
     "column_widths": {},
@@ -163,12 +186,16 @@
     },
     "height": 600,
     "page": 1,
+    "sash_pos": 400,
     "scope": 0,
     "selection_mode": 0,
+    "sidebar_collapsed": false,
+    "variant_sash_pos": 500,
     "width": 1200
   },
   "find_replace": {
     "find_history": [
+      "^",
       "Bus",
       "-",
       "VEE",
@@ -177,14 +204,14 @@
       "C",
       "B",
       "A6",
-      "A1",
-      "u4"
+      "A1"
     ],
-    "find_string": "Bus",
+    "find_string": "^",
     "flags": 1,
     "match_case": false,
     "match_mode": 0,
     "replace_history": [
+      "touch ",
       "Bus 2",
       "Bus 1",
       "+",
@@ -193,11 +220,10 @@
       "F",
       "E",
       "D",
-      "C",
-      "B"
+      "C"
     ],
     "replace_references": false,
-    "replace_string": "Bus 2",
+    "replace_string": "touch ",
     "search_all_fields": false,
     "search_all_pins": false,
     "search_and_replace": false,
@@ -219,6 +245,7 @@
     "origin_y": 0.0
   },
   "input": {
+    "allow_unconstrained_pin_swaps": false,
     "drag_is_move": true,
     "esc_clears_net_highlight": true
   },
@@ -232,8 +259,8 @@
       "Description"
     ],
     "open_libs": [
-      "MOUDLE-SEEEDUINO-XIAO-ESP32C3",
-      "Pale Slim Ghost"
+      "-- Already Placed --",
+      "power"
     ]
   },
   "lib_view": {
@@ -241,8 +268,10 @@
     "lib_list_width": 200,
     "show_pin_electrical_type": true,
     "window": {
+      "aui_state": null,
       "cursor": {
         "always_show_cursor": true,
+        "cross_hair_mode": 0,
         "fullscreen_cursor": false
       },
       "display": 0,
@@ -364,19 +393,33 @@
     "actions": []
   },
   "printing": {
+    "as_item_checkboxes": false,
     "background": false,
     "color_theme": "Behave Light",
+    "drill_marks": 1,
+    "edge_cuts_on_all_pages": true,
     "layers": [],
+    "mirror": false,
     "monochrome": false,
+    "pagination": 1,
     "scale": 1.0,
     "title_block": true,
     "use_theme": true
   },
+  "remote_symbols": {
+    "add_to_global_table": false,
+    "destination_dir": "${KIPRJMOD}/RemoteLibrary",
+    "last_used_provider_id": "",
+    "library_prefix": "remote",
+    "providers": []
+  },
   "search_pane": {
     "search_hidden_fields": true,
+    "search_metadata": false,
     "selection_zoom": 1
   },
   "selection": {
+    "drag_net_collision_width": 4,
     "draw_selected_children": true,
     "fill_shapes": false,
     "highlight_netclass_colors": false,
@@ -402,8 +445,10 @@
     "signal_panel_height": 113,
     "white_background": false,
     "window": {
+      "aui_state": null,
       "cursor": {
         "always_show_cursor": true,
+        "cross_hair_mode": 0,
         "fullscreen_cursor": false
       },
       "display": 0,
@@ -497,27 +542,29 @@
   "system": {
     "file_history": [
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/zebras/zebras.kicad_sch",
+      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/accessories/chordata-2/chordata-2.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keypad/keypad.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/rooks/rooks.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/elephants.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/ibex/ibex.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/standalone/keyboard/keyboard.kicad_sch",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/amphioxi/amphioxi.kicad_sch",
-      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard-left.kicad_sch",
-      "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/amphioxi/amphioxi-io.kicad_sch"
+      "/Users/apaleslimghost/Code/apaleslimghost/keyboard/keyboard-left.kicad_sch"
     ],
     "first_run_shown": true,
     "last_imperial_units": 0,
     "last_metric_units": 1,
-    "last_symbol_lib_dir": "/Users/apaleslimghost/Documents/KiCad/9.0/symbols/kicad-symbols",
+    "last_symbol_lib_dir": "/Users/apaleslimghost/Documents/KiCad/10.0/symbols",
     "max_undo_items": 0,
     "never_show_rescue_dialog": false,
     "show_import_issues": true,
     "units": 1
   },
   "window": {
+    "aui_state": null,
     "cursor": {
       "always_show_cursor": false,
+      "cross_hair_mode": 0,
       "fullscreen_cursor": false
     },
     "display": 0,
@@ -572,11 +619,11 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": false,
+    "maximized": true,
     "mru_path": "/Users/kara.brightwell/Documents/Synths/eurorack/accessories/chordata/",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=26;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099150;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=182;floaty=222;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098638;dir=4;layer=3;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=26|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=402|",
+    "perspective": "layout2|name=TopMainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1354;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=26;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099150;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=182;floaty=222;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098638;dir=4;layer=3;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=RemoteSymbol;caption=Remote Symbols;state=2099150;dir=2;layer=3;row=0;pos=3;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=80;floaty=220;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=LeftToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=348;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=RightToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=810;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098684;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(3,6,0)=26|dock_size(5,0,0)=402|dock_size(1,6,0)=34|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(3,0,0)=180|",
     "pos_x": 137,
-    "pos_y": 149,
+    "pos_y": 148,
     "size_x": 1470,
     "size_y": 919,
     "zoom_factors": [
