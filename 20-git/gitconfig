@@ -3,6 +3,7 @@
 	name = Kara Brightwell
 [core]
 	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
 	editor = zed -w
 [help]
 	autocorrect = 10

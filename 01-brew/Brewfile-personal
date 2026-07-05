@@ -30,6 +30,7 @@ brew 'circleci'
 brew 'java'
 brew 'zsh'
 brew 'neovim'
+brew 'weave'
 
 # end brew
 

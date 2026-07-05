@@ -127,7 +127,8 @@
 		"dock": "bottom",
 	},
 	"git_panel": {
-		"dock": "right",
+		"tree_view": false,
+  "dock": "right",
 	},
 	"outline_panel": {
 		"dock": "right",

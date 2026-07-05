@@ -20,6 +20,8 @@ brew 'httpie'
 brew 'jq'
 brew 'zsh'
 brew "doppler"
+brew 'weave'
+
 # end brew
 
 cask 'httpie'
