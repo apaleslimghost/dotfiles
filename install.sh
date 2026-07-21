@@ -45,6 +45,7 @@ gh
 20-git
 23-hosts
 karabiner
+cloudsmith
 zsh
 zed"
 
