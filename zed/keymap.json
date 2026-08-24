@@ -7,7 +7,7 @@
 // from the command palette.
 [
 	{
-		"context": "(Editor && vim_mode != insert) || EmptyPane",
+		"context": "(Editor && mode == full && vim_mode != insert) || EmptyPane",
 		"bindings": {
 			"space space": "command_palette::Toggle",
 			"space '": "terminal_panel::Toggle",
