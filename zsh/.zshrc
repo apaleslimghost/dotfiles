@@ -33,6 +33,8 @@ zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
    done
 }
 
+setopt -o sharehistory
+
 export VOLTA_HOME=$HOME/.volta
 path=($VOLTA_HOME/bin ~/.iterm2 $HOME/.local/bin $HOME/bin $path $HOME/.cargo/bin)
 export PATH
