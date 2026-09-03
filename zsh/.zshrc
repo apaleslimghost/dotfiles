@@ -24,6 +24,6 @@ if which doppler > /dev/null; then
 	export DOPPLER_TOKEN=$(doppler configure get token --plain)
 fi
 
-export CLOUDSMITH_AUTH_TOKEN=$(security find-generic-password -a $USER -s "Cloudsmith Personal API key" -w)
+export CLOUDSMITH_AUTH_TOKEN=$(security find-generic-password -a $USER -s "Cloudsmith Personal API key" -w 2>/dev/null)
 
 export STM32_PRG_PATH=/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin
