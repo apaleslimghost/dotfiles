@@ -85,7 +85,7 @@
 	"prettier": {
 		"allowed": false,
 	},
-	"ui_font_family": ".ZedSans",
+	"ui_font_family": ".SystemUIFont",
 	"restore_on_startup": "last_workspace",
 	"minimap": {
 		"thumb_border": "left_open",
@@ -101,7 +101,8 @@
 	},
 	"buffer_font_weight": 300.0,
 	"terminal": {
-		"font_weight": 300.0,
+		"font_family": "FantasqueSansM Nerd Font Mono",
+  "font_weight": 300.0,
 		"font_size": 13.0,
 		"line_height": {
 			"custom": 1.14,
