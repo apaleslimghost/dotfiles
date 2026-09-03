@@ -1,13 +1,10 @@
 cask_args appdir: '~/Applications'
 
-puts ENV['laptop_type']
-
-tap 'heroku/brew'
+tab "microsoft/inshellisense" "https://github.com/microsoft/inshellisense"
 # end tap
 
 brew 'awscli'
 brew "gh"
-brew 'heroku'
 brew 'less'
 brew 'mas'
 brew 'oh-my-posh'
@@ -21,6 +18,7 @@ brew 'jq'
 brew 'zsh'
 brew "doppler"
 brew 'weave'
+brew 'inshellisense'
 
 # end brew
 

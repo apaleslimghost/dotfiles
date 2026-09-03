@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
-tap 'heroku/brew'
 tap "homebrew/cask-drivers"
+tap "microsoft/inshellisense" "https://github.com/microsoft/inshellisense"
 # end tap
 
 brew 'awscli'
@@ -31,6 +31,7 @@ brew 'java'
 brew 'zsh'
 brew 'neovim'
 brew 'weave'
+brew 'inshellisense'
 
 # end brew
 
