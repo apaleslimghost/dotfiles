@@ -10,28 +10,9 @@ znap eval iterm2 'curl -fsSL https://iterm2.com/shell_integration/zsh'
 znap eval rbenv 'rbenv init - zsh'
 znap prompt
 
-znap source marlonrichert/zsh-autocomplete
-znap source zsh-users/zsh-syntax-highlighting
+znap source zdharma-continuum/fast-syntax-highlighting
 
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-
-bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
-bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
-bindkey -M menuselect '\r' .accept-line
-
-zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
-
-() {
-   local -a prefix=( '\e'{\[,O} )
-   local -a up=( ${^prefix}A ) down=( ${^prefix}B )
-   local key=
-   for key in $up[@]; do
-      bindkey "$key" up-line-or-history
-   done
-   for key in $down[@]; do
-      bindkey "$key" down-line-or-history
-   done
-}
+source "$HOME/.local/share/inshellisense/init/zsh/init.zsh"
 
 setopt -o sharehistory
 
