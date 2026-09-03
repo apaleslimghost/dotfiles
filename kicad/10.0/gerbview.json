@@ -95,15 +95,15 @@
       "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-PTH.drl"
     ],
     "file_history": [
+      "/Users/apaleslimghost/Downloads/GERBER-amphioxi_Y63/YG/PCB_3420461A_Y63/amphioxi-CuTop.gbr",
+      "/Users/apaleslimghost/Downloads/GERBER-amphioxi_Y63/YG/PCB_3420461A_Y63/amphioxi-CuBottom.gbr",
       "/Users/apaleslimghost/Downloads/GERBER-elephants(1)/elephants-CuTop.gbr",
       "/Users/apaleslimghost/Downloads/GERBER-elephants/elephants-CuTop.gbr",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/jlcpcb/gerber/elephants-panel-MaskTop.gts",
       "/Users/apaleslimghost/Code/apaleslimghost/synths/eurorack/modules/elephants/jlcpcb/production_files/GERBER-elephants-panel/elephants-panel-MaskBottom.gbr",
       "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard left/gerber/keyboard left-CuBottom.gbl",
       "/Users/apaleslimghost/Code/apaleslimghost/keyboard/boards/keyboard left/gerber/keyboard left-CuTop.gtl",
-      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-F_Silkscreen.gto",
-      "/Users/kara.brightwell/Documents/Eurorack/Bees/Bees-F_Silkscreen.gbr",
-      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-B_Silkscreen.gbo"
+      "/Users/kara.brightwell/Documents/Eurorack/cicadas/exports/Cicadas-F_Silkscreen.gto"
     ],
     "first_run_shown": true,
     "job_file_history": [],
@@ -259,8 +259,8 @@
       "user_grid_y": "10 mil"
     },
     "maximized": false,
-    "mru_path": "/Users/apaleslimghost/Downloads/GERBER-elephants(1)",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=610;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=1011;besth=24;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=26;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=620;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=260;besth=32;minw=260;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=260;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,4,0)=24|dock_size(3,6,0)=26|dock_size(4,3,0)=34|dock_size(2,3,0)=260|dock_size(5,0,0)=402|",
+    "mru_path": "/Users/apaleslimghost/Downloads/GERBER-amphioxi_Y63/YG/PCB_3420461A_Y63",
+    "perspective": "layout2|name=TopMainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=604;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TopAuxToolbar;caption=;state=139632;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=1027;besth=24;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=26;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LeftToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=572;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=275;besth=32;minw=275;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=275;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,4,0)=24|dock_size(3,6,0)=26|dock_size(4,3,0)=34|dock_size(2,3,0)=275|dock_size(5,0,0)=402|",
     "pos_x": 133,
     "pos_y": 149,
     "size_x": 1470,
